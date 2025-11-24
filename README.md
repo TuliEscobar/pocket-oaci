@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# OACI.ai (Pocket OACI) ✈️
 
-## Getting Started
+> **The Pocket Bible for Global Aviation.**
+> *Instant, AI-driven regulatory knowledge for pilots, ATCs, and aviation professionals.*
 
-First, run the development server:
+## 🌍 Mission
+To empower every aviation professional with instant, accurate, and cited answers from ICAO documentation (Annexes, PANS-ATM, PANS-OPS) and beyond. We are building the **Universal Aviation Intelligence**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 MVP Features (Pocket OACI)
+- **Ask OACI**: Natural language search for ICAO regulations.
+- **Instant Citations**: Answers are backed by specific references (e.g., "Annex 6, Part I, Chapter 4").
+- **Bilingual Support**: Seamlessly switch between **Spanish** 🇪🇸 and **English** 🇺🇸.
+- **Premium Interface**: A "Cockpit-Ready", high-contrast dark mode design.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
+- **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) + Framer Motion
+- **AI Engine**: RAG (Retrieval-Augmented Generation) with OpenAI/Gemini
+- **Internationalization**: `next-intl`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Prerequisites
+- Node.js 18+
+- npm / yarn / pnpm
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-org/oaci-web.git
+    cd oaci-web
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3.  **Set up Environment Variables:**
+    Create a `.env.local` file:
+    ```env
+    OPENAI_API_KEY=sk-...
+    ```
 
-## Deploy on Vercel
+4.  **Run the Development Server:**
+    ```bash
+    npm run dev
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5.  **Open the App:**
+    Visit `http://localhost:3000` to see the cockpit.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🗺️ Roadmap
+See [VISIONARY_ROADMAP.md](./visionary_roadmap.md) for the long-term strategy.
+
+---
+*Built with ❤️ for the skies.*
