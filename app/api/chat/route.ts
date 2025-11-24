@@ -1,5 +1,6 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { NextResponse } from "next/server";
+import { queryRAG, isRAGConfigured } from "@/lib/rag/rag-service";
 
 const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY || "");
 
@@ -14,6 +15,34 @@ export async function POST(req: Request) {
             );
         }
 
+        // Intentar usar RAG si está configurado
+        const ragConfigured = await isRAGConfigured();
+
+        if (ragConfigured) {
+            console.log("🔍 Using RAG with official ICAO documents...");
+            try {
+                const ragResult = await queryRAG(message, locale);
+
+                return NextResponse.json({
+                    text: ragResult.answer,
+                    sources: ragResult.sources.map(s => ({
+                        source: s.source,
+                        section: s.section,
+                        score: s.score,
+                        preview: s.text.substring(0, 200) + '...'
+                    })),
+                    source: "RAG - Official ICAO Documents",
+                    model: ragResult.model
+                });
+            } catch (ragError: any) {
+                console.error("RAG failed, falling back to standard mode:", ragError.message);
+                // Continuar con el modo estándar si RAG falla
+            }
+        } else {
+            console.log("⚠️  RAG not configured, using standard mode");
+        }
+
+        // Fallback: Modo estándar sin RAG
         const systemPrompt = locale === 'es'
             ? `Eres OACI.ai, un asistente experto en regulaciones de aviación civil internacional.
          

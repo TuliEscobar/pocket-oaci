@@ -1,0 +1,22 @@
+[
+    {
+        "question": "¿Cuál es la edad mínima para obtener una licencia de piloto comercial?",
+        "expectedSource": "Anexo 1",
+        "expectedSection": "2.1"
+    },
+    {
+        "question": "¿Qué requisitos de combustible mínimo se requieren para vuelos IFR?",
+        "expectedSource": "Anexo 6",
+        "expectedSection": "4.3.6"
+    },
+    {
+        "question": "¿Cuáles son los requisitos de iluminación para pistas de aterrizaje?",
+        "expectedSource": "Anexo 14",
+        "expectedSection": "5.3"
+    },
+    {
+        "question": "What are the minimum visibility requirements for takeoff?",
+        "expectedSource": "Annex 6",
+        "language": "en"
+    }
+]
