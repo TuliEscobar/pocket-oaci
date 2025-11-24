@@ -23,20 +23,33 @@ OACI.ai/
     cd pocket-oaci
     ```
     *(If you are in `OACI.ai`, you must type `cd pocket-oaci` first)*
-3.  **Start the development server:**
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+4.  **Configure your API Key:**
+    - Create a file named `.env.local` in the `pocket-oaci` folder.
+    - Add your Google AI API Key:
+      ```env
+      GOOGLE_API_KEY=your_api_key_here
+      ```
+    - Get your free API key at [Google AI Studio](https://aistudio.google.com/)
+5.  **Start the development server:**
     ```bash
     npm run dev
     ```
-4.  **Open the App:**
+6.  **Open the App:**
     Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 🌍 Features (MVP)
 - **"Black Box" Interface**: A distraction-free, dark mode UI designed for the cockpit.
 - **Bilingual Core**: Built from the ground up to support **Spanish (ES)** and **English (EN)**.
-- **Simulated AI**: Demonstrates how the system cites ICAO documents (e.g., Annex 6, Doc 8168).
+- **Real AI Backend**: Powered by Google Gemini 2.5, providing intelligent responses with citations.
+- **Smart Prompting**: Responses are structured (Answer → Explanation → Source) with specific Annex/Section references.
 
 ## 🛠️ Tech Stack
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+- **AI**: [Google Gemini 2.5](https://ai.google.dev/) via `@google/generative-ai`
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 - **Animations**: [Framer Motion](https://www.framer.com/motion/)
 - **Icons**: [Lucide React](https://lucide.dev/)

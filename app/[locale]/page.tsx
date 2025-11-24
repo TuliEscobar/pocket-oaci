@@ -19,16 +19,34 @@ export default function HomePage() {
     setLoading(true);
     setResponse(null);
 
-    // Simulate AI delay
-    setTimeout(() => {
-      setResponse({
-        text: t.raw('title') === 'OACI.ai'
-          ? "Maximum holding speeds are: Up to 14,000ft (Cat A/B: 170kt, C/D/E: 230kt); Above 14,000ft to 20,000ft (240kt); Above 20,000ft to 34,000ft (265kt)."
-          : "Las velocidades máximas de espera son: Hasta 14,000ft (Cat A/B: 170kt, C/D/E: 230kt); Sobre 14,000ft hasta 20,000ft (240kt); Sobre 20,000ft hasta 34,000ft (265kt).",
-        source: "ICAO Doc 8168 (PANS-OPS), Vol I, Part II, Section 4, Chapter 1"
+    try {
+      const res = await fetch('/api/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message: query, locale: t.raw('title') === 'OACI.ai' ? 'en' : 'es' })
       });
+
+      const data = await res.json();
+
+      if (res.ok) {
+        setResponse({
+          text: data.text,
+          source: data.source || "AI Generated"
+        });
+      } else {
+        setResponse({
+          text: "Error: " + (data.error || "Failed to connect to OACI Brain."),
+          source: "System"
+        });
+      }
+    } catch (err) {
+      setResponse({
+        text: "Connection Error. Please check your internet.",
+        source: "System"
+      });
+    } finally {
       setLoading(false);
-    }, 1500);
+    }
   };
 
   return (
