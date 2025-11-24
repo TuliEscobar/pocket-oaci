@@ -3,56 +3,49 @@
 > **The Pocket Bible for Global Aviation.**
 > *Instant, AI-driven regulatory knowledge for pilots, ATCs, and aviation professionals.*
 
-## 🌍 Mission
-To empower every aviation professional with instant, accurate, and cited answers from ICAO documentation (Annexes, PANS-ATM, PANS-OPS) and beyond. We are building the **Universal Aviation Intelligence**.
+## 📂 Project Structure
+The project is located in the `pocket-oaci` folder. You must be inside this folder to run commands.
 
-## 🚀 MVP Features (Pocket OACI)
-- **Ask OACI**: Natural language search for ICAO regulations.
-- **Instant Citations**: Answers are backed by specific references (e.g., "Annex 6, Part I, Chapter 4").
-- **Bilingual Support**: Seamlessly switch between **Spanish** 🇪🇸 and **English** 🇺🇸.
-- **Premium Interface**: A "Cockpit-Ready", high-contrast dark mode design.
+```text
+OACI.ai/
+└── pocket-oaci/       <-- 🛑 RUN COMMANDS HERE
+    ├── app/           # Next.js App Router (Frontend)
+    ├── messages/      # Translation files (en.json, es.json)
+    ├── public/        # Static assets
+    └── package.json   # Dependencies and scripts
+```
 
-## 🛠️ Tech Stack
-- **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/) + Framer Motion
-- **AI Engine**: RAG (Retrieval-Augmented Generation) with OpenAI/Gemini
-- **Internationalization**: `next-intl`
+## 🚀 How to Run (Quick Start)
 
-## 📦 Getting Started
-
-### Prerequisites
-- Node.js 18+
-- npm / yarn / pnpm
-
-### Installation
-
-1.  **Clone the repository:**
+1.  **Open your terminal.**
+2.  **Navigate to the project folder:**
     ```bash
-    git clone https://github.com/your-org/oaci-web.git
-    cd oaci-web
+    cd pocket-oaci
     ```
-
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
-
-3.  **Set up Environment Variables:**
-    Create a `.env.local` file:
-    ```env
-    OPENAI_API_KEY=sk-...
-    ```
-
-4.  **Run the Development Server:**
+    *(If you are in `OACI.ai`, you must type `cd pocket-oaci` first)*
+3.  **Start the development server:**
     ```bash
     npm run dev
     ```
+4.  **Open the App:**
+    Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
-5.  **Open the App:**
-    Visit `http://localhost:3000` to see the cockpit.
+## 🌍 Features (MVP)
+- **"Black Box" Interface**: A distraction-free, dark mode UI designed for the cockpit.
+- **Bilingual Core**: Built from the ground up to support **Spanish (ES)** and **English (EN)**.
+- **Simulated AI**: Demonstrates how the system cites ICAO documents (e.g., Annex 6, Doc 8168).
 
-## 🗺️ Roadmap
-See [VISIONARY_ROADMAP.md](./visionary_roadmap.md) for the long-term strategy.
+## 🛠️ Tech Stack
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Internationalization**: `next-intl`
+
+## 📖 Documentation
+- **[VISIONARY_ROADMAP.md](./VISIONARY_ROADMAP.md)**: The long-term strategy (MVP -> National Regs -> Ecosystem).
+- **[MVP_PRESENTATION_GUIDE.md](./MVP_PRESENTATION_GUIDE.md)**: A script for presenting this demo to investors/users.
+- **[UI_MOCKUP.md](./UI_MOCKUP.md)**: The original visual concept.
 
 ---
 *Built with ❤️ for the skies.*

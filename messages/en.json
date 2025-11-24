@@ -1,0 +1,10 @@
+{
+  "HomePage": {
+    "title": "OACI.ai",
+    "subtitle": "The Pocket Bible for Global Aviation",
+    "placeholder": "Ask your question (e.g., 'What are the holding speeds?')",
+    "disclaimer": "Not affiliated with ICAO. For reference only.",
+    "send": "Send",
+    "source": "Source"
+  }
+}

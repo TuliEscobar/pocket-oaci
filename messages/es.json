@@ -1,0 +1,10 @@
+{
+    "HomePage": {
+        "title": "OACI.ai",
+        "subtitle": "La Biblia de Bolsillo de la Aviación Global",
+        "placeholder": "Escribe tu duda (ej. '¿Cuáles son las velocidades de espera?')",
+        "disclaimer": "No afiliado a la OACI. Solo para referencia.",
+        "send": "Enviar",
+        "source": "Fuente"
+    }
+}
