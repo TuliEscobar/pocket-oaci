@@ -2,9 +2,53 @@
     "HomePage": {
         "title": "OACI.ai",
         "subtitle": "La Biblia de Bolsillo de la Aviación Global",
+        "hero_desc": "Conocimiento regulatorio instantáneo, preciso y citado para pilotos, ATCs y profesionales. Deja de buscar, empieza a saber.",
         "placeholder": "Escribe tu duda (ej. '¿Cuáles son las velocidades de espera?')",
         "disclaimer": "No afiliado a la OACI. Solo para referencia.",
         "send": "Enviar",
-        "source": "Fuente"
+        "source": "Fuente",
+        "features": {
+            "title": "¿Por qué OACI.ai?",
+            "speed": {
+                "title": "Respuestas Instantáneas",
+                "desc": "No más búsquedas en miles de páginas PDF. Obtén la respuesta en segundos."
+            },
+            "accuracy": {
+                "title": "Fuentes Citadas",
+                "desc": "Cada respuesta incluye una referencia directa al Anexo o Documento OACI específico."
+            },
+            "bilingual": {
+                "title": "Núcleo Bilingüe",
+                "desc": "Cambia sin problemas entre Inglés y Español. Perfecto para operaciones internacionales."
+            }
+        },
+        "pricing": {
+            "title": "Planes de Vuelo",
+            "free": {
+                "title": "Pocket OACI",
+                "price": "Gratis",
+                "features": [
+                    "Acceso a Anexos OACI 1-19",
+                    "Búsqueda IA Básica",
+                    "Acceso Web",
+                    "Soporte Bilingüe"
+                ]
+            },
+            "pro": {
+                "title": "Captain's Deck",
+                "price": "$9.99/mes",
+                "features": [
+                    "Todo en Gratis",
+                    "Integración de SOPs de Aerolínea",
+                    "Modo Offline (App)",
+                    "Análisis de Escenarios Complejos",
+                    "Soporte Prioritario"
+                ]
+            }
+        },
+        "cta": {
+            "title": "¿Listo para Despegar?",
+            "button": "Empezar a Usar OACI.ai"
+        }
     }
 }

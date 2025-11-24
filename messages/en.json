@@ -2,9 +2,53 @@
   "HomePage": {
     "title": "OACI.ai",
     "subtitle": "The Pocket Bible for Global Aviation",
+    "hero_desc": "Instant, accurate, and cited regulatory knowledge for pilots, ATCs, and aviation professionals. Stop searching, start knowing.",
     "placeholder": "Ask your question (e.g., 'What are the holding speeds?')",
     "disclaimer": "Not affiliated with ICAO. For reference only.",
     "send": "Send",
-    "source": "Source"
+    "source": "Source",
+    "features": {
+      "title": "Why OACI.ai?",
+      "speed": {
+        "title": "Instant Answers",
+        "desc": "No more flipping through thousands of PDF pages. Get the answer in seconds."
+      },
+      "accuracy": {
+        "title": "Cited Sources",
+        "desc": "Every answer comes with a direct reference to the specific ICAO Annex or Doc."
+      },
+      "bilingual": {
+        "title": "Bilingual Core",
+        "desc": "Switch seamlessly between English and Spanish. Perfect for international ops."
+      }
+    },
+    "pricing": {
+      "title": "Flight Plans",
+      "free": {
+        "title": "Pocket OACI",
+        "price": "Free",
+        "features": [
+          "Access to ICAO Annexes 1-19",
+          "Basic AI Search",
+          "Web Access",
+          "Bilingual Support"
+        ]
+      },
+      "pro": {
+        "title": "Captain's Deck",
+        "price": "$9.99/mo",
+        "features": [
+          "Everything in Free",
+          "Airline SOPs Integration",
+          "Offline Mode (App)",
+          "Complex Scenario Analysis",
+          "Priority Support"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Ready for Takeoff?",
+      "button": "Start Using OACI.ai"
+    }
   }
 }
