@@ -8,6 +8,9 @@ export async function POST(req: Request) {
     try {
         const { message, locale, jurisdiction } = await req.json();
 
+        // 📝 Log para Vercel Analytics/Logs
+        console.log(`💬 Query [${jurisdiction || 'ICAO'}]: "${message}"`);
+
         if (!process.env.GOOGLE_API_KEY) {
             return NextResponse.json(
                 { error: "GOOGLE_API_KEY not configured" },
