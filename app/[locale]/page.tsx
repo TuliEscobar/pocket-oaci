@@ -152,13 +152,24 @@ export default function HomePage() {
 
           <SignedOut>
             <SignInButton mode="modal">
-              <button className="hidden md:flex items-center gap-2 px-4 py-2 bg-white text-black rounded-full text-xs font-bold hover:bg-zinc-200 transition-colors">
-                Sign In
+              <button className="hidden md:flex items-center gap-2 px-6 py-2.5 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-full text-sm font-bold hover:opacity-90 transition-all shadow-lg shadow-cyan-500/20">
+                {locale === 'es' ? 'Registrarme' : 'Sign In'}
               </button>
             </SignInButton>
           </SignedOut>
           <SignedIn>
-            <UserButton afterSignOutUrl="/" />
+            <UserButton
+              afterSignOutUrl="/"
+              appearance={{
+                elements: {
+                  avatarBox: "w-10 h-10 border-2 border-cyan-500/50 hover:border-cyan-500 transition-colors",
+                  userButtonPopoverCard: "bg-zinc-900 border border-zinc-800 shadow-2xl shadow-cyan-500/10",
+                  userButtonPopoverActionButton: "text-white hover:bg-zinc-800",
+                  userButtonPopoverActionButtonText: "text-white",
+                  userButtonPopoverFooter: "hidden",
+                }
+              }}
+            />
           </SignedIn>
         </div>
       </header>
