@@ -6,7 +6,7 @@ const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY || "");
 
 export async function POST(req: Request) {
     try {
-        const { message, locale } = await req.json();
+        const { message, locale, jurisdiction } = await req.json();
 
         if (!process.env.GOOGLE_API_KEY) {
             return NextResponse.json(
@@ -15,13 +15,18 @@ export async function POST(req: Request) {
             );
         }
 
+        // Enforce language based on jurisdiction
+        // Argentina (ARG) -> Spanish (es)
+        // ICAO -> English (en)
+        const enforcedLocale = jurisdiction === 'ARG' ? 'es' : 'en';
+
         // Intentar usar RAG si está configurado
         const ragConfigured = await isRAGConfigured();
 
         if (ragConfigured) {
-            console.log("🔍 Using RAG with official ICAO documents...");
+            console.log(`🔍 Using RAG (Jurisdiction: ${jurisdiction || 'ICAO'}, Language: ${enforcedLocale})...`);
             try {
-                const ragResult = await queryRAG(message, locale);
+                const ragResult = await queryRAG(message, enforcedLocale, jurisdiction);
 
                 return NextResponse.json({
                     text: ragResult.answer,
@@ -43,12 +48,12 @@ export async function POST(req: Request) {
         }
 
         // Fallback: Modo estándar sin RAG
-        const systemPrompt = locale === 'es'
+        const systemPrompt = enforcedLocale === 'es'
             ? `Eres OACI.ai, un asistente experto en regulaciones de aviación civil internacional.
          
          FORMATO DE RESPUESTA OBLIGATORIO:
-         1. RESPUESTA DIRECTA: Comienza con la respuesta concreta en 1-2 líneas (en negritas si es posible).
-         2. EXPLICACIÓN: Desarrolla los detalles necesarios.
+         1. RESPUESTA DIRECTA: Comienza con la respuesta concreta en 1-2 líneas (usa **negritas** en markdown).
+         2. EXPLICACIÓN: Desarrolla los detalles necesarios usando listas y formato markdown.
          3. FUENTE: Termina SIEMPRE citando el Anexo, Documento, Capítulo y Sección específicos (ej: "Anexo 6, Parte I, Capítulo 4, Sección 4.2.3").
          
          Reglas:
@@ -56,12 +61,13 @@ export async function POST(req: Request) {
          - Usa terminología aeronáutica correcta.
          - NUNCA respondas sin citar la fuente exacta (Anexo + sección).
          - Si no conoces la respuesta exacta, dilo claramente.
-         - Responde SOLO en ESPAÑOL.`
+         - Responde SOLO en ESPAÑOL.
+         - USA FORMATO MARKDOWN: **negritas** para puntos clave, listas numeradas/con viñetas, etc.`
             : `You are OACI.ai, an expert assistant in international civil aviation regulations.
          
          MANDATORY RESPONSE FORMAT:
-         1. DIRECT ANSWER: Start with the concrete answer in 1-2 lines (bold if possible).
-         2. EXPLANATION: Develop the necessary details.
+         1. DIRECT ANSWER: Start with the concrete answer in 1-2 lines (use **bold** in markdown).
+         2. EXPLANATION: Develop the necessary details using lists and markdown formatting.
          3. SOURCE: Always end by citing the specific Annex, Document, Chapter, and Section (e.g., "Annex 6, Part I, Chapter 4, Section 4.2.3").
          
          Rules:
@@ -69,7 +75,8 @@ export async function POST(req: Request) {
          - Use correct aeronautical terminology.
          - NEVER answer without citing the exact source (Annex + section).
          - If you don't know the exact answer, state it clearly.
-         - Answer ONLY in ENGLISH.`;
+         - Answer ONLY in ENGLISH.
+         - USE MARKDOWN FORMAT: **bold** for key points, numbered/bulleted lists, etc.`;
 
         // Helper to run chat with a specific model
         async function runChat(modelName: string) {
@@ -77,7 +84,7 @@ export async function POST(req: Request) {
             const chat = model.startChat({
                 history: [
                     { role: "user", parts: [{ text: systemPrompt }] },
-                    { role: "model", parts: [{ text: locale === 'es' ? "Entendido. Soy OACI.ai." : "Understood. I am OACI.ai." }] },
+                    { role: "model", parts: [{ text: enforcedLocale === 'es' ? "Entendido. Soy OACI.ai." : "Understood. I am OACI.ai." }] },
                 ],
             });
             return await chat.sendMessage(message);

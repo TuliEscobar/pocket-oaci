@@ -1,159 +1,208 @@
-# OACI.ai (Pocket OACI) ✈️
+# OACI.ai ✈️
 
-> **The Pocket Bible for Global Aviation.**
-> *Instant, AI-driven regulatory knowledge for pilots, ATCs, and aviation professionals.*
+> **AI-Powered Aviation Regulations Assistant**  
+> *Instant answers from ICAO and RAAC documents with verified sources*
 
-## 📂 Project Structure
-The project is located in the `pocket-oaci` folder. You must be inside this folder to run commands.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_USERNAME/pocket-oaci)
 
-```text
-OACI.ai/
-└── pocket-oaci/       <-- 🛑 RUN COMMANDS HERE
-    ├── app/           # Next.js App Router (Frontend)
-    ├── lib/rag/       # RAG service for document retrieval
-    ├── scripts/       # Data processing pipeline
-    ├── data/          # ICAO documents and embeddings
-    ├── messages/      # Translation files (en.json, es.json)
-    ├── public/        # Static assets
-    └── package.json   # Dependencies and scripts
+## 🚀 What is OACI.ai?
+
+OACI.ai is an intelligent assistant that answers questions about aviation regulations using AI and a comprehensive database of official documents. Instead of searching through hundreds of pages of PDFs, simply ask a question and get an instant, accurate answer with source citations.
+
+### Key Features
+
+- ✈️ **Dual Jurisdiction Support**: ICAO (International) and RAAC (Argentina)
+- 🌍 **Bilingual**: Full support for Spanish and English
+- 📚 **RAG-Powered**: Answers based on official documents stored in vector database
+- 🎯 **Source Citations**: Every response includes exact document references
+- 💅 **Beautiful UI**: Dark mode interface with markdown-formatted responses
+- ⚡ **Fast**: Responses in seconds with semantic search
+
+## 🎯 Quick Start
+
+### Prerequisites
+
+- Node.js 18+ installed
+- Google AI API key ([Get it free](https://aistudio.google.com/))
+- Pinecone API key ([Get it free](https://www.pinecone.io/))
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/pocket-oaci.git
+   cd pocket-oaci
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Configure environment variables**
+   
+   Create a `.env.local` file in the root directory:
+   ```env
+   GOOGLE_API_KEY=your_google_api_key_here
+   PINECONE_API_KEY=your_pinecone_api_key_here
+   ```
+
+4. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+5. **Open your browser**
+   
+   Visit [http://localhost:3000](http://localhost:3000)
+
+## 📦 Project Structure
+
+```
+pocket-oaci/
+├── app/                    # Next.js App Router
+│   ├── [locale]/          # Internationalized pages
+│   └── api/               # API routes
+├── lib/rag/               # RAG service for document retrieval
+├── scripts/               # Data processing pipeline
+│   ├── 1-extract-pdf.ts   # Extract text from PDFs
+│   ├── 2-chunk-documents.ts # Split into chunks
+│   ├── 3-generate-embeddings.ts # Create vectors
+│   └── 4-upload-to-pinecone.ts # Upload to database
+├── data/                  # Documents and embeddings (gitignored)
+├── messages/              # i18n translations (en.json, es.json)
+├── components/            # React components
+└── public/                # Static assets
 ```
 
-## 🚀 How to Run (Quick Start)
-
-1.  **Open your terminal.**
-2.  **Navigate to the project folder:**
-    ```bash
-    cd pocket-oaci
-    ```
-    *(If you are in `OACI.ai`, you must type `cd pocket-oaci` first)*
-3.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
-4.  **Configure your API Keys:**
-    - Create a file named `.env.local` in the `pocket-oaci` folder.
-    - Add your API keys:
-      ```env
-      GOOGLE_API_KEY=your_google_api_key_here
-      PINECONE_API_KEY=your_pinecone_api_key_here
-      ```
-    - Get your free Google AI API key at [Google AI Studio](https://aistudio.google.com/)
-    - Get your free Pinecone API key at [Pinecone.io](https://www.pinecone.io/)
-5.  **Start the development server:**
-    ```bash
-    npm run dev
-    ```
-6.  **Open the App:**
-    Visit [http://localhost:3000](http://localhost:3000) in your browser.
-
-## 🌍 Features
-
-### ✅ Current Features (v0.2 - RAG Enabled)
-- **"Black Box" Interface**: A distraction-free, dark mode UI designed for the cockpit
-- **Bilingual Core**: Full support for **Spanish (ES)** and **English (EN)**
-- **RAG-Powered Responses**: Answers based on **official ICAO documents** stored in Pinecone
-- **Smart Document Retrieval**: Uses semantic search to find the most relevant passages
-- **Source Citations**: Every response includes references to specific ICAO documents
-- **Graceful Fallback**: If RAG is unavailable, falls back to standard Gemini responses
-- **1,754 Vectors**: Currently loaded with ICAO Doc 4444 (Air Traffic Management)
-
-### 🔄 RAG Pipeline
-The system uses a complete RAG (Retrieval-Augmented Generation) pipeline:
-1. **PDF Extraction** → Extract text from ICAO PDFs
-2. **Chunking** → Split documents into semantic chunks (~500 words)
-3. **Embedding** → Generate vectors using Google's text-embedding-004
-4. **Vector Storage** → Store in Pinecone for fast similarity search
-5. **Retrieval** → Find top 5 most relevant chunks for each query
-6. **Generation** → Gemini 2.5 Pro generates contextual answers
-
 ## 🛠️ Tech Stack
-- **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+
+- **Framework**: [Next.js 16](https://nextjs.org/) with App Router
 - **AI Model**: [Google Gemini 2.5 Pro](https://ai.google.dev/)
 - **Embeddings**: Google text-embedding-004 (768 dimensions)
-- **Vector Database**: [Pinecone](https://www.pinecone.io/) (Serverless)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Vector Database**: [Pinecone](https://www.pinecone.io/) Serverless
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
 - **Animations**: [Framer Motion](https://www.framer.com/motion/)
-- **Icons**: [Lucide React](https://lucide.dev/)
-- **Internationalization**: `next-intl`
-- **PDF Processing**: pdf-parse
+- **Markdown**: [react-markdown](https://github.com/remarkjs/react-markdown)
+- **i18n**: [next-intl](https://next-intl-docs.vercel.app/)
 
-## 📖 Documentation
-- **[RAG_IMPLEMENTATION.md](./RAG_IMPLEMENTATION.md)**: Complete RAG system architecture and setup guide
-- **[RAG_QUICKSTART.md](./RAG_QUICKSTART.md)**: Quick reference for RAG pipeline
-- **[VISIONARY_ROADMAP.md](./VISIONARY_ROADMAP.md)**: Long-term strategy (MVP → National Regs → Ecosystem)
-- **[MVP_PRESENTATION_GUIDE.md](./MVP_PRESENTATION_GUIDE.md)**: Presentation script for investors/users
-- **[UI_MOCKUP.md](./UI_MOCKUP.md)**: Original visual concept
+## 🗄️ Database Status
 
-## 🎯 Next Steps & Roadmap
-
-### 🔥 High Priority
-1. **Enhanced Citation Display**
-   - Show specific section references (e.g., "Doc 4444, ENR 2.3.3 - Visual Flight Rules")
-   - Display confidence scores for each source
-   - Add "View Source" links to jump to exact document sections
-   - Highlight which parts of the answer came from which sources
-
-2. **Add More ICAO Documents**
-   - Anexo 1 - Licencias al Personal
-   - Anexo 6 - Operación de Aeronaves
-   - Anexo 2 - Reglamento del Aire
-   - Anexo 14 - Aeródromos
-   - Doc 8168 - PANS-OPS
-
-3. **Improve Response Quality**
-   - Fine-tune chunking strategy for better context preservation
-   - Implement hybrid search (semantic + keyword)
-   - Add re-ranking of search results
-   - Cache frequently asked questions
-
-### 📊 Medium Priority
-4. **UI/UX Enhancements**
-   - Add source preview cards with expandable details
-   - Implement "Ask follow-up" feature
-   - Add document browser to explore available sources
-   - Show loading states with "Searching documents..." feedback
-
-5. **Analytics & Monitoring**
-   - Track which documents are most queried
-   - Monitor RAG retrieval quality
-   - Log failed queries for improvement
-   - Add usage analytics dashboard
-
-6. **Performance Optimization**
-   - Implement response streaming for faster perceived performance
-   - Add caching layer for common queries
-   - Optimize embedding generation batch processing
-   - Reduce API costs with smart caching
-
-### 🚀 Future Enhancements
-7. **Multi-Document Synthesis**
-   - Combine information from multiple ICAO documents
-   - Cross-reference related regulations
-   - Detect and highlight contradictions or updates
-
-8. **Conversation Memory**
-   - Remember context from previous questions in session
-   - Allow multi-turn clarification questions
-   - Implement conversation history
-
-9. **Advanced Features**
-   - Voice input for hands-free operation (cockpit use)
-   - Offline mode with local vector database
-   - Export answers as PDF reports with citations
-   - Integration with flight planning tools
-
-10. **Localization**
-    - Add French (ICAO official language)
-    - Add Portuguese for Latin America
-    - Support for national regulations (FAA, EASA, etc.)
-
-## 🗂️ Current Database Status
 - **Pinecone Index**: `oaci-docs`
-- **Total Vectors**: 1,754
-- **Documents Loaded**: 
-  - ✅ ICAO Doc 4444 - Air Traffic Management
+- **Total Vectors**: 2,960
+- **Documents Loaded**:
+  - ✅ ICAO Doc 4444 - Air Traffic Management (1,754 vectors)
+  - ✅ RAAC Part 61 - Personnel Licensing (181 vectors)
+  - ✅ RAAC Part 91 - General Operating Rules (569 vectors)
+  - ✅ RAAC Part 135 - Commuter Operations (456 vectors)
 - **Embedding Model**: text-embedding-004 (768 dimensions)
 - **Cost**: $0/month (within free tiers)
 
+## 🔄 RAG Pipeline
+
+The system uses a complete RAG (Retrieval-Augmented Generation) pipeline:
+
+1. **PDF Extraction** → Extract text from official PDFs
+2. **Chunking** → Split documents into semantic chunks (~500 words)
+3. **Embedding** → Generate vectors using Google's text-embedding-004
+4. **Vector Storage** → Store in Pinecone for fast similarity search
+5. **Retrieval** → Find top 8 most relevant chunks for each query
+6. **Generation** → Gemini 2.5 Pro generates contextual answers with markdown
+
+### Processing New Documents
+
+```bash
+# 1. Place PDFs in data/pdfs/
+# 2. Extract text
+npx tsx scripts/1-extract-pdf.ts
+
+# 3. Chunk documents
+npx tsx scripts/2-chunk-documents.ts
+
+# 4. Generate embeddings
+npx tsx scripts/3-generate-embeddings.ts
+
+# 5. Upload to Pinecone
+npx tsx scripts/4-upload-to-pinecone.ts
+```
+
+## 🚀 Deployment
+
+### Deploy to Vercel (Recommended)
+
+1. **Push to GitHub**
+   ```bash
+   git add .
+   git commit -m "Ready for deployment"
+   git push origin main
+   ```
+
+2. **Import to Vercel**
+   - Go to [vercel.com](https://vercel.com)
+   - Click "Import Project"
+   - Select your repository
+   - Vercel will auto-detect Next.js
+
+3. **Configure Environment Variables**
+   
+   In Vercel dashboard, add:
+   - `GOOGLE_API_KEY`
+   - `PINECONE_API_KEY`
+
+4. **Deploy**
+   
+   Click "Deploy" and wait 2-3 minutes
+
+### Build for Production
+
+```bash
+npm run build
+npm start
+```
+
+## 🌍 Features
+
+### Current Features (v0.3)
+
+- ✅ **Jurisdiction Selector**: Switch between ICAO and Argentina regulations
+- ✅ **Language Enforcement**: Spanish for ARG, English for ICAO
+- ✅ **Markdown Responses**: Beautiful formatting with bold, lists, and structure
+- ✅ **Source Citations**: Exact document references with relevance scores
+- ✅ **Responsive Design**: Works on desktop and mobile
+- ✅ **Dark Mode**: Eye-friendly interface
+- ✅ **RAG-Powered**: Answers from 2,960 document chunks
+
+### Coming Soon
+
+- 🔄 Conversation history
+- 🔄 More ICAO Annexes (1, 2, 6, 14)
+- 🔄 Voice input
+- 🔄 Export to PDF
+- 🔄 More jurisdictions (FAA, EASA)
+
+## 📖 Documentation
+
+- **[RAG_IMPLEMENTATION.md](./RAG_IMPLEMENTATION.md)**: Complete RAG architecture guide
+- **[DEPLOYMENT.md](./DEPLOYMENT.md)**: Deployment guide for Vercel
+- **[VISIONARY_ROADMAP.md](./VISIONARY_ROADMAP.md)**: Long-term product strategy
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 🙏 Acknowledgments
+
+- ICAO for providing official aviation regulations
+- ANAC Argentina for RAAC documentation
+- Google AI for Gemini API
+- Pinecone for vector database
+
 ---
-*Built with ❤️ for the skies.*
+
+**Built with ❤️ for the skies**
+
+For questions or feedback, please open an issue on GitHub.

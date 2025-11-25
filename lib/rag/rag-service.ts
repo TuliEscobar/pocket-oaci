@@ -18,17 +18,19 @@ export interface RAGResult {
     model: string;
 }
 
-export async function queryRAG(question: string, locale: string = 'es'): Promise<RAGResult> {
+export async function queryRAG(question: string, locale: string = 'es', jurisdiction: 'ICAO' | 'ARG' = 'ICAO'): Promise<RAGResult> {
     try {
         // 1. Generar embedding de la pregunta
         const embeddingModel = genAI.getGenerativeModel({ model: 'text-embedding-004' });
         const questionEmbedding = await embeddingModel.embedContent(question);
 
         // 2. Buscar en Pinecone
+        // Nota: Idealmente filtraríamos por metadata.jurisdiction, pero por ahora recuperamos todo
+        // y dejamos que el LLM priorice según el contexto.
         const index = pinecone.index('oaci-docs');
         const searchResults = await index.query({
             vector: questionEmbedding.embedding.values,
-            topK: 5, // Top 5 resultados más relevantes
+            topK: 8, // Aumentamos a 8 para tener más contexto mixto
             includeMetadata: true
         });
 
@@ -46,47 +48,60 @@ export async function queryRAG(question: string, locale: string = 'es'): Promise
             .join('\n\n---\n\n');
 
         // 4. Generar respuesta con contexto
-        const systemPrompt = locale === 'es'
-            ? `Eres OACI.ai, un asistente experto en regulaciones de aviación civil internacional.
+        let systemPrompt = '';
+
+        if (locale === 'es') {
+            systemPrompt = `Eres OACI.ai, un asistente experto en regulaciones de aviación civil.
     
-CONTEXTO DE DOCUMENTOS OFICIALES DE LA OACI:
+CONTEXTO DE DOCUMENTOS (${jurisdiction === 'ARG' ? 'PRIORIDAD: REGULACIONES ARGENTINAS' : 'NORMATIVA OACI'}):
 ${context}
 
 INSTRUCCIONES CRÍTICAS:
-1. Responde EXCLUSIVAMENTE basándote en el contexto proporcionado arriba.
-2. Si la información no está en el contexto, responde: "No encuentro esta información específica en los documentos disponibles actualmente."
-3. SIEMPRE cita la fuente exacta al final de tu respuesta (Anexo/Doc, Sección si está disponible).
+1. Responde EXCLUSIVAMENTE basándote en el contexto proporcionado.
+2. JURISDICCIÓN SELECCIONADA: ${jurisdiction === 'ARG' ? 'ARGENTINA (RAAC)' : 'INTERNACIONAL (OACI)'}.
+   ${jurisdiction === 'ARG'
+                    ? '- Si hay conflicto entre OACI y RAAC, DA PRIORIDAD A LAS RAAC (Regulaciones Argentinas).\n   - Si la información solo está en OACI, úsala pero aclara que es normativa internacional.'
+                    : '- Basa tus respuestas en los Anexos y Documentos de la OACI.'}
+3. SIEMPRE cita la fuente exacta (Ej: "RAAC 91.105" o "Anexo 6, Cap 4").
 4. Sé claro, directo y profesional.
-5. Usa terminología aeronáutica correcta.
-6. Responde SOLO en ESPAÑOL.
+5. Responde SOLO en ESPAÑOL.
+6. USA FORMATO MARKDOWN:
+   - **Negritas** para la respuesta directa inicial y puntos clave
+   - Listas numeradas o con viñetas para explicaciones
+   - Formato claro y estructurado
 
 FORMATO DE RESPUESTA:
-1. RESPUESTA DIRECTA (1-2 líneas en negritas)
-2. EXPLICACIÓN DETALLADA
-3. FUENTE (Ejemplo: "Fuente: Anexo 6, Sección 4.2.3")`
-            : `You are OACI.ai, an expert in international civil aviation regulations.
-    
-OFFICIAL ICAO DOCUMENTS CONTEXT:
+1. **RESPUESTA DIRECTA** (1-2 líneas en negritas)
+2. EXPLICACIÓN DETALLADA (usa listas si es apropiado)
+3. **FUENTE:** (cita exacta del documento)`;
+        } else {
+            // English prompt
+            systemPrompt = `You are OACI.ai. Selected Jurisdiction: ${jurisdiction}.
+            
+CONTEXT:
 ${context}
 
-CRITICAL INSTRUCTIONS:
-1. Answer EXCLUSIVELY based on the context provided above.
-2. If information is not in context, respond: "I cannot find this specific information in currently available documents."
-3. ALWAYS cite exact source at end of response (Annex/Doc, Section if available).
-4. Be clear, direct, and professional.
-5. Use correct aeronautical terminology.
-6. Answer ONLY in ENGLISH.
+INSTRUCTIONS:
+1. Answer ONLY based on context.
+2. If Jurisdiction is ARG, prioritize RAAC documents.
+3. Cite sources exactly.
+4. Answer in ENGLISH.
+5. USE MARKDOWN FORMAT:
+   - **Bold** for direct answer and key points
+   - Numbered or bulleted lists for explanations
+   - Clear, structured format
 
 RESPONSE FORMAT:
-1. DIRECT ANSWER (1-2 lines in bold)
-2. DETAILED EXPLANATION
-3. SOURCE (Example: "Source: Annex 6, Section 4.2.3")`;
+1. **DIRECT ANSWER** (1-2 lines in bold)
+2. DETAILED EXPLANATION (use lists if appropriate)
+3. **SOURCE:** (exact document citation)`;
+        }
 
         const model = genAI.getGenerativeModel({ model: 'gemini-2.5-pro-preview-03-25' });
         const chat = model.startChat({
             history: [
                 { role: 'user', parts: [{ text: systemPrompt }] },
-                { role: 'model', parts: [{ text: locale === 'es' ? 'Entendido. Responderé basándome exclusivamente en los documentos OACI proporcionados.' : 'Understood. I will answer based exclusively on the provided ICAO documents.' }] }
+                { role: 'model', parts: [{ text: 'Entendido. Procederé según la jurisdicción y documentos proporcionados.' }] }
             ]
         });
 

@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# data files (embeddings, PDFs, processed files - already in Pinecone)
+/data/pdfs/
+/data/embeddings/
+/data/processed/

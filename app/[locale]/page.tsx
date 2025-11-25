@@ -5,11 +5,18 @@ import { useState } from 'react';
 import { Send, Mic, Plane, BookOpen, Zap, CheckCircle, Globe, Shield } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 export default function HomePage() {
   const t = useTranslations('HomePage');
   const [query, setQuery] = useState('');
-  const [response, setResponse] = useState<null | { text: string; source: string }>(null);
+  const [jurisdiction, setJurisdiction] = useState<'ICAO' | 'ARG'>('ICAO');
+  const [response, setResponse] = useState<null | {
+    text: string;
+    sources: Array<{ source: string; section?: string; preview?: string; score?: number }>;
+    source?: string
+  }>(null);
   const [loading, setLoading] = useState(false);
 
   const handleSearch = async (e: React.FormEvent) => {
@@ -23,7 +30,11 @@ export default function HomePage() {
       const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: query, locale: t.raw('title') === 'OACI.ai' ? 'en' : 'es' })
+        body: JSON.stringify({
+          message: query,
+          locale: t.raw('title') === 'OACI.ai' ? 'en' : 'es',
+          jurisdiction
+        })
       });
 
       const data = await res.json();
@@ -31,17 +42,20 @@ export default function HomePage() {
       if (res.ok) {
         setResponse({
           text: data.text,
-          source: data.source || "AI Generated"
+          sources: data.sources || [],
+          source: data.source
         });
       } else {
         setResponse({
           text: "Error: " + (data.error || "Failed to connect to OACI Brain."),
+          sources: [],
           source: "System"
         });
       }
     } catch (err) {
       setResponse({
         text: "Connection Error. Please check your internet.",
+        sources: [],
         source: "System"
       });
     } finally {
@@ -57,7 +71,31 @@ export default function HomePage() {
           <Plane className="w-5 h-5 text-cyan-500" />
           <h1 className="text-xl font-bold tracking-tight text-white">OACI.ai</h1>
         </div>
-        <LanguageSwitcher />
+
+        <div className="flex items-center gap-4">
+          {/* Jurisdiction Selector */}
+          <div className="flex bg-zinc-900 rounded-lg p-1 border border-zinc-800">
+            <button
+              onClick={() => setJurisdiction('ICAO')}
+              className={`px-3 py-1.5 rounded-md text-xs font-medium transition-all ${jurisdiction === 'ICAO'
+                ? 'bg-cyan-500 text-black shadow-lg shadow-cyan-500/20'
+                : 'text-zinc-400 hover:text-white'
+                }`}
+            >
+              🌍 ICAO
+            </button>
+            <button
+              onClick={() => setJurisdiction('ARG')}
+              className={`px-3 py-1.5 rounded-md text-xs font-medium transition-all ${jurisdiction === 'ARG'
+                ? 'bg-blue-500 text-white shadow-lg shadow-blue-500/20'
+                : 'text-zinc-400 hover:text-white'
+                }`}
+            >
+              🇦🇷 ARG
+            </button>
+          </div>
+          <LanguageSwitcher />
+        </div>
       </header>
 
       {/* Hero Section (The Black Box) */}
@@ -91,23 +129,91 @@ export default function HomePage() {
               <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-6 md:p-8 shadow-2xl shadow-cyan-500/5 relative overflow-hidden group">
                 <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-cyan-500 to-blue-600" />
 
-                <div className="mb-4 flex items-start gap-3">
-                  <div className="p-2 bg-cyan-500/10 rounded-lg">
+                <div className="mb-6 flex items-start gap-3">
+                  <div className="p-2 bg-cyan-500/10 rounded-lg shrink-0">
                     <BookOpen className="w-5 h-5 text-cyan-400" />
                   </div>
-                  <div className="prose prose-invert max-w-none">
-                    <p className="text-lg leading-relaxed text-zinc-200">
+                  <div className="prose prose-invert max-w-none w-full text-zinc-200 leading-relaxed">
+                    <ReactMarkdown
+                      remarkPlugins={[remarkGfm]}
+                      components={{
+                        // Headings
+                        h1: ({ node, ...props }) => <h1 className="text-2xl font-bold text-white mt-6 mb-4" {...props} />,
+                        h2: ({ node, ...props }) => <h2 className="text-xl font-bold text-white mt-5 mb-3" {...props} />,
+                        h3: ({ node, ...props }) => <h3 className="text-lg font-semibold text-white mt-4 mb-2" {...props} />,
+                        // Paragraphs
+                        p: ({ node, ...props }) => <p className="text-zinc-200 mb-4 leading-relaxed" {...props} />,
+                        // Strong/Bold
+                        strong: ({ node, ...props }) => <strong className="font-bold text-white" {...props} />,
+                        // Em/Italic
+                        em: ({ node, ...props }) => <em className="italic text-cyan-300" {...props} />,
+                        // Lists
+                        ul: ({ node, ...props }) => <ul className="list-disc list-inside mb-4 space-y-2 text-zinc-200" {...props} />,
+                        ol: ({ node, ...props }) => <ol className="list-decimal list-inside mb-4 space-y-2 text-zinc-200" {...props} />,
+                        li: ({ node, ...props }) => <li className="text-zinc-200" {...props} />,
+                        // Code
+                        code: ({ node, inline, ...props }: any) =>
+                          inline
+                            ? <code className="bg-zinc-800 text-cyan-400 px-1.5 py-0.5 rounded text-sm font-mono" {...props} />
+                            : <code className="block bg-zinc-800 text-cyan-400 p-3 rounded-lg text-sm font-mono overflow-x-auto mb-4" {...props} />,
+                        // Links
+                        a: ({ node, ...props }) => <a className="text-cyan-400 hover:text-cyan-300 underline" {...props} />,
+                        // Blockquotes
+                        blockquote: ({ node, ...props }) => <blockquote className="border-l-4 border-cyan-500 pl-4 italic text-zinc-300 my-4" {...props} />,
+                      }}
+                    >
                       {response.text}
-                    </p>
+                    </ReactMarkdown>
                   </div>
                 </div>
 
-                <div className="mt-6 pt-4 border-t border-zinc-800 flex items-center justify-between text-xs text-zinc-500 uppercase tracking-wider">
-                  <span>{t('source')}</span>
-                  <span className="text-cyan-400 font-mono bg-cyan-950/30 px-2 py-1 rounded">
-                    {response.source}
-                  </span>
-                </div>
+                {/* Sources Section */}
+                {response.sources && response.sources.length > 0 && (
+                  <div className="mt-6 pt-6 border-t border-zinc-800/50">
+                    <h4 className="text-xs font-bold text-zinc-500 uppercase tracking-wider mb-3 flex items-center gap-2">
+                      <CheckCircle className="w-3 h-3" />
+                      {t('source') || 'Verified Sources'}
+                    </h4>
+                    <div className="grid gap-2">
+                      {response.sources.map((src, idx) => (
+                        <div key={idx} className="bg-black/40 border border-zinc-800 rounded-lg p-3 flex items-center justify-between hover:border-cyan-500/30 transition-colors group/source">
+                          <div className="flex flex-col">
+                            <span className="text-sm font-medium text-cyan-400">
+                              {src.source.replace('.json', '').replace(/-/g, ' ').replace('icao doc', 'ICAO Doc').toUpperCase()}
+                            </span>
+                            {src.section && (
+                              <span className="text-xs text-zinc-500">
+                                Section {src.section}
+                              </span>
+                            )}
+                          </div>
+                          {src.score && (
+                            <div className="flex items-center gap-1" title="Relevance Score">
+                              <div className="h-1.5 w-16 bg-zinc-800 rounded-full overflow-hidden">
+                                <div
+                                  className="h-full bg-cyan-500/50 rounded-full"
+                                  style={{ width: `${(src.score || 0) * 100}%` }}
+                                />
+                              </div>
+                              <span className="text-[10px] text-zinc-600 font-mono">
+                                {Math.round((src.score || 0) * 100)}%
+                              </span>
+                            </div>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {(!response.sources || response.sources.length === 0) && response.source && (
+                  <div className="mt-6 pt-4 border-t border-zinc-800 flex items-center justify-between text-xs text-zinc-500 uppercase tracking-wider">
+                    <span>Source</span>
+                    <span className="text-cyan-400 font-mono bg-cyan-950/30 px-2 py-1 rounded">
+                      {response.source}
+                    </span>
+                  </div>
+                )}
               </div>
             </motion.div>
           )}

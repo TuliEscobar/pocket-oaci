@@ -50,5 +50,53 @@
             "title": "¿Listo para Despegar?",
             "button": "Empezar a Usar OACI.ai"
         }
+    },
+    "Waitlist": {
+        "title": "Únete al Beta Cerrado",
+        "subtitle": "Acceso Anticipado a OACI.ai",
+        "description": "Estamos liberando accesos gradualmente para asegurar la mejor experiencia. Únete a la lista de espera y sé de los primeros en usar la herramienta que está revolucionando cómo los profesionales de aviación acceden a regulaciones.",
+        "form": {
+            "email": "Correo Electrónico",
+            "emailPlaceholder": "tu@email.com",
+            "role": "¿Cuál es tu rol principal?",
+            "rolePlaceholder": "Selecciona tu rol",
+            "roles": {
+                "pilot_commercial": "Piloto Comercial / ATPL",
+                "pilot_student": "Estudiante de Piloto",
+                "atc": "Controlador de Tránsito Aéreo",
+                "dispatcher": "Despachador de Vuelo",
+                "instructor": "Instructor de Vuelo",
+                "mechanic": "Técnico Aeronáutico",
+                "airport_ops": "Operador de Aeropuerto",
+                "enthusiast": "Entusiasta / Simmer",
+                "other": "Otro"
+            },
+            "document": "¿Qué documento consultas más?",
+            "documentPlaceholder": "Ej: RAAC 91, Anexo 6, Doc 4444...",
+            "painPoint": "¿Cuál es tu mayor desafío con las regulaciones?",
+            "painPointPlaceholder": "Opcional: Cuéntanos tu mayor frustración",
+            "submit": "Unirme a la Lista",
+            "submitting": "Enviando..."
+        },
+        "success": {
+            "title": "¡Estás en la lista! ✈️",
+            "message": "Revisa tu correo (y spam) pronto. Estamos liberando accesos cada semana.",
+            "cta": "Volver al inicio"
+        },
+        "benefits": {
+            "title": "¿Por qué unirte ahora?",
+            "early_access": {
+                "title": "Acceso Prioritario",
+                "desc": "Sé de los primeros en usar OACI.ai antes del lanzamiento público."
+            },
+            "influence": {
+                "title": "Influye en el Producto",
+                "desc": "Tu feedback directo moldeará las funciones que construyamos."
+            },
+            "free": {
+                "title": "Beta Gratuito",
+                "desc": "Acceso completo sin costo durante la fase beta."
+            }
+        }
     }
 }

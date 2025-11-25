@@ -28,6 +28,7 @@ async function processChunksWithEmbeddings() {
 
     const chunksDir = path.join(process.cwd(), 'data', 'chunks');
     const embeddingsDir = path.join(process.cwd(), 'data', 'embeddings');
+    const processedDir = path.join(embeddingsDir, 'processed');
 
     if (!fs.existsSync(embeddingsDir)) {
         fs.mkdirSync(embeddingsDir, { recursive: true });
@@ -46,6 +47,15 @@ async function processChunksWithEmbeddings() {
     let totalEmbeddings = 0;
 
     for (const file of files) {
+        // Verificar si ya existe en embeddings o en processed
+        const existingOutputPath = path.join(embeddingsDir, file);
+        const processedPath = path.join(processedDir, file);
+
+        if (fs.existsSync(existingOutputPath) || fs.existsSync(processedPath)) {
+            console.log(`⏩ Saltando ${file} (ya procesado)`);
+            continue;
+        }
+
         const filePath = path.join(chunksDir, file);
         const chunks = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
 
