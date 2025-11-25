@@ -1,0 +1,20 @@
+[
+    {
+        "question": "¿Cuáles son los requisitos para la licencia de piloto privado de avión?",
+        "jurisdiction": "ARG",
+        "expectedSource": "parte-61",
+        "expectedSection": "61.103" // Requisitos de elegibilidad
+    },
+    {
+        "question": "¿Qué es una operación no regular?",
+        "jurisdiction": "ARG",
+        "expectedSource": "raac_135",
+        "expectedSection": "135.1"
+    },
+    {
+        "question": "¿Quién es responsable de la aeronavegabilidad?",
+        "jurisdiction": "ARG",
+        "expectedSource": "raac_91",
+        "expectedSection": "91.403"
+    }
+]

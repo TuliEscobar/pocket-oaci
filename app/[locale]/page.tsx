@@ -4,14 +4,14 @@ import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 import { Send, Mic, Plane, BookOpen, Zap, CheckCircle, Globe, Shield } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import LanguageSwitcher from '@/components/LanguageSwitcher';
+
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
 export default function HomePage() {
   const t = useTranslations('HomePage');
   const [query, setQuery] = useState('');
-  const [jurisdiction, setJurisdiction] = useState<'ICAO' | 'ARG'>('ICAO');
+  const [jurisdiction, setJurisdiction] = useState<'ICAO' | 'ARG'>('ARG');
   const [response, setResponse] = useState<null | {
     text: string;
     sources: Array<{ source: string; section?: string; preview?: string; score?: number }>;
@@ -76,15 +76,6 @@ export default function HomePage() {
           {/* Jurisdiction Selector */}
           <div className="flex bg-zinc-900 rounded-lg p-1 border border-zinc-800">
             <button
-              onClick={() => setJurisdiction('ICAO')}
-              className={`px-3 py-1.5 rounded-md text-xs font-medium transition-all ${jurisdiction === 'ICAO'
-                ? 'bg-cyan-500 text-black shadow-lg shadow-cyan-500/20'
-                : 'text-zinc-400 hover:text-white'
-                }`}
-            >
-              🌍 ICAO
-            </button>
-            <button
               onClick={() => setJurisdiction('ARG')}
               className={`px-3 py-1.5 rounded-md text-xs font-medium transition-all ${jurisdiction === 'ARG'
                 ? 'bg-blue-500 text-white shadow-lg shadow-blue-500/20'
@@ -93,8 +84,16 @@ export default function HomePage() {
             >
               🇦🇷 ARG
             </button>
+            <button
+              onClick={() => setJurisdiction('ICAO')}
+              className={`px-3 py-1.5 rounded-md text-xs font-medium transition-all ${jurisdiction === 'ICAO'
+                ? 'bg-cyan-500 text-black shadow-lg shadow-cyan-500/20'
+                : 'text-zinc-400 hover:text-white'
+                }`}
+            >
+              🌍 ICAO
+            </button>
           </div>
-          <LanguageSwitcher />
         </div>
       </header>
 

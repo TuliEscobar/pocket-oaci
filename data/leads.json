@@ -1,0 +1,20 @@
+[
+  {
+    "id": "177f8875-496a-4fdc-990d-f5a69ae18933",
+    "email": "test@example.com",
+    "role": "pilot_commercial",
+    "document": "RAAC 91",
+    "painPoint": "Encontrar información rápido",
+    "date": "2025-11-25T00:13:29.409Z",
+    "source": "web_waitlist"
+  },
+  {
+    "id": "b2ecd5d9-a8d6-4467-9362-e31ff25be2d1",
+    "email": "tuliescobarr@gmail.com",
+    "role": "atc",
+    "document": "",
+    "painPoint": "",
+    "date": "2025-11-25T00:18:05.456Z",
+    "source": "web_waitlist"
+  }
+]
