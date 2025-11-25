@@ -11,6 +11,7 @@
     "bot:dev": "tsx watch telegram-bot.ts"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.35.5",
     "@google/generative-ai": "^0.24.1",
     "@pinecone-database/pinecone": "^6.1.3",
     "@vercel/analytics": "^1.5.0",

@@ -6,6 +6,7 @@ import { useRouter, usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { Send, Mic, Plane, BookOpen, Zap, CheckCircle, Globe, Shield, ArrowRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useUser, useClerk, SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -16,6 +17,9 @@ export default function HomePage() {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
+
+  const { isSignedIn } = useUser();
+  const { openSignIn } = useClerk();
 
   const [query, setQuery] = useState('');
   const [jurisdiction, setJurisdiction] = useState<'ICAO' | 'ARG'>(locale === 'es' ? 'ARG' : 'ICAO');
@@ -30,6 +34,11 @@ export default function HomePage() {
   const handleSearch = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!query.trim()) return;
+
+    if (!isSignedIn) {
+      openSignIn();
+      return;
+    }
 
     setLoading(true);
     setResponse(null);
@@ -141,12 +150,16 @@ export default function HomePage() {
             </button>
           </div>
 
-          <Link
-            href={`/${locale}/waitlist`}
-            className="hidden md:flex items-center gap-2 px-4 py-2 bg-white text-black rounded-full text-xs font-bold hover:bg-zinc-200 transition-colors"
-          >
-            {t('cta.button') || 'Join Waitlist'}
-          </Link>
+          <SignedOut>
+            <SignInButton mode="modal">
+              <button className="hidden md:flex items-center gap-2 px-4 py-2 bg-white text-black rounded-full text-xs font-bold hover:bg-zinc-200 transition-colors">
+                Sign In
+              </button>
+            </SignInButton>
+          </SignedOut>
+          <SignedIn>
+            <UserButton afterSignOutUrl="/" />
+          </SignedIn>
         </div>
       </header>
 
