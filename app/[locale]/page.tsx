@@ -4,11 +4,12 @@ import { useTranslations, useLocale } from 'next-intl';
 import { useState, useEffect } from 'react';
 import { useRouter, usePathname } from 'next/navigation';
 import Link from 'next/link';
-import { Send, Mic, Plane, BookOpen, Zap, CheckCircle, Globe, Shield } from 'lucide-react';
+import { Send, Mic, Plane, BookOpen, Zap, CheckCircle, Globe, Shield, ArrowRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import DocumentTicker from '@/components/DocumentTicker';
 
 export default function HomePage() {
   const t = useTranslations('HomePage');
@@ -139,8 +140,17 @@ export default function HomePage() {
               🌍 ICAO
             </button>
           </div>
+
+          <Link
+            href={`/${locale}/waitlist`}
+            className="hidden md:flex items-center gap-2 px-4 py-2 bg-white text-black rounded-full text-xs font-bold hover:bg-zinc-200 transition-colors"
+          >
+            {t('cta.button') || 'Join Waitlist'}
+          </Link>
         </div>
       </header>
+
+      <DocumentTicker />
 
       {/* Hero Section (The Black Box) */}
       <section className="flex-1 flex flex-col items-center justify-center p-6 w-full max-w-3xl mx-auto min-h-[80vh]">
@@ -150,7 +160,7 @@ export default function HomePage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
-              className="text-center space-y-6 mb-12"
+              className="text-center space-y-6 mb-12 flex flex-col items-center"
             >
               <h2 className="text-5xl md:text-7xl font-bold bg-gradient-to-b from-white to-zinc-500 bg-clip-text text-transparent tracking-tighter">
                 {t('subtitle')}
@@ -158,6 +168,14 @@ export default function HomePage() {
               <p className="text-zinc-400 text-xl max-w-2xl mx-auto leading-relaxed">
                 {t('hero_desc')}
               </p>
+
+              <Link
+                href={`/${locale}/waitlist`}
+                className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-full font-bold text-lg hover:opacity-90 transition-opacity shadow-lg shadow-cyan-500/20 mt-4"
+              >
+                {t('cta.button') || 'Join Waitlist'}
+                <ArrowRight className="w-5 h-5" />
+              </Link>
             </motion.div>
           ) : null}
         </AnimatePresence>

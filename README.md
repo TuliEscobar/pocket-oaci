@@ -1,80 +1,3 @@
-# OACI.ai ✈️
-
-> **AI-Powered Aviation Regulations Assistant**  
-> *Instant answers from ICAO and RAAC documents with verified sources*
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_USERNAME/pocket-oaci)
-
-## 🚀 What is OACI.ai?
-
-OACI.ai is an intelligent assistant that answers questions about aviation regulations using AI and a comprehensive database of official documents. Instead of searching through hundreds of pages of PDFs, simply ask a question and get an instant, accurate answer with source citations.
-
-### Key Features
-
-- ✈️ **Dual Jurisdiction Support**: ICAO (International) and RAAC (Argentina)
-- 🌍 **Bilingual**: Full support for Spanish and English
-- 🎙️ **Voice Input**: Ask questions using your microphone
-- 📚 **RAG-Powered**: Answers based on official documents stored in vector database
-- 🎯 **Source Citations**: Every response includes exact document references
-- 📝 **Waitlist System**: User registration with Google Sheets integration
-- 💅 **Beautiful UI**: Dark mode interface with markdown-formatted responses
-- ⚡ **Fast**: Responses in seconds with semantic search
-
-## 🎯 Quick Start
-
-### Prerequisites
-
-- Node.js 18+ installed
-- Google AI API key ([Get it free](https://aistudio.google.com/))
-- Pinecone API key ([Get it free](https://www.pinecone.io/))
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/pocket-oaci.git
-   cd pocket-oaci
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Configure environment variables**
-   
-   Create a `.env.local` file in the root directory:
-   ```env
-   GOOGLE_API_KEY=your_google_api_key_here
-   PINECONE_API_KEY=your_pinecone_api_key_here
-   ```
-
-4. **Run the development server**
-   ```bash
-   npm run dev
-   ```
-
-5. **Open your browser**
-   
-   Visit [http://localhost:3000](http://localhost:3000)
-
-## 📦 Project Structure
-
-```
-pocket-oaci/
-├── app/                    # Next.js App Router
-│   ├── [locale]/          # Internationalized pages
-│   └── api/               # API routes
-├── lib/rag/               # RAG service for document retrieval
-├── scripts/               # Data processing pipeline
-│   ├── 1-extract-pdf.ts   # Extract text from PDFs
-│   ├── 2-chunk-documents.ts # Split into chunks
-│   ├── 3-generate-embeddings.ts # Create vectors
-│   └── 4-upload-to-pinecone.ts # Upload to database
-├── data/                  # Documents and embeddings (gitignored)
-├── messages/              # i18n translations (en.json, es.json)
-├── components/            # React components
-└── public/                # Static assets
 ```
 
 ## 🛠️ Tech Stack
@@ -93,10 +16,14 @@ pocket-oaci/
 - **Pinecone Index**: `oaci-docs`
 - **Total Vectors**: 2,960
 - **Documents Loaded**:
-  - ✅ ICAO Doc 4444 - Air Traffic Management (1,754 vectors)
-  - ✅ RAAC Part 61 - Personnel Licensing (181 vectors)
-  - ✅ RAAC Part 91 - General Operating Rules (569 vectors)
-  - ✅ RAAC Part 65 - Aeronsautical Navigation (vectors placeholder)
+  - ✅ **ICAO Anexo 15**: Servicios de Información Aeronáutica (Ed. 2018)
+  - ✅ **RAAC Parte 61**: Licencias, certificados de competencia y habilitaciones para pilotos
+  - ✅ **RAAC Parte 65**: Personal aeronáutico excepto miembros de la tripulación de vuelo
+  - ✅ **RAAC Parte 91**: Reglas de vuelo y operación general
+  - ✅ **RAAC Parte 135**: Requisitos de operación: operaciones no regulares internas e internacionales
+  - ✅ **PR GOPE 069**: Procedimiento para recepción, control y transmisión del FPL
+  - ✅ **PROGEN ARO**: Procedimientos Generales ARO
+  - ✅ **PROGEN ATM**: Procedimientos Generales de Gestión de Tránsito Aéreo
 - **Embedding Model**: text-embedding-004 (768 dimensions)
 - **Cost**: $0/month (within free tiers)
 
