@@ -165,7 +165,8 @@ npm start
 ### Current Features (v0.3)
 
 - ✅ **Jurisdiction Selector**: Switch between ICAO and Argentina regulations
-- ✅ **Language Enforcement**: Spanish for ARG, English for ICAO
+- ✅ **Language Enforcement**: Spanish for ARG, English for ICAU
+- ✅ **Language Selector Removed**: UI now defaults to Argentina (ARG) with Spanish language
 - ✅ **Markdown Responses**: Beautiful formatting with bold, lists, and structure
 - ✅ **Source Citations**: Exact document references with relevance scores
 - ✅ **Responsive Design**: Works on desktop and mobile
