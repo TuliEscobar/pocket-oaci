@@ -95,6 +95,7 @@ pocket-oaci/
   - ✅ RAAC Part 61 - Personnel Licensing (181 vectors)
   - ✅ RAAC Part 91 - General Operating Rules (569 vectors)
   - ✅ RAAC Part 135 - Commuter Operations (456 vectors)
+  - ✅ RAAC Part 65 - (new document added)
 - **Embedding Model**: text-embedding-004 (768 dimensions)
 - **Cost**: $0/month (within free tiers)
 

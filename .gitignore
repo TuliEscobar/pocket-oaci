@@ -41,6 +41,6 @@ yarn-error.log*
 next-env.d.ts
 
 # data files (embeddings, PDFs, processed files - already in Pinecone)
-/data/pdfs/
-/data/embeddings/
-/data/processed/
+# /data/pdfs/
+# /data/embeddings/
+# /data/processed/
