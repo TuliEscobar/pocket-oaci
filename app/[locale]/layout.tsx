@@ -17,8 +17,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: 'OACI.ai - Pocket OACI',
-  description: 'The Pocket Bible for Global Aviation',
+  title: 'OACI.ai - OACI de Bolsillo',
+  description: 'Conocimiento regulatorio instantáneo, preciso y citado.',
+  icons: {
+    icon: '/logo.png',
+  },
 };
 
 type Props = {

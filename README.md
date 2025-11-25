@@ -94,8 +94,7 @@ pocket-oaci/
   - ✅ ICAO Doc 4444 - Air Traffic Management (1,754 vectors)
   - ✅ RAAC Part 61 - Personnel Licensing (181 vectors)
   - ✅ RAAC Part 91 - General Operating Rules (569 vectors)
-  - ✅ RAAC Part 135 - Commuter Operations (456 vectors)
-  - ✅ RAAC Part 65 - (new document added)
+  - ✅ RAAC Part 65 - Aeronsautical Navigation (vectors placeholder)
 - **Embedding Model**: text-embedding-004 (768 dimensions)
 - **Cost**: $0/month (within free tiers)
 
@@ -163,11 +162,11 @@ npm start
 
 ## 🌍 Features
 
-### Current Features (v0.3)
+### Current Features (v0.4)
 
-- ✅ **Jurisdiction Selector**: Switch between ICAO and Argentina regulations
-- ✅ **Language Enforcement**: Spanish for ARG, English for ICAU
-- ✅ **Language Selector Removed**: UI now defaults to Argentina (ARG) with Spanish language
+- ✅ **Voice Input**: Ask questions using your microphone (Web Speech API)
+- ✅ **Branding**: New "OACI de Bolsillo" / "Pocket OACI" identity
+- ✅ **Jurisdiction Selector**: Switch between ICAO (English) and Argentina (Spanish)
 - ✅ **Markdown Responses**: Beautiful formatting with bold, lists, and structure
 - ✅ **Source Citations**: Exact document references with relevance scores
 - ✅ **Responsive Design**: Works on desktop and mobile
@@ -178,7 +177,6 @@ npm start
 
 - 🔄 Conversation history
 - 🔄 More ICAO Annexes (1, 2, 6, 14)
-- 🔄 Voice input
 - 🔄 Export to PDF
 - 🔄 More jurisdictions (FAA, EASA)
 

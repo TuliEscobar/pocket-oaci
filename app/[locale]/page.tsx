@@ -1,7 +1,8 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
-import { useState } from 'react';
+import { useTranslations, useLocale } from 'next-intl';
+import { useState, useEffect } from 'react';
+import { useRouter, usePathname } from 'next/navigation';
 import { Send, Mic, Plane, BookOpen, Zap, CheckCircle, Globe, Shield } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -10,14 +11,19 @@ import remarkGfm from 'remark-gfm';
 
 export default function HomePage() {
   const t = useTranslations('HomePage');
+  const locale = useLocale();
+  const router = useRouter();
+  const pathname = usePathname();
+
   const [query, setQuery] = useState('');
-  const [jurisdiction, setJurisdiction] = useState<'ICAO' | 'ARG'>('ARG');
+  const [jurisdiction, setJurisdiction] = useState<'ICAO' | 'ARG'>(locale === 'es' ? 'ARG' : 'ICAO');
   const [response, setResponse] = useState<null | {
     text: string;
     sources: Array<{ source: string; section?: string; preview?: string; score?: number }>;
     source?: string
   }>(null);
   const [loading, setLoading] = useState(false);
+  const [isListening, setIsListening] = useState(false);
 
   const handleSearch = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -63,20 +69,57 @@ export default function HomePage() {
     }
   };
 
+  const handleVoiceInput = () => {
+    if (!('webkitSpeechRecognition' in window)) {
+      alert('Voice input is not supported in this browser.');
+      return;
+    }
+
+    // @ts-ignore
+    const recognition = new window.webkitSpeechRecognition();
+    recognition.lang = locale === 'es' ? 'es-ES' : 'en-US';
+    recognition.continuous = false;
+    recognition.interimResults = false;
+
+    recognition.onstart = () => {
+      setIsListening(true);
+    };
+
+    recognition.onresult = (event: any) => {
+      const transcript = event.results[0][0].transcript;
+      setQuery(transcript);
+      setIsListening(false);
+      // Optional: Auto-submit after voice input
+      // handleSearch({ preventDefault: () => {} } as React.FormEvent);
+    };
+
+    recognition.onerror = (event: any) => {
+      console.error('Speech recognition error', event.error);
+      setIsListening(false);
+    };
+
+    recognition.onend = () => {
+      setIsListening(false);
+    };
+
+    recognition.start();
+  };
+
   return (
     <main className="min-h-screen bg-black text-white flex flex-col font-sans selection:bg-cyan-500/30">
-      {/* Header */}
+      {/* ... (Header remains same) ... */}
       <header className="w-full max-w-6xl mx-auto p-6 flex justify-between items-center border-b border-zinc-900/50 sticky top-0 bg-black/80 backdrop-blur-md z-50">
         <div className="flex items-center gap-2">
-          <Plane className="w-5 h-5 text-cyan-500" />
-          <h1 className="text-xl font-bold tracking-tight text-white">OACI.ai</h1>
+          {/* <Plane className="w-5 h-5 text-cyan-500" /> */}
+          {/* <h1 className="text-xl font-bold tracking-tight text-white">OACI.ai</h1> */}
+          <img src="/logo.png" alt="OACI.ai" className="h-12 w-auto object-contain" />
         </div>
 
         <div className="flex items-center gap-4">
           {/* Jurisdiction Selector */}
           <div className="flex bg-zinc-900 rounded-lg p-1 border border-zinc-800">
             <button
-              onClick={() => setJurisdiction('ARG')}
+              onClick={() => router.push('/es')}
               className={`px-3 py-1.5 rounded-md text-xs font-medium transition-all ${jurisdiction === 'ARG'
                 ? 'bg-blue-500 text-white shadow-lg shadow-blue-500/20'
                 : 'text-zinc-400 hover:text-white'
@@ -85,7 +128,7 @@ export default function HomePage() {
               🇦🇷 ARG
             </button>
             <button
-              onClick={() => setJurisdiction('ICAO')}
+              onClick={() => router.push('/en')}
               className={`px-3 py-1.5 rounded-md text-xs font-medium transition-all ${jurisdiction === 'ICAO'
                 ? 'bg-cyan-500 text-black shadow-lg shadow-cyan-500/20'
                 : 'text-zinc-400 hover:text-white'
@@ -234,14 +277,18 @@ export default function HomePage() {
           <form onSubmit={handleSearch} className="relative group">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-2xl opacity-20 group-hover:opacity-40 transition duration-500 blur"></div>
             <div className="relative bg-black rounded-2xl flex items-center p-2 border border-zinc-800 focus-within:border-zinc-700 transition-colors">
-              <button type="button" className="p-3 text-zinc-500 hover:text-white transition-colors">
+              <button
+                type="button"
+                onClick={handleVoiceInput}
+                className={`p-3 transition-colors ${isListening ? 'text-red-500 animate-pulse' : 'text-zinc-500 hover:text-white'}`}
+              >
                 <Mic className="w-5 h-5" />
               </button>
               <input
                 type="text"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                placeholder={t('placeholder')}
+                placeholder={isListening ? (locale === 'es' ? 'Escuchando...' : 'Listening...') : t('placeholder')}
                 className="flex-1 bg-transparent border-none focus:ring-0 text-white placeholder-zinc-600 px-2 py-2 text-lg outline-none"
               />
               <button

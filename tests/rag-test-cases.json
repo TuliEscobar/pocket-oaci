@@ -1,3 +1,4 @@
+```json
 [
     {
         "question": "¿Cuál es la edad mínima para obtener una licencia de piloto comercial?",
@@ -18,5 +19,16 @@
         "question": "What are the minimum visibility requirements for takeoff?",
         "expectedSource": "Annex 6",
         "language": "en"
+    },
+    {
+        "question": "¿Qué establece la Parte 65 del RAAC?",
+        "expectedSource": "RAAC Part 65",
+        "expectedSection": ""
+    },
+    {
+        "question": "¿Qué establece la Parte 65 del RAAC?",
+        "expectedSource": "RAAC Part 65",
+        "expectedSection": ""
     }
 ]
+```
