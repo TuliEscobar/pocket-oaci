@@ -8,11 +8,12 @@ async function testRAG() {
     let passedTests = 0;
     let failedTests = 0;
 
-    for (let i = 0; i < testCases.length; i++) {
-        const testCase = testCases[i];
+    const cases = testCases as any[];
+    for (let i = 0; i < cases.length; i++) {
+        const testCase = cases[i];
         const locale = (testCase as any).language || 'es';
 
-        console.log(`\n📝 Test ${i + 1}/${testCases.length}`);
+        console.log(`\n📝 Test ${i + 1}/${cases.length}`);
         console.log(`❓ Pregunta: ${testCase.question}`);
         console.log(`📚 Fuente esperada: ${testCase.expectedSource}`);
 
@@ -54,9 +55,9 @@ async function testRAG() {
     }
 
     console.log(`\n🎯 Resultados finales:`);
-    console.log(`   ✅ Tests pasados: ${passedTests}/${testCases.length}`);
-    console.log(`   ❌ Tests fallidos: ${failedTests}/${testCases.length}`);
-    console.log(`   📊 Tasa de éxito: ${((passedTests / testCases.length) * 100).toFixed(1)}%`);
+    console.log(`   ✅ Tests pasados: ${passedTests}/${cases.length}`);
+    console.log(`   ❌ Tests fallidos: ${failedTests}/${cases.length}`);
+    console.log(`   📊 Tasa de éxito: ${((passedTests / cases.length) * 100).toFixed(1)}%`);
 }
 
 testRAG().catch(console.error);
