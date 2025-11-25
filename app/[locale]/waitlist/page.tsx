@@ -49,8 +49,7 @@ export default function WaitlistPage() {
             {/* Header */}
             <header className="w-full max-w-6xl mx-auto p-6 flex justify-between items-center border-b border-zinc-900/50">
                 <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-                    <Plane className="w-5 h-5 text-cyan-500" />
-                    <h1 className="text-xl font-bold tracking-tight text-white">OACI.ai</h1>
+                    <img src="/logo.png" alt="OACI.ai" className="h-12 w-auto object-contain" />
                 </Link>
             </header>
 

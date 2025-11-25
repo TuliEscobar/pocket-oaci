@@ -3,6 +3,7 @@
 import { useTranslations, useLocale } from 'next-intl';
 import { useState, useEffect } from 'react';
 import { useRouter, usePathname } from 'next/navigation';
+import Link from 'next/link';
 import { Send, Mic, Plane, BookOpen, Zap, CheckCircle, Globe, Shield } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -109,10 +110,11 @@ export default function HomePage() {
     <main className="min-h-screen bg-black text-white flex flex-col font-sans selection:bg-cyan-500/30">
       {/* ... (Header remains same) ... */}
       <header className="w-full max-w-6xl mx-auto p-6 flex justify-between items-center border-b border-zinc-900/50 sticky top-0 bg-black/80 backdrop-blur-md z-50">
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-3">
           {/* <Plane className="w-5 h-5 text-cyan-500" /> */}
           {/* <h1 className="text-xl font-bold tracking-tight text-white">OACI.ai</h1> */}
           <img src="/logo.png" alt="OACI.ai" className="h-12 w-auto object-contain" />
+          <h1 className="text-xl font-bold tracking-tight text-white">OACI.ai</h1>
         </div>
 
         <div className="flex items-center gap-4">
@@ -354,9 +356,9 @@ export default function HomePage() {
                   </li>
                 ))}
               </ul>
-              <button className="w-full py-3 rounded-xl border border-zinc-700 text-white hover:bg-zinc-800 transition-colors font-medium">
+              <Link href={`/${locale}/waitlist`} className="block w-full py-3 rounded-xl border border-zinc-700 text-white hover:bg-zinc-800 transition-colors font-medium text-center">
                 {t('cta.button')}
-              </button>
+              </Link>
             </div>
 
             {/* Pro Plan */}
@@ -375,9 +377,9 @@ export default function HomePage() {
                   </li>
                 ))}
               </ul>
-              <button className="w-full py-3 rounded-xl bg-cyan-500 text-black hover:bg-cyan-400 transition-colors font-bold shadow-lg shadow-cyan-500/20">
+              <Link href={`/${locale}/waitlist`} className="block w-full py-3 rounded-xl bg-cyan-500 text-black hover:bg-cyan-400 transition-colors font-bold shadow-lg shadow-cyan-500/20 text-center">
                 {t('cta.button')}
-              </button>
+              </Link>
             </div>
           </div>
         </div>

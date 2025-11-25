@@ -13,8 +13,10 @@ OACI.ai is an intelligent assistant that answers questions about aviation regula
 
 - ✈️ **Dual Jurisdiction Support**: ICAO (International) and RAAC (Argentina)
 - 🌍 **Bilingual**: Full support for Spanish and English
+- 🎙️ **Voice Input**: Ask questions using your microphone
 - 📚 **RAG-Powered**: Answers based on official documents stored in vector database
 - 🎯 **Source Citations**: Every response includes exact document references
+- 📝 **Waitlist System**: User registration with Google Sheets integration
 - 💅 **Beautiful UI**: Dark mode interface with markdown-formatted responses
 - ⚡ **Fast**: Responses in seconds with semantic search
 
@@ -162,8 +164,9 @@ npm start
 
 ## 🌍 Features
 
-### Current Features (v0.4)
+### Current Features (v0.5)
 
+- ✅ **Waitlist System**: User registration form with Google Sheets integration
 - ✅ **Voice Input**: Ask questions using your microphone (Web Speech API)
 - ✅ **Branding**: New "OACI de Bolsillo" / "Pocket OACI" identity
 - ✅ **Jurisdiction Selector**: Switch between ICAO (English) and Argentina (Spanish)

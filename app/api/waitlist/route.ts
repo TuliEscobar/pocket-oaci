@@ -1,71 +1,88 @@
-import { NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
+import { NextRequest, NextResponse } from 'next/server';
 
-export async function POST(req: Request) {
+export async function POST(req: NextRequest) {
     try {
         const body = await req.json();
         const { email, role, document, painPoint } = body;
 
-        if (!email || !email.includes('@')) {
+        // Validación básica
+        if (!email || !role) {
             return NextResponse.json(
-                { error: "Email inválido" },
+                { error: 'Email y rol son requeridos' },
                 { status: 400 }
             );
         }
 
-        const leadsDir = path.join(process.cwd(), 'data');
-        const leadsFile = path.join(leadsDir, 'leads.json');
-
-        // Asegurar que el directorio existe
-        if (!fs.existsSync(leadsDir)) {
-            fs.mkdirSync(leadsDir, { recursive: true });
-        }
-
-        // Leer leads existentes
-        let leads = [];
-        if (fs.existsSync(leadsFile)) {
-            const fileContent = fs.readFileSync(leadsFile, 'utf-8');
-            try {
-                leads = JSON.parse(fileContent);
-            } catch (e) {
-                leads = [];
-            }
-        }
-
-        // Verificar duplicados
-        if (leads.some((l: any) => l.email === email)) {
+        // Validar formato de email
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
             return NextResponse.json(
-                { message: "¡Ya estás en la lista! Te avisaremos pronto." },
+                { error: 'Email inválido' },
+                { status: 400 }
+            );
+        }
+
+        // Obtener la URL del webhook de Google Sheets desde las variables de entorno
+        const webhookUrl = process.env.GOOGLE_SHEETS_WEBHOOK_URL;
+
+        if (!webhookUrl) {
+            // Si no hay webhook configurado, solo logueamos los datos
+            console.log('⚠️ GOOGLE_SHEETS_WEBHOOK_URL no configurada. Datos del registro:');
+            console.log({
+                timestamp: new Date().toISOString(),
+                email,
+                role,
+                document: document || '',
+                painPoint: painPoint || ''
+            });
+
+            return NextResponse.json(
+                { success: true, message: 'Registro exitoso (modo desarrollo)' },
                 { status: 200 }
             );
         }
 
-        // Agregar nuevo lead
-        const newLead = {
-            id: crypto.randomUUID(),
-            email,
-            role,
-            document,
-            painPoint,
-            date: new Date().toISOString(),
-            source: 'web_waitlist'
-        };
+        // Enviar datos a Google Sheets
+        try {
+            const response = await fetch(webhookUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    email,
+                    role,
+                    document: document || '',
+                    painPoint: painPoint || '',
+                }),
+            });
 
-        leads.push(newLead);
-
-        // Guardar
-        fs.writeFileSync(leadsFile, JSON.stringify(leads, null, 2));
+            if (!response.ok) {
+                console.error('Error al guardar en Google Sheets:', await response.text());
+                // Aún así retornamos éxito para no bloquear al usuario
+                return NextResponse.json(
+                    { success: true, message: 'Registro recibido' },
+                    { status: 200 }
+                );
+            }
+        } catch (fetchError) {
+            console.error('Error al conectar con Google Sheets:', fetchError);
+            // Retornamos éxito de todas formas
+            return NextResponse.json(
+                { success: true, message: 'Registro recibido' },
+                { status: 200 }
+            );
+        }
 
         return NextResponse.json(
-            { message: "¡Anotado! Bienvenido a bordo. ✈️" },
-            { status: 201 }
+            { success: true, message: 'Registro exitoso' },
+            { status: 200 }
         );
 
-    } catch (error: any) {
-        console.error('Waitlist Error:', error);
+    } catch (error) {
+        console.error('Error en /api/waitlist:', error);
         return NextResponse.json(
-            { error: "Error al guardar tu registro. Intenta de nuevo." },
+            { error: 'Error interno del servidor' },
             { status: 500 }
         );
     }

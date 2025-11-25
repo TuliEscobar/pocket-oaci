@@ -50,5 +50,53 @@
       "title": "Ready for Takeoff?",
       "button": "Start Using OACI.ai"
     }
+  },
+  "Waitlist": {
+    "title": "Join the Beta",
+    "subtitle": "Early Access to OACI.ai",
+    "description": "We're releasing access gradually to ensure the best experience. Join the waitlist and be among the first to use the tool that's revolutionizing how aviation professionals access regulations.",
+    "form": {
+      "email": "Email Address",
+      "emailPlaceholder": "your@email.com",
+      "role": "What is your primary role?",
+      "rolePlaceholder": "Select your role",
+      "roles": {
+        "pilot_commercial": "Commercial Pilot / ATPL",
+        "pilot_student": "Student Pilot",
+        "atc": "Air Traffic Controller",
+        "dispatcher": "Flight Dispatcher",
+        "instructor": "Flight Instructor",
+        "mechanic": "Aircraft Mechanic",
+        "airport_ops": "Airport Operator",
+        "enthusiast": "Aviation Enthusiast / Simmer",
+        "other": "Other"
+      },
+      "document": "Which document do you consult most?",
+      "documentPlaceholder": "e.g., ICAO Annex 6, Doc 4444...",
+      "painPoint": "What's your biggest challenge with regulations?",
+      "painPointPlaceholder": "Optional: Tell us your biggest frustration",
+      "submit": "Join the Waitlist",
+      "submitting": "Submitting..."
+    },
+    "success": {
+      "title": "You're on the list! ✈️",
+      "message": "Check your email (and spam) soon. We're releasing access every week.",
+      "cta": "Back to Home"
+    },
+    "benefits": {
+      "title": "Why join now?",
+      "early_access": {
+        "title": "Priority Access",
+        "desc": "Be among the first to use OACI.ai before the public launch."
+      },
+      "influence": {
+        "title": "Shape the Product",
+        "desc": "Your direct feedback will shape the features we build."
+      },
+      "free": {
+        "title": "Free Beta",
+        "desc": "Full access at no cost during the beta phase."
+      }
+    }
   }
 }
