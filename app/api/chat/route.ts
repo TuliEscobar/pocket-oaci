@@ -1,6 +1,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { NextResponse } from "next/server";
 import { queryRAG, isRAGConfigured } from "@/lib/rag/rag-service";
+import { auth } from "@clerk/nextjs/server";
 
 const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY || "");
 
@@ -8,8 +9,11 @@ export async function POST(req: Request) {
     try {
         const { message, locale, jurisdiction } = await req.json();
 
+        // Obtener info del usuario autenticado
+        const { userId } = await auth();
+
         // 📝 Log para Vercel Analytics/Logs
-        console.log(`💬 Query [${jurisdiction || 'ICAO'}]: "${message}"`);
+        console.log(`💬 Query [${jurisdiction || 'ICAO'}] from user ${userId || 'anonymous'}: "${message}"`);
 
         if (!process.env.GOOGLE_API_KEY) {
             return NextResponse.json(
@@ -30,6 +34,10 @@ export async function POST(req: Request) {
             console.log(`🔍 Using RAG (Jurisdiction: ${jurisdiction || 'ICAO'}, Language: ${enforcedLocale})...`);
             try {
                 const ragResult = await queryRAG(message, enforcedLocale, jurisdiction);
+
+                // 📊 Log respuesta para Vercel
+                console.log(`✅ Response [RAG]: ${ragResult.answer.substring(0, 150)}...`);
+                console.log(`📚 Sources used: ${ragResult.sources.map(s => s.source).join(', ')}`);
 
                 return NextResponse.json({
                     text: ragResult.answer,
@@ -108,6 +116,9 @@ export async function POST(req: Request) {
             const result = await runChat("gemini-pro");
             text = result.response.text();
         }
+
+        // 📊 Log respuesta para Vercel (modo estándar)
+        console.log(`✅ Response [Standard]: ${text.substring(0, 150)}...`);
 
         return NextResponse.json({
             text: text,
