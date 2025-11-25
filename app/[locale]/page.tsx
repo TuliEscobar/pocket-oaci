@@ -44,7 +44,8 @@ export default function HomePage() {
     setResponse(null);
 
     try {
-      const res = await fetch('/api/chat', {
+      const apiUrl = `${window.location.origin}/api/chat`;
+      const res = await fetch(apiUrl, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
