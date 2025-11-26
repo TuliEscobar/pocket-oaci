@@ -8,9 +8,14 @@
     "start": "next start",
     "lint": "eslint",
     "bot": "tsx telegram-bot.ts",
-    "bot:dev": "tsx watch telegram-bot.ts"
+    "bot:dev": "tsx watch telegram-bot.ts",
+    "android:sync": "npx cap sync android",
+    "android:open": "npx cap open android"
   },
   "dependencies": {
+    "@capacitor/android": "^7.4.4",
+    "@capacitor/cli": "^7.4.4",
+    "@capacitor/core": "^7.4.4",
     "@clerk/localizations": "^3.28.5",
     "@clerk/nextjs": "^6.35.5",
     "@google/generative-ai": "^0.24.1",

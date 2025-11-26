@@ -44,3 +44,17 @@ next-env.d.ts
 # /data/pdfs/
 # /data/embeddings/
 # /data/processed/
+
+# Android
+android/app/build/
+android/app/.cxx/
+android/build/
+android/.gradle/
+android/local.properties
+android/.idea/
+android/captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+

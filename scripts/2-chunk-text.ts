@@ -36,8 +36,10 @@ function chunkDocument(text: string, metadata: any): Chunk[] {
             // Intentar extraer número de sección del texto
             const sectionMatch = chunkText.match(/^(\d+\.\d+(?:\.\d+)?)\s+([A-Z][^\n]+)/);
 
+            // Sanitize ID to be ASCII only
+            const safeFilename = metadata.filename.replace(/[^\x00-\x7F]/g, '_');
             chunks.push({
-                id: `${metadata.filename}-${sectionIndex}-${i}`,
+                id: `${safeFilename}-${sectionIndex}-${i}`,
                 text: chunkText,
                 metadata: {
                     source: metadata.filename,

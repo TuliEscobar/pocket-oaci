@@ -14,7 +14,7 @@
 ## 🗄️ Database Status
 
 - **Pinecone Index**: `oaci-docs`
-- **Total Vectors**: 2,960
+- **Total Vectors**: 5,401
 - **Documents Loaded**:
   - ✅ **ICAO Anexo 15**: Servicios de Información Aeronáutica (Ed. 2018)
   - ✅ **RAAC Parte 61**: Licencias, certificados de competencia y habilitaciones para pilotos
@@ -23,7 +23,7 @@
   - ✅ **RAAC Parte 135**: Requisitos de operación: operaciones no regulares internas e internacionales
   - ✅ **PR GOPE 069**: Procedimiento para recepción, control y transmisión del FPL
   - ✅ **PROGEN ARO**: Procedimientos Generales ARO
-  - ✅ **PROGEN ATM**: Procedimientos Generales de Gestión de Tránsito Aéreo
+  - ✅ **PROGEN ATM**: Procedimientos Generales de Gestión de Tránsito Aéreo (Enmienda 2 2021)
 - **Embedding Model**: text-embedding-004 (768 dimensions)
 - **Cost**: $0/month (within free tiers)
 
@@ -53,6 +53,9 @@ npx tsx scripts/3-generate-embeddings.ts
 
 # 5. Upload to Pinecone
 npx tsx scripts/4-upload-to-pinecone.ts
+
+# 6. Verify Embeddings (Optional)
+npx tsx scripts/verify-pinecone-docs.ts
 ```
 
 ## 🚀 Deployment
@@ -91,8 +94,10 @@ npm start
 
 ## 🌍 Features
 
-### Current Features (v0.5)
+### Current Features (v0.6)
 
+- ✅ **Android App**: Native mobile app using Capacitor (hybrid architecture)
+- ✅ **Authentication**: Clerk integration with Google Sign-In
 - ✅ **Waitlist System**: User registration form with Google Sheets integration
 - ✅ **Voice Input**: Ask questions using your microphone (Web Speech API)
 - ✅ **Branding**: New "OACI de Bolsillo" / "Pocket OACI" identity
@@ -105,6 +110,7 @@ npm start
 
 ### Coming Soon
 
+- 🔄 Android app on Play Store
 - 🔄 Conversation history
 - 🔄 More ICAO Annexes (1, 2, 6, 14)
 - 🔄 Export to PDF
@@ -112,9 +118,18 @@ npm start
 
 ## 📖 Documentation
 
+### Main Documentation
 - **[RAG_IMPLEMENTATION.md](./RAG_IMPLEMENTATION.md)**: Complete RAG architecture guide
 - **[DEPLOYMENT.md](./DEPLOYMENT.md)**: Deployment guide for Vercel
 - **[VISIONARY_ROADMAP.md](./VISIONARY_ROADMAP.md)**: Long-term product strategy
+
+### 📱 Android App
+- **[docs/android/](./docs/android/)**: Complete Android app documentation
+  - [Quick Start Guide](./docs/android/QUICKSTART.md)
+  - [Build Guide](./docs/android/BUILD_GUIDE.md)
+  - [Clerk Setup](./docs/android/CLERK_SETUP.md)
+  - [Setup Summary](./docs/android/SETUP_SUMMARY.md)
+
 
 ## 🤝 Contributing
 

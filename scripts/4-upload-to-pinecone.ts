@@ -95,7 +95,7 @@ async function uploadToPinecone() {
                 }));
 
                 await index.upsert(vectors);
-                process.stdout.write(`   ✅ Subidos ${Math.min(i + batchSize, chunks.length)}/${chunks.length}\r`);
+                console.log(`   ✅ Subidos ${Math.min(i + batchSize, chunks.length)}/${chunks.length}`);
             }
 
             console.log(); // Nueva línea
