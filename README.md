@@ -14,13 +14,12 @@
 ## 🗄️ Database Status
 
 - **Pinecone Index**: `oaci-docs`
-- **Total Vectors**: 6,170
+- **Total Vectors**: 7,709
 - **Documents Loaded**:
   - ✅ **ICAO Doc 4444**: Gestión del Tránsito Aéreo (PANS-ATM)
-  - ✅ **AIP Argentina GEN 1**: Reglamentos y Requisitos Nacionales
-  - ✅ **AIP Argentina GEN 2**: Tablas y Códigos
-  - ✅ **AIP Argentina GEN 3**: Servicios
   - ✅ **ICAO Anexo 15**: Servicios de Información Aeronáutica (Ed. 2018)
+  - ✅ **AIP Argentina GEN**: Generalidades (Reglamentos, Tablas, Servicios)
+  - ✅ **AIP Argentina ENR**: En-Route (Reglas, Espacio Aéreo, Rutas ATS, Radioayudas, Procedimientos)
   - ✅ **RAAC Parte 61**: Licencias, certificados de competencia y habilitaciones para pilotos
   - ✅ **RAAC Parte 65**: Personal aeronáutico excepto miembros de la tripulación de vuelo
   - ✅ **RAAC Parte 91**: Reglas de vuelo y operación general
@@ -110,7 +109,7 @@ npm start
 - ✅ **Source Citations**: Exact document references with relevance scores
 - ✅ **Responsive Design**: Works on desktop and mobile
 - ✅ **Dark Mode**: Eye-friendly interface
-- ✅ **RAG-Powered**: Answers from 6,170 document chunks
+- ✅ **RAG-Powered**: Answers from 7,709 document chunks
 
 ### Coming Soon
 

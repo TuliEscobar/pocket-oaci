@@ -1,15 +1,17 @@
 import React from 'react';
 
 const DOCUMENTS = [
+    "ICAO Doc 4444",
     "ICAO Anexo 15",
+    "AIP Argentina GEN",
+    "AIP Argentina ENR",
     "RAAC Parte 61",
+    "RAAC Parte 65",
     "RAAC Parte 91",
     "RAAC Parte 135",
-    "RAAC Parte 65",
     "PR GOPE 069",
     "PROGEN ARO",
-    "PROGEN ATM",
-    "ICAO Doc 4444"
+    "PROGEN ATM"
 ];
 
 export default function DocumentTicker() {
