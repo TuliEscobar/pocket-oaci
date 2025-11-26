@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">OACI.ai</string>
+    <string name="title_activity_main">OACI.ai</string>
+    <string name="package_name">com.oaci.app</string>
+    <string name="custom_url_scheme">com.oaci.app</string>
+</resources>

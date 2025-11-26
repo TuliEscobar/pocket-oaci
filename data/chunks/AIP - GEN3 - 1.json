@@ -1,0 +1,238 @@
+[
+  {
+    "id": "AIP - GEN3 - 1.pdf-0-0",
+    "text": "AIP ARGENTINA GEN 3.1-1 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AMDT AIRAC 1/2025 12 JUNIO 2025 GEN 3. SERVICIOS / SERVICES GEN 3.1 SERVICIO DE INFORMACIÓN AERONÁUTICA GEN 3.1 AERONAUTICAL INFROMATION SERVICES 1. Servicio responsable La Administración Nacional de Aviación Civil (ANAC) es la Autoridad Aeronáutica responsable de regular, supervisar, publicar y fiscalizar el suministro de los Productos de información aeronáutica y datos aeronáuticos en el territorio de la República Argentina, sus aguas jurisdiccionales, el espacio aéreo que los cubre y los espacios aéreos extraterritoriales, cuando por convenios internacionales se acuerde que dichos espacios se encuentran bajo jurisdicción de los Servicios de Información Aeronáutica de la República Argentina. El Departamento Información Aeronáutica, que forma parte de la Dirección Regulación, Normas y Procedimientos, la cual depende de la Dirección Nacional de Inspección de Navegación Aérea, asegura el flujo de información necesaria para la seguridad, regularidad y eficiencia de la navegación aérea internacional y nacional en el área de responsabilidad.",
+    "metadata": {
+      "source": "AIP - GEN3 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 1.pdf-2-0",
+    "text": "1.1 Departamento Información Aeronáutica Dirección Nacional de Inspección de Navegación Aérea Dirección Regulación, Normas y Procedimientos Departamento Información Aeronáutica Balcarce 290 C1064AAF – CABA República Argentina Dirección Telegráfica Aeronáutica (AFS): SABAYRYX E-mail: dianac@anac.gob.ar El Departamento Información Aeronáutica funciona de lunes a viernes de 8:00 a 16:00 horas.",
+    "metadata": {
+      "source": "AIP - GEN3 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "1.1",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 1.pdf-4-0",
+    "text": "1.2 Oficina NOTAM Internacional (NOF) Este servicio es brindado por la Empresa Argentina de Navegación Aérea Sociedad del Estado (EANA S.E.). Oficina NOTAM Internacional Aeropuerto Internacional Ezeiza / Ministro Pistarini (1804) Buenos Aires República Argentina Dirección telegráfica aeronáutica (AFS): SAEZYNYX Tel: (+ 54 11) 4480-2260 E-mail: nofezeiza@eana.com.ar 2. Área de responsabilidad El Servicio de Información Aeronáutica es responsable de reunir, compilar, editar y publicar la información aeronáutica relativa a todo el territorio de la República Argentina, sus aguas jurisdiccionales, el espacio aéreo que los cubre y los espacios aéreos extraterritoriales, cuando por convenios internacionales se acuerde que dichos espacios se encuentran bajo jurisdicción de la República Argentina. El servicio de información aeronáutica (AIS) garantiza que se distribuyan la información aeronáutica y los datos aeronáuticos necesarios para la seguridad operacional, regularidad, economía y eficiencia del sistema de la gestión de tránsito aéreo (ATM) de un modo ambientalmente sostenible. La función y la importancia de 1. Responsible Service The National Civil Aviation Administration (ANAC) is the Aeronautical Authority responsible for regulating, supervising, publishing and controlling the provision of aeronautical information products and aeronautical data in the territory of the Argentine Republic, its jurisdictional waters, the airspace that covers them and the extraterritorial airspaces, when by international agreements it is agreed that such spaces are under the jurisdiction of the Aeronautical Information Services of the Argentine Republic. The Aeronautical Information Department, which is part of the Regulation, Standards and Procedures Directorate, which reports to the National Directorate of Air Navigation Inspection, ensures the flow of information necessary for the safety, regularity and efficiency of international and national air navigation in its area of responsibility.",
+    "metadata": {
+      "source": "AIP - GEN3 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "1.2",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 1.pdf-6-0",
+    "text": "1.1. Aeronautical Information Department National Directorate of Air Navigation Inspection Directorate of Regulation, Standards and Procedures Aeronautical Information Department Balcarce 290 C1064AAF – CABA República Argentina Aeronautical Telegraphic Address (AFS): SABAYRYX E-mail: dianac@anac.gob.ar Aeronautical Information Department works from Mondays to Fridays, from 08:00 to 16:00 (local time).",
+    "metadata": {
+      "source": "AIP - GEN3 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 1.pdf-8-0",
+    "text": "1.2 International NOTAM Office (NOF) The service is provided by the Argentine Air Navigation Company State Society (EANA S.E.). International NOTAM Office) Ezeiza International Airport / Ministro Pistarini (1804) Buenos Aires República Argentina Aeronautical Telegraphic Address (AFS): SAEZYNYX Telephone No.: (+54 11) 4480-2260 E-mail: nofezeiza@eana.com.ar 2. Area of Responsibility The aeronautical information service (AIS) is responsible for gathering, compiling, issuing and publishing the aeronautical information relating to the whole territory of the Republic of Argentina, its jurisdictional waters, the air space covering them, and the extraterritorial air spaces when, according to international agreements, it is agreed that such spaces are under the jurisdiction of the Republic of Argentina. The aeronautical information service ensures the distribution of the aeronautical information and aeronautical data necessaries for the safety, regularity, economy and efficiency of the air traffic management (ATM) system in an environmentally sustainable manner. The function and importance of the aeronautical data and AIP ARGENTINA GEN 3.1-2 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AMDT AIRAC 3/2022 3 NOVIEMBRE 2022 los datos aeronáuticos y de la información aeronáutica cambiaron significativamente con la implantación de la navegación de área (RNAV), la navegación basada en la performance (PBN), los sistemas de navegación de a bordo computarizados, la comunicación basada en la performance (PBC) y la vigilancia basada en la performance (PBS), los sistemas de enlace de datos y las comunicaciones orales por satélite (SATVOICE). Si la información aeronáutica o los datos aeronáuticos se alteran, son erróneos, tardíos o inexistentes, la seguridad operacional de la navegación aérea puede resultar afectada. La provisión del Servicio de Información Aeronáutica está regulada por las RAAC Parte 215 — Servicios de Información Aeronáuticas — concordante con el Anexo 15 – Servicio de Información Aeronáutica OACI – y armonizado con el LAR 215 del SRVSOP. Si hubiese diferencias con el Anexo 15 se notificarán en GEN 1.7. El Departamento Información Aeronáutica publica los siguientes productos de información aeronáutica: a) Publicación de información aeronáutica (AIP), con sus enmiendas y suplementos; b) Los Suplementos AIP; c) Las circulares de información aeronáutica (AIC); d) Las Cartas aeronáuticas. La Empresa Argentina de Navegación Aérea Sociedad del Estado (EANA S.E.) es el Proveedor de Servicios de Navegación Aérea (ANSP), según lo establecido en la Ley 27161, y tiene la responsabilidad de brindar la siguiente información aeronáutica: a) Los NOTAM y boletines de información previa al vuelo (PIB) y b) listas de verificación y listas de NOTAM válidos. 3. Publicaciones aeronáuticas Los productos de Información Aeronáutica están constituidos por los siguientes elementos:  La Publicación de Información Aeronáutica (AIP);  El Servicio de enmiendas a la AIP (AIP AMDT);  Los Suplementos a la AIP Serie A (SUP/A);  Las Circulares de Información Aeronáutica (AIC) Serie A;  NOTAM A y B; y  Cartas aeronáuticas. Los datos y la información aeronáutica se suministran las 24 horas mediante la página web http://ais.anac.gob.ar/ La información NOTAM y las listas de verificación mensuales son emitidas a través del servicio fijo aeronáutico (AFS) del ANSP, mientras que los Boletines de información",
+    "metadata": {
+      "source": "AIP - GEN3 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "1.2",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 1.pdf-8-450",
+    "text": "NOTAM A y B; y  Cartas aeronáuticas. Los datos y la información aeronáutica se suministran las 24 horas mediante la página web http://ais.anac.gob.ar/ La información NOTAM y las listas de verificación mensuales son emitidas a través del servicio fijo aeronáutico (AFS) del ANSP, mientras que los Boletines de información previa al vuelo (PIB) son confeccionados por las oficinas ARO/AIS de los aeródromos.",
+    "metadata": {
+      "source": "AIP - GEN3 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 1.pdf-11-0",
+    "text": "3.1 Publicación de Información Aeronáutica (AIP) Es el documento aeronáutico básico, pensado esencialmente para satisfacer los requerimientos internacionales de intercambio de of the aeronautical information have changed significantly with the implementation of area navigation (RNAV), performance-based navigation (PBN), on-board computerized navigation systems, performance-based communication (PBC) and performance-based surveillance (PBS), and data link systems and satellite verbal communications (SATVOICE). If the aeronautical information or the aeronautical data are altered, are incorrect, or if they come late or if they do not exist at all, the air navigation safety may be affected. The provision of the Aeronautical Information Service is regulated by RAAC Part 215 - Aeronautical Information Services - in accordance with Annex 15 - ICAO Aeronautical Information Service - and harmonized with LAR 215 of the SRVSOP. Any deviations from Annex 15 shall be notified in GEN 1.7. The Aeronautical Information Department publishes the following aeronautical information products: a) Aeronautical Information Publication (AIP), as amended and supplemented; b) AIP Supplements; c) Aeronautical Information Circulars (AIC); d) Aeronautical Charts. Empresa Argentina de Navegación Aérea Sociedad del Estado (EANA S.E.) is the Air Navigation Service Provider (ANSP), as established in Law 27161, and is responsible for providing the following aeronautical information: a) NOTAM and pre-flight information bulletins (PIB), and b) checklists and lists of valid NOTAM. 3. Aeronautical Publications Aeronautical Information products consist of the following elements:  Aeronautical Information Publication (AIP);  AIP Amendments Service (AIP AMDT);  AIP Supplements Series A (SUP/A);  Aeronautical Information Circulars (AIC) Series A;  NOTAM A and B; and  Aeronautical charts Aeronautical data and information is provided 24 hours a day through the website http://ais.anac.gob.ar/. The NOTAM information and the monthly checklists are issued through the aeronautical fixed service (AFS), while the Pre-Flight Information Bulletins (PIB) are produced by the aerodromes ARO/AIS offices. The other elements of this documentation are delivered by mail.",
+    "metadata": {
+      "source": "AIP - GEN3 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 1.pdf-13-0",
+    "text": "3.1 Aeronautical Information Publication (AIP)4 It is the basic aeronautical document, essentially designed to satisfy the international requirements for the permanent AIP ARGENTINA GEN 3.1-3 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AMDT AIRAC 3/2022 3 NOVIEMBRE 2022 información aeronáutica permanente y los cambios de larga duración esenciales para la navegación aérea. Se publica en tres volúmenes en formato bilingüe para uso en operaciones internacionales y nacionales, tanto para vuelos comerciales o privados.",
+    "metadata": {
+      "source": "AIP - GEN3 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 1.pdf-15-0",
+    "text": "3.2 Servicio de enmiendas a la AIP (AIP AMDT) Se producen dos tipos de enmiendas:  Enmienda AIP regular (AMDT AIP), publicada de acuerdo con un intervalo regular establecido e incorpora cambios permanentes a la AIP en la fecha de publicación indicada; y  Enmienda AIP AIRAC (AMDT AIP AIRAC), publicada de acuerdo con el sistema AIRAC e incorpora cambios operacionales significativos permanentes en una fecha de efectividad AIRAC. En la cubierta de la enmienda AIP se brinda una breve descripción de las partes afectadas por la enmienda. La información nueva incluida en las páginas reimpresas de la AIP se identifica con una flecha en el margen izquierdo (o a la izquierda) del cambio/agregado. Cada página de la AIP y las páginas reemplazantes incluidas en las enmiendas, así como la cubierta, constan de una fecha. Esta fecha consiste en el día, mes (en letras) y año de publicación (Enmienda regular a la AIP) o la fecha de efectividad AIRAC (Enmienda AIP AIRAC) correspondiente a dicha información. La cubierta de la enmienda incluye el número de serie de la información contenida e indica si alguna parte de los productos de información aeronáutica es cancelada al ser incluida en la AIP a través de la enmienda. Cada enmienda regular AIP y cada enmienda AIRAC llevan números de serie separados, los cuales son consecutivos y están basados en el año calendario. El año, indicado en dos dígitos, es parte del número de serie de la enmienda. Ej.: AMDT AIP 1/98; AMDT AIP AIRAC 1/98. Con cada enmienda se publica una lista de verificación de las páginas de la AIP, la cual contiene número de página/título de la carta y la fecha de publicación o de efectividad, según corresponda; esta lista de verificación es parte integrante de la AIP.",
+    "metadata": {
+      "source": "AIP - GEN3 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 1.pdf-17-0",
+    "text": "3.3 Suplementos a la AIP (SUP) Los cambios temporarios de larga duración (tres meses o más), la información de corta duración de gran volumen de texto y/o los gráficos se publican en Suplementos a la AIP (SUP). Los cambios temporarios que son significativos para las operaciones se publican de acuerdo con el sistema AIRAC, y se establece una fecha de efectividad. Esta última clase de suplementos se distingue por llevar la frase AIRAC sobre el borde superior derecho en fondo negro. A cada Suplemento AIP se le asignará un número de serie consecutivo y basado en el año civil, precedido por la letra A (Ej.: SUP A 08/98). exchange of aeronautical information and for the long-lasting changes in air navigation. It is published in three volumes and in separate sheets format, in Spanish, to be used in national and international operations, and both for commercial or private flights.",
+    "metadata": {
+      "source": "AIP - GEN3 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.3",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 1.pdf-19-0",
+    "text": "3.2 AIP Amendments Service (AIP AMDT) Two types of amendments are produced:  Regular AIP amendment (AIP AMDT), published in accordance with an established regular interval, it includes the permanent AIP changes in the indicated publication date, and  AIP AIRAC Amendment (AIP AIRAC AMDT), published in accordance with the AIRAC system, it includes permanent significant operational changes on an effective AIRAC date. The AIP amendment cover has a brief description of the parts affected by the amendment. The new information included on the reprinted AIP pages is identified with an arrow on the left margin (or on the left) of the change or of the added part. Each page of the AIP and the replaced pages included in the amendments, as well as the cover, have a date. Such date consists of the day, the month (in letters) and the publication year (regular AIP amendment) or the effective AIRAC date (AIP AIRAC amendment) corresponding to that information. The amendment cover includes the series number of the information contained, and it indicates if any part of the documents of Aeronautical Information products is canceled to be included in the AIP through the amendment. Each regular AIP amendment and each AIRAC amendment has separate series numbers, which are consecutive and based on the calendar year. The year, indicated with two digits, is part of the amendment series number. E.g.: AIP AMDT 1/98; AIP AIRAC AMDT 1/98. With each amendment, a check list of AIP pages is published. It contains the page number/title of the chart and the publication or effective date, as appropriate. Such checklist is part of the AIP.",
+    "metadata": {
+      "source": "AIP - GEN3 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 1.pdf-22-0",
+    "text": "3.3 AIP Supplements (SUP) The long-lasting temporary changes (three months or more), the short- term information with a great volume of texts and/or graphics is published through AIP Supplements (SUP). Temporary changes significant for air operations are published in accordance with the AIRAC system, and an effective date is established. This last type of supplement is identified by the use of the phrase AIRAC on the right upper edge in black contrast. Each AIP Supplement will be assigned a consecutive series number based on the civil year and preceded by the letter A (E.g.: SUP A 08/98). AIP ARGENTINA GEN 3.1-4 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AMDT AIRAC 3/2022 3 NOVIEMBRE 2022 Un suplemento a la AIP se conserva mientras una parte o toda la información contenida tenga validez. El período de validez de la información contenida en un suplemento normalmente se fija en el suplemento mismo. En ocasiones puede utilizarse un NOTAM para indicar cambios en el período de validez de un suplemento o bien su cancelación. Las listas de control de los suplementos a la AIP en vigencia se publican dentro del resumen mensual. Las páginas de los Suplementos AIP se imprimirán en color amarillo para distinguirlas fácilmente.",
+    "metadata": {
+      "source": "AIP - GEN3 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.3",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 1.pdf-24-0",
+    "text": "3.4 Circulares de Información Aeronáutica (AIC) Las Circulares de Información Aeronáutica (AIC) contienen información que no requiere la iniciación de un NOTAM o su inclusión en la AIP, relacionada con asuntos de carácter técnico, administrativo o legislativo que sean de interés para la operación. Las AIC Serie A contienen información que afecta a la aviación civil internacional y su distribución es internacional. Cada AIC está numerada consecutivamente, basada en el año calendario. El año, indicado en dos dígitos, forma parte del número de serie de la AIC. Ej.: AIC A 1/96.",
+    "metadata": {
+      "source": "AIP - GEN3 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.4",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 1.pdf-27-0",
+    "text": "3.5 NOTAM y Boletines de información previa al vuelo (PIB) Los NOTAM contienen información sobre establecimiento, condición o cambio de alguna instalación o de algún servicio, procedimiento o peligro aeronáutico. El conocimiento de esta información es esencial para el personal relacionado con las operaciones aéreas. El texto de cada NOTAM contiene información en el orden especificado por el formato NOTAM OACI y codificado de acuerdo con el código NOTAM OACI complementado con abreviaturas OACI, indicadores, identificadores, designadores, indicativos de llamada, frecuencias, figuras y texto claro. Los NOTAM son distribuidos en 4 series identificadas con las letras A, C, S y V. Serie A. NOTAM que contienen información completa sobre todos los aeródromos/helipuertos, instalaciones y procedimientos disponibles de interés para vuelos nacionales e internacionales de larga o media distancia y a los que se da distribución nacional e internacional seleccionada; Serie C. NOTAM que contienen información de interés para aquellas aeronaves que no se dedican a la aviación civil internacional y a los que se da únicamente distribución nacional; Serie S. NOTAM relativos a la presencia o al cese de condiciones peligrosas debido a nieve, nieve fundente o hielo en el pavimento de los aeródromos o a agua estancada relacionada con estas condiciones. Serie V. NOTAM que notifican por medio de un formato específico un cambio de importancia para las operaciones de las aeronaves debido a la actividad de un volcán, una erupción volcánica y/o una nube con ceniza volcánica. An AIP supplement is kept as long as part or all the information contained is in force. The validity period of the information in a supplement is normally fixed in the supplement itself. Sometimes a NOTAM may be used to indicate changes in the validity period of a supplement or its cancellation. The AIP Supplements checklists in force are published within the monthly summary. The pages of AIP Supplements will be printed in yellow so as to be easily recognized.",
+    "metadata": {
+      "source": "AIP - GEN3 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.5",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 1.pdf-29-0",
+    "text": "3.4 Aeronautical Information Circulars (AIC) The Aeronautical Information Circulars (AIC) contain the information that does not require the issuance of a NOTAM or being included in the AIP, and related to those technical, administrative or legal matters important/interesting for operation. Series A AICs contain information that affects the international civil aviation, and they have international distribution. AIC are numbered consecutively, based on the calendar year. The year, indicated with two digits, is part of the AIC series number. E.g.: AIC A 1/96.",
+    "metadata": {
+      "source": "AIP - GEN3 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.4",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 1.pdf-31-0",
+    "text": "3.5 NOTAM and Pre-Flight Information Bulletins (PIB) NOTAMs contain information concerning the establishment, condition or change of any facility, service or procedure, or concerning an aeronautical hazard. The knowledge of all this information is essential for the personnel involved in air operations. The text of each NOTAM contains information in the order specified by the ICAO NOTAM format and coded in accordance with the ICAO NOTAM code complemented by ICAO abbreviations, indicators, identifiers, designators, call signs, frequencies, graphics and clear text. NOTAMs are delivered in 4 series identified with the letters A, C, S and V. Series A. NOTAMs containing complete information regarding all the aerodromes/heliports, facilities and procedures available, information that is also important/interesting for national and international long- or medium-distance flights. They have national and international selected distribution. Series C. NOTAMs containing important/interesting information for those aircraft that are not affected to international civil aviation and that have only national distribution. Series S. NOTAMs related to the presence or end of hazardous conditions due to snow, slush or ice on the pavements of the aerodromes, or to standing waters relating to these conditions. Series V. NOTAMs that notify, by means of a specific format, an important change for aircraft operations due to volcanic activity, a volcanic eruption, and/or a cloud with volcanic ashes. AIP ARGENTINA GEN 3.1-5 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AMDT AIRAC 1/2023 13 JULIO 2023 Los boletines de información previa al vuelo (PIB) contienen una recapitulación de los NOTAM vigentes y alguna otra información urgente para los operadores/tripulaciones. Están disponibles en las oficinas ARO/AIS dependientes de la Empresa Argentina de Navegación Aérea Sociedad del Estado (EANA S.E.).",
+    "metadata": {
+      "source": "AIP - GEN3 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.5",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 1.pdf-33-0",
+    "text": "3.6 Listas de verificación y Resúmenes NOTAM Una Lista de verificación de los NOTAM vigentes se publica mensualmente vía AFS. El resumen de NOTAM vigentes se distribuye por correo a todos los receptores de los productos de Información Aeronáutica. Consiste en una presentación de los NOTAM en texto claro (en español) y de información acerca de los números de las últimas enmiendas a la AIP (regulares y AIRAC), los últimos Suplementos a la AIP y AIC publicados, así como también el material publicado bajo el sistema AIRAC con sus respectivas fechas de efectividad. Si no hubiese información AIRAC publicada, se iniciará la notificación NIL y se distribuirá mediante NOTAM.",
+    "metadata": {
+      "source": "AIP - GEN3 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.6",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 1.pdf-35-0",
+    "text": "3.7 Adquisición de publicaciones Las publicaciones de información aeronáutica se podrán adquirir las 24 horas mediante la página web http://ais.anac.gob.ar/ 4. Sistema reglamentado de publicación AIRAC La información relativa a cambios operacionales en instalaciones, servicios y procedimientos que se puedan prever con antelación se publicarán mediante el sistema reglamentado AIRAC, en forma de AMDT o SUP a la AIP, según las especificaciones del Anexo 15 de la OACI. El mismo está basado en fechas comunes de entrada en vigor a intervalos de 28 días. La información será distribuida por lo menos con 42 días de antelación con respecto a la fecha de entrada en vigor, de manera que los destinatarios puedan recibirla por lo menos 28 días antes de esa fecha. Siempre que se prevean modificaciones de importancia y cuando sea conveniente y factible, debería fijarse la fecha de publicación con una antelación de por lo menos 56 días respecto de la fecha de entrada en vigor. El AIS determinará, en cada caso, el tiempo necesario para preparar y publicar la información dependiendo del grado de complejidad de la misma. La información notificada mediante el sistema AIRAC no será modificada por lo menos hasta 28 días después de la fecha indicada de efectividad, a menos que la circunstancia notificada sea de carácter temporal y no persista durante todo el período. Se difundirá una publicación “NIL” por NOTAM cuando no se disponga de información a publicar mediante el sistema AIRAC. En la tabla siguiente se establecen las fechas AIRAC de publicación y de entrada en vigor para los años consignados. The Pre-Flight Information Bulletins (PIB) contain a recapitulation of the NOTAMs in force and any other urgent information for operators/crew members. They are available in ARO/AIS offices depending on the Argentine Air Navigation Company State Society (EANA S.E.).",
+    "metadata": {
+      "source": "AIP - GEN3 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.7",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 1.pdf-37-0",
+    "text": "3.6 NOTAM Checklists and Summaries A Checklist of NOTAMs in force is published monthly via AFS. The summary of NOTAMs in force is delivered by mail to all users who receive the Aeronautical Information products. This summary consists of a presentation of NOTAMs in clear text (in Spanish), and of information about the numbers of the last (regular and AIRAC) AIP amendments, the last AIP Supplements and AIC published, as well as the material published under AIRAC system with its corresponding effective dates. If there is no AIRAC information published, the NIL report will be initiated and delivered through a NOTAM.",
+    "metadata": {
+      "source": "AIP - GEN3 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.6",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 1.pdf-39-0",
+    "text": "3.7 Sale of Publications Aeronautical information publications can be purchased 24 hours a day through the website http://ais.anac.gob.ar/ 4. AIRAC Publications Regulated System The information relative to operational changes in facilities, services and procedures that may be foreseen will be published by means of the regulated AIRAC system, in the form of an AMDT or a SUP to the AIP, in accordance with the specifications of ICAO Annex 15. The system is based on entry common dates at 28 days intervals. The information will be delivered at least 42 days before the effective entry date in order to make it available to the recipient at least 28 days before that date. Whenever important modifications are foreseen and whenever it is convenient and feasible, a publication date should be fixed at least 56 days in advance with respect to the effective entry date. In each case, the AIS shall determine the time necessary to prepare and publish the information, depending on its complexity. The information reported through the AIRAC system will not be modified at least until 28 days after the indicated effective date, unless the reported item is temporary and does not last for the whole period. A “NIL” publication will be issued by means of a NOTAM when there is no information available to publish through AIRAC system. In the following table, the AIRAC publication and entry dates in force for the indicated years are established. AIP ARGENTINA GEN 3.1-6 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AMDT AIRAC 1/2025 12 JUNIO 2025 Tabla de fechas de efectividad AIRAC / Table of AIRAC effective dates 2025 2026 2027 2028 2029 23-ene-25 22-ene-26 21-ene-27 20-ene-28 18-ene-29 20-feb-25 19-feb-26 18-feb-27 17-feb-28 15-feb-29 20-mar-25 19-mar-26 18-mar-27 16-mar-28 13-mar-29 17-abr-25 16-abr-26 15-abr-27 13-abr-28 12-abr-29 15-may-25 14-may-26 13-may-27 11-may-28 10-may-29 12-jun-25 11-jun-26 10-jun-27 08-jun-28 07-jun-29 10-jul-25 09-jul-26 08-jul-27 06-jul-28 05-jul-29 07-ago-25 06-ago-26 05-ago-27 03-ago-28 02-ago-29 04-set-25 03-set-26 02-set-27 31-ago-28 30-ago-2 02-oct-25 01-oct-26 30-set-27 28-set-28 27-set-29 30-oct-25 29-oct-26 28-oct-27 26-oct-28 25-oct-29 27-nov-25 26-nov-26 25-nov-27 23-nov-28 22-nov-29 25-dic-25 24-dic-26 23-dic-27 21-dic-28 20-dic-29 5 Servicio de información previa al vuelo (PIB) en los aeródromos/helipuertos Todas las oficinas ARO/AIS, dependientes de la Empresa Argentina de Navegación Aérea Sociedad del Estado (EANA S.E.), suministran a los usuarios la información necesaria para la realización de un vuelo. En estas oficinas se encuentran a disposición de los usuarios los diferentes elementos de los productos AIS, cartografía esencial y Boletines de información previa al vuelo, proporcionándose también información verbal a requerimiento.",
+    "metadata": {
+      "source": "AIP - GEN3 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.7",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 1.pdf-41-0",
+    "text": "5.1 Boletines de información previa al vuelo (PIB) Los PIB se confeccionan en las oficinas ARO/AIS de cada aeródromo, dependientes de la Empresa Argentina de Navegación Aérea Sociedad del Estado (EANA S.E.) y consisten en una lista de NOTAM en vigencia, en lenguaje claro y abreviaturas OACI. Su cobertura abarca zonas importantes de tránsito o rutas principales determinadas según las necesidades de los usuarios. Los PIB se complementan con información que, aun no siendo motivo de publicación por NOTAM, puede ser de utilidad a nivel local de aeródromo y de interés para el usuario. Por lo general, los PIB se presentan en dos partes: a) AVISOS A LA NAVEGACIÓN: Incluyen información sobre actividades en zonas restringidas o peligrosas, ejercicios militares, etc. b) GENERALIDADES: Incluyen información sobre condiciones de servicio, cambios en los procedimientos, etc. 6 Conjuntos de datos digitales En desarrollo. 5. Pre-Flight Information Service (PIB) at Aerodromes / Heliports All ARO/AIS offices, depending on the Argentine Air Navigation Company State Society (EANA S.E.), provide users with the necessary information to make a flight. In such offices, the different elements of the Aeronautical Information products, essential charts and Pre-Flight Information Bulletins are available to users, and even verbal information is provided, upon request.",
+    "metadata": {
+      "source": "AIP - GEN3 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "5.1",
+      "chapter": "5"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 1.pdf-44-0",
+    "text": "5.1 Pre-Flight Information Bulletins (PIB) PIBs are produced in the aeronautical information offices of each aerodrome, and they consist of a list of the NOTAMs in force, in clear language and using ICAO abbreviations. They cover important traffic zones or specific main routes, according to the users’ needs. PIBs are complemented with information that may be useful locally for the aerodrome and important/interesting for the user, even when it is not published through a NOTAM. In general, PIBs have two parts: a) NAVIGATION NOTICES: They include information regarding activities in restricted or dangerous zones, military activity, etc. b) GENERAL: It includes information regarding service conditions, changes in procedures, etc. 6 Digital data sets Under development.",
+    "metadata": {
+      "source": "AIP - GEN3 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "5.1",
+      "chapter": "5"
+    }
+  }
+]

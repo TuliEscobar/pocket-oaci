@@ -1,0 +1,698 @@
+[
+  {
+    "id": "AIP - GEN3 - 4.pdf-0-0",
+    "text": "AIP ARGENTINA GEN 3.4-1 DEPARTAMENTO INFORMACION AERONAUTICA AMDT AIRAC 1/2025 12 JUNIO 2025 GEN 3. SERVICIOS / SERVICES GEN 3.4 SERVICIOS DE COMUNICACIONES Y NAVEGACIÓN GEN 3.4 COMMUNICATION AND NAVIGATION SERVICES 1. Servicio responsable La autoridad aeronáutica responsable de la planificación, regulación y fiscalización de los servicios e instalaciones para la navegación aérea en la República Argentina es la Dirección Nacional de Inspección de Navegación Aérea (DNINA), dependiente de la Administración Nacional de Aviación Civil (ANAC). ADMINISTRACIÓN NACIONAL DE AVIACIÓN CIVIL Dirección Nacional de Inspección de Navegación Aérea Balcarce 290 (C1064AAF) Ciudad Autónoma de Buenos Aires República Argentina AFTN: SABAYRYX SABAYTYR Los servicios se brindan de acuerdo con lo establecido en las siguientes regulaciones: Normativa nacional: a) RAAC Parte 210 Telecomunicaciones Aeronáuticas b) Normas y Procedimientos de Telecomunicaciones en Jurisdicción Aeronáutica, estructurado de la siguiente manera:  Parte I: Instalaciones y servicios CNS;  Parte II: Instalación y funcionamiento de equipamiento y servicios radioeléctricos en aeródromos, aeropuertos, y lugares de jurisdicción aeronáutica;  Parte III: Indicadores de lugar, designadores de entidades oficiales, servicios, y abreviaturas de interés aeronáutico;  Parte IV: Códigos y abreviaturas de comunicaciones;  Parte V: Mantenimiento de equipos y sistemas CNS. c) Procedimientos de Telecomunicaciones Aeronáuticas (equivalente al Vol. II del Anexo 10). Documentos OACI: a) Anexo 10 – Telecomunicaciones Aeronáuticas. b) Doc 8400 – Procedimientos para los Servicios de Navegación aérea – Abreviaturas y códigos de la OACI. c) Doc 8585 – Designadores de empresas explotadores aeronaves, de entidades oficiales y de servicios aeronáuticos. d) Doc 7030 – Procedimientos suplementarios regionales. e) Doc 7910 – Indicadores de lugar. f) Doc 8071 – Manual sobre ensayo de radioayudas para la navegación. 1. Responsible Service The aeronautical authority responsible for planning, regulating and supervising the services and facilities for air navigation in the Republic of Argentina is the National Directorate of Air Navigation Inspection (DNINA), depending on the National Civil Aviation Administration (ANAC). ADMINISTRACIÓN NACIONAL DE AVIACIÓN CIVIL Dirección Nacional de Inspección de Navegación Aérea Balcarce 290 (C1064AAF) Ciudad Autónoma de Buenos Aires República Argentina AFTN: SABAYRYX SABAYTYR The services are provided in accordance with the stipulations of the following regulations: National Standards: a) RAAC Part 210 Aeronautical Telecommunications. b) Telecommunications Standards and Procedures in Aeronautical Jurisdiction, organized as follows:  Part I: CNS services and facilities;  Part II: Installation and operation of radio electrical equipment and services at aerodromes, airports, and places in aeronautical jurisdiction;  Part III: Location indicators, official bodies designators, services, and abbreviations of aeronautical interest;  Part IV: Codes and abbreviations of communications;  Part V: Maintenance of CNS equipment and systems. c) Aeronautical Telecommunications Procedures (equivalent to Vol II of Annex 10). ICAO Documents: a) Annex 10 – Aeronautical Telecommunications. b) Doc 8400 – Procedures for Air Navigation Services – ICAO Abbreviations and Codes. c) Doc 8585 – Designators for Aircraft Operating Agencies, Aeronautical Authorities and Services. d) Doc 7030 – Regional Supplementary Procedures. e) Doc 7910 – Location Indicators. f) Doc 8071 – Manual on Testing of Radio",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-0-450",
+    "text": "Telecommunications. b) Doc 8400 – Procedures for Air Navigation Services – ICAO Abbreviations and Codes. c) Doc 8585 – Designators for Aircraft Operating Agencies, Aeronautical Authorities and Services. d) Doc 7030 – Regional Supplementary Procedures. e) Doc 7910 – Location Indicators. f) Doc 8071 – Manual on Testing of Radio Navigation Aids. AIP ARGENTINA GEN 3.4-2 DEPARTAMENTO INFORMACION AERONAUTICA AMDT AIRAC 1/2025 12 JUNIO 2025 Las diferencias con respecto a estos documentos se detallan en la parte GEN 1.7. 2. Área de responsabilidad El organismo responsable de la planificación, reglamentación y supervisión de los servicios de telecomunicaciones y radionavegación aeronáutica en el territorio nacional es la Dirección de Proyectos de Navegación Aérea (DPNA), dependiente de la Dirección Nacional de Inspección de Navegación Aérea (DNINA). ADMINISTRACIÓN NACIONAL DE AVIACIÓN CIVIL Dirección Nacional de Inspección de Navegación Aérea Balcarce 290 (C1064AAF) Ciudad Autónoma de Buenos Aires República Argentina AFTN: SABAYRYX SABAYTYR El Proveedor de los Servicios de Navegación Aérea (ANSP) responsable de brindar y mantener los servicios de telecomunicaciones y radionavegación aeronáutica en el territorio nacional es la Empresa Argentina de Navegación Aérea Sociedad del Estado (EANA). EMPRESA ARGENTINA DE NAVEGACIÓN AÉREA SOCIEDAD DEL ESTADO (EANA) Bouchard 547 9° Piso, C1006AAG – Ciudad Autónoma de Buenos Aires - REPÚBLICA ARGENTINA Dirección Telegráfica Aeronáutica (AFS): SABGYTYX/ SABGYFYX E-mail:operaciones@eana.com.ar www.eana.com.ar/contacto www.eana.com.ar/servicios Los pedidos de servicio de esta naturaleza, de informes, las sugerencias o las quejas deberán presentarse a la Dirección Nacional de Inspección de Navegación Aérea (DNINA). El presente documento contiene la nomenclatura de los servicios prestados y también algunas disposiciones y normas particulares para los mismos. 3. Tipos de servicio",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-2-0",
+    "text": "3.1 Servicios de radionavegación Comprende el funcionamiento de los siguientes tipos de radioayudas para la navegación aérea:  Radiofaros no direccionales de baja frecuencia -LF/MF-(NDB),  Sistemas de aterrizaje por instrumentos (ILS),  Radiofaros omnidireccionales en VHF (VOR),  Equipos radiotelemétricos (DME), asociados a VOR o ILS. En general funcionan en forma continua y permanente (H-24), o con ajuste al horario de la estación de comunicaciones de cada lugar, según se consigna en la columna correspondiente a la parte AD 2.19 de cada aeródromo. IMPORTANTE: Con relación a la información contenida en las secciones AD 2.19 de cada aeródromo de la AIP Parte Aerodromos (AD) sobre las instalaciones ILS, la indicación de categoría (Cat.) incluida en la The differences with respect to these documents are detailed in GEN Part 1.7. 2. Responsibility Area The body responsible for planning, regulating and supervising the telecommunications and aeronautical radio navigation services in the national territory is the Directorate of Air Navigation Projects (DPNA), depending on the National Directorate of Air Navigation Inspection (DNINA). ADMINISTRACIÓN NACIONAL DE AVIACIÓN CIVIL Dirección Nacional de Inspección de Navegación Aérea Balcarce 290 (C1064AAF) Ciudad Autónoma de Buenos Aires República Argentina AFTN: SABAYRYX SABAYTYR The Air Navigation Service Provider (ANSP) responsible for providing and maintaining the telecommunications and aeronautical radio navigation services in the national territory is the Argentine Air Navigation Company State Society (Empresa Argentina de Navegación Aérea Sociedad del Estado (EANA). ARGENTINE AIR NAVIGATION COMPANY STATE SOCIETY (EANA) Bouchard 547 9° Piso, C1006AAG – Ciudad Autónoma de Buenos Aires - REPÚBLICA ARGENTINA Aeronautical Telegraphic Address (AFS): SABGYTYX/ SABGYFYX E-mail:operaciones@eana.com.ar www.eana.com.ar/contacto www.eana.com.ar/servicios The requests for this kind of service, for reports, suggestions or complaints shall be submitted to the National Directorate of Air Navigation Inspection (DNINA). This document contains the nomenclature of the services provided on the Network of Flight Safety and Protection (RSPV) and also some provisions and specific standards for them. 3. Types of Service",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-4-0",
+    "text": "3.1 Radio Navigation Services It includes the operation of the following types of radio aids to air navigation:  Non-directional beacons of low frequency -LF/MF- (NDB),  Instrument landing systems (ILS),  Omnidirectional Range in VHF (VOR),  Radio telemetry equipment (DME), associated to VOR or ILS. In general, they operate continuously and permanently (H-24), or they adjust to the time of the communication stations of each place, as recorded in the column corresponding to AD Part 2.19 of each aerodrome. IMPORTANT: In reference to the information included in the sections AD 2.19 of each aerodrome in AIP Part Aerodrome (AD) on ILS installations, the indication of the category (Cat) included in the column “Remarks” AIP ARGENTINA GEN 3.4-3 DEPARTAMENTO INFORMACION AERONAUTICA AMDT AIRAC 1/2025 12 JUNIO 2025 columna “Observaciones” exclusivamente hace referencia a la “categoría de actuación de la instalación” (características técnicas y de funcionamiento) que en cada caso corresponda, de acuerdo con lo establecido en la siguiente documentación:  RAAC Parte 210 CAPÍTULO A - MARCO GENERAL PARA LA GESTIÓN DE LOS SISTEMAS CNS - 210.001 Definiciones y acrónimos y CAPÍTULO B - RADIOAYUDAS PARA LA NAVEGACIÓN - Subcapítulo B-2: Especificaciones relativas a las radioayudas para la navegación.  Anexo 10 – Telecomunicaciones Aeronáuticas, Volumen I – Radioayudas para la navegación. Capítulo 3. Especificaciones relativas a las radioayudas para la navegación.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-6-0",
+    "text": "3.1.1 Zonas de servicio de los radiofaros de LF-MF (NDB) El uso de estos radiofaros de baja y media frecuencia deberá ajustarse a la zona de servicio (ZDS) especificada en cada caso conforme la función que cumpla (navegación en ruta –NDB– o localización de pista –NDB/LI y NDB/LO–). Los radiofaros NDB de localización de pista, interno (LI) y externo (LO), tienen una zona de servicio de 30 y 50 km, respectivamente. Cuando se intenta recibir un NDB a mayor distancia que la correspondiente a dicha zona (ZDS), puede ocurrir que sus señales sean débiles y/o estén interferidas por las emisiones de otros NDB, resultando así marcaciones erróneas. Dentro de dichos conceptos, cabe señalar los siguientes casos: 1) Los NDB localizadores de pista (LI-LO) deben ser usados dentro de la distancia y altura del procedimiento de aproximación y aterrizaje respectivo. Los valores de 30 km o 50 km estipulados para estas radioayudas marcan el límite máximo operativo recomendable. Su aplicación en exceso puede provocar los problemas mencionados en el párrafo anterior. 2) Los NDB que se emplean para navegación en una aerovía o ruta deberán ser usados en forma progresiva y preferente dentro del 50 al 60% de la distancia entre dos sucesivos. (Por ej.: la aeronave en ruta desde el NDB \"A\" hacia el NDB \"B\" conviene que emplee las señales del primero (\"A\") hasta el 50 - 60% de la distancia entre ambas y luego pasar el segundo (\"B\"). No es práctica recomendable guiarse por las señales del NDB más distante, salvo, obviamente, en distancias cortas y con experiencias de buenas señales en la ZDS del NDB deseado. 3) En todas las operaciones es indispensable hacer un reconocimiento efectivo de la identificación (señal de identificación) del NDB deseado, antes de confiar en su marcación. 4) En las operaciones aéreas que se realicen en horas crepusculares o nocturnas y/o en zonas montañosas es posible que las marcaciones sean perjudicadas por los siguientes efectos. a) \"Efecto nocturno\": generalmente se manifiesta por una variación relativamente continua de la señal de marcación recibida como consecuencia de que la onda ionosférica se superpone o excede el valor de la onda directa. exclusively makes reference to the “performance category of the installation” (technical and operational characteristics) for each case, according to what is established in the following documentation:  RAAC Part 210 CHAPTER A - GENERAL FRAMEWORK FOR THE MANAGEMENT OF CNS SYSTEMS - 210.001 Definitions and acronyms, and CHAPTER B - RADIO AIDS FOR NAVIGATION - Subchapter B-2: Specifications concerning radio aids for navigation.  Annex 10 – Aeronautical Telecommunications, Volume I – Radio Navigation Aids. Chapter 3. Specifications for radio navigation aids.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.1.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-8-0",
+    "text": "3.1.1 Service Zones of Radio Beacons of LF-MF (NDB) The use of these radio beacons of low and medium frequency shall adjust to the service zone (ZDS) specified in each case, according to its function (en-route navigation –NDB– or runway localization – NDB/LI y NDB/LO–). NDB radio beacons for runway localization, internal (LI) and external (LO), have a service zone of 30 and 50 km, respectively. When there is an intention to receive an NDB at a greater distance than that of such zone (ZDS), its signs may be weak and/or they may have the interference of the emissions of other NDB, which may result in wrong markings. In such concepts, the following cases should be considered: 1) NDB runway localizers (LI-LO) must be used within the distance and height of the approach procedure and respective landing. The values of 30 km or 50 km established for these radio aids is the recommended maximum operating limit. Their application in excess may lead to the problems mentioned in the above paragraph. 2) The NDB utilized for navigation on an airway or on a runway shall be used progressively and preferably within the 50 to 60% of the distance between two subsequent ones. (Eg.: the aircraft en route from NDB \"A\" to NDB \"B\" should preferably use the signs of the first one (\"A\") until the 50 - 60% of the distance between both of them and then pass the second one (\"B\"). It is not recommended to follow the signs of the more distant NDB, except, obviously, in short distances and with experiences of good signs in the ZDS of the desired NDB. 3) In all operations it is essential to make an effective recognition of the identification (identification sign) of the desired NDB before relying on the markings. 4) In air operations conducted in twilight or night hours and/or on mountaineous zones, markings are likely to be impaired by the following effects: a) \"Night effect\": In general, it manifests itself as a relatively continuous variation of the marking sign received as a consequence of the fact that the ionospheric wave overlaps with or exceeds the value of the direct wave. b) Because of the same reason, signs of other distant or AIP ARGENTINA GEN 3.4-4 DEPARTAMENTO INFORMACION AERONAUTICA AMDT AIRAC 1/2025 12 JUNIO 2025 b) Por el mismo motivo pueden recibirse señales de otros NDB distantes o indeseados. Conviene, en ambos casos, tomar marcaciones de los NDB más cercanos y, de ser posible, preferir los de menor frecuencia (por ej., 200 KHz antes de 300 KHz, etc.) y la mayor altura de vuelo posible. c) “Efecto de montaña”: en las zonas montañosas y en las cercanías de una elevación, las marcaciones pueden no ser seguras. Un nivel de vuelo más alto y la comparación de señales de otros NDB facilitan la operación. 5) El hecho de recibir auditivamente la identificación de un NDB no es indicio suficiente de encontrarse dentro de la zona de servicio o alcance efectivo del",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.1.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-8-450",
+    "text": "las marcaciones pueden no ser seguras. Un nivel de vuelo más alto y la comparación de señales de otros NDB facilitan la operación. 5) El hecho de recibir auditivamente la identificación de un NDB no es indicio suficiente de encontrarse dentro de la zona de servicio o alcance efectivo del mismo. 6) Cuando se reciban dos identificaciones diferentes, conviene reajustar la sintonía sobre el NDB deseado y operar el control de selectividad (banda ancha o banda estrecha) si el ADF tuviera dicho selector.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-10-0",
+    "text": "3.1.2 Supresión de las señales de identificación Durante los períodos de mantenimiento o ajuste técnico de una radioayuda, será suprimida la emisión de la señal de identificación de la misma. La falta de recepción de esas señales (de identificación) deberá ser interpretada por los pilotos como aviso que la radioayuda está siendo sometida a ajustes técnicos, o bien como una alteración en los parámetros establecidos para su funcionamiento (falla). Por tal motivo, sus emisiones no deberán ser consideradas, pues podrían presentar oscilaciones y/o diferencias importantes en cuanto a su marcación. Normalmente, estos períodos de mantenimiento o ajuste técnico, las alteraciones de parámetros de funcionamiento y/o las limitaciones operativas serán anunciados previamente por NOTAM.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.1.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-12-0",
+    "text": "3.1.3 Limitaciones operativas o novedades relacionadas con las radioayudas Las limitaciones operativas o novedades publicadas en el presente documento relacionadas con los sistemas o aparatos usados para el Servicio de Radionavegación Aeronáutica (ILS, VOR, etc.) son las de carácter permanente o prolongado respecto de las condiciones normalizadas para el funcionamiento del equipo o servicio, o bien las condiciones / limitaciones operativas que puede imponer el medio, por ejemplo, el terreno u otras. Las mismas pueden ser consultadas en las siguientes secciones:  ENR 4.1 “Radioayudas y Sistemas de Navegación en Ruta”,  AD 2.19 “Radioayudas para la Navegación y el Aterrizaje”. Los usuarios deberán tomar en cuenta estas novedades al planear las operaciones de las aeronaves.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.1.3",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-14-0",
+    "text": "3.2 Servicio móvil aeronáutico (SMA) (comunicaciones aeroterrestres) En el servicio serán de aplicación los procedimientos de comunicaciones, códigos, abreviaturas, etc., contenidas en los documentos nacionales y de OACI. undesired NDB may be received. In both cases, it is convenient to consider the markings of the nearest NDB and, if possible, to prefer those of lower frequency (eg., 200 KHz rather than 300 KHz, etc.) and the greater flight height possible. c) “Mountain effect”: On mountainous zones and in the vicinity of an elevation, markings may not be safe. A higher flight level and the comparison of other NDB signs may facilitate the operation. 5) To receive in audio format an NDB identification is not a sufficient indication to demonstrate that it is within the zone of service or effective scope. 6) When two different identifications are received, it is convenient to readjust the tuning on the desired NDB and to operate the control of selectivity (broadband and narrow band) in case the ADF had such selector.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-16-0",
+    "text": "3.1.2 Suppression of Identification Signs During the periods of a radio aid maintenance or technical adjustment, the emission of the radio aid identification sign shall be suppressed. The no reception of those (identification) signs shall be read by the pilots as a notification showing that the radio aid is being technically adjusted, or as an alteration of the parameters established for its operation (malfunction). For such reason, its emissions shall not be considered, since they may have oscillations and/or important differences as regards its markings. Normally, these periods of maintenance or technical adjustment, the alterations in operation parameters and/or the operation limitations shall be previously announced through NOTAM.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.1.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-19-0",
+    "text": "3.1.3 Operation Limitations or News related to Radio Aids The operation limitations or news published in this document related to the systems or equipment used for the Aeronautical Radio Navigation Service (ILS, VOR, etc.) are permanent or prolonged with respect to the standardized conditions for the operation of the equipment or service, or the operation conditions / limitations that may be imposed by the environment, for example, the terrain or others. They may be consulted in the following sections:  ENR 4.1 “Radio Aids and En-route Navigation Systems”,  AD. 2.19 “Radio Aids for Navigation and Landing”. Users shall consider these news when planning aircraft operations.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.1.3",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-22-0",
+    "text": "3.2 Aeronautical Mobile Service (SMA) (Air and Ground Communications) In the service, the communication procedures, codes, abbreviations, etc. Included in the pertinent part of the documents described in former section 3 shall be applied AIP ARGENTINA GEN 3.4-5 DEPARTAMENTO INFORMACION AERONAUTICA AMDT AIRAC 1/2025 12 JUNIO 2025",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-23-0",
+    "text": "3.2.1 Clasificación y uso de los canales de comunicación La clasificación y condición de uso de los canales de radiofrecuencias para las comunicaciones aeroterrestres es:  Canal Principal (CPPL) o Frecuencia Principal, Canal Auxiliar (CAUX) o Frecuencia Secundaria, Canal de Emergencia (EMERG) y Canal o Frecuencia de Alternativa o sin horario determinado (HX). En condiciones normales deberá usarse siempre en primer término el Canal Principal (CPPL) que opera el servicio o dependencia con la que se quiere comunicar.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.2.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-25-0",
+    "text": "3.2.1.1 Canal auxiliar (CAUX) En las estaciones del Servicio Móvil Aeronáutico en que ha sido necesario y posible, se han establecido canales auxiliares o frecuencias secundarias para ser utilizados en el caso que se presenten dificultades, por ejemplo, interferencias radioeléctricas en el canal habitual o principal (CPPL) de algunos de los servicios o dependencias (ejemplo: en los servicios de TWR, APP, etc.). El uso de una frecuencia identificada como Canal Auxiliar (CAUX) será normalmente determinado por la dependencia o servicio de la estación aeronáutica que se trate. Sin embargo, habrá casos en los que la estación de aeronave deba recurrir al mismo por propia decisión si no logra enlace con la estación aeronáutica en el Canal Principal. Tal decisión se tomará después de varios intentos de comunicación en el CPPL, suficientemente repetidos. Deberá tenerse en cuenta que la mayoría de las estaciones aeronáuticas que disponen de esta facilidad no mantienen escucha continua en el CAUX. Este canal será empleado por la estación de aeronave o a requerimiento de las estaciones aeronáuticas en las siguientes circunstancias: a) Cuando se presenten interferencias radioeléctricas que impidan o dificulten las comunicaciones en el Canal Principal (CPPL). En el caso de que estas afecten solamente a la estación de aeronave, realizando la correspondiente notificación a la estación aeronáutica, podrá requerirse la utilización del CAUX (cuando dicha estación disponga de tal facilidad). b) Cuando en la estación aeronáutica el/los equipo/s usado/s para el Canal Principal no funciona/n por averías o por mantenimiento. c) Por lo menos una vez al día, la estación aeronáutica podrá solicitar a la/s aeronave/s que mejor convenga/n la realización de enlaces de comprobación, con el objeto de verificar periódicamente los equipos radioeléctricos que dispongan del CAUX. En estos casos, la estación aeronáutica emitirá la instrucción de emplear el CAUX a las aeronaves que correspondan a su servicio y/o jurisdicción. Podrá ocurrir que una interferencia radioeléctrica o bloqueo del canal principal impida a la estación de aeronave recibir la instrucción emitida para usar el CAUX u otras. En tales casos la estación de aeronave que tenga referencias o indicios de este problema llamarán alternativamente a través del CAUX y del CPPL hasta lograr el enlace y/o cumplirá los otros procedimientos",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-26-0",
+    "text": "3.2.1 Classification and Use of Communication Channels The classification and condition of use of radio frequency channels for air and ground communications is:  Principal Channel (CPPL) or Main Frequency, Auxiliary Channel (CAUX) or Secondary Frequency, Emergency Channel (EMERG) and Alternative Channel or Frequency without specified time (HX). In normal conditions, the principal channel (CPPL) operated by the service or unit to be contacted should always be used in the first place.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.2.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-28-0",
+    "text": "3.2.1.1 Auxiliary Channel (CAUX) In the Aeronautical Mobile Service stations of the Network of Flight Safety and Protection (RSPV) where it has been necessary and possible, auxiliary channels or secondary frequencies have been established to be used in case there appear difficulties, as, for example, radio electrical interferences in the normal or principal channel (CPPL) of some of the services or units (for instance, in TWR, APP, etc. services). The use of a frequency identified as Auxiliary Channel (CAUX) shall usually be determined by the unit or service of the aeronautical station involved. Nevertheless, there may be cases in which the aircraft station should use it by its own decision if it cannot establish a connection with the aeronautical station on the principal channel. Such decision shall be made after several sufficiently repeated attempts to communicate with the CPPL. It should be taken into consideration that most aeronautical stations with this option cannot listen continuously on the CAUX. This channel shall be used by the aircraft station or upon requirement of the aeronautical stations on the following circumstances: a) In case of radio electrical interferences preventing or hindering the communications on the principal channel (CPPL). If they only affect the aircraft station, the utilization of the CAUX may be required with the corresponding notification to the aeronautical station (when such station has said option). b) In case in the aeronautical station the equipment used for the principal channel is not working due to malfunctions or maintenance. c) At least once a day, the aeronautical station may request that the most suitable aircraft make verification links in order to check periodically the radio electrical equipment of the CAUX. In these cases, the aeronautical station shall issue an instruction for the aircraft of its service and/or in its jurisdiction to use the CAUX. It may occur that a radio electrical interference or a blockage in the principal channel may prevent the aircraft station from receiving the instruction issued for using the CAUX or other instructions. In such cases, the aircraft station with references or hints of this problem will call alternatively through the CAUX and the CPPL until making the link and/or it will comply with the other procedures AIP ARGENTINA GEN 3.4-6 DEPARTAMENTO INFORMACION AERONAUTICA AMDT AIRAC 1/2025 12 JUNIO 2025 establecidos para estas circunstancias",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-30-0",
+    "text": "3.2.1.2 Canales sin horario determinado (HX) o de alternativa Los canales (especialmente en las gamas de MF y HF) que en las secciones AD 2.18 figuren con la anotación “HX” corresponden a canales sin horario determinado de servicio, los que serán usados a discreción de la estación aeronáutica para servicios o circunstancias especiales que regulará por sí y en forma ajustada a las instrucciones del manual operativo. Por este motivo la estación de aeronave sólo recurrirá a los mismos en condiciones excepcionales o luego de recibir instrucción expresa de la estación aeronáutica en tal sentido.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-32-0",
+    "text": "3.2.1.3 Canal de Emergencia (EMERG) El Canal de Emergencia 121,5 MHz podrá ser utilizado por cualquier estación aeronáutica o de aeronave, de acuerdo con lo detallado seguidamente: a) Para facilitar un canal libre entre las aeronaves en peligro o en situación de emergencia y una estación aeronáutica, cuando los canales normales se estén utilizando para otras aeronaves. b) Como canal para comunicaciones en VHF común entre las aeronaves, tanto civiles como militares, y entre dichas aeronaves y los servicios de superficie que participen en operaciones comunes de búsqueda y salvamento, antes de cambiar, en los casos precisos, a la frecuencia adecuada (ver",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-33-0",
+    "text": "4.2.2). c) Para facilitar comunicaciones aeroterrestres con las aeronaves cuando la falla del equipo de a bordo impida usar los canales regulares. d) Como canal para la operación del equipo de radio de supervivencia para comunicaciones entre las embarcaciones de supervivencia y las aeronaves dedicadas a operaciones de búsqueda y salvamento. e) Como canal destinado a ser utilizado en casos de interceptación de aeronaves. Nota 1. — Debe evitarse el uso de la frecuencia 121,5 MHz para la finalidad indicada en b) si en algún modo interfiere con el curso eficaz del tráfico de socorro. Nota 2. — El actual Reglamento de Radiocomunicaciones de la UIT prevé que la frecuencia aeronáutica de emergencia de 121,5 MHz podrá utilizarse también por las estaciones móviles del servicio móvil marítimo que usen la emisión A3E para comunicarse, con fines de seguridad, con las estaciones del servicio móvil aeronáutico. IMPORTANTE: Sin perjuicio de las disposiciones anteriores, para evitar demoras innecesarias en situaciones de emergencia, se sugiere que la llamada de socorro se realice en primer término en el canal de comunicaciones empleado hasta ese momento por la estación de aeronave.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-35-0",
+    "text": "3.2.2 Comunicaciones en situaciones de búsqueda y salvamento Las comunicaciones entre las estaciones de aeronaves, entre éstas y las estaciones aeronáuticas o de estas últimas entre sí cuando established for these circumstances.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.2.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-37-0",
+    "text": "3.2.1.2 Channels without Specified Time (HX) or Alternative The channels (particularly those in the MF and HF ranges) that in sections AD 2.18 appear with the note “HX” are channels without specified time of service that will be used at the discretion of the aeronautical station for special services or circumstances which it will regulate itself and adjusting to the instructions of the operating manual. For this reason, the aircraft station will only appeal to them exceptionally or after receiving express instructions of the aeronautical station to that effect.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-39-0",
+    "text": "3.2.1.3 Emergency Channel (EMERG) The Emergency Channel 121.5 MHz may be used by any aeronautical or aircraft station, in accordance to the following details: a) To facilitate a free channel between the aircraft in danger or in an emergency and an aeronautical station when the normal channels are being used for other aircraft. b) As a common channel for VHF communications among aircraft, either civil or military, and between such aircraft and the surface services participating in common search and rescue operations before changing, in the specific cases, to the adequate frequency (see 4.2.2). c) To facilitate air and ground communications with aircraft when an equipment malfunction on board does not allow the use of the regular channels. d) As a channel for the operation of the survival radio equipment for communications between the survival boats and the aircraft affected to search and rescue operations. e) As a channel to be used in cases of aircraft interception. Note 1. — The frequency 121.5 MHz should not be used for the purpose indicated in b) if it somehow interferes with the effective course of distress traffic. Nota 2. — The current Regulations on Radio Communications of UIT consider that the aeronautical emergency frequency of 121.5 MHz can also be used by the mobile stations of the maritime mobile service using the A3E emission for communications, for safety purposes, with the aeronautical mobile service stations. IMPORTANT: Notwithstanding the former provisions, to avoid innecessary delays in emergency situations, it is recommended that the distress call be made, in first instance, on the communications channel used up to that moment by the aircraft station.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-42-0",
+    "text": "3.2.2 Communications in Search and Rescue Situations The communications among aircraft stations, between them and aeronautical stations or among aeronautical stations when they AIP ARGENTINA GEN 3.4-7 DEPARTAMENTO INFORMACION AERONAUTICA AMDT AIRAC 1/2025 12 JUNIO 2025 participen en operaciones de búsqueda y salvamento deberán hacerse preferentemente en los siguientes canales: 1) 123,10 MHz tipo de emisión A3E (Telefonía AM), 2) 3023 y/o 5680 KHz tipo de emisión J3E/A3E (Telefonía con BLU/AM). 3) Cualquier otro canal usado para comunicaciones aeroterrestres generales (CCOM o A/G) del área o zona en que se opere.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.2.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-44-0",
+    "text": "3.2.3 Uso de las frecuencias VHF En las comunicaciones que se realicen con los servicios de Control de Aeródromo, Control de Aproximación y Control de Área Terminal, se recomienda que la estación de aeronave use los canales de VHF dentro de los límites o zona de jurisdicción correspondiente al servicio con el cual se deba comunicar, cuidando en todo lo posible no excederlos en distancia ni en nivel de vuelo, con el fin de evitar sufrir o provocar interferencias no deseadas en las comunicaciones desde o hacia aeronaves o servicios similares de otras zonas que operen en la misma frecuencia. Asimismo, a tal efecto cabe señalar que: 1) En los lugares en los cuales se encuentre habilitado y operativo el Servicio de Gestión de Autorizaciones (CLRD), la frecuencia autorizada para el mismo será utilizada por las estaciones de aeronave en las instancias de la preparación de ésta para el vuelo, para la solicitud de permisos ATC. Este servicio brinda adicionalmente y a requerimiento: información operacional, meteorológica actualizada, gestión de pedido de servicios especiales y/o control de afluencia. 2) El Canal de Rodaje o de superficie (CROD) está reservado exclusivamente para las comunicaciones relacionadas con el movimiento en tierra (calles de rodaje, plataformas, etc.), información y/o instrucciones previas al vuelo o posterior es al aterrizaje. Cuando un aeródromo o aeropuerto no disponga del servicio mencionado en el inciso anterior, se cursarán también por el canal de rodaje las solicitudes de permiso de tránsito (ATC) e información conexa.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.2.3",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-46-0",
+    "text": "3.2.4 Funciones de las estaciones aeronáuticas de comunicaciones \"AERADIOS\" (A/G) - MF-HF Las estaciones de comunicaciones que en el presente documento se identifican como \"Aeradios\" están destinadas primordialmente para el curso de comunicaciones generales relacionadas con las operaciones y regularidad de los vuelos de todos los usuarios. Quedan comprendidas en la clasificación anterior las siguientes comunicaciones: - Pedidos de informes meteorológicos y sus respuestas. - Mensajes de regularidad de los vuelos, estado de pista y condición de aeródromo. - Informes para la empresa o propietario de la/s aeronave/s, relativos a la operación de su/s aeronave/s, datos de la carga, tránsito y horarios. - Coordinaciones y/o requerimientos de servicios de apoyo terrestre (pedido de ambulancia, combustible, etc.). participate in search and rescue operations should be preferably made on the following channels: 1) 123.10 MHz emission type A3E (AM Telephony), 2) 3023 and/or 5680 KHz emission type J3E/A3E (Telephony with BLU/AM), 3) Any other channel used for general air and ground communications (CCOM or A/G) in the area or zone of operation.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.2.4",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-48-0",
+    "text": "3.2.3 Use of VHF Frequencies In the communications with the services of Aerodrome Control, Approach Control and Terminal Control Area, the aircraft station is recommended to use the VHF channels within the boundaries or the jurisdiction zone corresponding to the service to be contacted, trying, as possible, not to exceed them in distance and flight level in order to avoid suffering or producing undesirable interferences in the communications from or to aircraft or similar services of other zones operating in the same frequency. Additionally, to that effect, it should be noted that: 1) In the places where the Clearance Management Service (CLRD) is enabled and operating, the authorized frequency for it will be used by the aircraft stations in the instances of preparing it for the flight, for applying for ATC permits. Additionally, and upon request, this service provides operational information, updated meteorological information, management of special services and/or flow control requests. 2) The Taxi Channel or surface channel (CROD) is reserved exclusively for communications related to the movements on the ground (taxiways, aprons, etc.), information and/or instructions previous to the flight or following the landing. When an aerodrome or airport does not have the service mentioned in the above paragraph, the applications for traffic permits (ATC) and associated information will also be made through the taxiway channel.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.2.3",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-50-0",
+    "text": "3.2.4 Functions of the aeronautical communication stations \"AERADIOS\" (A/G) - MF-HF The communication stations identified in this document as \"Aeradios\" are primarily intended for general communications related to the operation and regularity of the flights of all users. Included in the above classification are the following communications: - Requests for meteorological reports and their responses; - Messages of flights regularity, runway status and aerodrome condition; - Reports for the company or owner of the aircraft related to the operation of its/his/her/their aircraft, data of the cargo, traffic and schedules; - Coordinations and/or requirements of ground support services (requests for ambulances, fuel, etc.); AIP ARGENTINA GEN 3.4-8 DEPARTAMENTO INFORMACION AERONAUTICA AMDT AIRAC 1/2025 12 JUNIO 2025 - Avisos al ACC de su jurisdicción cuando con certeza o presumiblemente se tuviera conocimiento de cualquier problema que afecte a una aeronave (Servicio de ALERTA). Nota — Se recomienda a las estaciones de aeronave el uso del mencionado servicio (en las zonas o lugares donde este se preste), con el fin de liberar los canales de los servicios de control de tránsito aéreo de las comunicaciones antes indicadas.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.2.4",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-52-0",
+    "text": "3.2.4.1 Limitaciones En cuanto se refiere a los Servicios de Tránsito Aéreo (ATS), la única responsabilidad que tienen las \"Aeradios\" es brindar el servicio de \"Información de Vuelo y Alerta\", que en la mayoría de los casos corresponde a los tipos de mensajes antes enunciados. El personal de estas estaciones no está autorizado a cursar por sí permisos relativos al control y seguridad de los vuelos, excepto cuando deban retransmitir un mensaje procedente de un Centro de Control de Área (ACC) de jurisdicción. Tampoco pueden emplear frases o palabras que puedan prestarse a confusión o ser interpretadas como procedentes de un servicio de control o seguridad de los vuelos o permisos de tránsito aéreo, salvo casos comprendidos en la misma excepción anterior.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-54-0",
+    "text": "3.2.5 Comunicaciones radiotelefónicas en ruta En lo que respecta a las comunicaciones con los Centros de Control de Tránsito Aéreo (ACC), en todos los casos posibles, deberá darse preferencia al empleo intensivo de los canales de la Red de Estaciones Aeronáuticas Avanzadas en VHF (REAVA). Sin embargo, cuando las comunicaciones en VHF sean dificultosas o imposibles, por bajo nivel de vuelo o excesiva distancia respecto a una estación aeronáutica de la red, se podrá recurrir a los canales MF-HF correspondientes a la ruta, aerovía o zona de vuelo, según sea el caso. En general, y en lo referente a las comunicaciones relativas al control de tránsito aéreo y/o servicio asesor de tránsito aéreo, se procurará transmitirlas directamente a las estaciones aeronáuticas que prestan dichos servicios, las que se identifican como se indica: \"COMODORO CONTROL\" o \"CENTRO\" \"CORDOBA CONTROL\" o \"CENTRO\" \"EZEIZA CONTROL\" o \"CENTRO\" \"MENDOZA CONTROL\" o \"CENTRO\" \"RESISTENCIA CONTROL\" o \"CENTRO\"",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.2.5",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-56-0",
+    "text": "3.2.5.1 Red de Estaciones Aeronáuticas Avanzadas en VHF (REAVA) Es una red de estaciones que están destinadas al curso de comunicaciones directas entre las aeronaves y los Centros de Control de Área (por ejemplo, Ezeiza, Resistencia, Comodoro Rivadavia, Córdoba y Mendoza). Las estaciones que integran la red (REAVA) se extienden a lo largo de las principales rutas aéreas y permiten obtener todos los beneficios que corresponden al uso de VHF. Cada una de las estaciones de esta Red se denomina abreviadamente EAVA y figuran en la presente publicación con el nombre del lugar donde están instaladas. El área de influencia o zona de servicio (ZDS) de una estación EAVA puede estimarse en términos generales dentro de un radio de 180 km para el nivel de vuelo mínimo de 1500 m. Estas condiciones varían dependiendo del relieve del terreno en las zonas próximas a - Notifications to the ACC of the jurisdiction when any problem affecting an aircraft is certainly or presumably known (ALERTING Service). Note — The use of the above service (in the zones and places where it is provided) is recommended to the aircraft stations in order to release the channels of air traffic control services from the above-mentioned communications.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-58-0",
+    "text": "3.2.4.1 Limitations With regard to the Air Traffic Services (ATS), the only responsibility of \"Aeradios\" is to provide the \"Flight Information and Alerting\" service, that, in most cases, corresponds to the above-mentioned type of messages. The staff in these stations is not authorized to process permits related to control and flight safety, except when they must retransmit a message from the Area Control Center (ACC) of the jurisdiction. They cannot either use phrases or words that may create confusion or be understood as coming from a control service or flight safety or air traffic permits, except for the cases included in the same former exception.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-60-0",
+    "text": "3.2.5 En-route Radio Telephony Communications In regard to the communications with the Air Traffic Control Center (ACC), in all possible cases, the intensive use of the channels of the Advanced Aeronautical Stations Network (REAVA) in VHF shall be preferred. However, when the communications in VHF are difficult or impossible due to a low flight level or an excessive distance with respect to an aeronautical station of the network, the MF-HF channels of the route, airway or flight zone, depending on the particular case, may be used In general, and regarding the communications related to the air traffic control and/or the air traffic advisory service, they should be transmitted directly to the aeronautical stations providing such services, which will be identified as follows: \"COMODORO CONTROL\" or \"CENTRO\" \"CORDOBA CONTROL\" or \"CENTRO\" \"EZEIZA CONTROL\" or \"CENTRO\" \"MENDOZA CONTROL\" or \"CENTRO\" \"RESISTENCIA CONTROL\" or \"CENTRO\"",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.2.5",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-62-0",
+    "text": "3.2.5.1 Advanced Aeronautical Stations Network (REAVA) in VHF It is a network of stations intended to process direct communications between the aircraft and the Area Control Centers (for instance, Ezeiza, Resistencia, Comodoro Rivadavia, Córdoba y Mendoza). The stations that make up the network (REAVA) extend along the main air routes and allow to obtain all the benefits of the VHF use. Each of the stations of this network is called EAVA and appears in this publication with the name of the place where it is located. The area of influence or service zone (ZDS) of an EAVA station may be estimated, in general terms, within a radius of 180 km for the minimum flight level of 1500 m. These conditions vary according to the terrain relief of the zone in the vicinity of the station. AIP ARGENTINA GEN 3.4-9 DEPARTAMENTO INFORMACION AERONAUTICA AMDT AIRAC 1/2025 12 JUNIO 2025 la estación. Cada EAVA está conectada con el Centro de Control respectivo por intermedio de líneas físicas y/o radioenlaces de buena confiabilidad que permiten su telecomando y operación remota. Cuando una aeronave está dentro de la zona de servicio de una EAVA, su/s llamada/s producen una señalización en el puesto de operación del Centro de Control. El controlador se conecta selectivamente con el equipo remoto que recibió la llamada y responderá, estableciéndose así la comunicación. Por este motivo, es importante que la estación de aeronave realice su llamada en forma correcta y completa para facilitar la adecuada señalización y operaciones subsiguientes. En el Gráfico N° 1, que figura al final de esta Parte, se muestra la distribución de las estaciones EAVA en cada una de las regiones de información de vuelo (FIR).",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-64-0",
+    "text": "3.2.5.2 Uso de las frecuencias MF-HF En cuanto al empleo de los canales MF-HF del Servicio Móvil Aeronáutico (SMA) en ruta, deberá tenerse en cuenta que los mismos integran redes radiotelefónicas nacionales o internacionales. En la tabla “Servicio Móvil Aeronáutico (SMA) en ruta - Instalaciones de Comunicaciones en MF-HF para los Servicios ACC– A/G” (GRÁFICO N° 3), se indican las estaciones y se establecen las frecuencias y las observaciones para la prestación de estos servicios. Cada frecuencia está identificada con una llamada (a), (b), (c) o (d), según corresponda, con la referencia de la columna \"Observaciones\" (GRÁFICO N° 3). Cuando la mencionada referencia indica \"(a) Vuelos nacionales\", esa/s frecuencia/s deberá/n ser empleada/s (en la aerovía, ruta o zona de vuelo para la cual fueron establecidas) por aeronaves que inician, realizan y finalizan su vuelo dentro del espacio aéreo nacional. Cuando la referencia indica \"(b) Vuelos Internacionales\", esa/s frecuencia/s deberá/n ser empleada/s por aeronaves que realizan ese tipo de vuelos, con observancia de lo indicado en el párrafo siguiente. En el caso particular de la estación aeronáutica que presta servicios en el Aeropuerto Ezeiza/Ministro Pistarini, se observarán cuatro grupos de frecuencias, cuyo uso básicamente debe respetar lo indicado en los párrafos anteriores, con la siguiente aclaración: las frecuencias con las llamadas (a) y (b) corresponden a redes radiotelefónicas nacionales de los sectores norte y sur, respectivamente; y las frecuencias señaladas con las llamadas (c) y (d) corresponden a redes radiotelefónicas internacionales, vía Océano Pacífico y vía Océano Atlántico, respectivamente. En condiciones normales de operación, las estaciones principales de control mantienen escucha permanente y simultánea en dos frecuencias MF-HF de cada una de las redes del SMA antes mencionadas. Las redes radiotelefónicas nacionales básicamente operan tres frecuencias, una baja, una media y un alta (por ejemplo: 2 MHz, 5 MHz y 11 MHz), manteniendo en forma constante el canal medio y alternando los otros dos de acuerdo con la hora del día. En las redes internacionales también se mantienen dos frecuencias en escucha Each EAVA is connected to the respective Control Center through physical lines and/or reliable radio links that allow their telecommande and remote operation. When an aircraft is within an EAVA service zone, its call or their calls produce a sign in the operation position of the Control Center. The controller selectively connects with the remote equipement that received the call, and he/she will answer, establishing, that way, the communication. For this reason, it is important for the aircraft station to make the call in a correct and complete manner to facilitate an adequate signalling and subsequent operations. Chart No. 1, at the end of this Part, shows the distribution of the EAVA stations in each of the flight information regions (FIR).",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-67-0",
+    "text": "3.2.5.2 Use of MF-HF Frequencies As far as the use of the en-route MF-HF channels of the Aeronautical Mobile Service (SMA) is concerned, it should be considered that they make up national or international radio telephony network. The table “En-route Aeronautical Mobile Service (SMA) - MF-HF Communications Facilities for ACC Services – A/G” (GRAPHIC N° 3) exhibits the stations and establishes the frequencies and remarks for the provision of these services. Each frequency is identified with the mark (a), (b), (c) or (d), as appropriate, with the reference of the column “Remarks” (GRAPHIC N° 3). When said reference indicates \"(a) National flights\", that frequency or those frequencies shall be used (on the airway, on the route or in the flight zone for which it/they has/have been established) by aircraft that start, make and end their flight within the national airspace. When the reference indicates \"(b) International flights\", that frequency or those frequencies shall be used by aircraft that make this kind of flights observing what has been stipulated in the following paragraph. In the particular case of the aeronautical station operating in Ezeiza Airport/Ministro Pistarini, four groups of frequencies will be observed, whose use must basically comply with what is indicated in the above paragraphs, with the following clarification: those frequencies with (a) and (b) references correspond to national radio telephony networks of the northern and southern sectors, respectively; and those frequencies with (c) and (d) references correspond to international radio telephony networks, via Pacific Ocean and via Atlantic Ocean, respectively. In normal operating conditions, the main control stations listen permanently and simultaneously in two MF-HF frequencies of each of the above-mentioned SMA networks. The national radio telephony networks basically operate three frequencies: low, medium and high (for example: 2 MHz, 5 MHz and 11 MHz), keeping constantly the medium channel and alternating the other two depending on the time of the day. In international networks, two frequencies are also permanently and AIP ARGENTINA GEN 3.4-10 DEPARTAMENTO INFORMACION AERONAUTICA AMDT AIRAC 1/2025 12 JUNIO 2025 permanente y simultánea (por ejemplo: 5 MHz o 6 MHz y 10 MHz u 11 MHz), pero al disponerse en ellas de mayor cantidad de canales de alternativa (HX), el uso de estos últimos será normalmente dispuesto por la estación aeronáutica, pornecesidades operativas y/o por requerimiento de una estación de aeronave. En los canales MF-HF las comunicaciones pueden hacerse hacia los Centros de Control de Área (ACC) o hacia las Estaciones de Comunicaciones Generales -Aeradios- (A/G). Cuando en un lugar ambas dependencias (ACC - A/G) empleen algún canal común, el uso de la señal distintiva o identificación apropiada establecerá la dependencia a la cual se llama y, por consiguiente, el encaminamiento de la comunicación. Así, por ejemplo, en condiciones normales: a) se llamará a \"EZEIZA CONTROL\" o \"CENTRO\", según corresponda (o \"COMODORO RIVADAVIA CONTROL\", etc.) para las comunicaciones con propósitos de servicio de control de tránsito aéreo, cambios en el plan de vuelo, informes de posición obligatorios en aerovías y demás comunicaciones propias de",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-67-450",
+    "text": "Así, por ejemplo, en condiciones normales: a) se llamará a \"EZEIZA CONTROL\" o \"CENTRO\", según corresponda (o \"COMODORO RIVADAVIA CONTROL\", etc.) para las comunicaciones con propósitos de servicio de control de tránsito aéreo, cambios en el plan de vuelo, informes de posición obligatorios en aerovías y demás comunicaciones propias de los servicios de control y asesor del tránsito aéreo. b) se llamará a \"EZEIZA RADIO\" (o \"COMODORO RIVADAVIA RADIO”, etc.) para las comunicaciones generales (pedidos de informes meteorológicos, mensajes relativos a la operación de las aeronaves, datos del tránsito y carga). No obstante, en casos extraordinarios, podrán cursarse por los canales afectados a ambos servicios (ACC - A/G) cualquiera de los mensajes autorizados según el documento Procedimientos de Telecomunicaciones Aeronáuticas, capitulo 4 – Servicio Fijo Aeronáutico (AFS). Tal disponibilidad de comunicaciones por varias vías no excluye la obligación de que los vuelos IFR mantengan escucha permanente en los canales afectados a los Centros de Control, excepto autorización especial y por tiempo limitado.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-69-0",
+    "text": "3.2.5.3 Comunicaciones entre aeronaves Las comunicaciones entre aeronaves que sobrevuelen el territorio nacional y aguas jurisdiccionales pueden hacerse con ajuste a las condiciones siguientes: a) Asegurando en todo momento la escucha y/o comunicación con la estación aeronáutica de la dependencia de control o información de vuelo en cuya zona o área se encuentren las aeronaves que deban comunicarse entre sí. b) Usando, preferentemente con autorización de la estación aeronáutica: a) los canales para comunicaciones generales en VHF correspondientes a la zona o área donde se realiza el vuelo, o bien b) los canales de MF- HF de la misma zona que registren menor actividad. c) No se usarán los canales correspondientes a las dependencias o servicios para el control de los vuelos (TWR, APP, ACC, etc.), salvo: a) en situaciones de SOCORRO, URGENCIA o SEGURIDAD, o bien b) excepcionalmente, cuando el enlace entre las aeronaves sea imposible por otros medios y sólo luego de haber pedido y recibido expresa autorización de la estación aeronáutica que ejerce el control de la ruta, zona, área, etc. d) De acuerdo con lo establecido en el “PLAN DE CONTINGENCIA simultaneously listened to (for example: 5 MHz or 6 MHz and 10 MHz or 11 MHz), but, since they have more alternative channels (HX), the use of the latter will normally be stipulated by the aeronautical station for operational needs and/or upon request of an aircraft station. In the MF-HF channels, the communications may be addressed to the Area Control Center (ACC) or to the General Communication Stations -Aeradios- (A/G). When in a place both units (ACC - A/G) utilize any common channel, the use of the appropriate identification sign shall establish the unit to which the call is to be made and, consequently, the routing of the communication. Threfore, for example, in normal conditions: a) the call shall be made to \"EZEIZA CONTROL\" or \"CENTRO\", as appropriate (or \"COMODORO RIVADAVIA CONTROL\", etc.) in the case of communications for purposes of air traffic control service, changes in the flight plan, obligatory reports on airway positions and other communications inherent to the control and air traffic advisory services. b) the call shall be made to \"EZEIZA RADIO\" (or \"COMODORO RIVADAVIA RADIO”, etc.) in the case of general communications (requests of weather reports, messages related to the operation of aircraft, data of traffic and cargo). Nevertheless, in extraordinary cases, any of the messages authorized pursuant to the document Aeronautical Telecommunications Procedures, Chapter 4 – Aeronautical Fixed Service (AFS) shall be transmitted through the channels affected to both services (ACC - A/G). Such availability for communications through several channels does not preclude the IFR flights from the obligation of keeping listening permanently on the channels affected to the Control Centers, except for special authorization and limited time.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-71-0",
+    "text": "3.2.5.3 Communications among Aircraft Communications among aircraft overflying the national territory and jurisdictional waters may be achieved according to the following conditions: a) Ensuring all the time that they keep listening and/or communicating with the aeronautical station of the control or flight information unit in whose zone or area are the aircraft that must communicate with each other. b) Using, preferably with the aeronautical station authorization: the channels for general communications in VHF (\"Channel COM\" or \"Channel A/G\") corresponding to the zone or area where the flight is performed, or b) the MF-HF channels of the same zone with less activity. c) The channels corresponding to flight control units or services (TWR, APP, ACC, etc.) shall not be used, except: a) in DISTRESS, EMERGENCY or SAFETY situations, or b) exceptionally, when the link among aircraft is impossible through other means and only after having asked and received the express authorization of the aeronautical station that controls the route, zone, area, etc. d) In accordance with what is established in the “ATS AIP ARGENTINA GEN 3.4-11 DEPARTAMENTO INFORMACION AERONAUTICA AMDT AIRAC 1/2025 12 JUNIO 2025 ATS DE LA REPÚBLICA ARGENTINA”, en particular el Anexo III – Procedimientos Operacionales para Pilotos, cuando se active dicho plan en aquellos espacios aéreos del territorio nacional donde las comunicaciones tierra-aire no estén disponibles, la frecuencia para los procedimientos de radiodifusión de información en vuelo que deberá utilizarse en la Región SAM es 123,45 MHz. (Ver AIP, Volumen I, Parte 2, ENR 1.15.).",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-73-0",
+    "text": "3.2.5.4 Mensajes originados por aeronaves en vuelo El servicio de transmisión de mensajes incluye las comunicaciones de aeronaves en vuelo, de tal forma estas pueden expedir mensajes con destino a sus oficinas de operaciones de vuelo o recibir mensajes de estas últimas.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-75-0",
+    "text": "3.2.5.5 Enlace de Datos Suministro de autorizaciones ATC mediante enlace de datos (DCL - DEPARTURE CLEARANCE), es un sistema de enlace de datos aeroterrestres compuesto por: a) un segmento a bordo de la aeronave que utiliza una función de la plataforma Aircraft Communications Addressing and Reporting System (ACARS), desarrollada para la transmisión de mensajes entre las aeronaves y las empresas aéreas y administrada por un proveedor de servicios de comunicaciones; y b) un segmento en tierra, ubicado en las dependencias de control de tránsito aéreo Este sistema permite solicitar y enviar, de forma automatizada, del mensaje de Autorización ATC de salida –entre el piloto y el controlador de tránsito aéreo– a la aeronave que disponga del Sistema de Envío y Recepción de Mensajes en forma escrita por medio de Enlace de Datos a través del ACARS. La solicitud de Autorización ATC de Salida por medio de Enlace de Datos podrá ser realizada por el piloto, por intermedio del ACARS, y estará disponible a requerimiento del usuario. Requerimientos Para poder utilizar este servicio de autorización de salida de forma automática, las aeronaves deberán contar con ACARS a bordo. Plan de vuelo El piloto deberá indicar en el plan de vuelo que requerirá DCL, completando los casilleros 10 y 18 de la siguiente manera: a) Casillero 10: “S” indicando comunicaciones en VHF, “E3” indicando ACARS, “Z” indicando otros equipos instalados abordo (Activa DAT/ en casilla 18). b) Casilla 18: REG/ indicando matrícula (independientemente que sea la misma matrícula que figura en casilla 7) y DAT/Pre FANS (En los sistemas automatizados indica requerimiento DCL.). Nota. —En SABE y SAEZ, ver AD 2.20 Suministro de autorizaciones ATC mediante enlace de datos (DATA LINK DEPARTURE CLEARANCE – DCL).",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-77-0",
+    "text": "3.2.6 Canal de llamada general La finalidad es brindar la posibilidad de uso de un canal de CONTINGENCY PLAN OF THE REPUBLIC OF ARGENTINA”, in particular the Annex III – Operational Procedures for Pilots, when said plan is activated in those airspaces of the national territory where ground-air communications are not available, nacional donde las comunicaciones tierra-aire no estén disponibles, the frequency for broadcasting procedures of flight information to be used in SAM Region is 123.45 MHz. (See AIP, Volume I, Part 2, ENR 1.15.).",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.2.6",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-79-0",
+    "text": "3.2.5.4 Messages Originated by Aircraft in Flight The message transmission service includes the communications of aircraft in flight, so they may send messages to their flight operation offices or receive messages from them.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-82-0",
+    "text": "3.2.5.5 Data Link Provision of ATC authorizations through data link (DCL - EPARTURE CLEARANCE), It is a system of air and ground data link made up of: a) a segment on board the aircraft using a function of the platform Aircraft Communications Addressing and Reporting System (ACARS), developed for the transmission of messages between the aircraft and the airlines, and managed by a communication services provider and b) a segment on the ground, located in air traffic control units. This system allows requesting and submitting, by an automated process, the message of the ATC Departure Clearance –between the pilot and the air traffic controller– to the aircraft available of the system for the submission and reception of written messages via data link through the ACARS. The request for the ATC Departure Clearance via data link may be made by the pilot, through the ACARS, and will be available upon requirement of the user. Requirements To be able to use this departure clearance service automatically, the aircraft shall have the ACARS on board. Flight Plan The pilot shall indicate in the flight plan that he will ask for the DCL, filling out boxes 10 and 18 as follows: a) Box 10: “S” indicating communications in VHF, “E3” indicating ACARS, “Z” indicating other equipment installed on board (Activates DAT/ on box 18). b) Box 18: REG/ indicating registration mark (no matter whether it is the same registration mark on box 7) and DAT/Pre FANS (In the automated systems, it indicates DCL requirement.). Note. —In the case of SABE and SAEZ, see AD 2.20 Provision of ATC clearances via data link (DATA LINK DEPARTURE CLEARANCE – DCL).",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-85-0",
+    "text": "3.2.6 Channel for General Call The purpose is to offer the possibility of using a radio frequency AIP ARGENTINA GEN 3.4-12 DEPARTAMENTO INFORMACION AERONAUTICA AMDT AIRAC 1/2025 12 JUNIO 2025 radiofrecuencia de la gama VHF-AM (banda aeronáutica), que permita a los pilotos de las aeronaves que operan en aeródromos donde no se brindan servicios de tránsito aéreo y lugares aptos denunciados anunciar y/o prevenir a los pilotos de las demás aeronaves que se encuentran operando en el aeródromo o dentro de la zona de tránsito del mismo, respecto de sus intenciones y/o maniobras que efectuarán, ya sea durante la llegada o previo y después del despegue, mediante una llamada general en el canal designado. Ver disposiciones en el documento “Normas y Procedimientos de Telecomunicaciones en Jurisdicción Aeronáutica”, Parte I Instalaciones y servicios CNS, Capítulo III Disposiciones particulares para los servicios de telecomunicaciones aeronáuticas, Título 3.2.4 Canal de llamada general, y documento “Procedimientos de Telecomunicaciones Aeronauticas”, Capitulo 5, 5.2.1.7.3 Procedimientos radiotelefónicos.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.2.6",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-87-0",
+    "text": "3.3 Servicio fijo Las listas contenidas en la Parte GEN 2.4 \"Indicadores de Lugar\" de este documento, además de otros indicadores de uso específico, suministran el nombre de las estaciones fijas de telecomunicaciones aeronáuticas que integran la Red de Telecuminicaciones Aeronauticas (ATN) ubicadas en los aeródromos, pormedio de las cuales se realiza el intercambio de mensajes. Las estaciones marcadas con asterisco (*) no aceptan el depósito o imposición de mensajes de los usuarios en general; sólo funcionan para el curso de comunicaciones internas (tráfico operativo, meteorológico, etc.). Las condiciones de composición y aceptación de los mensajes para los diferentes usuarios, como así también los procedimientos generales, pueden ser consultados en el documento “Procedimientos de Telecomunicaciones Aeronáuticas”, Capítulo 4, o bien ser consultados a la Dirección Nacional de Inspección de Navegación Aérea. Los pedidos para uso de la red deben dirigirse a la Dirección Nacional de Inspección de Navegación Aérea. La entrega de los mensajes se efectuará en las estaciones de comunicaciones. No se requiere autorización previa a los usuarios para expedir mensajes operativos con destino a las oficinas de Control de Tránsito Aéreo (planes de vuelo, solicitudes, etc.). Las comunicaciones para el exterior (mensajes) se aceptarán en tanto estén correctamente compuestos según los procedimientos vigentes y los destinos correspondan a una de las terminales AFS oficialmente reconocidas como tales por el Estado de destino y/o estén incluidos en los listados de la OACI.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.3",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-89-0",
+    "text": "3.3.1 Condiciones generales para aceptar los mensajes Las estaciones aceptarán el depósito de mensajes, sujeto a las siguientes condiciones generales: a) Que el expedidor esté autorizado a usar la red, o se encuentre incluido en alguno de los motivos para aceptación temporaria y circunstancial. b) Que tal mensaje sea preparado y presentado de conformidad con las reglas contenidas en los siguientes documentos: Procedimientos de Telecomunicaciones Aeronáuticas, Cap. 4. Normas y Métodos recomendados Internacionales - Telecomunicaciones Aeronáuticas (Anexo 10 de la OACI). channel of the range VHF-AM (aeronautical band), which allows the pilots of the aircraft operating at aerodromes with no air traffic services and declared suitable places to announce and/or prevent the pilots of other aircraft operating at the aerodrome or within such aerodrome traffic zone from their intentions and/or manoeuvres, either during the arrival or before and after the take off through a general call on the assigned channel. See the provisions in the document “Telecommunication Standards and Procedures in Aeronautical Jurisdiction”, Part I CNS Facilities and Services, Chapter III Specific Provisions for Aeronautical Telecommunication Services, Title 3.2.4 – Channel for General Call, and document “Aeronautical Telecommunication Procedures”, Chapter 5, 5.2.1.7.3 Radio Telephony Procedures.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.3.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-92-0",
+    "text": "3.3 Fixed Service The lists included in GEN Part 2.4 \"Location Indicators\" of this document, apart from other indicators of specific use, provide the name of the fixed aeronautical telecommunication stations making up the Aeronautical Telecommunication Network (ATN) located on aerodromes and through which the exchange of messages is made. The stations marked with an asterisk (*) do not accept general users’ deposit or imposition of messages; they are only meant for processing internal communications ólo funcionan para el curso de comunicaciones internas (operational and meteorological traffic, etc.). The conditions for composing and accepting the messages for different users, as well as the general procedures, may be consulted in the document “Aeronautical Telecommunication Procedures”, Chapter 4, or in the National Directorate of Air Navigation Inspection. The requests for using the network must be addressed to the National Directorate of Air Navigation Inspection. Messages will be delivered in the communication stations. No previous authorization is required to the users to submit operational messages to the Air Traffic Control offices (flight plans, requests, etc.). The communications to foreign countries (messages) are accepted if they are produced properly, according to the procedures in force, and if the destinations correspond to one of the AFS terminals officially recognized as such by the State of destination and/or are included on ICAO lists.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.3",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-94-0",
+    "text": "3.3.1 General Conditions for Accepting the Messages The stations will accept messages deposit subject to the following general conditions: a) The sender should be authorized to use the network, or should be included in any of the reasons for temporary and circumstancial acceptance. b) The message must be prepared and presented in accordance with the standards included in the following documents: Aeronautical Telecommunication Procedures, Chapter 4. International Standards and Recommended Practices – Aeronautical Telecommunications (ICAO Annex 10). AIP ARGENTINA GEN 3.4-13 DEPARTAMENTO INFORMACION AERONAUTICA AMDT AIRAC 1/2025 12 JUNIO 2025 c) Que las direcciones o destinos correspondan a estaciones de comunicaciones integrantes de la red ATN que presten el servicio de intercambio y entrega de los mensajes.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.3.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-97-0",
+    "text": "3.3.2 Lista abreviada de la naturaleza de los mensajes Para facilitar una consulta rápida, se detalla a continuación una lista resumida de la naturaleza del texto de los mensajes: a) Mensajes de socorro y tráfico de socorro, urgencia y seguridad. b) Mensajes relativos a la seguridad de vuelo: de movimiento y de control; planes de vuelo; salida; informes de posición llegada, etc. c) Mensajes relativos a la regularidad de vuelo: relativos a carga, pasajeros y tripulantes, peso, etc. Cambios de horario de operación de aeronaves, aterrizajes extraordinarios de las aeronaves en ruta o a punto de partir, etc. d) Mensaje de administración aeronáutica: relativos al funcionamiento de las instalaciones o servicios indispensables para la regularidad o seguridad de las operaciones de las aeronaves o indispensables para los servicios de telecomunicaciones aeronáuticas. e) Mensajes de información aeronáutica: NOTAM, SNOWTAM y ASHTAM. f) Mensajes de reserva. g) Mensajes generales de los explotadores de aeronave.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.3.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-99-0",
+    "text": "3.3.3 Mensajes para aeronaves El usuario autorizado a usar la red ATN puede expedir mensajes desde sus oficinas de operaciones de vuelo hacia una aeronave o viceversa, de los siguientes tipos: a) de movimiento; b) de interés inmediato para las aeronaves en vuelo; c) de cambios de horarios; d) relativos a piezas o materiales requeridos; y e) relativos a servicios que deben presentarse a la/s aeronaves.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.3.3",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-101-0",
+    "text": "3.4 Servicio de radiodifusión aeronáutica El servicio de Radiodifusión Aeronáutica comprende la transmisión regular en horarios fijos de avisos a los servicios (NOTAM), Boletines y Pronósticos Meteorológicos.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.4",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-103-0",
+    "text": "3.4.1 Radiodifusión en MF-HF La realizan las estaciones principales de Ezeiza, Comodoro Rivadavia, Resistencia y Córdoba, en las gamas de MF-HF, para emisión de informes de NOTAM y Meteorología. El programa de emisiones varía según la época del año y hora del día, y el mismo se detalla en los ejemplos del gráfico N° 2, que figura al final de esta Parte. c) The addresses or destinations should correspond to the communication stations that integrate the ATN which provide services for exchanging and delivering messages.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.4.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-105-0",
+    "text": "3.3.2 Abbreviated List of the Nature of the Messages To facilitate a rapid consultation, here follows a summary list of the nature of the text in the messages: a) Distress messages, and distress, emergency and safety traffic. b) Messages related to flight safety: of movement and control; flight plans; departure; reports of arrival positions, etc. c) Messages related to flight regularity: related to cargo, passengers and crew members, weight, etc. Changes in aircraft time of operation, extraordinary landings of en-route aircraft or of aircraft about to take off, etc. d) Messages of aeronautical administration: related to theoperation of facilities or services essential for the regularity or safety of aircraft operations, or essential for aeronautical telecommunication services. e) Messages of aeronautical information: NOTAM, SNOWTAM and ASHTAM. f) Reservation messages. g) General messages of aircraft operators.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.3.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-107-0",
+    "text": "3.3.3 Messages for Aircraft The user authorized to use the network ATN may send a message of the following types from his/her flight operation offices to an aircraft or viceversa: a) of movement; b) of immediate interest for the aircraft in flight; c) of changes in the schedule; d) related to required parts or materials; and e) related to services to be presented to the aircraft.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.3.3",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-109-0",
+    "text": "3.4 Aeronautical Broadcasting Service The Aeronautical Broadcasting service includes the regular transmission in fixed time of notices to the services (NOTAM), Bulletins and Weather Forecasts.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.4",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-111-0",
+    "text": "3.4.1 Broadcasting in MF-HF It is performed by the main stations of Ezeiza, Comodoro Rivadavia, Resistencia and Córdoba, in MF-HF ranges, for the issuance of reports on NOTAM and Meteorology. The emissions program vary according to the time of the year and to the time of the day, and is detailed in the examples of Chart No. 2, at the end of this Part. AIP ARGENTINA GEN 3.4-14 DEPARTAMENTO INFORMACION AERONAUTICA AMDT AIRAC 1/2025 12 JUNIO 2025 Las transmisiones en curso a las horas límites indicadas continuarán en las mismas frecuencias en que se iniciaron hasta la finalización de la totalidad de los informes correspondientes a esa hora o período de emisión. El valor de frecuencia exacta y demás informacióncorrespondiente a cada transmisión de la estación respectiva debeser consultado en la Tabla “Servicio de Radiodifusión Aeronáutica en MF-HF” incorporada en esta sección.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.4.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-113-0",
+    "text": "3.4.2 Servicio automático de información terminal (ATIS) Por un canal COM/VHF-AM se emiten automáticamente informaciones del aeropuerto correspondiente, que comprenden los datos prescritos por la Parte 211 de las RAAC Gestión del Tránsito Aéreo, que, en su forma práctica y en la mayoría de estos servicios, incluye a los siguientes: a) Preámbulo: Identificación del tipo de información (ATIS), nombre del aeropuerto o aeródromo al cual se refiere dicha información, letra que identifica al mensaje y hora (UTC) en que fue preparado y/o actualizado. b) Dirección y velocidad del viento de superficie. c) Visibilidad. d) Tipo de nubosidad y altura de la base de ésta. e) Temperatura y temperatura del punto de rocío. f) Reglajes del altímetro. g) Cuando esté disponible se incluirá información sobre fenómenos meteorológicos significativos en las zonas de aproximación, despegue o ascenso. h) Pista en uso y, cuando corresponda, las condiciones importantes de la superficie de la pista. i) Otras informaciones esenciales para las operaciones. j) Letra que identifica al mensaje precedente. A fin de descongestionar los canales de comunicaciones de los mensajes de petición y respuesta de informaciones del tipo anterior, los pilotos darán preferencia a la recepción de esta radiodifusión. Los pilotos que hubieran recibido estas informaciones acusarán recibo en la primera comunicación que realicen con la dependencia ATS que corresponda (servicio de aproximación o control de aeródromo), mencionando la letra de identificación con que hubiera sido irradiada.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.4.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-115-0",
+    "text": "3.5 Idioma utilizado Español. Se indicará, particularmente, si una dependencia ATS / estación de telecomunicaciones brinda servicio en idioma inglés. 4. Tablas de señales radiales – Anexo 10 OACI VOL II Cap. 5",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.5",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-117-0",
+    "text": "4.1 Números en código Morse The transmissions in progress at the limit times indicated will continue in the same frequency in which they started until the end of all the reports corresponding to that time or period of emission. The value of the accurate frequency and all other information corresponding to each transmission of the respective station should be consulted on the table “Aeronautical Broadcasting Service in MF-HF” incorporated to this section.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "4.1",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-119-0",
+    "text": "3.4.2 Automatic Terminal Information Service (ATIS) Through a COM/VHF-AM channel, information of the corresponding airport is issued automatically. Said information encompasses the data prescribed in Part 211 of the RAAC Air Traffic Management, that, in its practical form and in most of these services, includes the following: a) Preamble: Identification of the type of information (ATIS), name of the airport or aerodrome to which the information refers, letter identifying the message and time (UTC) when it was prepared and/or updated. b) Direction and speed of the surface wind. c) Visibility. d) Type of cloudiness and height of its base. e) Temperature and dew point temperature. f) Altimeter settings. g) If available, information about important meteorological phenomena in approach, take-off or climb zones will be included. h) Runway in use and, when applicable, the significant conditions of the runway surface. i) Other information essential for the operations. j) Letter identifying the preceding message. In order to unclog the communication channels of the information request/reply messages of the previous type, the pilots will give priority to the reception of this broadcasting. The pilots who might have received this information will acknowledge receipt in the first communication they have with the pertinent ATS unit (approach service or aerodrome control), mentioning the identification letter with which it has been radiated.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.4.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-122-0",
+    "text": "3.5 Language Used Spanish. It will be indicated, in particular, if an ATS unit / telecommunication station provides services in English. 4. Tables of radio signals – Annex 10 ICAO VOL II Chapter 5",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "3.5",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-124-0",
+    "text": "4.1 Morse code numbers AIP ARGENTINA GEN 3.4-15 DEPARTAMENTO INFORMACION AERONAUTICA AMDT AIRAC 2/2025 27 NOVIEMBRE 2025 NÚMERO/ NUMBER CÓDIGO / CODE PALABRA / WORD PRONUNCIACIÓN / PRONUNCIATION 0 - - - - - Ziro SIRO 1 .- - - - One UAN 2 ..- - - Two TU 3 ...- - Three TRI 4 ....- Four FOar 5 ..... Five FAIF 6 -.... Six SIKS 7 - -... Seven SEV ́N 8 - - -.. Eight EIT 9 - - - -. Nine NAIna",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "4.1",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-126-0",
+    "text": "4.2 Alfabeto Fonético 4.2 Phonetic Alphabet Letra / Letter Palabra / Word Código Morse / Morse code Pronunciación aproximada / Approximate pronunciation Convenio fonético internacional / International phonetic convention Representación con el alfabeto latino / Representation with the Latin alphabet A Alfa .- 'ælfa AL FAH B Bravo -... 'bra:'vo BRAH VOH C Charlie -.-. 'tʃɑ:li or 'ʃɑ:li CHAR LEE or SHAR LEE D Delta -.. 'deltɑ DELL TAH E Echo . 'eko ECK OH F Foxtrot ..-. 'fɔkstrɔt FOKS TROT G Golf - -. gʌlf GOLF H Hotel .... ho:'tel HO TELL I India .. 'indi⋅ɑ IN DEE AH J Juliett .- - - 'dӡu:li'et JEW LEE ETT K Kilo -.- 'ki:lo KEY LOH L Lima .-.. 'li:mɑ LEE MAH M Mike -- mɑik MIKE N November -. no'vembə NO VEM BER O Oscar - - - 'ɔskɑ OSS CAH P Papa .- -. pə'pɑ PAH PAH Q Quebec - -.- ke'bek KEH BECK R Romeo ._. 'ro:mi⋅o ROW ME OH S Sierra ... si'erɑ SEE AIR RAH T Tango - 'tængo TANG GO U Uniform ..- 'ju:nifɔ:m or 'u:nifɔrm YOU NEE FORM or OO NEE FORM V Victor ...- 'viktɑ VIK TAH W Whiskey .- - 'wiski WISS KEY X X-ray -..- 'eks'rei ECKS RAY Y Yankee -.- - 'jænki YANG KEY Z Zulu - -.. 'zu:lu: ZOO LOO Nota. — En la representación aproximada con el alfabeto latino, van subrayadas las sílabas en que debe ponerse el énfasis. Note. — In the approximate representation with the Latin alphabet, the syllables on which the emphasis should be placed are underlined.",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "4.2",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-136-0",
+    "text": "4.3.1 Transmission of numbers Distintivos de llamada de las aeronaves / Aircraft call signs Transmitidos como/ Transmitted as CCA 238 Air China dos tres ocho / two three eight OAL 242 Olympic dos cuatro dos / two four two AIP ARGENTINA GEN 3.4-16 DEPARTAMENTO INFORMACION AERONAUTICA AMDT AIRAC 2/2025 27 NOVIEMBRE 2025 Rumbos / Bearings Transmitidos como/ Transmitted as 100 grados rumbo uno cero cero / heading one zero one 080 grados rumbo cero ocho cero / heading zero eight zero Dirección y velocidad del viento / Wind direction and speed Transmitidas como / Transmitted as 200 grados, 70 nudos viento dos cero cero grados, siete cero nudos / wind two zero zero degrees seven zero knots 160 grados, 18 nudos, con ráfagas de 30 nudos viento uno seis cero grados, uno ocho nudos, ráfagas tres cero nudos / wind one six zero degrees, one eight knots, gusting three zero knots Pistas / Runways Transmitidas como / Transmitted as 27 pista dos siete / runway two seven 30 pista tres cero / runway three zero Niveles de vuelo / Flight levels Transmitidos como / Transmitted as FL 180 nivel de vuelo uno ocho cero / flight level one eight zero FL 200 nivel de vuelo dos cientos / flight level two hundred Reglajes de altímetro / Altimeter settings Transmitidos como / Transmitted as 1009 QNH uno cero cero nueve / QNH one zero zero nine 1000 QNH mil / QNH one thousand 993 QNH nueve nueve tres / QNH nine nine three Códigos del transpondedor / Transponder codes Transmitidos como / Transmitted as 2400 utilice respondedor dos cuatro cero cero / squawk two four zero zero 1000 utilice respondedor mil / squawk one thousand 2000 utilice respondedor dos mil / squawk two thousand Altitud / altitude Transmitida como / Transmitted as 800 ocho cientos / eight hundred 3 400 tres mil cuatro cientos / three thousand four hundred 12 000 uno dos mil / one two thousand Altura de las nubes / Cloud height Transmitida como / Transmitted as 2 200 dos mil dos cientos / two thousand two hundred 4 300 cuatro mil tres cientos / four thousand three hundred Visibilidad / Visibility Transmitida como / Transmitted as 1 000 Visibilidad mil / visibility one thousand 700 visibilidad siete cientos / visibility seven hundred Alcance visual en la pista / Runway visual range Transmitido como / Transmitted as 600 RVR seis cientos / RVR six hundred 1 700 RVR uno siete cientos / RVR one seven hundred Número / Number Transmitido como / Transmitted as 100,3 uno cero cero coma tres / one zero zero decimal three 38 143,9 tres ocho uno cuatro tres coma nueve / three eight one four three decimal nine Hora / Time Emision / Emission 0920 (9.20 de la mañana) tu siro o siro naina tu siro 1643 (4.43 de la tarde) foar tri o uan siks foar tri AIP ARGENTINA GEN 3.4-17 DEPARTAMENTO INFORMACION AERONAUTICA AMDT AIRAC 2/2025 27 NOVIEMBRE 2025 GRÁFICO",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3",
+      "section": "4.3.1",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-136-450",
+    "text": "eight one four three decimal nine Hora / Time Emision / Emission 0920 (9.20 de la mañana) tu siro o siro naina tu siro 1643 (4.43 de la tarde) foar tri o uan siks foar tri AIP ARGENTINA GEN 3.4-17 DEPARTAMENTO INFORMACION AERONAUTICA AMDT AIRAC 2/2025 27 NOVIEMBRE 2025 GRÁFICO N° 1 RED AFS NACIONAL / CHART No. 1 NATIONAL AFS NET table FIR EZEIZA Ubicación de la Estación / Location of the Station Operada por / Operated by Sector Norte / Northern Sector Concordia (ER); Ezeiza (BA); Junín (BA); Gualeguaychú (ER); Rosario (SF); Rufino (SF) y/and Sauce Viejo (SF) ACC Ezeiza Sector Sur / Southern Sector Ezeiza (BA); Bahía Blanca (BA); Mar del Plata (BA); Pehuajó (BA); Santa Rosa (LP); Tandil (BA); Choele Choel (RN); Chacharramendi (LP); Neuquén (N); Piedra del Águila (N); y/and Rincón de los Sauces (N) ACC Ezeiza FIR CÓRDOBA Ubicación de la Estación / Location of the Station Operada por / Operated by Sector Norte / Northern Sector Andalgalá (C); Córdoba (Cba); Frías (SE); Monte Quemado (SE); San juancito (J) Susques (J); Tartagal (S) y/and Tucumán (T) ACC Córdoba Sector Sur / Southern Sector Ancasti (C); Ceres (SF); Córdoba (Cba); La Posta (Cba); Marcos Juárez (Cba) y/and Río Cuarto (Cba) ACC Córdoba FIR MENDOZA Ubicación de la Estación / Location of the Station Operada por / Operated by Malargüe (Mza); San Juan (SJ); Mendoza (Mza); Villa Reynolds (SL) y/and Rincón de los Sauces (N) ACC Mendoza FIR COMODORO RIVADAVIA Ubicación de la Estación / Location of the Station Operada por / Operated by Sector Norte / Northern Sector Comodoro Rivadavia (Cht); Puerto Madryn (Cht); Esquel (Cht); Viedma (RN); e/and Ing. Jacobacci (RN) ACC Comodoro Rivadavia Sector Sur / Southern Sector Comodoro Rivadavia (Cht); Río Gallegos (SC); Río Grande (TAIS); Río Mayo (Cht); San Julián (SC) y/and El Calafate (SC) ACC Comodoro Rivadavia FIR RESISTENCIA Ubicación de la Estación / Location of the Station Operada por / Operated by Cataratas del Iguazú (Ms); Formosa (F); Las Lomitas (F); Paso de los Libres (Cts); Posadas (Ms); Pte. Roque Sáenz Peña (Cho); Reconquista (SF) y/and Resistencia (Cho) ACC Resistencia GRÁFICO N° 2 RED AMHS/AFTN REGION SAM / CHART No. 2 AMHS/AFTN SAM REGION NET DESDE / FROM HASTA / UNTIL TODAS LAS EMISIONES ENTRE HORAS (UTC) / ALL EMISSIONS IN (UTC) TIMES SE EMITIRÁN EN LAS BANDAS DE: / THEY WILL BE EMITTED ON BANDS OF: 1 octubre / October 30 abril / April 10:00 a/to 22:00 Canales medio y alto (Ej.: 5 MHz y 11 MHz) / Channels medium and high (E.g.: 5 MHz and 11 MHz) 22:00 a/to 10:00 Canales bajo y medio (Ej.: 2 MHz y 5 MHz) / Channels low and medium (E.g.: 2 MHz and 5 MHz) 1 mayo / May 30 septiembre / September 11:00 a/to 21:00 Canales medio y alto (Ej.: 5 MHz y 11 MHz) / Channels medium and high (E.g.: 5 MHz and 11 MHz) 21:00 a/to 11:00 Canales bajo y medio (Ej.: 2 MHz y 5 MHz) /",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-136-900",
+    "text": "MHz and 5 MHz) 1 mayo / May 30 septiembre / September 11:00 a/to 21:00 Canales medio y alto (Ej.: 5 MHz y 11 MHz) / Channels medium and high (E.g.: 5 MHz and 11 MHz) 21:00 a/to 11:00 Canales bajo y medio (Ej.: 2 MHz y 5 MHz) / Channels low and medium (E.g.: 2 MHz and 5 MHz) AIP ARGENTINA GEN 3.4-18 DEPARTAMENTO INFORMACION AERONAUTICA AMDT AIRAC 2/2025 27 NOVIEMBRE 2025  GRÁFICO N° 3 / CHART No. 3 Servicio Móvil Aeronáutico (SMA) en ruta / En-route Aeronautical Mobile Service (SMA) Instalaciones de comunicaciones en MF-HF para los servicios ACC – A/G / Communication Facilities in MF-HF for ACC – A/G Services Estación / Station Servicio / Service Distintivo / Identification Frecuencia / Frequency (KHz) Horario / Time Observaciones / Remarks COMODORO RIVADAVIA ACC - A/G (xx) Comodoro Rivadavia Centro / Aeradio 2965 (b) H-24 (xx) Ver GEN 3.4. (4.2.4). / See GEN 3.4. (4.2.4). 5547 (b) (b) Vuelos nacionales en la FIR CRV / National flights in FIR CRV 6598 (b) 11282 (b) (El servicio (a) se brinda según disponibilidad de la estación.) / (Service (a) is provided according to the availability of the station.) GRÁFICO N° 4 / CHART No. 4 Servicio de Radiodifusión Aeronáutica en MF-HF / Aeronautical Broadcasting Service in MF- HF Estación Emisora / Emiss. Station Tipo de Modul- ación / Modulati on Type Frecuencia / Frequency (KHz) Horario del Servicio (UTC) / Service Hours (UTC) Horas de Emisión (UTC)/ Emission Hours (UTC). Clave - Tipo de Información / Key - Type of Information Contenido / Content Observaciones / Remarks CÓRDOBA Aeradio J3E 3434 5475 8906 H-24 H + 25 METAR AD FIR CBA – FIR DOZ y/and AD AER-SVO-ROS La emisión de dicha información se realiza teniendo en cuenta su disponibilidad. / Such information is emitted according to availability. (#) A las 09:30 UTC se transmite NOTAM completo; a partir de esa hora se repite e incorporan las actualizaciones cada tres horas. / At 9:30 UTC the entire NOTAM is transmitted; since that time, it is repeated, and every three hours updates are incorporated. H + 45 PRONAREA FIR CBA (*) - FIR DOZ (**) - FIR EZE (***) H + 30 NOTAM (#) NOTAM radial FIR CBA     AIP ARGENTINA GEN 3.4-19 DEPARTAMENTO INFORMACION AERONAUTICA AMDT AIRAC 2/2025 27 NOVIEMBRE 2025   GRÁFICO N° 4 / CHART No. 4 Servicio de Radiodifusión Aeronáutica en MF-HF / Aeronautical Broadcasting Service in MF- HF Estación Emisora / Emiss. Station Tipo de Modul- ación / Modulati on Type Frecuencia / Frequency (KHz) Horario del Servicio (UTC) / Service Hours (UTC) Horas de Emisión (UTC)/ Emission Hours (UTC). Clave - Tipo de Información / Key - Type of Information Contenido / Content Observaciones / Remarks (*) Se emite a toda hora. / Emission at all times (**) Se emite en horas pares. / Emission at even hours (***) Se emite en horas impares. / Emission at odd hours AIP ARGENTINA GEN",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  },
+  {
+    "id": "AIP - GEN3 - 4.pdf-136-1350",
+    "text": "de Información / Key - Type of Information Contenido / Content Observaciones / Remarks (*) Se emite a toda hora. / Emission at all times (**) Se emite en horas pares. / Emission at even hours (***) Se emite en horas impares. / Emission at odd hours AIP ARGENTINA GEN 3.4-20 DEPARTAMENTO INFORMACION AERONAUTICA AMDT AIRAC 1/2025 12 JUNIO 2025 AIP ARGENTINA GEN 3.4-21 DEPARTAMENTO INFORMACION AERONAUTICA AMDT AIRAC 1/2025 12 JUNIO 2025",
+    "metadata": {
+      "source": "AIP - GEN3 - 4.pdf",
+      "docType": "doc",
+      "docNumber": "3"
+    }
+  }
+]
