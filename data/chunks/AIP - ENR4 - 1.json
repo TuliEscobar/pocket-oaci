@@ -1,0 +1,191 @@
+[
+  {
+    "id": "AIP - ENR4 - 1.pdf-0-0",
+    "text": "AIP ARGENTINA ENR 4.1-1 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 ENR 4. RADIOAYUDAS Y SISTEMAS DE NAVEGACIÓN/ RADIO NAVIGATION AIDS/SYSTEMS ENR 4.1 RADIOAYUDAS PARA LA NAVEGACIÓN —EN RUTA ENR 4.1 EN ROUTE — RADIO NAVIGATION AIDS NOMBRE DE LA ESTACIÓN / NAME OF STATION RADIOAYUDA RADIO AID ID FRECUENCIA FREQUENCY Horas de funciona- miento Hours of operation Coordenadas Coordinates Elev. Antena DME / ELEV DME Antenna Cobertura Restricciones / Coverage Restrictions KHz MHz PUNTA INDIO NDB PDI 325 H 24 (*)352110S- 0571826W 400 km (*) QUILMES NDB ILM 210 H 24 (*) 344239S 0581425W 300 km (*) SANTA FE NDB SVO 405 H 24 314241S- 0604823W 32 m 105 ft 425 km (*) VILLA GESELL NDB GES 242 H 24 (*)371403S- 0570124W",
+    "metadata": {
+      "source": "AIP - ENR4 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 1.pdf-1-0",
+    "text": "5.28m 17 ft 350 KM (*) VCOM MARAMBIO NDB MBI 345 O/R 641520S- 0563850W NIL 250 km (*) GENERAL BELGRANO VOR GBE 115.6 H 24 (*)354503S- 0582753W 350 km (*) GENERAL PICO VOR GPI 112. 2 H 24 (*)354132S- 0634544W",
+    "metadata": {
+      "source": "AIP - ENR4 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 1.pdf-2-0",
+    "text": "144.5 m 454 ft 340 km (*) JUNÍN VOR NIN 116.1 H 24 (*)343228S- 0605602W 343 km (*) LA PLATA VOR PTA 113.7 H 24 345833S- 0575354W 315 km (*) LABOULAYE VOR LYE 116.3 H 24 (*)340829S- 0632139W 343 km (*) MARCOS JUAREZ VOR MJZ 114.7 H 24 (*)324110S- 0620940W 343 km (*) SANTIAGO DEL ESTERO VOR SDE 114.8 H 24 274532S- 0641810W",
+    "metadata": {
+      "source": "AIP - ENR4 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 1.pdf-3-0",
+    "text": "207.7 m 681 ft 220 km (*) USHUAIA DVOR USU 113.7 H 24 545017S- 0681703W NIL 185 km Desde el RDL 070 hasta el RDL 120 (pasando por el RDL 090), UTILIZABLE desde 1000 FT hasta ilimitado. El resto de los sectores NO UTILIZAR por debajo de FL 130, excepto en AWY W42 cuyo nivel mínimo es FL 110, por debajo de ese nivel NO UTILIZAR. NO/NAV: Se aconseja no utilizar modo NAV cuando se utilice piloto automático en cartas IAC y SID a Pista 25 que contemplen esta radioayuda, por oscilaciones dentro de tolerancia. From RDL 070 to RDL 120 (through RDL 090), USABLE from 1000 FT to unlimited. The rest of the sectors DO NOT AIP ARGENTINA ENR 4.1-2 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 NOMBRE DE LA ESTACIÓN / NAME OF STATION RADIOAYUDA RADIO AID ID FRECUENCIA FREQUENCY Horas de funciona- miento Hours of operation Coordenadas Coordinates Elev. Antena DME / ELEV DME Antenna Cobertura Restricciones / Coverage Restrictions KHz MHz USE below FL 130, except in AWY W42 whose minimum level is FL 110, below that level DO NOT USE. NO/NAV: It is advised not to use NAV mode when using autopilot in IAC and SID charts to Runway 25 that contemplate this radio aid, due to oscillations within tolerance. VIEDMA VOR VIE 117.1 H 24 405202S- 0630003W NIL 343 km (*) BAHIA BLANCA VOR/DME BCA 114.3 H 24 384312S- 0620930W 324 km (*) DME CH 90X CATAMARCA VOR/DME CAT 114.3 H 24 283501S- 0654448W 482 m 1581 ft 296 km (*) DME CH 90X SECTOR ESTE: Entre el RDL 050 y el RDL 153 (pasando por el RDL 100), NO UTILIZAR desde la superficie y en todos los niveles por debajo de FL 130 y entre el RDL 060 y el RDL 120 (pasando por el RDL 090) NO UTILIZAR por debajo de FL 170, debido a señales irregulares por zona montañosa hasta el límite del TMA CAT. SECTOR OESTE: Entre el RDL 290 y el RDL 330 (pasando por el RDL 300), desde superficie y en todos los niveles hasta FL 170, NO UTILIZAR hasta las 20 NM DME (VOR). Fuera de las 20 NM y hasta el límite del TMA CAT, NO UTILIZAR por debajo de FL 200. Entre el RDL 260 y el RDL 290 (pasando por el RDL 270) fuera de las 20 NM DME (VOR), NO UTILIZAR por debajo de FL 150. EAST SECTOR: Between RDL 050 and RDL 153 (passing through RDL 100), DO NOT USE from the surface and at all levels below FL 130 and between RDL 060 and RDL 120 (passing through RDL 090) DO NOT USE below FL 170, due to irregular signals through mountainous area up to the TMA CAT boundary. WEST SECTOR: Between RDL 290 and RDL 330 (passing through RDL 300), from surface and at all levels up to FL 170, DO NOT USE below FL AIP ARGENTINA ENR 4.1-3 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024",
+    "metadata": {
+      "source": "AIP - ENR4 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 1.pdf-3-450",
+    "text": "to irregular signals through mountainous area up to the TMA CAT boundary. WEST SECTOR: Between RDL 290 and RDL 330 (passing through RDL 300), from surface and at all levels up to FL 170, DO NOT USE below FL AIP ARGENTINA ENR 4.1-3 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 NOMBRE DE LA ESTACIÓN / NAME OF STATION RADIOAYUDA RADIO AID ID FRECUENCIA FREQUENCY Horas de funciona- miento Hours of operation Coordenadas Coordinates Elev. Antena DME / ELEV DME Antenna Cobertura Restricciones / Coverage Restrictions KHz MHz 170.levels up to FL 170, DO NOT USE until 20 NM DME (VOR). Outside of 20 NM and up to the TMA CAT limit, DO NOT USE below FL 200. Between RDL 260 and RDL 290 (passing through RDL 270) outside 20 NM DME (VOR), DO NOT USE below FL 150. CATARATAS DEL IGUAZU VOR/DME IGU 114.1 H 24 254404S- 0542909W 285 m 935 ft 328 km DME CH 88X CERES VOR/DME ERE 115.5 H 24 (*) 295224S- 0615531W 343 km (*) DME CH 102X CHOELE CHOEL VOR/DME OEL 113.4 H 24 391657S- 0653633W 343 km (*) DME CH 81X COMODORO RIVADAVIA VOR/DME CRV 117.5 H 24 454624S- 0672218W 58 m 190 ft 330 km DME CH 122X No utilizar por debajo de FL 060 entre RDL 225 y 240 (pasando por RDL 233) y entre RDL 260 y RDL 320 (pasando por RDL 290) hasta 10 NM. Do not use below FL 060 between RDL 225 and 240 through RDL 233 and between RDL 260 and RDL 320 through RDL 290 up to 10 NM. CORDOBA VOR/DME CBA 114.5 H 24 311848S- 0641213W 479 m 1572 ft 343 km DME CH 92X CORRIENTES VOR/DME CRS 115.4 H 24 272614S 0584542W 70 m 230 ft 340 km DME CH 101X EL CALAFATE VOR/DME ECA 114.7 H 24 501642S 0720244W 197 m 646 ft 330 km (*) DME CH 94X En un radio de 25 NM penalizado en los siguientes sectores, distancias y niveles: Entre el RDL 350 y el RDL 040 (pasando por el RDL 015), NO UTILIZAR fuera de las 20 NM por debajo de 6000 FT. Entre el RDL 100 y el RDL 120 (pasando por el RDL 110), NO UTILIZAR fuera de las 12 NM y por debajo de 6000 FT. Entre RDL 290 y el RDL 310 (pasando por el RDL 300), NO UTILIZAR fuera de las 20 NM por debajo de 6500 FT. Entre RDL 180 y el RDL 230 (pasando por el RDL 200), NO UTILIZAR fuera de las 15 NM y por debajo de 7000 FT. Within a 25 NM radius, penalization in the following sectors, distances and levels: Between RDL 350 and RDL 040 (through RDL 015), DO NOT USE outside 20 NM below AIP ARGENTINA ENR 4.1-4 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 NOMBRE DE LA ESTACIÓN / NAME OF STATION RADIOAYUDA RADIO AID ID FRECUENCIA FREQUENCY Horas de funciona- miento Hours of operation Coordenadas Coordinates Elev.",
+    "metadata": {
+      "source": "AIP - ENR4 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 1.pdf-3-900",
+    "text": "RDL 040 (through RDL 015), DO NOT USE outside 20 NM below AIP ARGENTINA ENR 4.1-4 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 NOMBRE DE LA ESTACIÓN / NAME OF STATION RADIOAYUDA RADIO AID ID FRECUENCIA FREQUENCY Horas de funciona- miento Hours of operation Coordenadas Coordinates Elev. Antena DME / ELEV DME Antenna Cobertura Restricciones / Coverage Restrictions KHz MHz 6000 FT. Between RDL 100 and RDL 120 (through RDL 110), DO NOT USE outside 12 NM and below 6000 FT. Between RDL 290 and RDL 310 (through RDL 300), DO NOT USE outside 20 NM below 6500 FT. Between RDL 180 and RDL 230 (through RDL 200), DO NOT USE outside 15 NM and below 7000 FT. EL PALOMAR VOR/DME PAL 115.2 H 24 (*) 343642S 0583650W",
+    "metadata": {
+      "source": "AIP - ENR4 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 1.pdf-4-0",
+    "text": "23.5 m 77 ft 324 km (*) DME CH 99X Posterior a las 10 NM entre el RDL 310 y el RDL 360 (pasando por el RDL 340), NO UTILIZAR por oscilaciones fuera de tolerancia. After 10 NM between RDL 310 and RDL 360 (passing through RDL 340), DO NOT USE due to out-of-tolerance oscillations. ESQUEL VOR/DME ESQ 117.8 H 24 425314S 0710601W",
+    "metadata": {
+      "source": "AIP - ENR4 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 1.pdf-5-0",
+    "text": "771.5 m 2531 ft 296 km (*) DME CH 125X Entre el RDL 190 y el RDL 310 (pasando por el RDL 300), nivel mínimo de recepción FL 200. Between RDL 190 and RDL 310 (passing through RDL 300), minimum reception level FL 200. EZEIZA VOR/DME EZE 116.5 H 24 344927S 0583207W",
+    "metadata": {
+      "source": "AIP - ENR4 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 1.pdf-6-0",
+    "text": "20.50 m 67 ft 343 km DME CH 112X FORMOSA VOR/DME FSA 115.6 H 24 261237S 0581329W 65 m 213 ft 333 km DME CH 103X Se recomienda NO UTILIZAR piloto automático en modo NAV durante el procedimiento de aproximación por instrumentos por oscilaciones dentro de tolerancia. It is recommended NOT TO USE autopilot in NAV mode during the instrument approach procedure due to oscillations within tolerance. GUALEGUAYCHU VOR/DME GUA 113.2 H 24 (*)330035S 0583651W NIL 340 km DME CH 79X JUJUY VOR/DME JUJ 112.9 H 24 242337S 0650534W 898 m 2946 ft 345 km DME CH 76X A partir de las 15 NM DME (VOR), entre el RDL 360 y el RDL 020 (pasando por el RDL 010), NO UTILIZAR por debajo de FL 190. AIP ARGENTINA ENR 4.1-5 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 1/2025 12 JUNIO 2025 NOMBRE DE LA ESTACIÓN / NAME OF STATION RADIOAYUDA RADIO AID ID FRECUENCIA FREQUENCY Horas de funciona- miento Hours of operation Coordenadas Coordinates Elev. Antena DME / ELEV DME Antenna Cobertura Restricciones / Coverage Restrictions KHz MHz From 15 NM DME (VOR), between RDL 360 and RDL 020 (passing through RDL 010), DO NOT USE below FL 190. LA RIOJA VOR/DME LAR 113.5 H 24 292319S 0664813W",
+    "metadata": {
+      "source": "AIP - ENR4 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 1.pdf-7-0",
+    "text": "445.5 m 1462 ft 296 km DME CH 82X Entre RDL 200 y RDL 340 (pasando por el RDL 270), no utilizar por debajo de FL220 en un radio de 40 NM, y por debajo de FL150 en un radio de 20 NM. Between RDL 200 and RDL 340 (passing through RDL 270), DO NOT USE below FL220 within a 40 NM radius, and below FL150 within a 20 NM radius. MALARGUE VOR/DME MLG 117.2 H 24 352910S 0693443W NIL 330 km (*) DME CH 119X Fuera de las 15 NM DME (VOR), entre el RDL 180 y el RDL 330 (pasando por el RDL 240), NO UTILIZAR por debajo de FL 120 debido a oscilaciones fuera de tolerancia por efecto montaña. Outside the 15 NM DME (VOR), between RDL 180 and RDL 330 (passing through RDL 240), DO NOT USE below FL 120 due to out of tolerance oscillations due to mountain effect. MAR DEL PLATA VOR/DME MDP 116.2 H 24 375547S 0573435W",
+    "metadata": {
+      "source": "AIP - ENR4 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 1.pdf-8-0",
+    "text": "26.25 m 86 ft 324 km DME CH 109X MENDOZA VOR/DME DOZ 114.9 H 24 324955S 0684727W 711 m 2333 ft 343 km DME CH 96X NO UTILIZAR piloto automático entre RDL90 Y RDL 110 pasando por RDL100 DO NOT USE autopilot between RDL090 and RDL110 passing through RDL100. NEUQUEN DVOR/DME NEU 116.7 H 24 385701S 0680917W",
+    "metadata": {
+      "source": "AIP - ENR4 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 1.pdf-10-0",
+    "text": "76.50 m 251 ft 370 km (*) DME CH 115X POSADAS VOR/DME POS 114.9 H 24 272308S 0555809W 132 m 433 ft 343 km DME CH 96X NO UTILIZAR por debajo de FL 090 entre el RDL 070 y el RDL 110 (pasando por el RDL 090), por oscilaciones fuera de tolerancia. DO NOT USE below FL 090 between RDL 070 and RDL 110 (passing through RDL 090), due to out-of-tolerance oscillations. PUERTO MADRYN VOR/DME DRY 116.1 H 24 424536S 0650603W 140 m 459 ft 370 km DME CH 108X AIP ARGENTINA ENR 4.1-6 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 NOMBRE DE LA ESTACIÓN / NAME OF STATION RADIOAYUDA RADIO AID ID FRECUENCIA FREQUENCY Horas de funciona- miento Hours of operation Coordenadas Coordinates Elev. Antena DME / ELEV DME Antenna Cobertura Restricciones / Coverage Restrictions KHz MHz PUNTA INDIO VOR/DME PDI 114.1 H 24 (*) 352043S 0571632W 260 km (*) DME CH 88X RECONQUISTA VOR/DME RTA 117.1 H 24 291231S 0594057W NIL 343 Km (*) DME CH 118X RESISTENCIA VOR/DME SIS 115.1 H 24 272649S 0590326W",
+    "metadata": {
+      "source": "AIP - ENR4 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 1.pdf-11-0",
+    "text": "60.5 m 198 ft 343 km DME CH 98X RIO CUARTO VOR/DME RCU 114.2 H 24 330532S 0641554W NIL 330 km (*) DME CH 89X RIO GALLEGOS VOR/DME GAL 116.7 H 24 513640S 0691949W 26 m 85 ft 343 km DME CH 114X RIO GRANDE VOR/DME GRA 117.3 H 24 534631S 0674445W",
+    "metadata": {
+      "source": "AIP - ENR4 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 1.pdf-13-0",
+    "text": "70.5 ft 348 km DME CH 120X ROSARIO VOR/DME ROS 117.3 H 24 325418S 0604653W 32 m 105 ft 324 km DME CH 120X NO UTILIZAR entre el RDL 305 y el RDL 325 (pasando por el RDL 315), por oscilaciones fuera de tolerancia. DO NOT USE between RDL 305 and RDL 325 (passing through RDL 315), due to out-of- tolerance oscillations. SALTA VOR/DME SAL 116.7 H 24 245108S- 0652902W 1240 m 4068 ft 343 km DME CH 114X Entre el RDL 45 y el RDL 175 (pasando por el RDL 100) desde GND y hasta FL 195, a partir de 40 NM sin señales o señales irregulares por efecto de montaña. Between RDL 45 and RDL 175 (passing through RDL 100) from GND to FL 195, from 40 NM without signals or irregular signals due to mountain effect. SAN ANTONIO DE ARECO VOR/DME SNT 117.7 H 24 (*)341320S- 0592629W 343 km (*) DME CH 124X SAN CARLOS DE BARILOCHE VOR/DME BAR 117.4 H 24 410825S- 0711120W NIL 324 km DME CH 121X Entre el RDL 020 y el RDL 060 (pasando por el RDL 040) desde GND y hasta FL 090, a partir de 18 NM NO UTILIZAR. Entre el RDL 190 y el RDL 260 (pasando por el RDL 220) desde GND y hasta FL 110, a partir de 20 NM NO UTILIZAR, sin señales o señales irregulares por efecto de montaña. Between RDL 020 and RDL 060 (passing through RDL 040) from GND to FL 090, from 18 NM DO NOT USE. Between RDL 190 and RDL 260 (passing through RDL 220) from GND to FL 110, from 20 AIP ARGENTINA ENR 4.1-7 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 NOMBRE DE LA ESTACIÓN / NAME OF STATION RADIOAYUDA RADIO AID ID FRECUENCIA FREQUENCY Horas de funciona- miento Hours of operation Coordenadas Coordinates Elev. Antena DME / ELEV DME Antenna Cobertura Restricciones / Coverage Restrictions KHz MHz NM DO NOT USE, without signs or irregular signs due to mountain effect SAN FERNANDO VOR/DME FDO 114.4 H 24 342705S- 0583503W",
+    "metadata": {
+      "source": "AIP - ENR4 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 1.pdf-14-0",
+    "text": "11.50 m 38 ft 343 km DME CH 91X SAN JUAN VOR/DME JUA 113.1 H 24 313350S- 0682517W 601 m 1972 ft 330 km (*) DME CH 78X Entre el RDL 220 y el RDL 330 (pasando por el RDL 280), fuera de las 10 NM DME (VOR), NO UTILIZAR por debajo de FL 100 y entre el RDL 020 y el RDL 090 (pasando por el RDL 050), fuera de las 15 NM DME (VOR), NO UTILIZAR por debajo de FL 080, debido a oscilaciones fuera de tolerancia por efecto montaña. Between RDL 220 and RDL 330 (passing through RDL 280), outside 10 NM DME (VOR), DO NOT USE below FL 100 and between RDL 020 and RDL 090 (passing through RDL 050), outside 15 NM DME (VOR), DO NOT USE below FL 080, due to out of tolerance oscillations due to mountain effect. SAN JULIAN VOR/DME SJU 117.7 H 24 (*)491835S- 0674846W",
+    "metadata": {
+      "source": "AIP - ENR4 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 1.pdf-16-0",
+    "text": "2.329 ft 328 km (*) DME CH 107X SAN MARTIN DE LOS ANDES VOR/DME CHP 117.0 400256S- 0710543W NIL 185 km (*) DME CH 117X Entre el RDL 180 y el RDL 220 (pasando por radial 190) NO UTILIZAR. Entre el RDL 290 y el RDL 330 (pasando por el RDL 300) NO UTILIZAR por debajo del FL 080, por oscilaciones fuera de tolerancia debido a efecto de montaña. En procedimiento de IAC N° 1 VOR/DME AD Chapelco, en el RDL 135 de alejamiento y en el RDL 123 de aproximación, dentro de las 10 NM se recomienda no utilizar piloto automático por oscilaciones de radiales, con su máxima intensidad entre las 8 NM y las 10 NM, producidas por efecto de montaña. Between RDL 180 and RDL 220 (passing through radial 190) DO NOT USE. Between RDL 290 and RDL 330 (passing AIP ARGENTINA ENR 4.1-8 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 NOMBRE DE LA ESTACIÓN / NAME OF STATION RADIOAYUDA RADIO AID ID FRECUENCIA FREQUENCY Horas de funciona- miento Hours of operation Coordenadas Coordinates Elev. Antena DME / ELEV DME Antenna Cobertura Restricciones / Coverage Restrictions KHz MHz through RDL 300) DO NOT USE below FL 080, because of out- of-tolerance oscillations due to mountain effect. In IAC N° 1 VOR/DME AD Chapelco procedure, in RDL 135 for approach and RDL 123 for approach, within 10 NM it is recommended not to use autopilot due to radial oscillations, with its maximum intensity between 8NM and 10NM, produced by mountain effect. SAN RAFAEL VOR/DME SRA 116.9 343522S- 0682341W",
+    "metadata": {
+      "source": "AIP - ENR4 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 1.pdf-17-0",
+    "text": "747.50 m 2452 ft 330 km (*) DME CH 116X Funciona con cobertura reducida al área terminal. NO UTILIZAR por debajo de FL 080 entre el RDL 170 y el RDL 310 (pasando por el RDL 250) desde las 15 NM DME (VOR) hasta las 30 NM (límite del TMA SRA). Operate with reduced coverage to the terminal area. DO NOT USE below FL 080 between RDL 170 and RDL 310 (through RDL 250) from 15 NM DME (VOR) to 30 NM (SRA TMA limit). SANTA ROSA VOR/DME OSA 112.5 H 24 363501S 0641622W NIL 350 km (*) DME CH 72X SANTA ROSA DE CONLARA VOR/DME SRC 117.5 H 24 322221S 0651100W",
+    "metadata": {
+      "source": "AIP - ENR4 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 1.pdf-18-0",
+    "text": "622.50 m 2042 ft 320 km (*) DME CH 122X Posterior a las 12 NM desde el RDL 030 hasta el RDL 120 (pasando por el RDL 090) NO UTILIZAR por debajo de FL 120 y desde el RDL 120 hasta el RDL 170 (pasando por el RDL 140) NO UTILIZAR por debajo de FL 085, por obstáculos. After 12 NM from RDL 030 to RDL 120 (through RDL 090) DO NOT USE below FL 120 and from RDL 120 to RDL 170 (through RDL 140) DO NOT USE below FL 085, due to obstacles. TANDIL VOR/DME DIL 115.9 H 24 371330S 0591346W NIL 324 km (*) DME CH 106X TERMAS DE RIO HONDO VOR/DME TRH 113.7 H 24 272948S 0645601W",
+    "metadata": {
+      "source": "AIP - ENR4 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 1.pdf-19-0",
+    "text": "286.75 m 941 ft 343 km (*) DME CH 84X En los 360 grados, fuera de las 30 NM DME (VOR), NO UTILIZAR por debajo de los 4000 FT. AIP ARGENTINA ENR 4.1-9 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 NOMBRE DE LA ESTACIÓN / NAME OF STATION RADIOAYUDA RADIO AID ID FRECUENCIA FREQUENCY Horas de funciona- miento Hours of operation Coordenadas Coordinates Elev. Antena DME / ELEV DME Antenna Cobertura Restricciones / Coverage Restrictions KHz MHz At 360 degrees, outside the 30 NM DME (VOR), DO NOT USE below 4000 FT. TRELEW VOR/DME TRE 115.1 H 24 431209S 0651450W",
+    "metadata": {
+      "source": "AIP - ENR4 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 1.pdf-20-0",
+    "text": "40.5 m 133 ft 343 km DME CH 98X TUCUMAN VOR/DME TUC 114.1 H 24 265045S 0650630W 449 m 1473 ft 343 km DME CH 88X Entre el RDL 250 y el RDL 315 (pasando por el RDL 270), fuera de las 16 NM NO UTILIZAR por debajo de FL 080 y fuera de las 25 NM NO UTILIZAR debajo de FL 180, debido a oscilaciones de parámetros por efecto montaña. Between RDL 250 and RDL 315 (passing through RDL 270), outside 16 NM DO NOT USE below FL 080 and outside 2 5NM DO NOT USE below FL 180, due to parameter oscillations due to mountain effect. VCOM. MARAMBIO VOR/DME MBI 117.0 O/R 641405S 0563712W NIL 350 km (*) DME CH 117X Fuera de las 5 NM DME (VOR) entre el RDL 265 al RDL 285 (pasando por RDL 275), NO UTILIZAR por debajo de 4000 FT debido a oscilaciones fuera de tolerancia por efecto de montaña. Outside the 5 NM DME (VOR) between RDL 265 to RDL 285 (passing through RDL 275), DO NOT USE below 4000 FT due to out-of-tolerance oscillations due to mountain effect. VILLA REYNOLDS VOR/DME RYD 115.7 H 24 334343S 0652252W",
+    "metadata": {
+      "source": "AIP - ENR4 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 1.pdf-21-0",
+    "text": "496.50 m 1629 ft 343 km (*) DME CH 104X (*) Calculado en gabinete. / (*) Calculated in laboratory. NO/NAV: Se aconseja no usar el modo \"NAV\" cuando se usa piloto automático. / NO/NAV: It is advisable not to use the \"NAV\" mode when using the autopilot.",
+    "metadata": {
+      "source": "AIP - ENR4 - 1.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  }
+]

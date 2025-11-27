@@ -1,0 +1,671 @@
+[
+  {
+    "id": "AIP - ENR4 - 3.pdf-0-0",
+    "text": "AIP ARGENTINA ENR 4.3-1 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 ENR 4. RADIOAYUDAS Y SISTEMAS DE NAVEGACIÓN/ RADIOAIDS AND NAVIGATION SYSTEMS ENR 4.3 SISTEMA MUNDIAL DE NAVEGACIÓN POR SATÉLITE (GNSS) ENR 4.3 GLOBAL NAVIGATION SATELLITE SYSTEM (GNSS) NORMAS PARA LA NAVEGACIÓN AÉREA CON SISTEMA MUNDIAL DE NAVEGACIÓN POR SATÉLITE (GNSS) (Disposición CRA Nº 55/07) 1. Ámbito de aplicación y sujetos alcanzados por la norma",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-2-0",
+    "text": "1.1. La presente normativa es de aplicación a toda persona que utilice el SISTEMA MUNDIAL DE DETERMINACIÓN DE LA POSICIÓN (GPS) en navegaciones aéreas, según las reglas de vuelo visual (VFR) o por instrumentos (IFR); por lo que se establecen los criterios operacionales de navegación aérea y las condiciones de uso del denominado SISTEMA MUNDIAL DE NAVEGACIÓN POR SATÉLITE (GNSS).",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-4-0",
+    "text": "1.2. La presente norma será de aplicación en todo el territorio de la República Argentina, sus aguas jurisdiccionales y el espacio aéreo que los cubre, como también en aquellos espacios aéreos extraterritoriales cuando por convenios internacionales se acuerde que dichos espacios se encuentren bajo la jurisdicción de los servicios de tránsito aéreo nacionales, de acuerdo con las consideraciones de implantación establecidas en el Plan Mundial de Navegación Aérea para los sistemas de comunicaciones, navegación y vigilancia (CNS), la gestión del tránsito aéreo (ATM) y la planificación regional de la Organización Internacional de Aviación Civil (OACI). 2. Definiciones",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-6-0",
+    "text": "2.1. Las definiciones de los siguientes términos, son conforme lo adoptado por la Organización de Aviación Civil Internacional (OACI): Comprobación autónoma de la integridad en el receptor (RAIM) Forma de ABAS (Sistema de Aumentación Basado en la Aeronave) por la que un receptor procesador de GNSS determina la integridad de las señales GNSS empleando únicamente señales GPS o señales GPS aumentadas con altitud (ayuda barométrica). Esto se determina mediante una verificación de coherencia entre mediciones redundantes seudoestadisticas. Para que el receptor realice la función RAIM es necesario disponer de por lo menos un satélite adicional con la geometría correcta y que exceda la necesaria para estimar la posición ((Doc 9613). Disponibilidad (Circular 267-AN/159). La disponibilidad de un sistema de navegación es el porcentaje de tiempo en el que son utilizables los servicios del sistema. La disponibilidad es una indicación de la capacidad del sistema para proporcionar servicio útil dentro de una determinada zona de cobertura. La disponibilidad de señales es el porcentaje de tiempo en el que se transmiten señales de navegación desde fuentes externas para ser utilizadas. La disponibilidad depende de las características físicas del entorno y de la capacidad técnica de las instalaciones transmisoras. Exactitud (Circular 267-AN/159) Es el grado de conformidad entre la posición estimada o medida y, o, la velocidad de una plataforma en un momento determinado y su posición o velocidad verdaderas. Habitualmente se presenta la exactitud de performance de la STANDARDS FOR AIR NAVIGATION USING GLOBAL NAVIGATION SATELLITE SYSTEMS (GNSS) (CRA Provision Nº 55/07) 1. Scope and individuals affected by this regulation",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-8-0",
+    "text": "1.1. This regulation applies to all individuals using the Global Positioning System (GPS) in air navigation operations, according to visual flight rules (VFR) or instrument flight rules (IFR); which is why air navigation operational criteria are set forth as well as the Global Navigation Satellite System (GNSS) conditions of use.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-12-0",
+    "text": "1.2. The present regulation shall apply to all the Argentine Republic territory, its jurisdictional waters, its air space and the extraterritorial air spaces which, under international agreements, are convened to be under national air traffic services jurisdiction, pursuant to the implementation considerations established in the Global Air Navigation Plan for the Communications, Navigation and Surveillance (CNS) systems, Air Traffic Management (ATM) and regional planning of the International Civil Aviation Organization (ICAO). 2. Definitions",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-14-0",
+    "text": "2.1. The definitions of the terms that follow comply with ICAO's definitions: Receiver Autonomous Integrity Monitoring (RAIM) A form of ABAS (Aircraft Based Augmentation System) whereby a GNSS receiver processor determines the integrity of GNSS signals using only GPS signals or GPS signals augmented with altitude (barometric aid). This is determined by a consistency check between redundant pseudo-statistical measurements. For the receiver to perform the RAIM function it is necessary to have at least one additional satellite with the correct geometry over and above the geometry needed for the position estimation (Doc 9613). Availability (Circular 267-AN/159). The availability of a navigation system is the time span in which the system's services are serviceable. Availability is an indication of the capability the system has to provide a useful service within a certain coverage area. Signal availability is the time span in which navigation signals are transmitted from external sources to be used. Availability relies on the physical characteristics of the surroundings and the technical capability of the transmission facilities. Accuracy (Circular 267-AN/159) The degree of compliance between the estimated or measured position and/or speed of a platform at a given time and its position and/or true speed. Radio-navigational performance accuracy is usually presented as a statistical measure of system errors and is specified as follows: AIP ARGENTINA ENR 4.3-2 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 radionavegación como medida estadística de errores del sistema y se especifica como: a) Previsible. La exactitud de una posición en relación con las coordenadas geográficas o geodésicas de la tierra. b) Relativa. La exactitud con la que un usuario puede determinar una posición respecto a otra posición, sin considerar los errores en sus posiciones verdaderas. c) Replicable. La exactitud con la que un usuario puede volver a una posición cuyas coordenadas han sido medidas en un tiempo anterior con el mismo sistema de navegación. Exactitud del GNSS (Circular 267-AN/159). Grado de conformidad entre la información sobre posición y hora que proporciona el GNSS y, la posición y hora, verdaderas. Fiabilidad (Circular 267-AN/159). Una función de la frecuencia con que se presentan fallos en el sistema. La probabilidad de que el sistema desempeñe su función, dentro de los límites definidos de performance, durante un período especificado y en condiciones determinadas de funcionamiento. Formalmente, la fiabilidad se expresa como la diferencia entre 1 y la probabilidad de fallo del sistema. Integridad (Circular 267-AN/159). Capacidad de un sistema de proporcionar a los usuarios avisos oportunos en caso de que el sistema no deba utilizarse para la navegación. Integridad del GNSS (Circular 267-AN/159). La garantía de que todas las funciones del sistema tienen lugar dentro de los límites de performance operacional del GNSS. Llegada normalizada por instrumentos (STAR) (Doc. 9613). Ruta de llegada designada según reglas de vuelo por instrumentos (IFR) que une un punto significativo, normalmente en una ruta ATS, con un punto desde el cual puede comenzarse un procedimiento publicado de aproximación por instrumentos. Navegación de área (RNAV) (Circular 267-AN/159). Método de navegación",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-14-450",
+    "text": "por instrumentos (STAR) (Doc. 9613). Ruta de llegada designada según reglas de vuelo por instrumentos (IFR) que une un punto significativo, normalmente en una ruta ATS, con un punto desde el cual puede comenzarse un procedimiento publicado de aproximación por instrumentos. Navegación de área (RNAV) (Circular 267-AN/159). Método de navegación que permite las operaciones de aeronaves en cualquier trayectoria de vuelo deseada, dentro de la cobertura de las ayudas para la navegación referidas a la estación o dentro de los limites de la capacidad de las ayudad para la navegación referidas a la estación, o dentro de los límites de la capacidad de las ayudas autónomas o de una combinación de ambas. Nota. –– La navegación de área incluye la navegación basada en la performance así como otras operaciones RNAV que no se ajustan a la definición de navegación basada en la performance. Precisión: Habilidad del sistema de navegación para mantener la posición de la aeronave dentro del error del sistema total (TSE) con el 95 % de probabilidad. Punto de recorrido (WAY POINT – W/P) (Anexo 11). Un lugar geográfico especificado, utilizado para definir una ruta de navegación de área o la trayectoria de vuelo de una aeronave que emplea navegación de área. Los puntos de recorrido se identifican como: Punto de recorrido de paso (vuelo por) (Fly-by WPT) Punto de recorrido que requiere anticipación del viraje para que se pueda realizar la interceptación tangencial del siguiente tramo de una ruta o procedimiento. a) Predictable. The accuracy of a position in relation with geodesic or geographic coordinates of the Earth. b) Relative. The accuracy with which a user can determine a position relative to another position, without regard to errors in their true positions. c) Replicable. The accuracy with which a user can return to a position whose coordinates have been measured at a previous time with the same navigation system. GNSS accuracy (Circular 267-AN/159). Degree of compliance between the position and time information provided by the GNSS and the true position and time. Reliability (Circular 267-AN/159). A function of the frequency with which system failures are presented. The probability of the system performing its function, within the defined limits of performance, during a specified period and under certain working conditions. Formally, reliability is expressed as the difference between 1 and the probability of system failure. Integrity (Circular 267-AN/159). Capability a system has of providing the users with timely notices in case the system should not be used for navigation. GNSS Integrity (Circular 267-AN/159). Assurance that all the system functions are within the GNSS operational performance limits. Standard Terminal Arrival Route (STAR) (Doc 9613). A designated instrument flight rule (IFR) arrival route linking a significant point, normally on an ATS route, with a point from which a published instrument approach procedure can be initiated. Area Navigation (RNAV) (Circular 267-AN/159). A method of navigation, which allows aircraft operations on any, desired flight path within the coverage of station-referenced navigation aids or within the limits of the capability of self-contained aids,",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-14-900",
+    "text": "ATS route, with a point from which a published instrument approach procedure can be initiated. Area Navigation (RNAV) (Circular 267-AN/159). A method of navigation, which allows aircraft operations on any, desired flight path within the coverage of station-referenced navigation aids or within the limits of the capability of self-contained aids, or a combination of these. Note. –– area navigation includes performance-based navigation as well as other RNAV operations that do not meet the definition of performance-based navigation. Precision: Ability of the navigation system to keep the aircraft position within the total system error (TSE) with a 95% of probability. Waypoint (W/P) (Annex 11). A specified geographical location, used to define an area navigation route or the flight path of an aircraft employing area navigation. Waypoints are specified as follows: Fly-by waypoint (Fly-by WPT) A fly-by waypoint that requires turn anticipation to allow tangential interception of the next segment of a route or procedure. AIP ARGENTINA ENR 4.3-3 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 Punto de recorrido de sobrevuelo (Fly-over WPT) Punto de recorrido en que se inicia el viraje para incorporarse al siguiente tramo de una ruta o procedimiento. Receptor GNSS básico (Doc 8168). Este término alude a aquellos equipos de aviónica que cumplan al menos los requisitos para los receptores GPS que se establecen en el Anexo 10 (Volumen I) de la OACI y las especificaciones de RTCA/DO208 conforme a la FAA TSO- C129A de la Administración Federal de Aviación de los Estados Unidos. Requisitos de Performance de la PBN (Navegación Basada en la Performance): Precisión: Habilidad del sistema de navegación para mantener la posición de la aeronave dentro del error del sistema total (TSE) con el 95% de probabilidad. Integridad: Habilidad del sistema de navegación para proveer alertas cuando el sistema no es seguro para ser utilizado. Continuidad: Habilidad del sistema para proveer servicio sin interrupción durante la operación. Disponibilidad: Habilidad del sistema para realizar su función al inicio de la actividad prevista. Ruta de navegación de área (Anexo 11). Ruta ATS establecida para el uso de aeronaves que pueden aplicar el sistema de navegación de área. Salida normalizada por instrumentos (SID) (Doc. 9613). Ruta de salida designada según reglas de vuelo por instrumentos (IFR) que une un aeródromo o una determinada pista del aeródromo con un determinado punto significativo, normalmente en una ruta ATS, en el cual comienza la fase en ruta de un vuelo. Sistema de navegación como medio primario (Circular 267- AN/159). Sistema de navegación aprobado para determinada operación o fase de vuelo que debe satisfacer los requisitos de exactitud y de integridad pero que no es necesario que satisfaga los requisitos de plena disponibilidad y continuidad del servicio. Sistema de navegación como medio suplementario (Circular 267- AN/159). Sistema de navegación que debe utilizarse conjuntamente con un sistema de navegación como medio único. La aprobación de medios suplementarios para determinada fase del vuelo exige que se disponga a bordo de un sistema de navegación como medio único para dicha fase del",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-14-1350",
+    "text": "navegación como medio suplementario (Circular 267- AN/159). Sistema de navegación que debe utilizarse conjuntamente con un sistema de navegación como medio único. La aprobación de medios suplementarios para determinada fase del vuelo exige que se disponga a bordo de un sistema de navegación como medio único para dicha fase del vuelo. Entre los requisitos de performance del sistema de navegación para determinada operación o fase del vuelo, un sistema de navegación como medio suplementario debe satisfacer los requisitos de exactitud y de integridad para tal operación o fase del vuelo. No se impone satisfacer los requisitos de disponibilidad y de continuidad. Sistema de navegación como medio único (Circular 267-AN/159). Un sistema de navegación aprobado como medio único para determinada operación o fase del vuelo debe posibilitar a la aeronave satisfacer, en dicha operación o fase del vuelo, los cuatro requisitos de performance del sistema de navegación: exactitud, integridad, disponibilidad y continuidad de servicio. Vigilancia de la integridad del GNSS (Circular 267-AN/159). Subsistema del GNSS que permite la detección e indicación oportunas de mal funcionamiento en las operaciones GNSS, para asegurar que el usuario sepa si el sistema está funcionando o no dentro de los límites especificados de performance. Flyover waypoint (Fly-over WPT) A waypoint at which a turn is initiated in order to join the next segment of a route or procedure. Basic GNSS Receiver (Doc 8168). This term refers to those avionics equipment complying with at least the requirements of GPS receivers, established under ICAO Annex 10 (Volume I), and the RTCA/DO208 specifications pursuant to USA FAA TSO-C129A. PBN (Performance-based Navigation) Performance requirements: Accuracy: ability of the navigation system to keep the aircraft position within the total system error (TSE) with a 95% of probability. Integrity: ability of the navigation system to provide warnings when the system is not safe to be used. Continuity: ability of the system to provide an uninterrupted service during an operation. Availability: ability of the system to perform its function at the initiation of the intended operation. Area navigation route (Annex 11). An ATS route established for the use of aircraft capable of employing the area navigation system. Standard Instrument Departure (SID) (Doc 9613). A designated instrument flight rule (IFR) departure route linking the aerodrome or a specified runway of the aerodrome with a specified significant point, normally on a designated ATS route, at which the en-route phase of a flight commences. Primary means navigation system (Circular 267-AN/159). Navigation system approved for a given operation or flight phase that must meet accuracy and integrity requirements but not full availability and continuity of service requirements. Supplementary means navigation system (Circular 267-AN/159). Navigation system that must be used jointly with a sole means navigation system. Approval for using supplementary navigation systems in a given flight phase requires having a sole means of navigation system on board for said flight phase. Among the navigation system performance requirements for a given operation or flight phase, a supplementary means navigation system must meet the accuracy and integrity requirements for",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-14-1800",
+    "text": "for using supplementary navigation systems in a given flight phase requires having a sole means of navigation system on board for said flight phase. Among the navigation system performance requirements for a given operation or flight phase, a supplementary means navigation system must meet the accuracy and integrity requirements for such operation or flight phase, but not the availability and continuity requirements. Sole means navigation system (Circular 267-AN/159). Un sistema de navegación aprobado como medio único para determinada operación o fase del vuelo debe posibilitar a la aeronave satisfacer, en dicha operación o fase del vuelo, los cuatro requisitos de performance del sistema de navegación: exactitud, integridad, disponibilidad y continuidad de servicio. GNSS Integrity Surveillance (Circular 267-AN/159). GNSS subsystem which allows timely detection and indication of the failures in GNSS operations, which ensures that the user knows if the system is operating within the specified performance limits or not. AIP ARGENTINA ENR 4.3-4 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 3. Condiciones de uso del GNSS",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-18-0",
+    "text": "3.1.1. El receptor GNSS puede ser utilizado sólo como apoyo a la navegación que se realice según las reglas de vuelo visual (VFR), en virtud que el piloto tiene, en todo momento, la responsabilidad en desarrollar la navegación manteniendo referencia visual constante con la superficie terrestre, conforme lo estipula la reglamentación aeronáutica vigente.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-22-0",
+    "text": "3.2.1. Para realizar un vuelo VFR dentro de un espacio aéreo controlado utilizando un receptor GNSS como medio de navegación suplementario, el mismo deberá estar certificado para uso aeronáutico por el fabricante (conforme a normas de fabricación/homologación del país de origen) y su instalación deberá estar verificada y aprobada por la Autoridad Aeronáutica Competente de conformidad con los requisitos de instalación de equipos en las aeronaves para realizar vuelos IFR, tal como se encuentran especificados en la reglamentación aeronáutica vigente.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-24-0",
+    "text": "3.2.2. Si la tripulación recibe una indicación en el receptor GNSS indicando que el sistema no debe ser utilizado para la operación (o fase del vuelo) prevista, la tripulación deberá continuar la navegación utilizando ayudas tradicionales para la navegación.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-28-0",
+    "text": "3.3.1. El receptor GNSS puede ser utilizado como medio de navegación primario para realizar vuelos IFR en rutas oceánicas, rutas ATS, en áreas de control terminal y en aproximaciones por instrumentos de no precisión, donde la Autoridad Aeronáutica haya establecido procedimientos y trayectorias para dicho sistema; siempre y cuando satisfagan las condiciones señaladas a continuación: a) Solo están autorizados para aproximación de no precisión los TSO C129, clases A1, B1, B3, C1 y C3 (TSO C 129-A Airbone Supplemental Navigation Equipment Using Global Positioning System (GPS), TSO C145 Airbone Navigation Sensors Using Global Position System(GPS) Augmented by the Wide Area Augmentation System (WAAS) y TSO C146 Stand-Alone Airborne navigation Equipament using the Global Position System (GPS) Augmented by the Wide Area Augmentation System (WAAS). b) su instalación en la aeronave, deberá estar verificada y aprobada por la Autoridad Aeronáutica competente de conformidad con los requisitos de instalación de equipos para realizar vuelos IFR, tal como se encuentran especificados en la reglamentación aeronáutica vigente, AC 20- 130 A AIRWORTHINESS APPROVAL OF NAVIGATION OR FLIGHT MANAGEMENT SISTEMS INTEGRATING MULTIPLE NAVIGATION SENSORS (Equipos de navegación que usan multisensores) o AC 20- 138 A AIRWORTHINESS APPROVAL OF GLOBAL POSITIONING SYSTEM NAVIGATION EQUIPMENT FOR USE AS A VFR AND IFR SUPPLEMENT NAVIGATION SYSTEM, (Para instalaciones de GPS autónomo, no integrado). c) para utilizar un receptor GNSS en las navegaciones de los servicios aéreos comerciales, los explotadores 3. Conditions of use for GNSS",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-32-0",
+    "text": "3.1.1. The GNSS receiver may be used only as a navigational aid when navigation is performed under visual flight rules (VFR), by virtue of the pilot having, at all times, the responsibility of performing navigation keeping a constant visual reference with the ground, according to current aeronautical regulations.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-37-0",
+    "text": "3.2.1. In order to perform a VFR flight within a controlled air space (controlled VFR) using a GNSS receiver as a supplementary navigational means, the receiver should be certified for aeronautical use by the manufacturer (pursuant to manufacturing regulations/approval from the country of origin) and its installation shall be checked and approved by the competent aeronautical authority, according to aircraft equipment installation requirements for IFR flights, as specified in current aeronautical regulations.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-40-0",
+    "text": "3.2.2. If the GNSS receiver indicates the system should not be used for a foreseen operation (or flight phase), the flight crew shall continue navigation using traditional navigational aids.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-45-0",
+    "text": "3.3.1. The GNSS receiver may be used as a primary navigational aid to perform IFR flights in oceanic routes, ATS routes, in terminal controlled areas and in non-precision instrument approach procedures, where the aeronautical authority has established procedures and paths for said system, as long as the following technical conditions are met: a) Authorized only for non-precision approach procedures: TSO C129, classes A1, B1, B3, C1 and C3 (TSO C129A - Airborne Supplemental Navigation Equipment Using (GPS) Global Positioning System); TSO C145 - Airborne Navigation Sensors using the Global Position System (GPS) augmented by the Wide Area Augmentation System (WAAS) and TSO C146 Stand- Alone Airborne Navigation Equipment using the Global Positioning System (GPS) augmented by the Wide Area Augmentation System (WAAS). b) its aircraft installation shall be checked and approved by the competent aeronautical authority, according to aircraft equipment installation requirements for IFR flights, as specified in current aeronautical regulations. AC 20-130A (airworthiness approval of navigation or flight management systems integrating multiple navigation sensors) or AC 20-138A Airworthiness approval of global positioning system navigation equipment for use as a VFR and IFR supplement navigation system (For installations of autonomous GPS, not integrated). c) in order to use a GNSS receiver in commercial air services navigation, users shall be authorized by the aeronautical authority. This authorization may include specific instruction provisions or pilot ́s certification AIP ARGENTINA ENR 4.3-5 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 deberán estar autorizados por la autoridad aeronáutica quien podrá incluir disposiciones específicas de instrucción o requisitos de certificación de pilotos y/o el manejo de la base de datos de a bordo, al igual que los procedimientos y limitaciones operacionales necesarias para asegurar el adecuado funcionamiento de la aviónica; lo que deberá constar en las Especificaciones de Operación de la empresa aerocomercial, en su Manual de Operaciones; y para Aviación General en su Manual de Vuelo (POH). d) por razones de seguridad, se prohíbe que un piloto ingrese o actualice manualmente la información o coordenadas de un procedimiento por instrumentos diagramado por la autoridad aeronáutica para este tipo de sistema. La prohibición incluye toda modificación que en forma manual se pretenda realizar a la base de datos del sistema, para lo que sólo se prevé las actualizaciones que, bajo carácter oficial, brinden los centros autorizados para ello.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-49-0",
+    "text": "3.4.1. El receptor GNSS, es un medio de navegación suplementario que se podrá utilizar en navegaciones aéreas sobre el sector oceánico de las regiones de información de vuelo como medio de navegación primario o único, si no se dispone de señales de ayudas terrestres; permitiéndole a los pilotos, conocer su posición con un mayor grado de seguridad y disminuir la probabilidad de incidentes o accidentes.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-53-0",
+    "text": "3.5.1. El receptor GNSS, es un medio de navegación suplementario que se podrá utilizar en navegaciones aéreas en rutas ATS designadas.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-55-0",
+    "text": "3.5.2. Cuando en la navegación aérea en rutas ATS designadas se pierdan las señales de referencia de los equipos terrestres de ayuda a la navegación, el receptor GNSS podrá ser considerado como medio de navegación primario al igual que en la navegación aérea en rutas RNAV.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-57-0",
+    "text": "3.5.3. El piloto tendrá presente que, a los fines de las separaciones, el control de tránsito aéreo considerará las posiciones que se informen sobre la base de los datos brindados por el receptor GNSS, de la misma manera que los radiales VOR y las distancias DME.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-61-0",
+    "text": "3.6.1. Para Salidas Normalizadas por Instrumentos (SID) y Llegadas Normalizadas por Instrumentos (STAR), sólo se podrá utilizar el receptor GNSS en aquellos procedimientos que han sido específicamente establecidos por la autoridad aeronáutica.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-63-0",
+    "text": "3.6.2. Los procedimientos aprobados, serán los publicados por la autoridad aeronáutica y podrán ser incorporados a la base de datos de navegación de a bordo.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-67-0",
+    "text": "3.7.1. Se autoriza la utilización del receptor GNSS del sistema GPS, en aquellos procedimientos de aproximación por instrumentos que no sean de precisión y que hayan sido establecidos y publicados por la autoridad aeronáutica. Dichos requirements and/or on-board database management, and also all necessary operational procedures and restrictions in order to secure proper operation of avionics; all of which shall be stated in the Operations Manual and, for General Aviation, in the Pilot ́s Operating Handbook (POH). d) for safety reasons, the pilot is not authorized to manually enter or update the information or coordinates of an instrument procedure, outlined by the aeronautical authority for this type of system, including any intended modification made manually to the database of the system. Updates shall be provided by the authorized centers officially authorized to do them.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-75-0",
+    "text": "3.4.1. The GNSS receiver shall be used in air navigations on the oceanic area of the flight information regions as primary or sole means navigation system, if no ground aid signals are available, allowing pilots to have a better knowledge of their position and reduce the probability of accident or incidents.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-81-0",
+    "text": "3.5.1. The GNSS receiver is a supplementary means navigation system that may be used for navigation areas in designated ATS routes.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-83-0",
+    "text": "3.5.2. When reference signals from navigational aid ground equipment are lost -during air navigation in designated ATS routes- the GNSS receiver may be consider a primary means navigation system, as well as in RNAV routes air navigation.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-86-0",
+    "text": "3.5.3. Pilots may keep in mind that, when it comes to separations, air traffic control shall consider the positions informed by the GNSS receiver database, same as VOR radials and DME distances.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-91-0",
+    "text": "3.6.1 For Standard Instrument Departures (SID) and Standard Instrument Arrivals (STAR), the GNSS receiver may only be used in those procedures specifically established by the aeronautical authority.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4",
+      "section": "3.6.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-93-0",
+    "text": "3.6.2 Authorized procedures shall be those published by the aeronautical authority and may be incorporated to the on-board navigation database.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4",
+      "section": "3.6.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-97-0",
+    "text": "3.7.1. GPS system GNSS receiver is authorized for use in those non-precision instrument approach procedures, which have been established and published by the aeronautical authority. Said procedures shall be incorporated in the on-board navigation database. AIP ARGENTINA ENR 4.3-6 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 procedimientos deberán estar incorporados en la base de datos de navegación del equipo de a bordo.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-101-0",
+    "text": "3.8.1. La aproximación por instrumentos sobrepuesta (Overlay) son procedimientos con GPS, sobrepuestos a procedimientos de aproximación por instrumentos que no sean de precisión, los cuales utilizan la misma derrota nominal que los procedimientos establecidos en las aproximaciones NDB LI, NDB LO, NDB, y VOR, incluidos los virajes de procedimientos, virajes de base y tienen los mismos mínimos de aproximación.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-105-0",
+    "text": "3.8.3. La aproximación por instrumentos sobrepuesta (Overlay), no requiere aprobación operacional. Es responsabilidad del explotador verificar que puede cumplir el procedimiento con el sistema instalado y cumple con los requisitos de equipamiento mínimo requerido.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-107-0",
+    "text": "3.8.4. El equipamiento mínimo requerido para procedimientos sobrepuestos (Overlay) es el siguiente: a) Un equipo receptor GNSS con: 1) recuperación de datos del procedimiento, desde una Base de Datos de un proveedor certificado. 2) representación grafica en pantalla propia o salida para una pantalla de navegación, indicador horizontal de posición (HSI) o indicador de desviación de curso (CDI) que permita al piloto el seguimiento de la trayectoria. 3) Disponibilidad de RAIM o sistema equivalente. b) El piloto deberá conocer los procedimientos operativos apropiados para GPS en las tareas comunes de navegación para cada tipo especifico de equipo en cada tipo de aeronave, que comprenda: 1) Selección del modo apropiado de operación. 2) repaso de los distintos tipos de información contenidos en la base de datos de navegación; 3) predicción de la disponibilidad de la función RAIM. 4) Procedimiento para introducir y comprobar los puntos de recorrido definidos por el usuario; 5) Procedimiento para introducir, recuperar y verificar los datos del plan de vuelo; 6) interpretación de la información típica que aparece en las pantallas de navegación GPS: LAT/LONG, distancia y rumbo al punto de recorrido, CDI; 7) interceptación y mantenimiento de las rutas definidas por GPS; 8) determinación en vuelo de la velocidad respecto al suelo (GS), hora prevista de llegada (ETA) tiempo y distancia al punto de recorrido; 9) indicación del sobrevuelo de los puntos de recorrido; 10) utilización de la función “DIRECT TO” (directo a); 11) uso del GPS en procedimientos de llegada GPS o en procedimientos de llegada DME/GPS.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-111-0",
+    "text": "3.9.1. Cuando la dependencia ATC solicite a la tripulación de vuelo, información respecto de su posición, ésta deberá proporcionar la distancia que se obtenga de una señal DME. Como",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-117-0",
+    "text": "3.8.1. Overlay approach procedures (Overlay) are GPS procedures, overlaid to conventional navigation-based procedures. They use the same nominal track than NDB and VOR approach procedures, including procedure turns, base turns and they have the same approach minimum.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-124-0",
+    "text": "3.8.3. Overlay approach procedures do not require operational approval. It is the user ́s responsibility to check if the procedure must be carried out with the installed system and that all minimum equipment requirements are met.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-127-0",
+    "text": "3.8.4. The minimum equipment requirement for overlay approach procedures is as follows: a) A GNSS receiver equipment according with: 1) Procedure data recovery, from a certified provider ́s database. 2) Graphic representation on its own screen or on a navigation screen, Horizontal Situation Indicator (HSI) or Course Deviation Indicator (CDI) allowing the pilot to follow the path. 3) RAIM availability or equivalent system. b) Pilots should know operational procedures for GPS in common navigational operations for each specific equipment of each type of aircraft, including: 1) Selection of proper operational mode; 2) Familiarization of the different types of data included in the navigational database; 3) Availability prediction of the RAIM function; 4) Procedure to introduce and check waypoints defined by the user; 5) Procedure to introduce, recover and check flight plan data; 6) Interpretation of typical information appearing in the GPS navigation screen: LAT/LONG, distance and WPT course, CDI; 7) Interception and maintenance of GPS defined routes; 8) Flight determination of ground speed (GS), estimated time of arrival (ETA), WPT time and distance; 9) WPT overflight indication; 10) Use of “DIRECT TO” function; 11) GPS use in GPS arrival procedures or in DME/GPS arrival procedures.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-132-0",
+    "text": "3.9.1. When an ATC unit requests position information to the flight crew, the distance obtained from the DME signal shall be provided. As an alternative, the flight crew may provide the distance obtained from a GPS equipment or a GNSS receiver, AIP ARGENTINA ENR 4.3-7 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 alternativa, se podrá proporcionar la información de la distancia que se obtenga de un equipo GPS o receptor GNSS, anteponiendo la frase “DISTANCIA GPS”, excepto cuando el RAIM no esté disponible en ese momento y/o no haya estado disponible durante los DIEZ (10) minutos anteriores.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-134-0",
+    "text": "3.9.2. La información sobre distancia sólo debe suministrarse con relación a los puntos de notificación publicados, salvo solicitud específica formulada por la dependencia ATC.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-138-0",
+    "text": "3.10.1. Los explotadores de aeronaves que hayan sido autorizados para realizar operaciones RNAV (GNSS), deberán insertar el designador “G” en la casilla 10 del plan de vuelo (AIP Volumen 1 - Parte ENR 1.10 - 6). 4. Requisitos de aeronavegabilidad",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-140-0",
+    "text": "4.1 La autoridad aeronáutica competente es quien fijará los requisitos de aeronavegabilidad para la instalación de receptores GNSS en las aeronaves, por lo que verificará y aprobará las instalaciones de conformidad con los requisitos de instalación de equipos que conforman la aviónica de las aeronaves, en un todo de acuerdo a la reglamentación aeronáutica vigente. 5. Requisitos de calificación de los pilotos",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4",
+      "section": "4.1",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-142-0",
+    "text": "5.1 Los requisitos de instrucción y calificación de pilotos para la ejecución de procedimientos GNSS, estarán contenidos en el Programa de Instrucción del Explotador aprobado por la Autoridad Aeronáutica competente, de conformidad con la clase de operaciones a realizar y el tipo de aeronave a emplear, tanto para el uso de receptores GNSS integrados a un sistema de gestión de vuelo, como también, para los no integrados. Para la Aviación General el piloto al mando será el responsable del cumplimiento con los requisitos mínimos establecidos para realizar las operaciones sobrepuestas (Overlay). 6. Anomalías e interferencias en el GNSS",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4",
+      "section": "5.1",
+      "chapter": "5"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-144-0",
+    "text": "6.1 La vulnerabilidad más notable del GNSS reside en la posibilidad de interferencias, al igual que en todas las bandas de radionavegación, afectando la performance de navegación y que en resumen se pueden fundar en interferencias que pueden ser intencionales o no intencionales, por el estado de la ionosfera y por otras diversas vulnerabilidades relacionadas con la falla del sistema, por posibles errores operacionales o por la misma suspensión del servicio.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4",
+      "section": "6.1",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-146-0",
+    "text": "6.2 Cualesquiera fuese el origen de las anomalías o interferencias, los pilotos deberán proceder de la siguiente forma: a) Notificar la situación a la dependencia ATC tan pronto como sea posible y solicitar instrucciones especiales, en caso de resultar necesario. b) Informar la altitud, la ubicación y la hora del suceso. c) Elaborar un informe que será remitido a la autoridad aeronáutica competente tan pronto como sea posible y con información que comprenda la descripción del suceso (ej: como falló o reaccionó la aviónica durante la anomalía, etc.)",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4",
+      "section": "6.2",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-148-0",
+    "text": "6.3 Con la información, las dependencias ATC podrán registrar detalles de los sucesos, intentar la identificación de otras aeronaves equipadas con receptores GNSS que hayan experimentado anomalías similares y radiodifundir tales novedades putting ahead the phrase “GPS DISTANCE”, except when the RAIM is not available at that moment or has not been available for the last TEN (10) minutes.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4",
+      "section": "6.3",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-152-0",
+    "text": "3.9.2. Distance data must only be provided regarding published reporting points, except specific ATC unit request.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-157-0",
+    "text": "3.10.1. Aircraft users authorized to perform RNAV operations (GNSS) shall insert the “G” designator in box 10 of the flight plan form (AIP, Volume 1 - ENR 1.10-6). 4. Airworthiness requirements",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-159-0",
+    "text": "4.1. Airworthiness requirements for the installation of GNSS receivers shall be established by the competent aeronautical authority and, thus, it shall check and approve the installations in accordance with the equipment installation requirements from the aircraft avionics; all of which must comply with current aeronautical regulations. 5. Pilot ́s certification requirements",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-161-0",
+    "text": "5.1. Pilot ́s training and certification requirements for GNSS procedure execution shall be contained in the User ́s Instruction Program, approved by the competent aeronautical authority, pursuant to the operation type to be performed and the aircraft type to be used, both for GNSS receivers integrated to a flight management system and for those that are not integrated. For General Aviation, the Pilot in Command shall be responsible for the compliance of the minimum established requirements to perform OVERLAY operations. 6. GNSS faults and interferences",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-163-0",
+    "text": "6.1. GNSS most noticeable vulnerability resides in the possibility of having interferences, as with all radio-navigational bands, affecting navigational performance and which may be intentional or unintentional interferences, due to the ionosphere state and other many vulnerabilities related to the failure of the system, due to possible operational errors or for the same service suspension.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-166-0",
+    "text": "6.2. No matter the origin of the faults or interferences, pilots should proceed as follows: a) Notify the situation to the ATC unit as soon as possible and request special instructions when necessary. b) Inform altitude, location and time of the event. c) Make a report, including a description of the event (e.g. how avionics failed or responded during the fault, etc), which should be sent as soon as possible to the competent aeronautical authority.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-170-0",
+    "text": "6.3. With that information, ATC units shall be able to register details of the events, identify other aircraft equipped with GNSS receivers, which have experienced similar faults and inform by AIP ARGENTINA ENR 4.3-8 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 sobre anomalías o interferencias detectadas, para la seguridad operacional de las demás aeronaves.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-172-0",
+    "text": "6.4 La recopilación de la información, le permitirá al Estado evaluar las vulnerabilidades del GNSS en su espacio aéreo y seleccionar mitigaciones apropiadas dependiendo del espacio aéreo en cuestión y de las operaciones aéreas que deban apoyarse, en virtud que la coordinación nacional e internacional de medidas para evitar y mitigar las anomalías e interferencias GNSS es fundamental. 7. Procedimiento para la operación GPS con pérdida de RAIM",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4",
+      "section": "6.4",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-176-0",
+    "text": "7.1.1 La exactitud de la información que brinda un receptor GNSS, puede ser afectada por la pérdida de la capacidad de RAIM, por lo que no se cumpliría con las normas requeridas para la navegación según este sistema de navegación y además, con la ejecución de separaciones indicadas por la dependencia ATC.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4",
+      "section": "7.1.1",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-178-0",
+    "text": "7.1.2 Cuando se produjese una alarma de integridad de las señales de los satélites o haya previsión de indisponibilidad de la función RAIM durante la navegación en espacio aéreo oceánico, en ruta y/o en Terminal se deberá continuar la fase de vuelo con referencia a los sistemas de navegación convencionales.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4",
+      "section": "7.1.2",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-180-0",
+    "text": "7.1.3 El aeródromo que se seleccione para realizar un procedimiento de aproximación de no precisión (GPS) o el aeródromo de alternativa, deberá – al menos uno de ellos – disponer de un procedimiento de aproximación por instrumentos establecido con referencia a radioayudas terrestres, las cuales deberán estar en servicio y el procedimiento de aproximación por instrumentos disponible para la hora prevista de llegada al aeródromo inicialmente seleccionado como destino.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4",
+      "section": "7.1.3",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-182-0",
+    "text": "7.1.4 Informar la contingencia del GPS a la dependencia ATS utilizando la frase “GNSS BÁSICO NO DISPONIBLE POR PÉRDIDA DE RAIM O ALERTA RAIM”. 8. Información sobre disponibilidad de las señales del GPS",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4",
+      "section": "7.1.4",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-184-0",
+    "text": "8.1 Actualmente existe información disponible proporcionada por U.S. Coast Guard Center en la dirección de Internet: http://www.navcen.uscg.gov.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4",
+      "section": "8.1",
+      "chapter": "8"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-186-0",
+    "text": "8.2 Las posibles interrupciones del servicio de satélite que sean planificadas, se anuncian en forma de avisos a los usuarios de NAVSTAR con un mínimo de CUARENTA Y OCHO (48) horas de anticipación.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4",
+      "section": "8.2",
+      "chapter": "8"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-188-0",
+    "text": "8.3 La Autoridad Aeronáutica aún no ha determinado ni sugerido un proveedor específico para las señales del GPS, por lo que la búsqueda y contratación de los mismos queda bajo exclusiva responsabilidad de los usuarios. radio those detected faults or interferences, for all other aircraft operational safety.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4",
+      "section": "8.3",
+      "chapter": "8"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-190-0",
+    "text": "6.4. Data collection shall allow the State to assess GNSS vulnerabilities in its own airspace and select proper mitigations for that particular airspace and the air operations that must be supported, since national and international coordination of measures to avoid and mitigate GNSS faults and interferences is paramount. 7. GPS operation procedure with RAIM loss",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-195-0",
+    "text": "7.1.1. GNSS receiver data precision may be affected by RAIM loss. This would imply that neither the system navigation requirements nor the implementation of the separations indicated by the ATC unit is met.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-198-0",
+    "text": "7.1.2. If there were a satellite signal integrity warning or evidence that the RAIM function might not be available, during oceanic, en-route and/or terminal airspace navigation, the flight phase shall continue using conventional navigation systems.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-201-0",
+    "text": "7.1.3. The aerodrome chosen to carry out a non-precision approach procedure (GPS), or the chosen alternative aerodrome, shall –at least one of the two- have available an instrument approach procedure with reference to ground radioaids, which should be serviceable and the instrument approach procedure should be available for the estimated time of arrival at the originally selected arrival aerodrome.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-204-0",
+    "text": "7.1.4. The GPS contingency shall be informed to the ATS unit using the wordings “BASIC GNSS NOT AVAILABLE DUE TO RAIM LOSS OR RAIM ALERT”. 8. Information on GPS signal availability",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-206-0",
+    "text": "8.1. Information provided by the U.S. Coast Guard Center is currently available at http://www.navcen.uscg.gov.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-209-0",
+    "text": "8.2. Possible planned satellite service interruptions shall be announced to NAVSTAR users by means of notices with at least FORTY-EIGHT (48) hours in advance.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR4 - 3.pdf-212-0",
+    "text": "8.3. The aeronautical authority has not yet determined nor suggested a specific provider for GPS signals, which is why such search and contracting is under the user ́s exclusive responsibility.",
+    "metadata": {
+      "source": "AIP - ENR4 - 3.pdf",
+      "docType": "doc",
+      "docNumber": "4"
+    }
+  }
+]

@@ -1,0 +1,2581 @@
+[
+  {
+    "id": "AIP - ENR1 - 15.pdf-0-0",
+    "text": "AIP ARGENTINA ENR 1.15-1 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 ENR 1. REGLAS Y PROCEDIMIENTOS GENERALES / GENERAL RULES AND PROCEDURES ENR 1.15 PLAN DE CONTINGENCIA ATS DE LA REPÚBLICA ARGENTINA ENR 1.15 ATS CONTINGENCY PLAN OF THE REPUBLIC OF ARGENTINA 1. Objetivo",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-2-0",
+    "text": "1.1 El objetivo de este Plan de Contingencia ATS es facilitar y mantener el movimiento ordenado y seguro de la aviación civil internacional y nacional en el espacio aéreo de la República Argentina (FIR ́s EZEIZA, CÓRDOBA, MENDOZA, RESISTENCIA y COMODORO RIVADAVIA), en caso de una interrupción de los servicios de tránsito aéreo y/o de los servicios de apoyo, estableciéndose medidas de contingencia y una Red Simplificada de Rutas ATS para encaminar el flujo de tránsito entre las FIR’s Argentinas y las Regiones de Información de Vuelo de los países limítrofes.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.1",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-6-0",
+    "text": "2.1 El presente Plan de Contingencia ha sido elaborado en base a las directivas aprobadas por el Consejo de la OACI, contenidas en el Manual de Planificación de los Servicios de Tránsito Aéreo (Doc. 9426, Parte II, Sección 1, Capítulo 1, párrafo 1.3) y Anexo 11 de la OACI – Servicios de Tránsito Aéreo, Capítulo 2, párrafo 2. 29., y con la asistencia de la Oficina Regional Sudamericana, para su armonización a nivel regional",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-8-0",
+    "text": "2.2 La efectiva aplicación del presente plan presupone una estrecha cooperación, colaboración y aceptación de las autoridades aeronáuticas de los países involucrados, así como de los usuarios del espacio aéreo de referencia.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.2",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-10-0",
+    "text": "2.3 Para su confección, se han establecido Acuerdos Operacionales con los países limítrofes, en los que se establecen las medidas, procedimientos y rutas de contingencia a utilizarse en caso de una degradación de los Servicios de Tránsito Aéreo que afecten a las Regiones de Información de Vuelo adyacentes. 3. Activación del Plan de Contingencia",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.3",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-12-0",
+    "text": "3.1 En el caso de que no puedan proveerse servicios ATS dentro de una CTA/FIR, y esta interrupción sea previsible, se activará, este plan de contingencia por medio de un NOTAM, el cual debería emitirse con una antelación mínima de 48 hs, durante los períodos críticos que se consideren necesarios, y se continuarán aplicando mientras las circunstancias así lo ameriten. Por otra parte, de ser inesperada la interrupción / contingencia y no pueda cumplirse con la antelación anteriormente mencionada, debería emitirse dicho NOTAM con la menor demora posible. 4. Desactivación del Plan",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-14-0",
+    "text": "4.1 Este plan se desactivará mediante un NOTAM de cancelación, informando que la prestación de los servicios ATS se han normalizado. 5. FIR’S Afectadas",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.1",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-18-0",
+    "text": "1.1 The purpose of this ATS Contingency Plan is to facilitate and maintain an orderly and safe movement of the international and national civil aviation in the airspace of the Republic of Argentina (EZEIZA, CORDOBA, MENDOZA, RESISTENCIA AND COMODORO RIVADAVIA FIRs) in case of an interruption of the air traffic services and/or the support services, by establishing contingency measures and a Simplified Network of ATS Routes to direct the traffic flow between the Argentine FIRs and the Flight Information Regions of the neighboring countries.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.1",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-23-0",
+    "text": "2.1 This Contingency Plan has been designed based on the directives approved by the ICAO Council, contained in the Air Traffic Services Planning Manual (ICAO Doc. 9426, Part II, Section 1, Chapter 1, paragraph 1.3) and the ICAO Annex 11 - Air Traffic Services, Chapter 2, paragraph 2.29 and with the assistance of the South American Regional Office for its harmonization at a regional level.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-25-0",
+    "text": "2.2 The effective application of this plan implies close cooperation, collaboration and acceptance by the aviation authorities of the countries involved, as well as by the users of the airspace of reference.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.2",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-27-0",
+    "text": "2.3 For its preparation, Operational Agreements have been established with neighboring countries, establishing the measures, procedures and contingency routes to be used in the event of a degradation of the Air Traffic Services affecting the adjacent Flight Information Regions. 3. Activation of the Contingency Plan",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.3",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-29-0",
+    "text": "3.1 If ATS services cannot be provided within a CTA/FIR, and this interruption is foreseeable, this contingency plan shall be activated by means of a NOTAM, which shall be issued with at least 48 hours in advance, during the critical periods deemed necessaries, and these measures shall be applicable as long as the circumstances require them. On the other hand, if the interruption / contingency were unexpected and the abovementioned time in advance cannot be complied, a NOTAM should be issued as soon as possible. 4. Deactivation of the Plan",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-31-0",
+    "text": "4.1 This plan shall be deactivated by means of a cancellation NOTAM, informing that the ATS services provision has been normalized. 5. Affected FIRS",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.1",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-33-0",
+    "text": "5.1 The FIRs directly affected by this Contingency Plan are: AIP ARGENTINA ENR 1.15-2 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 ARGENTINA: Ezeiza, Córdoba, Mendoza, Resistencia y Comodoro Rivadavia. BRASIL: Curitiba BOLIVIA: La Paz CHILE: Antofagasta, Santiago, Puerto Montt y Punta Arenas. PARAGUAY: Asunción URUGUAY: Montevideo 6. Principios Básicos",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "5.1",
+      "chapter": "5"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-35-0",
+    "text": "6.1 La República Argentina, a efectos de asegurar los servicios que se brindan a la aviación civil, dispone del personal y equipamiento técnico necesario que permiten garantizar los servicios de tránsito aéreo y de los correspondientes servicios de apoyo.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.1",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-37-0",
+    "text": "6.2 No obstante, las medidas de contingencia que figuran en el presente plan podrían ser aplicadas en casos de acontecimientos previsibles, ocasionados por: Huelgas, paros o conflictos laborales; interrupción imprevista de parte o de la totalidad de los servicios de tránsito aéreo y que de alguna manera puedan afectar el suministro de los mismos y/o servicios de apoyo conexos, en la /las FIR’s de la República Argentina; como así también en situaciones de emergencias o catástrofes naturales.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.2",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-39-0",
+    "text": "6.3 Las empresas aéreas deberán dar conocimiento del presente Plan a sus tripulaciones y operadores. 7. Disposiciones aplicables en caso de una disminución del suministro de los Servicios de Tránsito Aéreo",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.3",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-41-0",
+    "text": "7.1 Durante el período de Contingencia se utilizará una Red Simplificada de Rutas ATS, en el Espacio Aéreo Superior e Inferior, que conforman la estructura de la red de rutas de las FIR ́s EZEIZA, CÓRDOBA, MENDOZA, RESISTENCIA Y COMODORO RIVADAVIA. Dicha red se basa en la estructura de Rutas Vigentes en las Cartas de Navegación en Ruta, suprimiéndose alguna de ellas y estableciéndose en la mayoría de los casos un único sentido de vuelo en las mismas.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "7.1",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-43-0",
+    "text": "7.2 Para situaciones de contingencia que afectarían más de una Región de Información de Vuelo, se establecerá una Unidad de Contingencia Nacional (UCN).",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "7.2",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-45-0",
+    "text": "7.2.1 Para situaciones de contingencia en una sola Región de Información de Vuelo (FIR) Argentina, la Región Aérea correspondiente establecerá una Unidad de Contingencia con personal idóneo, que se hará cargo de la situación hasta que los servicios afectados vuelvan a la normalidad. 8. Estructura de Rutas ATS",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "7.2.1",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-47-0",
+    "text": "8.1 Se estable una RED SIMPLIFICADA DE RUTAS ATS en el espacio aéreo argentino, por la cual se encaminará el tránsito aéreo internacional y nacional durante la vigencia de este plan (ANEXOS I y IV). ARGENTINA: Ezeiza, Córdoba, Mendoza, Resistencia and Comodoro Rivadavia. BRAZIL: Curitiba BOLIVIA: La Paz CHILE: Antofagasta, Santiago, Puerto Montt and Punta Arenas. PARAGUAY: Asunción URUGUAY: Montevideo 6. Basic principles",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "8.1",
+      "chapter": "8"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-49-0",
+    "text": "6.1 The Republic of Argentina, in order to ensure the services provided to the civil aviation, has the necessary personnel and technical equipment that ensure the air traffic services and the respective support services.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.1",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-52-0",
+    "text": "6.2 However, the contingency measures indicated in this plan may be applied in cases of foreseeable events caused by: strikes or labor conflicts; foreseeable interruption of a part or all air traffic services that somehow may affect their provision and/or related support services in the FIRs of the Republic of Argentina, as well as in emergency situations or natural catastrophes.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.2",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-56-0",
+    "text": "6.3 The air companies shall inform their crews and operators about this Plan. 7. Applicable dispositions in case of a decrease in the AIR Traffic Services Provision",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.3",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-58-0",
+    "text": "7.1 During the Contingency period, a simplified ATS Routes Network shall be used in the Lower and Upper Airspace that make up the route network structure of the EZEIZA, CORDOBA, MENDOZA, RESISTENCIA, and COMODORO RIVADAVIA FIRs. Said network is based on the Current Route structure in the En-route Navigation Charts, deleting some of them and establishing them, in most cases, as only-way flight routes.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "7.1",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-61-0",
+    "text": "7.2 For contingency situations affecting more than one Flight Information Region (FIR), a National Contingency Unit will be established.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "7.2",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-63-0",
+    "text": "7.3 For contingency situations affecting one Argentine Flight Information Region (FIR), the respective Air Region will establish a Contingency Unit with suitable personnel that will be in charge of the situation until the affected services get back to normal. 8. ATS Route Structure",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "7.3",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-65-0",
+    "text": "8.1 A SIMPLIFIED ATS ROUTE NETWORK is established in Argentine airspace, through which the international and national air traffic will be directed during the validity of this plan (ANNEXES I and IV). AIP ARGENTINA ENR 1.15-3 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "8.1",
+      "chapter": "8"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-67-0",
+    "text": "8.2 Este Sistema Simplificado de Rutas ATS, ha sido planificado en base a los flujos principales de tráfico en la Región y en los FIR ́s argentinos, teniendo la finalidad de minimizar el impacto que cualquier disminución en la prestación de los Servicios de Tránsito Aéreo pudiera generar en las operaciones del transporte aéreo. 9. Gestión del Tránsito Aéreo",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "8.2",
+      "chapter": "8"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-71-0",
+    "text": "9.1.1 Ante la necesidad de activar el Plan de Contingencia, la responsabilidad de imponer el NOTAM informando tal situación recaerá en: a) Contingencia que afecta a más de una FIR: la Unidad de Contingencia Nacional (UCN). b) Contingencia que afecta a una FIR: la Unidad de Contingencia (UC) designada por la Región Aérea afectada.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.1.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-73-0",
+    "text": "9.1.2 El texto del NOTAM deberá indicar lo siguiente: a) Hora y fecha de inicio, y tiempo de duración previsto, de las medidas de contingencia; b) Se aplicará el plan de contingencia de la República Argentina, FIR afectadas XXXX; c) Instalaciones y/o servicios no disponibles; d) Procedimientos a seguir por las dependencias ATS adyacentes; e) Procedimientos a seguir por los pilotos, quienes deberán mantener en escucha la frecuencia principal del sector que se está volando, si estuviera disponible, así como también la frecuencia aire–aire 123,45 MHz; f) Cualquier otro detalle relacionado con la contingencia que requiera ser de conocimiento inmediato de los usuarios.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.1.2",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-77-0",
+    "text": "9.2.1 La Red Simplificada de Rutas ATS ha sido desarrollada asegurando suficiente separación lateral entre las aeronaves durante el período de contingencia.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.2.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-81-0",
+    "text": "9.3.1 Se establecerá separación vertical de acuerdo con lo establecido en el Anexo 2 de la OACI, Apéndice 3 Tabla a) de Niveles de Crucero (RVSM).",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.3.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-85-0",
+    "text": "9.4.1 Los vuelos del transporte aéreo internacional de largo alcance (más de tres horas), utilizarán preferentemente FL 290 o superior.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.4.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-91-0",
+    "text": "8.2 This Simplified System of ATS Routes has been planned based on the main traffic flows in the Region and the Argentine FIRs with the purpose of minimizing the impact that any reduction in the Air Traffic Services provision may cause in the air transport operations. 9. Air Traffic Management",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "8.2",
+      "chapter": "8"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-95-0",
+    "text": "9.1.1 When the Contingency Plan activation is needed, the responsibility of issuing the NOTAM informing of such situation shall be of: a) Contingency affecting more than one FIR: the National Contingency Unit (UCN) b) Contingency affecting one FIR: the Contingency Unit (UC) designated by the affected Air Region.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.1.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-98-0",
+    "text": "9.1.2 The text of the NOTAM shall indicate the following: a) Time and date of the beginning and the estimated time of duration of the contingency measures; b) The contingency plan of the Republic of Argentina shall be applied, affected FIRs XXXX; c) Unavailable installations and/or services; d) Procedures to be followed by the adjacent ATS units; e) Procedures to be followed by the pilots, who shall maintain a listening watch on the main frequency of the sector where they are flying, if available, as well as the air-air frequency 123.45 MHz; f) Any other detail related to the contingency required to be immediately known by the users.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.1.2",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-103-0",
+    "text": "9.2.1 The Simplified System of ATS Routes has been developed ensuring enough lateral separation between the aircraft during the contingency period.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.2.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-107-0",
+    "text": "9.3.1 Vertical separation will be established according to the ICAO Annex 2 - Appendix 3 - Cruise Level Table (RVSM).",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.3.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-113-0",
+    "text": "9.4.1 The international air transport flight of long range (over three hours) shall preferably use FL 290 or higher. AIP ARGENTINA ENR 1.15-4 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.4.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-115-0",
+    "text": "9.4.2 No se autorizarán cambios de nivel dentro de los 10 minutos anteriores que la aeronave ingrese a la FIR adyacente (salvo entre las FIR ́s argentinas y se coordine previamente entre ellas).",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.4.2",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-119-0",
+    "text": "9.5.1 La separación longitudinal a aplicarse en las Rutas ATS de contingencia para los vuelos internacionales de más de tres horas durante el período de contingencia será de quince (15) minutos o a consideración de los controles de jurisdicción correspondientes y previa coordinación entre los mismos, o lo establecido en los acuerdos de contingencia con países limítrofes.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.5.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-123-0",
+    "text": "9.6.1 Se dará prioridad a las operaciones aéreas internacionales (de más de 3 horas de duración) y aquellas operaciones especiales que involucren los siguientes tipos de vuelo:  Aeronaves en emergencia u operando con una significativa reducción en su eficiencia;  Vuelos de evacuación y auxilio; y  Vuelos de búsqueda y salvamento;  Aeronaves de Estado.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.6.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-131-0",
+    "text": "9.8.1 Excepto que otra cosa se establezca en las cartas de acuerdo operacionales entre FlR ́s adyacentes, la transferencia de control se realizará en los límites de las FlR ́s involucradas. De ser posible, la coordinación de la transferencia deberá realizarse por lo menos con 30 minutos de antelación a las horas estimadas sobre los puntos de notificación de ingreso a la siguiente FIR.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.8.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-133-0",
+    "text": "9.8.2 La coordinación ATS se realizará a través de los medios de comunicación que han sido establecidos en las cartas de acuerdo operacionales entre las dependencias ATS de FlR ́s adyacentes e incluirá la transmisión de la siguiente información sobre los vuelos en cuestión: 1) partes apropiadas del plan de vuelo actualizado; 2) la hora en que se estime sobre el punto de transferencia acordado; 3) la hora que se efectuó el último contacto con la aeronave; y 4) cualquier otra información que se estime pertinente.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.8.2",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-135-0",
+    "text": "9.8.3 En caso de falla de los canales de comunicaciones se utilizarán los medios de comunicación alternativos y procedimientos que figuran en el presente Plan.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.8.3",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-139-0",
+    "text": "9.9.1 En caso de agotar los medios de comunicaciones normalizados y alternos, se solicitará al piloto de la aeronave que",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.9.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-141-0",
+    "text": "9.4.2 No level changes shall be authorized within 10 minutes before the aircraft enters the adjacent FIR (except between the Argentine FIRs and it is previously coordinated by them).",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.4.2",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-146-0",
+    "text": "9.5.1 The longitudinal separation to be applied in the contingency ATS Routes for international flights of over three hours during the contingency period shall be of fifteen (15) minutes or as the respective jurisdiction controls deem adequate and with prior coordination between them, or what is established in the contingency agreements with the neighboring countries.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.5.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-150-0",
+    "text": "9.6.1 The international air operations (of over 3 hours long) shall be given priority as well as to special operations that involve the following types of flight:  Aircraft in an emergency or operating with a significant reduction in their efficiency;  Evacuation and aid flights;  Search and rescue flights;  State aircraft.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.6.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-158-0",
+    "text": "9.8.1 Except otherwise established in the operational agreement charts between the adjacent FIRs, the control transfer shall be made in the limits of the involved FIRs. If possible, the transfer coordination shall be done at least 30 minutes before the estimated times over the notification points of entry to the following FIR.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.8.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-160-0",
+    "text": "9.8.2 The ATS coordination will be made through the means of communication that have been established in the operational agreement charts between the ATS units of the neighboring FIRs and it will include the following information about the flights in question: 1) Adequate parts of the updated flight plan; 2) The estimated time over the agreed transfer point; 3) The time at which the last contact with the aircraft was made; and 4) Any other information deemed relevant.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.8.2",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-163-0",
+    "text": "9.8.3 At the event of a failure in the communication channels, the alternative means of communication and procedures contained in this Plan will be used.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.8.3",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-167-0",
+    "text": "9.9.1 In case the normal and alternative means of communications are unavailable, the pilot shall be asked to AIP ARGENTINA ENR 1.15-5 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 proceda a comunicar en las frecuencias adecuadas de la dependencia ATC aceptante con la finalidad de informar de su tránsito (ANEXO II).",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.9.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-171-0",
+    "text": "9.10.1 Excepto que otro procedimiento se establezca entre dependencias ATS de FlR ́s adyacentes, la transferencia de comunicaciones se realizará 5 minutos antes de la hora prevista al punto de transferencia acordado. No obstante, cuando las condiciones del tránsito así lo requieran, el centro transferidor podrá demorar la transferencia de comunicaciones hasta que la aeronave notifique haber sobrevolado el punto de transferencia acordado.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.10.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-175-0",
+    "text": "9.11.1 En el caso que una dependencia ATC no hubiera podido realizar las coordinaciones pertinentes para transferir la responsabilidad del control de una aeronave, enviará un mensaje de estimada (MSG EST) a todas las dependencias ATC a lo largo de la ruta ATS que operará la aeronave.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.11.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-179-0",
+    "text": "9.12.1 Se realizará el respectivo acuse de recibo de todas las coordinaciones ATS para la transferencia de responsabilidades con la finalidad de asegurarse de la precisión de la información recibida.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.12.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-183-0",
+    "text": "9.13.1 En la medida de lo posible durante el período de contingencia se evitarán las operaciones cerca de los límites de las FIR ́s. No obstante, cuando sea imprescindible este tipo de operaciones, las mismas deberán ser coordinadas con la dependencia ATC correspondiente.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.13.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-187-0",
+    "text": "9.14.1 Durante el período de contingencia podría ser necesario mayor tiempo para la coordinación de los permisos de tránsito con las dependencias ATC adyacentes, razón por la cual los controles ATS deberán tomar esto en cuenta y hacer los arreglos pertinentes con las FlR ́s adyacentes. 10. Comunicaciones",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.14.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-189-0",
+    "text": "10.1 En aquellos espacios aéreos donde las comunicaciones tierra-aire no estén disponibles, los pilotos aplicarán los procedimientos de radiodifusión de información en vuelo y lo siguiente: a) Mantendrán escucha permanente en la frecuencia VHF apropiadas a la FlR ́s donde se realice el vuelo y de no tener contacto con la dependencia ATC pertinente, transmitirán, preferentemente en español y en inglés, en dicha frecuencia la posición real o estimada a los puntos de notificación. b) Procedimientos operacionales conexos que figuran en el Anexo 11 de la OACI, Apéndice C. Para una mejor referencia en el APÉNDICE 1 del ANEXO III se transcriben los citados procedimientos. La frecuencia para los Procedimientos de Radiodifusión de Información en Vuelo que deberá utilizarse en la Región SAM es 123, 45 MHz. communicate in the adequate frequencies of the accepting ATC unit in order to inform its transit (ANNEX II).",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "10.1",
+      "chapter": "10"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-194-0",
+    "text": "9.10.1 Except other procedure is established between the ATS units of the adjacent FIRs, the communications transfer shall be made 5 minutes before the estimated time to the agreed transfer point. However, when the traffic conditions require it, the transfer center may delay the communications transfer until the aircraft notifies that it has overflown the agreed transfer point.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.10.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-200-0",
+    "text": "9.11.1 In case an ATC unit had not been able to make the relevant coordination to transfer the responsibility of control over an aircraft, an estimated message (MSG EST) shall be sent to all ATC units along the ATS route that the aircraft will operate.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.11.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-205-0",
+    "text": "9.12.1 The respective acknowledgement of receipt shall be made of all the ATS coordination for the transfer of responsibilities in order to ensure the precision of the received information.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.12.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-209-0",
+    "text": "9.13.1 As much as possible during the contingency period the operations near the limits of the FIRs will be avoided. However, when this type of operations is essential, these operations shall be coordinated with the respective ATC unit.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.13.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-214-0",
+    "text": "9.14.1 During the contingency period, more time may be necessary to coordinate the traffic clearances with the adjacent ATC units, which is why the ATS controls should consider those and make the relevant arrangements with the adjacent FIRs. 10. Communications",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.14.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-216-0",
+    "text": "10.1 In those airspaces where the ground-air communications are unavailable, the pilots shall apply the in-flight radio broadcasting procedures and the following: a) They will maintain a continuous listening watch on the VHF frequency corresponding to the FIRs where the flight is performed and, if no contact is made with the relevant ATC unit, they will transmit, preferably in Spanish and English, in said frequency the real or estimated position regarding the notification points. b) Related operational procedures that are contained in the ICAO Annex 11, Appendix C. For a better reference, in APPENDIX 1 of the ANNEX III said procedures are quoted. The frequency for the In-Flight Information Broadcast Procedures to be used in the SAM Region is 123.45 MHz AIP ARGENTINA ENR 1.15-6 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 11. Difusión del Plan de Contingencia ATS",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "10.1",
+      "chapter": "10"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-218-0",
+    "text": "11.1 Se considera que la información aquí contenida, sea empleada como referencia por los Usuarios para presentar sus Planes de Vuelo durante las situaciones de contingencia.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "11.1",
+      "chapter": "11"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-220-0",
+    "text": "11.2 La difusión del presente Plan será efectuada por la publicación de información aeronáutica correspondiente.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "11.2",
+      "chapter": "11"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-222-0",
+    "text": "11.3 Las medidas a aplicarse durante la contingencia serán publicadas oportunamente y enviadas a las empresas de aviación que realizan vuelos internacionales / nacionales a la brevedad.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "11.3",
+      "chapter": "11"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-224-0",
+    "text": "11.4 Toda actualización / modificación o medidas de urgencia consideradas necesarias para la atención de situaciones de contingencia ATS, serán publicadas por NOTAM. 12. Procedimientos operacionales para pilotos",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "11.4",
+      "chapter": "11"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-226-0",
+    "text": "12.1 Los procedimientos operacionales para pilotos, así como los procedimientos a aplicar en caso de falla de comunicaciones durante el período de activación del Plan de Contingencia figuran en el ANEXO III. 13. Medidas de coordinación",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "12.1",
+      "chapter": "12"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-228-0",
+    "text": "13.1 Los arreglos de contingencia aquí previstos son provisorios y estarán vigentes hasta el momento en que los servicios e instalaciones del plan reanuden sus actividades normalmente.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "13.1",
+      "chapter": "13"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-232-0",
+    "text": "13.3 Las enmiendas y revisiones deberán ser coordinadas con los Estados afectados, Organismos Internacionales y OACI. 14. Varios",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "13.3",
+      "chapter": "13"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-234-0",
+    "text": "14.1 Se incluye como ANEXO IV los Acuerdos establecidos con los países limítrofes. ANEXOS: ANEXO I: Red Simplificada de Rutas ATS. Cartas de navegación en Ruta, Plan de Contingencia para la República Argentina, Espacio Aéreo Inferior y Superior. ANEXO II: Procedimientos aplicables a las Dependencias ATS involucradas. a) Apéndice 1 - Medidas de Contingencia CNS y ATM. ANEXO III: Procedimientos operacionales para pilotos. a) Apéndice 1 – Procedimientos de Radiodifusión de Información en vuelo y procedimientos operacionales conexos. ANEXO IV: Acuerdos de contingencia con países limítrofes. a) Apéndice 1 - Argentina – Uruguay b) Apéndice 2 - Argentina – Brasil c) Apéndice 3 - Argentina – Paraguay d) Apéndice 4 - Argentina – Bolivia e) Apéndice 5 - Argentina – Chile 11 ATS contingency plan publication",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "14.1",
+      "chapter": "14"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-236-0",
+    "text": "11.1 The information contained herein is deemed to be used as reference by the Users to file their Flight Plans during the contingency situations.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "11.1",
+      "chapter": "11"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-238-0",
+    "text": "11.2 The publication of this Plan shall be made in the respective aeronautical information publication.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "11.2",
+      "chapter": "11"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-240-0",
+    "text": "11.3 The measures to be applied during the contingency shall be published at the proper time and sent to the aviation companies that perform international/ national flights as soon as possible.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "11.3",
+      "chapter": "11"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-242-0",
+    "text": "11.4 Every update / change or urgency measures deemed necessary to apply in ATS contingency situations shall be published via NOTAM. 12. Operational procedures for pilots",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "11.4",
+      "chapter": "11"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-244-0",
+    "text": "12.1 The operational procedures for pilots, as well as the procedures to apply in case of a communications failure during the Contingency Plan activation period are contained in the ANNEX III. 13. Coordination measures",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "12.1",
+      "chapter": "12"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-246-0",
+    "text": "13.1 The contingency arrangements contained herein are temporary and will be valid until the services and installations of the plan resume their normal activities.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "13.1",
+      "chapter": "13"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-250-0",
+    "text": "13.3 The amendments and reviews shall be coordinated with the affected States, International Entities and ICAO. 14. Miscellaneous",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "13.3",
+      "chapter": "13"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-252-0",
+    "text": "14.1 The Agreements established with the neighboring countries are included as ANNEX IV. ANNEXES: ANNEX I: Simplified Network of ATS Routes. En- Route Navigation Charts, Contingency Plan for the Republic of Argentina, Lower and Upper Airspace. ANNEX II: Procedures applicable to the involved ATS Units. a) Appendix 1 – CNS and ATM Contingency Measures. ANNEX III: Operational Procedures for pilots. a) Appendix 1 – In-Flight Information Broadcast Procedure and related operational procedures. ANNEX IV: Contingency Agreements with neighboring countries. a) Appendix 1 - Argentina – Uruguay b) Appendix 2 - Argentina – Brazil c) Appendix 3 - Argentina – Paraguay d) Appendix 4 - Argentina – Bolivia e) Appendix 5 - Argentina – Chile AIP ARGENTINA ENR 1.15-7 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 ANEXO I ANNEX I RED SIMPLIFICADA DE RUTAS ATS SIMPLIFIED NETWORK OF ATS ROUTES Durante la vigencia del Plan de Contingencia sólo se utilizarán las Rutas ATS que se incluyen en: ENR 6.13 Carta de Navegación en Ruta-Plan de Contingencia para la República Argentina-Red simplificada ATS INF. ENR 6.14 Carta de Navegación en Ruta-Plan de Contingencia para la República Argentina-Red simplificada ATS SUP. During the validity of the Contingency Plan only ATS Routes included in: ENR 6.13 En-Route Navigation Chart – Contingency Plan for the Republic of Argentina – ATS LOW Simplified Network. ENR 6.14 En-Route Navigation Chart – Contingency Plan for the Republic of Argentina – ATS UPP Simplified Network. AIP ARGENTINA ENR 1.15-8 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 ANEXO II ANNEX II PROCEDIMIENTOS APLICABLES A LAS DEPENDENCIAS ATS INVOLUCRADAS PROCEDURES APPLICABLE TO THE INVOLVED ATS UNITS 1. Las dependencias ATS involucradas deberán seguir los siguientes procedimientos: a) Los mensajes de Plan de Vuelo se deberán transmitir a través de la AFTN de acuerdo con los procedimientos normales, o por los medios alternativos. b) Deberán comunicar vía los circuitos de coordinación ATS (o alternativos) y con no menos de 30 minutos de antelación (si es posible de acuerdo al tiempo de vuelo), las horas estimadas sobre los puntos de notificación de ingreso en el FIR siguiente. c) Instruirán a los pilotos al mando de las aeronaves que deberán mantener el último nivel asignado y la presente velocidad (número MACH de ser el caso), hasta tanto reciban instrucciones del Control de jurisdicción que corresponda. d) No autorizarán ningún cambio de nivel o de velocidad (número MACH de ser el caso) dentro de los 10 minutos anteriores a que la aeronave ingrese en otro FIR. e) El Control de jurisdicción precedente a los FIR ́s Ezeiza, Córdoba, Mendoza, Resistencia o Comodoro Rivadavia (según el FIR a ser sobrevolado) indicará a las aeronaves que deberán comunicarse con la dependencia ATC correspondiente 5 minutos antes de la hora prevista de ingreso a la FIR correspondiente. f) Todos los vuelos se encaminarán por la Red Simplificada de Rutas ATS establecida. g) Se asignarán códigos de respondedor SSR, aunque no se posea Control Radar. h) No se aplicará el Sistema de",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "14.1",
+      "chapter": "14"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-252-450",
+    "text": "dependencia ATC correspondiente 5 minutos antes de la hora prevista de ingreso a la FIR correspondiente. f) Todos los vuelos se encaminarán por la Red Simplificada de Rutas ATS establecida. g) Se asignarán códigos de respondedor SSR, aunque no se posea Control Radar. h) No se aplicará el Sistema de Planes de Vuelo Repetitivos. 2. Los ACC’s adyacentes: a) Con coordinación entre los ACC adyacentes, se aplicarán los procedimientos establecidos en las Cartas de Acuerdos Operacionales vigentes. b) Sin coordinación entre los ACC adyacentes, se aplicarán los “Procedimientos de Autotransferencia”, de acuerdo con lo siguiente: La dependencia ATS deberá: - Informar al piloto la imposibilidad de comunicación con la dependencia ATS aceptante, y Suministrar instrucción para que haga contacto con la dependencia aceptante. El piloto deberá: - Hacer contacto con la dependencia aceptante. - Informar a la dependencia aceptante que está llevando a cabo una autotransferencia, - Transmitir su procedencia, destino, ruta, nivel de vuelo, código transponder y estima al límite de la FIR. - Informar a la dependencia transferidora cuando la dependencia aceptante aceptó la transferencia. 1. The involved ATS units shall apply the following procedures: a) The Flight Plan messages shall be transmitted via AFTN according to the normal procedures, or via alternative means. b) They shall communicate via the ATS (or alternative) coordination circuits and not less than 30 minutes in advance (if possible according to the flight time), the estimated times over the entry notification points in the following FIR. c) Instruct the pilots in command of the aircraft that they must maintain the last assigned level and the present speed (Mach number, if applicable) until they receive instructions from the corresponding Jurisdiction Control. d) They shall not authorize any change of level or speed (Mach number, if applicable) within 10 minutes before the aircraft enters another FIR. e) The Control of jurisdiction preceding the FIR's Ezeiza, Cordoba, Mendoza, Resistencia or Comodoro Rivadavia (depending on the FIR to be overflown) shall indicate to the aircraft that they must contact the corresponding ATC unit 5 minutes before the scheduled time of entry to the corresponding FIR. f) All flights shall be routed through the established Simplified Network of ATS Routes. g) SSR responder codes shall be assigned, even if Radar Control is not present. h) The Repetitive Flight Plans System shall not be applied. 2. The adjacent ACCs : a) With coordination between the adjacent ACC, the procedures established in the current Operational Agreement Charts shall be applied. b) Without coordination between the adjacent ACC, the “Auto-transfer Procedures” shall be applied, in accordance with the following: The ATS unit shall: - Inform the pilot the impossibility of communication with the accepting ATS unit and Provide instructions so that contact with the accepting unit is made. The pilot shall: - Make contact with the accepting unit. - Inform the accepting unit that an auto-transfer is being made. - Transmit its origin, destination, route, flight level, transponder code and estimated time to arrive to the limit of the FIR.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-252-900",
+    "text": "that contact with the accepting unit is made. The pilot shall: - Make contact with the accepting unit. - Inform the accepting unit that an auto-transfer is being made. - Transmit its origin, destination, route, flight level, transponder code and estimated time to arrive to the limit of the FIR. - Inform the transferring unit when the accepting unit accepts the transfer. AIP ARGENTINA ENR 1.15-9 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 APÉNDICE 1 APPENDIX 1 MEDIDAS DE CONTINGENCIA CNS Y MET CNS AND MET CONTINGENCY MEASURES 1. Medidas de contingencia para los sistemas de comunicaciones VHF para los centros de control En caso de interrupción total de los sistemas de comunicaciones tierra/aire se aplicarán como medida de contingencia los Procedimientos de Radiodifusión de Información en Vuelo cuya frecuencia establecida para la Región SAM es 123,45 MHz (ANEXO III APÉNDICE 1). 2. Medidas de contingencia para los servicios de navegación Las medidas de contingencia a adoptar en caso de interrupción de los sistemas de navegación serían: a) En caso de falla en el sistema VOR, uso de los NDB para la navegación en ruta. b) Uso de los sistemas de navegación autónomos. c) Uso de receptor / procesador GNSS (GPS). 3. Medidas de contingencia para el intercambio de información OPMET Las medidas de contingencia a utilizar para el intercambio de información OPMET están incluidas en los procedimientos de contingencia de los sistemas AFTN. En el caso de utilizar como medida de contingencia el HF, solamente se transmitirían mensajes OPMET de seguridad 1. Contingency measures for the VHF communication systems for the control centers In case of a total interruption of the ground/air communication systems, as contingency measure, the In- Flight Information Broadcasting Procedures shall be applied; whose established frequency for the SAM Region is 123.45 MHz (ANNEX III APPENDIX 1). 2. Contingency measures for the navigation services The contingency measures to be taken in case of an interruption of the navigation systems would be: a) In case of failure of the VOR system, use of the NDB for en-route navigation. b) Use of the autonomous navigation systems. c) Use of GNSS receiver / processor (GPS) 3. Contingency measures for the OPMET information exchange The contingency measures to be taken for the OPMET information exchange are included in the contingency procedures of the AFTN systems. In case the HF is used as contingency measure, only safety OPMET messages would be transmitted. AIP ARGENTINA ENR 1.15-10 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 ANEXO III ANNEX III PROCEDIMIENTOS OPERACIONALES PARA PILOTOS OPERATIONAL PROCEDURES FOR PILOTS 1. Los pilotos que sobrevuelen el Espacio Aéreo Argentino deberán ajustarse a los siguientes procedimientos: a) Durante el período de contingencia se dejará de aplicar el sistema de Planes de Vuelo Repetitivos (RPL) por lo cual todos los vuelos deberán presentar con la debida antelación su respectivo Plan de Vuelo (FPL) e indicar en la casilla 18 del FPL cualquier información adicional que pudiera ser de utilidad para las dependencias",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-252-1350",
+    "text": "contingencia se dejará de aplicar el sistema de Planes de Vuelo Repetitivos (RPL) por lo cual todos los vuelos deberán presentar con la debida antelación su respectivo Plan de Vuelo (FPL) e indicar en la casilla 18 del FPL cualquier información adicional que pudiera ser de utilidad para las dependencias ATS. b) Todas las aeronaves que procedan por las Rutas ATS de contingencia establecidas en este Plan se ajustarán a las reglas de vuelo por instrumentos (IFR) y se le asignará un nivel de vuelo de acuerdo a la Tabla a) de Niveles de Crucero (RVSM) que figura en el Anexo 2 de la OACI, Apéndice 3. El último nivel asignado deberá mantenerse salvo en una situación de emergencia. c) Volarán en la ruta o lo más cerca posible del eje de ruta de contingencia asignada. d) Mantendrán escucha permanente en la frecuencia VHF apropiada a la FIR donde se realice el vuelo y, de no tener contacto con la dependencia ATS pertinente, transmitirán en dicha frecuencia la posición real o estimada a los puntos de notificación (en español e inglés). e) En el caso de no tener comunicación con la dependencia ATS responsable donde la aeronave esté volando, el piloto de la aeronave procederá a comunicar en las frecuencias adecuadas de la dependencia ATS aceptante con la finalidad de informar de su tránsito. f) Asimismo, emitirán en la frecuencia VHF apropiada cualquier maniobra de ascenso o descenso que las circunstancias así lo exigieran, preferentemente de 2 a 5 minutos de antelación. Las maniobras de ascenso y descenso deberán realizarse claramente a la derecha del eje de la ruta. El mensaje deberá contener: identificación de la aeronave, posición, nivel abandonado, nivel que se cruza, etc. g) Las transmisiones antes citadas también se realizarán en la frecuencia aire/aire 123,45 MHz. h) Mantendrán las luces de navegación y de anticolisión continuamente encendidas. i) Independientemente se encuentren o no en espacio aéreo con cobertura radar, los pilotos mantendrán el último transpondedor SSR en modo A y C asignado y si no se le ha asignado transpondedor, mantendrán accionado código A/C 2000. 2. Procedimientos en caso de fallas de comunicaciones",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-254-0",
+    "text": "2.1 En los vuelos programados con ascenso escalonado, los pilotos deben estar conscientes que, en caso de un cambio de ruta, deben coordinar con el ATS el nuevo punto de ascenso.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-256-0",
+    "text": "2.2 Al ocurrir una interrupción en las comunicaciones aire - tierra, la tripulación de vuelo deberá determinar el origen del problema, utilizando todos los medios de comunicación disponibles y siguiendo el siguiente procedimiento: 1. The pilots who overfly the Argentine Airspace shall adjust to the following procedures: a) During the contingency period, the Repetitive Flight Plans (RPL) system shall not be applied, therefore, all flights shall file with due anticipation their Flight Plan (FPL) and they shall indicate in the item 18 of the FPL any additional information that could be useful for the ATS units. b) All aircraft going through the contingency ATS Routes established in this Plan shall be adjusted to the instrumental flight rules (IFR) and a flight level shall be assigned according to the Cruise Level Table (RVSM) contained in the ICAO Annex 2, Appendix 3. The last assigned flight level shall be maintained, except in an emergency situation. c) They shall fly in the route or as close as possible to the assigned contingency route axis. d) They will maintain continuous listening watch on the respective VHF frequency of the FIR where the flight is being performed and, if no contact is made with the relevant ATS unit, they shall transmit on said frequency their real or estimated position regarding the notification points (in Spanish and English). e) If there is no communication with the responsible ATS unit where the aircraft is flying, the pilot of the aircraft shall communicate on the respective frequencies of the accepting ATS unit in order to inform of its transit. f) Likewise, they shall transmit on the respective VHF frequency any climb or descent maneuver that the situation requires, preferably 2 to 5 minutes in advance. The climb and descent maneuvers shall be performed clearly to the right of the route axis. The message shall contain: aircraft identification, position, abandoned flight level, flight level being crossed, etc. g) The abovementioned transmissions shall be made on the air/air frequency 123.45 MHz. h) They shall keep navigation and anti-collision lights continuously on. i) No matter if they are within or outside airspace with radar coverage, the pilots shall keep the last assigned SSR transponder in mode A and C and, if no transponder has been assigned, they shall keep the code A/C 2000 activated. 2. Procedures in case of communication failures",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.2",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-258-0",
+    "text": "2.1 In the flights scheduled with step climb, the pilots shall take into consideration that, in case of a route change, they shall coordinate with the ATS the new point of climb.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-260-0",
+    "text": "2.2 If an air-ground communication interruption occurs, the flight crew shall determine the origin of the problem, using all the available communication means and following this procedure: AIP ARGENTINA ENR 1.15-11 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 a) Intentar establecer contacto con la dependencia ATS en la frecuencia asignada; b) Intentar establecer contacto con otra aeronave en la frecuencia asignada; c) Intentar establecer contacto con la dependencia ATS u otra aeronave en las frecuencias ATS adyacentes. d) Intentar establecer contacto con otra aeronave en la frecuencia aire/aire 123,45 MHz.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.2",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-262-0",
+    "text": "2.3 Si todos los intentos de contacto que figuran en el párrafo 10 fracasaran, se puede deducir que el problema tiene su origen en la aeronave y: a) Se deberán aplicar los procedimientos para casos de falla en las comunicaciones aire - tierra del Documento 4444 ATM/501 de OACI; b) En las aeronaves debidamente equipadas los pilotos deberán volar a 1 NM a la derecha del eje de la aerovía; y c) Se debería repetir periódicamente el procedimiento que figura en el párrafo 10 para tratar de restablecer las comunicaciones.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.3",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-264-0",
+    "text": "2.4 Si se establece la comunicación con otra aeronave, se puede deducir que el problema de comunicación se origina en la instalación ATS. Deberá aplicarse el siguiente procedimiento para tratar de restablecer la comunicación: a) Intentar establecer comunicación pidiendo a otra aeronave que retransmita información a la dependencia ATS en el siguiente orden de preferencia:  La frecuencia ATS asignada;  La frecuencia secundaria ATS para dicho sector;  Las frecuencias de sectores/instalaciones ATS adyacentes; y  La frecuencia aire/aire 123,45 MHz. b) En caso de no poder establecer comunicación con la dependencia ATS en la forma indicada en el punto 2.4 a), se realizará lo siguiente: Durante la fase en ruta: Se espera que la tripulación de la aeronave:  Proceda de conformidad con la ruta del plan de vuelo actualizado;  Mantenga la última velocidad y nivel asignados;  Aplique los Procedimientos de Radiodifusión de Información en Vuelo, en idioma español e inglés, utilizando las frecuencias ATS y 123,45 MHz correspondientes.  En las aeronaves debidamente equipadas, los pilotos deberán volar a 1 NM a la derecha del eje de la aerovía.  Intente periódicamente restablecer la comunicación según el párrafo 10. Durante la fase de arribo:  Apliquen los Procedimientos de Radiodifusión de Información en Vuelo, utilizando las frecuencias ATS y 123,45 MHz apropiadas.  Las tripulaciones de vuelo deberán efectuar coordinaciones con otras aeronaves en los alrededores, a) Try to make contact with the ATS unit in the assigned frequency; b) Try to make contact with another aircraft in the assigned frequency; c) Try to make contact with the ATS unit or another aircraft in the adjacent ATS frequencies. d) Try to make contact with another aircraft in the air/air frequency 123.45 MHz",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.4",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-266-0",
+    "text": "2.3 If all the contact attempts described in paragraph 10 were not successful, it may be assumed that the problem has its origin in the aircraft and: a) The air-ground communication failure procedures of the ICAO Doc. 4444 ATM/501 shall be applied. b) In the aircraft adequately equipped, the pilots shall fly at 1 NM to the right of the airway axis; and c) The procedure in paragraph 10 should be periodically repeated to try to re-establish communications.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.3",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-268-0",
+    "text": "2.4 If communication with another aircraft is established, it may be assumed that the communication problem has its origin in the ATS installation. The following procedure shall be applied in order to try to re-establish communication: a) Try to establish communication by asking another aircraft to retransmit information to the ATS unit in the following order of preference:  The assigned ATS frequency;  The secondary ATS frequency for said sector;  The adjacent ATS sectors/installations frequencies; and The air/air frequency 123.45 MHz b) In case no communication is established with the ATS unit in the way described in point 2.4 a), the following shall be done: During the route phase: It is expected that the aircraft crew:  Proceeds according to the route of the updated flight plan;  Maintains the last assigned speed and level;  Applies the En-Route Flight Information Broadcast Procedures, in Spanish and English, using the respective ATS frequencies and 123.45 MHz.  In the aircraft adequately equipped, the pilots shall fly at 1 NM to the right of the airway axis;  Try periodically to make contact according to paragraph 10. During the arrival phase:  Apply the En-Route Flight Information Broadcast Procedures, using the appropriate ATS and 123.45 MHz frequencies.  The flight crews shall facilitate coordination with other aircraft around them, using the main frequency for a certain terminal area; AIP ARGENTINA ENR 1.15-12 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 utilizando la frecuencia principal para una determinada área terminal;  Se puede coordinar la secuencia de aproximación utilizando la hora de llegada a la instalación.  En caso de que dos aeronaves estén llegando a la misma hora se debería dar preferencia a la que esté a menor altitud. 3. Se aplicarán los Procedimientos de Autotransferencia, en caso de falla de las comunicaciones entre los ACC adyacentes, de acuerdo con lo siguiente: a) La dependencia ATS deberá:  Informar al piloto la imposibilidad de comunicación con la dependencia ATS aceptante.  Suministrar instrucción para que haga contacto con la dependencia aceptante. b) El piloto deberá:  Hacer contacto con la dependencia aceptante.  Informar a la dependencia aceptante que está llevando a cabo una autotransferencia.  Transmitir su procedencia, destino, ruta, nivel de vuelo, código transponder, estado de aprobación RVSM y estima al límite FIR.  Informar a la dependencia transferidora cuando la dependencia aceptante aceptó la transferencia.  An approach sequence may be coordinated using the arrival time to the installation.  If two aircraft are arriving at the same time, the one with less altitude should be given priority. 3. The Auto-transfer Procedures shall be applied, in case of a communication failure between the adjacent ACCs, according to the following: a) The ATS unit shall:  Inform the pilot the impossibility of communication with the accepting ATS.  Provide instruction for contact to be made with the accepting unit. b) The pilot shall:  Make contact with the accepting unit.  Inform the accepting unit",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.4",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-268-450",
+    "text": "ACCs, according to the following: a) The ATS unit shall:  Inform the pilot the impossibility of communication with the accepting ATS.  Provide instruction for contact to be made with the accepting unit. b) The pilot shall:  Make contact with the accepting unit.  Inform the accepting unit that an auto-transfer is being carried out.  Transmit its origin, destination, route, flight level, transponder code, RVSM state of approval and estimated time to the FIR limit.  Inform the transferring unit when the accepting unit accepts the transfer. APÉNDICE 1 APPENDIX 1 PROCEDIMIENTOS DE RADIODIFUSIÓN DE INFORMACIÓN EN VUELO Y PROCEDIMIENTOS OPERACIONALES CONEXOS EN-ROUTE FLIGHT INFORMATION BROADCAST PROCEDURES AND RELATED OPERATIONAL PROCEDURES 1. Introducción y aplicación de radiodifusiones",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-270-0",
+    "text": "1.1 La finalidad de los Procedimientos de Radiodifusión de información en vuelo, consiste en que los pilotos puedan transmitir informes y datos complementarios pertinentes, en una frecuencia radiotelefónica (RTF) designada VHF, para poner sobre aviso a los pilotos de otras aeronaves que se encuentren en las proximidades.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.1",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-272-0",
+    "text": "1.2 Estos procedimientos deberían aplicarse solamente en caso necesario y como medida temporal en los espacios aéreos designados en los que: a) sea necesario complementar la información sobre peligro de colisión suministrada por los servicios de tránsito aéreo fuera del espacio aéreo controlado; o b) haya una interrupción temporal de los servicios normales de tránsito aéreo. 2. Detalles de la radiodifusión",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.2",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-276-0",
+    "text": "2.1.1 Cuando se utilice VHF para las comunicaciones aeroterrestres con el ATS y una aeronave disponga solamente de dos equipos VHF en servicio, uno de ellos deberá estar sintonizado 1. Broadcasts introduction and application",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.1.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-278-0",
+    "text": "1.1 The purpose of the En-Route Flight Information Broadcast Procedures is for the pilots to be able to transmit reports and relevant complementary data in an assigned VHF radiotelephony frequency (RTF) to notify the other aircraft in their vicinity.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.1",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-281-0",
+    "text": "1.2 These procedures should be applied only if necessary and as a temporary measure in the assigned airspace in which: a) It is necessary to complement the information about collision danger provided by the air traffic services outside the controlled airspace; or b) There is a temporary interruption of the normal air traffic services. 2. Broadcast details",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.2",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-285-0",
+    "text": "2.1.1 When VHF is used for the air-ground communications with the ATS and an aircraft only has two serviceable VHF equipment, one of them should be tuned in on the appropriate ATS frequency and the other one on the 123.4 MHz frequency. AIP ARGENTINA ENR 1.15-13 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 en la frecuencia ATS adecuada y el otro en la frecuencia 123,45 MHz.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.1.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-289-0",
+    "text": "2.2.1 Debería mantenerse la escucha en la frecuencia 123,45 MHz, 10 minutos antes de entrar en el espacio aéreo designado hasta salir del mismo. Para las aeronaves que despeguen de un aeródromo situado dentro de los límites laterales del espacio aéreo designado, la escucha debería comenzar lo antes posible después del despegue y mantenerse hasta salir del espacio aéreo.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.2.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-293-0",
+    "text": "2.3.1 La transmisión debería tener lugar: a) 10 minutos antes de entrar en el espacio aéreo designado, o bien, para los pilotos que despeguen de un aeródromo situado dentro de los límites laterales del espacio aéreo designado, lo antes posible después del despegue; b) 10 minutos antes de cruzar un punto de notificación; c) 10 minutos antes de cruzar o entrar en una ruta ATS; d) a intervalos de 20 minutos entre puntos de notificación distantes; e) entre 2 y 5 minutos, siempre que sea posible, antes de cambiar de nivel de vuelo; f) en el momento de cambiar de nivel de vuelo; y g) en cualquier otro momento en que el piloto lo estime necesario.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.3.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-297-0",
+    "text": "2.4.1 Las radiodifusiones que no se refieran a los cambios de nivel de vuelo, es decir, las mencionadas anteriormente en 2.3 a), b), c), d) y g) deberían hacerse de la siguiente forma: A TODAS LAS ESTACIONES (necesario para identificar una radiodifusión de información sobre el tránsito) (distintivo de llamada) NIVEL DE VUELO (número) (o SUBIENDO* AL NIVEL DE VUELO [número]) (Dirección) (Ruta ATS) (O DIRECTO DE [posición] A [posición]) POSICIÓN (posición**) A LAS (hora) PREVISTO (punto siguiente de notificación, o punto de cruce o entrada a una ruta ATS designada) A LAS (hora) (Distintivo de llamada) (NIVEL DE VUELO (número) (Dirección) Ejemplo: \"A TODAS LAS ESTACIONES WINDAR 671 NIVEL DE VUELO 350 DIRECCIÓN NOROESTE DIRECTO DE PUNTA SAGA A PAMPA POSICIÓN 5040 SUR 2010 ESTE A LAS 2358 PREVISTO CRUCE RUTA LIMA TRES UNO A 4930 SUR 1920 ESTE A LAS 0012 WINDAR 671 NIVEL DE VUELO 350 DIRECCIÓN NOROESTE TERMINADO\".",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.4.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-299-0",
+    "text": "2.4.2 Antes de cambiar de nivel de vuelo, la radiodifusión [prevista en 2.3 e)] debería hacerse de la siguiente forma: A TODAS LAS ESTACIONES (Distintivo de llamada) (dirección) (ruta ATS) (o DIRECTO DE [posición] A [posición])",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.4.2",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-305-0",
+    "text": "2.2.1 A listening watch should be maintained on the 123.45 MHz frequency, 10 minutes before entering the assigned airspace until leaving it. For aircraft taking off at an aerodrome located within the lateral limits of the assigned airspace, the listening should begin as soon as possible after take-off and it should be maintained until leaving the airspace.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.2.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-309-0",
+    "text": "2.3.1 Transmission should be made: a) 10 minutes before entering the assigned airspace or, for pilots taking off an aerodrome located within the lateral limits of the assigned airspace, as soon as possible after take-off; b) 10 minutes before crossing a notification point; c) 10 minutes before crossing or entering an ATS route; d) At 20 minutes intervals between distant notification points; e) Between 2 and 5 minutes, whenever possible, before changing the flight level; f) When changing the flight level; and g) Whenever the pilot deems it necessary.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.3.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-314-0",
+    "text": "2.4.1 Broadcasts which are not about flight level changes, i.e., the ones mentioned in 2.3 a), b), c), d), and g) above should be made in the following way: TO ALL STATIONS (this is necessary to identify an information broadcast about traffic) (callsign) FLIGHT LEVEL (number) (or CLIMBING* TO FLIGHT LEVEL [number]) (Direction) (ATS Route) (Or DIRECT FROM [position] ** TO [position] POSITION (position**) AT (time) ESTIMATED (next notification point or crossing point or entry to an assigned ATS route) AT (time) (callsign) (FLIGHT LEVEL (number) (Direction) Example: \"TO ALL STATIONS WINDAR 671 FLIGHT LEVEL 350 NORWEST DIRECTION DIRECT FROM PUNTA SAGA TO PAMPA POSITION 5040 SOUTH 2010 EAST AT 1158 PM ESTIMATED ROUTE CROSSING LIMA THREE ONE TO 4930 SOUTH 0720 PM EAST AT 0012 WINDAR 671 FLIGHT LEVEL 350 NORTHWEST DIRECTION OVER”",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.4.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-316-0",
+    "text": "2.4.2 Before changing the flight level, the broadcast (2.3 e) should be made in the following way: TO ALL STATIONS (callsign) (Direction) (ATS Route) (Or DIRECT FROM [position] to [position]) AIP ARGENTINA ENR 1.15-14 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 ABANDONANDO NIVEL DE VUELO (número) POR NIVEL DE VUELO (número) EN (posición) A LAS (hora)",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.4.2",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-318-0",
+    "text": "2.4.3 Salvo lo estipulado en 2.4.4, la radiodifusión en el momento de cambiar de nivel de vuelo [prevista en 2.3 f)] debería hacerse de la siguiente forma: A TODAS LAS ESTACIONES (distintivo de llamada) (dirección) (ruta ATS) (o DIRECTO DE (posición] A (posición) ABANDONANDO AHORA EL NIVEL DE VUELO (número) POR NIVEL DE VUELO (número) Seguido de: A TODAS LAS ESTACIONES (distintivo de llamada) MANTENIENDO EL NIVEL DE VUELO (número)",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.4.3",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-320-0",
+    "text": "2.4.4 La radiodifusión notificando un cambio temporal del nivel de vuelo para evitar un riesgo inminente de colisión deberá hacerse de la siguiente forma: A TODAS LAS ESTACIONES (distintivo de llamada) ABANDONANDO AHORA NIVEL DE VUELO (número) POR NIVEL DE VUELO (número) Seguido tan pronto como sea factible de: A TODAS LAS ESTACIONES (distintivo de llamada) VOLVIENDO AHORA AL NIVEL DE VUELO (número)",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.4.4",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-324-0",
+    "text": "2.5.1 No debería acusarse recibo de las radiodifusiones, a menos que se perciba un posible riesgo de colisión. 3. Procedimientos Operacionales Conexos",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.5.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-328-0",
+    "text": "3.1.1 No debería cambiarse el nivel crucero dentro del espacio aéreo designado, a menos que los pilotos lo consideren necesario para evitar problemas de tránsito, determinadas condiciones meteorológicas o por otras razones válidas de carácter operacional.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.1.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-330-0",
+    "text": "3.1.2 Cuando sea inevitable cambiar el nivel de crucero, en el momento de hacer la maniobra deberían encenderse todas las luces de la aeronave que puedan facilitar la detección visual de la misma.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.1.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-332-0",
+    "text": "3.2 Procedimientos anticolisión Si al recibir una radiodifusión de información sobre el tránsito procedente de otra aeronave, un piloto decide que es necesario tomar medidas inmediatas para evitar a su aeronave un riesgo inminente de colisión, y esto no puede lograrse mediante las disposiciones sobre derecho de paso del Anexo 2 de la OACI, debería: a) encender todas las luces de la aeronave que puedan facilitar la detección visual de la misma; b) contestar lo antes posible a la radiodifusión, comunicando la medida que haya tomado; c) notificar la medida tomada en la frecuencia ATS adecuada; y LEAVING FLIGHT LEVEL (number) FOR FLIGHT LEVEL (number) AT (position) AT (time)",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-334-0",
+    "text": "2.4.3 Except what is stated in2.4.4 , the broadcast at the moment of the flight level change [stated in 2.3 f)] should be made in the following way: TO ALL STATIONS (callsign) (Direction) (ATS Route) (Or DIRECT FROM [position] A to [position] NOW LEAVING FLIGHT LEVEL (number) FOR FLIGHT LEVEL (number) Followed by: TO ALL STATIONS (Callsign) MAINTAINING FLIGHT LEVEL (number)",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.4.3",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-336-0",
+    "text": "2.4.4 The broadcast notifying a temporary flight level change to avoid an imminent collision risk should be made in the following way: TO ALL STATIONS (Callsign) NOW LEAVING FLIGHT LEVEL (number) FOR FLIGHT LEVEL (number) Followed, as soon as possible, by: TO ALL STATIONS (Callsign) NOW RETURNING TO FLIGHT LEVEL (number)",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.4.4",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-340-0",
+    "text": "2.5.1 No readback should be made to the broadcasts, unless a possible collision risk is perceived. 3. Related operational procedures",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.5.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-344-0",
+    "text": "3.1.1 No cruise level change should be made within the assigned airspace, unless the pilots deem it necessary to avoid traffic problems, certain weather conditions or for other valid reasons of operational nature.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.1.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-347-0",
+    "text": "3.1.2 When the cruise level change is unavoidable, at the moment of the maneuver all lights of the aircraft should be turned on to facilitate its visual detection.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.1.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-350-0",
+    "text": "3.2 Anti-collision procedures If when a pilot receives an information broadcast about traffic coming from another aircraft, they decide immediate measures are necessary to avoid an imminent collision risk, and this cannot be achieved with the dispositions about right of way from ICAO Annex 2, they should: a) Turn on all the aircraft lights that could facilitate its visual detection; b) Answer the broadcast as soon as possible, communicating the measure being taken; c) Notify the measure taken in the appropriate ATS frequency; and AIP ARGENTINA ENR 1.15-15 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 d) volver tan pronto como sea factible al nivel de vuelo normal, notificándolo en la frecuencia ATS apropiada.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-352-0",
+    "text": "3.3 Procedimientos normales de notificación de posición En todo momento deberían continuar los procedimientos normales de notificación de posición, independientemente de cualquier medida tomada para iniciar o acusar recibo de una radiodifusión de información sobre el tránsito. * Para la radiodifusión mencionada en 2.3.1 a), en caso de aeronaves que despeguen de un aeródromo situado dentro de los limites laterales del espacio aéreo designado. ** En las radiodifusiones realizadas cuando la aeronave no se encuentra cerca de un punto significativo ATS, la posición debería darse con la mayor exactitud posible y, en cualquier caso, con una aproximación de 30 minutos de latitud y longitud. d) Return as soon as possible to the normal flight level, and notify this to the appropriate ATS frequency.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.3",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-354-0",
+    "text": "3.3 Normal procedures to notify position At all times the normal procedures to notify position should continue, regardless of any measures taken to start or read back an information broadcast about the traffic. * For the broadcast mentioned in 2.3.1.a), when the aircraft takes off from an aerodrome located within the lateral limits of the assigned airspace. ** The broadcasts made when the aircraft is not near a significant ATS point, the position should be given as accurately as possible and, in any case, with an approach of 30 minutes of latitude and longitude. AIP ARGENTINA ENR 1.15-16 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 ANEXO IV ANNEX IV ACUERDOS DE CONTINGENCIA ATS CON PAÍSES LIMÍTROFES ATS CONTINGENCY AGREEMENTS WITH NEIGHBORING COUNTRIES 1. Este Anexo contiene los acuerdos de contingencia ATS que se han establecido entre la Administración Aeronáutica de la República Argentina con sus similares de los países limítrofes, el cual consta de los siguientes Apéndices: APÉNDICE 1: Argentina - Uruguay APÉNDICE 2: Argentina - Brasil APÉNDICE 3: Argentina - Paraguay APÉNDICE 4: Argentina - Bolivia APÉNDICE 5: Argentina – Chile 1. This Annex contains the ATS contingency agreements established between the Aviation Authority of the Republic of Argentina and its counterparts in neighboring countries, which consists of the following Appendices: APPENDIX 1: Argentina - Uruguay APPENDIX 2: Argentina - Brazil APPENDIX 3: Argentina - Paraguay APPENDIX 4: Argentina - Bolivia APPENDIX 5: Argentina - Chile APÉNDICE 1 APPENDIX 1 MEDIDAS DE CONTINGENCIA ATS ACORDADAS ENTRE ARGENTINA Y URUGUAY Fecha de efectividad: 3 de noviembre de 2022 ATS CONTINGENCY MEASURES AGREED BETWEEN ARGENTINA AND URUGUAY Effective date: November 3, 2022 1. FIR ́S afectadas RESISTENCIA – MONTEVIDEO EZEIZA – MONTEVIDEO 2. Generalidades",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.3",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-358-0",
+    "text": "2.2 Sin coordinación entre las dependencias de control de jurisdicción, se aplicará el método de autotransferencia. 3. Autotransferencia",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.2",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-360-0",
+    "text": "3.1 Los siguientes procedimientos de autotransferencia deberán ser aplicados de la siguiente manera: a) La dependencia ATS deberá: 1) Informar al piloto la imposibilidad de comunicación con la dependencia ATC aceptante; y 2) Suministrar instrucción para que haga contacto con la dependencia aceptante. b) El piloto deberá: 1) Hacer contacto con la dependencia aceptante; 2) Informar a la dependencia aceptante que está llevando a cabo una autotransferencia; 3) Transmitir su procedencia, destino, ruta, nivel de vuelo, código transponder, estado de aprobación RVSM y estima al límite de la FIR; 4) Informar a la dependencia transferidora cuando la dependencia aceptante aceptó la transferencia. 4. Suspensión de RPL 1. Affected FIRs RESISTENCIA – MONTEVIDEO EZEIZA - MONTEVIDEO 2. General",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-362-0",
+    "text": "2.1 With coordination between the FIRs only with radar: the Operating Agreement Charts shall be applied.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-364-0",
+    "text": "2.2 Without coordination between the control units of jurisdiction, the auto-transfer method shall be applied. 3. Auto-transfer",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.2",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-366-0",
+    "text": "3.1 The following auto-transfer procedures shall be applied in the following way: a) The ATS unit shall: 1) Inform the pilot the impossibility of communication with the accepting ATS; and 2) Provide instruction for contact to be made with the accepting unit. b) The pilot shall: 1) Make contact with the accepting unit; 2) Inform the accepting unit that an auto-transfer is being carried out; 3) Transmit its origin, destination, route, flight level, transponder code, RVSM state of approval and estimated time to the FIR limit. 4) Inform the transferring unit when the accepting unit accepts the transfer. 4. RPL suspension AIP ARGENTINA ENR 1.15-17 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2023 30 NOVIEMBRE 2023",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-368-0",
+    "text": "4.1 Mientras dure la contingencia se suspenderá la aplicación de las listas RPL, debiendo los usuarios presentar, en todos los casos, los FPL correspondientes. 5. Límite de permiso",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.1",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-370-0",
+    "text": "5.1 Cuando los vuelos IFR en ruta dispongan de cobertura de comunicaciones para el Servicio Móvil Aeronáutico, pero las dependencias ATS no cuenten con comunicaciones fijas entre sí, el permiso de tránsito tendrá validez hasta el punto de transferencia de control, con la condición de autotransferencia llevada a cabo por el piloto. 6. Asignación de códigos SSR",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "5.1",
+      "chapter": "5"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-372-0",
+    "text": "6.1 Aunque los sistemas RADAR estuvieran fuera de servicio se continuará asignando códigos SSR a todas las aeronaves. 7. Procedimientos de radiodifusión de información en vuelo (información de tráfico difundida por la aeronave)",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.1",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-374-0",
+    "text": "7.1 Las aeronaves deberán, en caso de no poder realizar su autotransferencia y dentro de las 50 NM de los puntos que así se indican, utilizar los procedimientos en la frecuencia aire - aire 123,45 MHz. 8. Plan de vuelo no transmitido",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "7.1",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-376-0",
+    "text": "8.1 En el periodo de contingencia las dependencias ATS aceptarán vuelos cuyos FPL no hayan podido ser trasmitidos. No obstante, la presentación del FPL por parte del usuario será igualmente exigida. 9. Separación vertical",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "8.1",
+      "chapter": "8"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-378-0",
+    "text": "9.1 Se proveerá separación vertical mínima de acuerdo con lo establecido en el Anexo 2 de la OACI, Apéndice 3 Tabla a) de Niveles de Crucero (si bien las rutas han sido modificadas en un solo sentido de vuelo, las aeronaves adoptarán los niveles de vuelo correspondientes como si se trataran de rutas de doble sentido de vuelo). 10. Teléfonos: Para Argentina: Resistencia ACC Fono / Fax (+54 362) 4440939 (+54 362) 4436291 /92 /93 Extensión 32138 / 32195 / 32101 REDDIG: 2036; 2067; 2067; 2090; 2031 Ezeiza ACC Fono / Fax (+54 11) 44802344 (+54 11) 44802203 (+54 11) 44802210/17 Extensión 57203/57265 Córdoba ACC Fono / Fax (+54 351) 4335350 (+54 351) 4756450 Mendoza ACC Fono / Fax (+54 261) 4487486 (+54 261) 4487128 Extensión 24337 Comodoro Rivadavia ACC Fono / Fax (+54 297) 4548375",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-380-0",
+    "text": "4.1 During the contingency, the application of the RPL lists shall be suspended, the users shall file, in all cases, the respective FPL. 5. Permit limit",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.1",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-382-0",
+    "text": "5.1 When the en-route IFR flights have communication coverage for the Aeronautical Mobile Service, but the ATS units do not have fixed communications between them, the traffic permit shall be valid up to the control transfer point, with the auto-transfer condition being carried out by the pilot. 6. SSR codes assignation",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "5.1",
+      "chapter": "5"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-384-0",
+    "text": "6.1 Even if the RADAR systems were out of service, the SSR codes will continue to be assigned to all aircraft. 7. In flight information broadcast procedures (traffic information transmitted by the aircraft)",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.1",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-386-0",
+    "text": "7.1 The aircraft, if they cannot make their auto-transfer and within 50 NM from the points that indicate it, shall use these procedures in the air-air frequency 123.45 MHz. 8. Flight plan not transmitted",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "7.1",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-388-0",
+    "text": "8.1 During the contingency, the ATS units shall accept flights whose FPL could not been transmitted. However, the FPL filing by the user shall be required nevertheless. 9. Vertical separation",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "8.1",
+      "chapter": "8"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-390-0",
+    "text": "9.1 Minimum Vertical Separation shall be provided according to ICAO Annex 2, Appendix 3, Chart A: Cruise Level Chart (even though the routes were changed to one-way direction, the aircraft shall adopt the respective flight levels as if they were two-way routes). 10. Telephone numbers: For Argentina: Resistencia ACC Phone / Fax (+54362) 4440939 (+54362) 4436291 /92 /93 Extension 32138/ 32195/ 32101 REDDIG: 2036; 2067; 2067; 2090; 2031 Ezeiza ACC Phone / Fax (+5411) 44802344 (+5411) 44802203 (+5411) 44802210/17 Extension 57203/57265 Córdoba ACC Phone / Fax (+54351) 4335350 (+54351) 4756450 Mendoza ACC Phone / Fax (+54261) 4487486 (+54261) 4487128 Extension 24337 Comodoro Rivadavia ACC Phone / Fax (+54297) 4548375 AIP ARGENTINA ENR 1.15-18 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 (+54 297) 4548355 Extensión 50519/50256 Para Uruguay: MONTEVIDEO ACC Fono/ Fax (+598) 26000619 (+598) 26040251 Extensión 5119 11. Rutas Troncales Internacionales ATS:",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-392-0",
+    "text": "11.1 Al encontrarse activados los Planes de Contingencia, solo se utilizarán aquellas rutas troncales internacionales que se detallan a continuación en ANEXO ALFA. (54297) 4548355 Extension 50519/50256 For Uruguay: MONTEVIDEO ACC Phone/ Fax (598) 26000619 (598) 26040251 Extension 5119 11. ATS international trunk routes:",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "11.1",
+      "chapter": "11"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-394-0",
+    "text": "11.1 Due to the activation of the Contingency Plans, only the following international trunk routes detailed in Annex ALFA shall be used. ANEXO ALFA: ANNEX ALFA: RED SIMPLIFICADA DE RUTAS EN EL ESPACIO AÉREO SUPERIOR / INFERIOR SIMPLIFIED ROUTE NETWORK IN THE UPPER/LOWER AIRSPACE RUTAS / ROUTES TRAMO / SEGMENT FIR RESTRICCIONES / RESTRICTIONS UL 324 EZEIZA / KUKEN / ENSAS / CUARA / ELAMO / ALDOS / IGU / FOZ EZEIZA MONTEVIDEO CURITIBA RESISTENCIA - Con coordinación entre las FIR ́s solo con radar: se aplicarán las Cartas de Acuerdo. - Sin coordinación entre las FIR ́s: ACC EZEIZA estará desactivada para su uso. - Capacidad de tráfico en la ruta: una (1) aeronave cada 15’ minutos en KUKEN. - Sin coordinación, se utiliza el método de autotransferencia, 5’ minutos antes de KUKEN. - Único sentido del vuelo: desde EZEIZA hacia CURITIBA. - Las aeronaves aplicarán el procedimiento de RADIODIFUSIÓN DE INFORMACIÓN EN VUELO 5’ minutos antes y después de KUKEN. - En caso de falla de comunicaciones aire-tierra (ATS cero) no se aplica UL324. - With coordination between the FIRs only with radar: the Agreement Charts shall be applied. - No coordination between RIS's: ACC EZEIZA will be disabled for use. - En-route traffic capacity: one (1) aircraft every 15’ in KUKEN. - Without coordination, the auto-transfer method is applied, 5’ minutes before KUKEN. - One-way flight: from EZEIZA towards CURITIBA. - The aircraft shall apply the IN-FLIGHT INFORMATION BROADCAST procedure 5’ minutes before and after KUKEN. - In case of air-ground communications failure (zero ATS), the UL324 will be disabled for use. UM354 ROSARIO/ SUGRA/ ENSAS/ URURI/ NEXOL EZEIZA MONTEVIDEO CURITIBA - Con coordinación entre las FIR ́s solo con radar: se aplicarán las Cartas de Acuerdo. - Sin coordinación entre las FIR ́s: ACC EZEIZA estará desactivada para su uso. - Capacidad de tráfico en la ruta: una (1) aeronave cada 15’ minutos en SUGRA. - Sin coordinación, se utiliza el método de autotransferencia, 5’ minutos antes de SUGRA. - Único sentido del vuelo: desde EZEIZA hacia CURITIBA. - Las aeronaves aplicarán el procedimiento de RADIODIFUSIÓN DE INFORMACIÓN EN VUELO 5’ minutos antes y después de SUGRA. AIP ARGENTINA ENR 1.15-19 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 - With coordination between the FIRs only with radar: the Agreement Charts shall be applied. - No coordination between RIS's: ACC EZEIZA will be disabled for use. - En-route traffic capacity: one (1) aircraft every 15’ in SUGRA. - Without coordination, the auto-transfer method is applied, 5’ minutes before SUGRA. - One-way flight: from EZEIZA towards CURITIBA. - The aircraft shall apply the IN-FLIGHT INFORMATION BROADCAST procedure 5’ minutes before and after SUGRA. UN741 A314 UMRUD / VUDUP / ENTED / GUVON / PAPIX / EZEIZA CURITIBA MONTEVIDEO EZEIZA - Con coordinación entre las FIR ́s solo con radar: se aplicarán las Cartas de Acuerdo. - Sin coordinación entre las FIR ́s: el ACC MONTEVIDEO deberá entregar el tránsito en PAPIX nivelado con FL",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "11.1",
+      "chapter": "11"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-394-450",
+    "text": "A314 UMRUD / VUDUP / ENTED / GUVON / PAPIX / EZEIZA CURITIBA MONTEVIDEO EZEIZA - Con coordinación entre las FIR ́s solo con radar: se aplicarán las Cartas de Acuerdo. - Sin coordinación entre las FIR ́s: el ACC MONTEVIDEO deberá entregar el tránsito en PAPIX nivelado con FL 100. - Capacidad de tráfico en la ruta: una (1) aeronave cada 15’ minutos en PAPIX. - Único sentido del vuelo: desde CURITIBA hacia EZEIZA. - Sin coordinación se utiliza el método de autotransferencia, con no menos de 30 NM de PAPIX o 5’ minutos antes de dicho punto. - Las aeronaves aplicarán el procedimiento de RADIODIFUSIÓN DE INFORMACIÓN EN VUELO a 50 NM o 5’ minutos antes y después de PAPIX. - With coordination between the FIRs only with radar: the Agreement Charts shall be applied. - Without coordination between the FIRs: MONTEVIDEO ACC shall deliver traffic in PAPIX leveled with FL 100. - En route traffic capacity: one (1) aircraft every 15’ in PAPIX. - One-way flight: from CURITIBA towards EZEIZA. - Without coordination, the auto-transfer method is applied, with no less than 30 NM of PAPIX or 5’ minutes before said point. - The aircraft shall apply the IN-FLIGHT INFORMATION BROADCAST procedure at 50 NM or 5’ minutes before and after PAPIX. UN857 EZEIZA / LA PLATA / DORVO / PABOT / LOMID / ANRUP/ MELO EZEIZA MONTEVIDEO - Con coordinación entre las FIR ́s solo con radar: se aplicarán las Cartas de Acuerdo. - Sin coordinación entre las FIR ́s: el ACC EZEIZA entregará el tránsito nivelado con FL 170 o SUPERIOR en ascenso hasta FL 250. - Capacidad de tráfico en la ruta: una (1) aeronave cada 15’ minutos en DORVO. - Único sentido del vuelo: desde EZEIZA hacia CURITIBA. - Sin coordinación se utiliza el método de autotransferencia, con no menos de 5’ minutos antes de DORVO. - Las aeronaves aplicarán el procedimiento de RADIODIFUSIÓN DE INFORMACIÓN EN VUELO 5’ minutos antes y después de DORVO. - With coordination between the FIRs only with radar: the Agreement Charts shall be applied. - Without coordination between the FIRs: the EZEIZA ACC shall deliver traffic leveled with FL 170 or HIGHER in climb up to FL 250. - En route traffic capacity: one (1) aircraft every 15’ in DORVO. - One-way flight: from EZEIZA towards CURITIBA. - Without coordination, the auto-transfer method is applied, with no less than 5’ minutes before DORVO. - The aircraft shall apply the IN-FLIGHT INFORMATION BROADCAST procedure 5’ minutes before and after DORVO. UM 424 EZEIZA / DORVO / CARRASCO / CURBELO / EZEIZA MONTEVIDEO CURITIBA - Con coordinación entre las FIR ́s solo con radar: se aplicarán las Cartas de Acuerdo. - Sin coordinación entre las FIR ́s: el ACC EZEIZA entregará el tránsito al ACC MONTEVIDEO nivelado con FL 150 o INFERIOR en DORVO. - Capacidad de tráfico en la ruta: una (1) aeronave cada 15’ minutos en DORVO. AIP ARGENTINA ENR 1.15-20 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-394-900",
+    "text": "Acuerdo. - Sin coordinación entre las FIR ́s: el ACC EZEIZA entregará el tránsito al ACC MONTEVIDEO nivelado con FL 150 o INFERIOR en DORVO. - Capacidad de tráfico en la ruta: una (1) aeronave cada 15’ minutos en DORVO. AIP ARGENTINA ENR 1.15-20 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 Nota 1. –– El tráfico entre la FIR EZEIZA y la FIR MONTEVIDEO será de una (1) aeronave cada quince (15’) minutos, lo cual conforma un flujo máximo de cuatro (4) aeronaves por hora entre ambos FIR ́s., por punto de transferencia, independientemente del nivel de vuelo utilizado por las aeronaves. Nota 2. –– Dependiendo del nivel de degradación de los Servicios, los respectivos Supervisores podrán, de mutuo acuerdo, coordinar el acomodamiento de un mayor número de aeronaves por puntos de transferencia. Note 1. –– The traffic between EZEIZA FIR and MONTEVIDEO FIR shall be of one (1) aircraft every fifteen (15) minutes, which constitutes a maximum flow of four (4) aircraft per hour between both FIRs, per transference point, regardless the flight level used by the aircraft. Note 2. –– Depending on the degradation level of the Services, the respective Supervisors may agree to coordinate an adaptation of more aircraft per transference points. TOLEP / UGURA / PELOTAS - Único sentido del vuelo: desde EZEIZA hacia MONTEVIDEO o CURITIBA. - Sin coordinación se utiliza el método de autotransferencia, con no menos de 5’ minutos antes de DORVO. - Las aeronaves aplicarán el procedimiento de RADIODIFUSIÓN DE INFORMACIÓN EN VUELO 5’ minutos antes y después de DORVO. - With coordination between the FIRs only with radar: the Agreement Charts shall be applied. - Without coordination between the FIRs: the EZEIZA ACC shall deliver traffic to the MONTEVIDEO ACC leveled with FL 150 or LOWER in DORVO. - En route traffic capacity: one (1) aircraft every 15’ in DORVO. - One-way flight: from EZEIZA towards MONTEVIDEO or CURITIBA. - Without coordination, the auto-transfer method is applied, with no less than 5’ minutes before DORVO. - The aircraft shall apply the IN-FLIGHT INFORMATION BROADCAST procedure 5’ minutes before and after DORVO. A 305 EZEIZA / DORVO / CARRASCO / CURBELO / UGELO / PELOTAS UA 405 A 306 CURBELLO / LUCIO / UGIMI / LA PLATA / EZEIZA MONTEVIDEO EZEIZA - Con coordinación entre las FIR ́s solo con radar: se aplicarán las Cartas de Acuerdo. - Sin coordinación entre las FIR ́s: el ACC MONTEVIDEO entregará el tránsito nivelado con FL 140 o INFERIOR en UGIMI. - Capacidad de tráfico en la ruta: una (1) aeronave cada 15’ minutos en UGIMI. - Único sentido de vuelo: desde CURITIBA o MONTEVIDEO hacia EZEIZA. - Sin coordinación se utiliza el método de autotransferencia, con no menos de 30 NM de UGIMI, o 5’ minutos antes de dicho punto. - Las aeronaves aplicarán el procedimiento de RADIODIFUSIÓN DE INFORMACIÓN EN VUELO a 50 NM o 5’ minutos antes y después de UGIMI. - With coordination between the FIRs only with",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-394-1350",
+    "text": "el método de autotransferencia, con no menos de 30 NM de UGIMI, o 5’ minutos antes de dicho punto. - Las aeronaves aplicarán el procedimiento de RADIODIFUSIÓN DE INFORMACIÓN EN VUELO a 50 NM o 5’ minutos antes y después de UGIMI. - With coordination between the FIRs only with radar: the Agreement Charts shall be applied. - Without coordination between the FIRs: the MONTEVIDEO ACC shall deliver traffic leveled with FL 140 or LOWER in UGIMI. - En route traffic capacity: one (1) aircraft every 15’ in UGIMI. - One-way flight: from CURITIBA or MONTEVIDEO towards EZEIZA. - Without coordination, the auto-transfer method is applied, with no less than 30 NM of UGIMI, or 5’ minutes before said point. - The aircraft shall apply the IN-FLIGHT INFORMATION BROADCAST procedure at 50 NM or 5’ minutes before and after UGIMI. AIP ARGENTINA ENR 1.15-21 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2023 30 NOVIEMBRE 2023 APÉNDICE 2 APPENDIX 2 MEDIDAS DE CONTINGENCIA ATS ACORDADAS ENTRE ARGENTINA Y BRASIL Fecha de efectividad: 7 de setiembre 2023 ATS CONTINGENCY MEASURES AGREED BETWEEN ARGENTINA AND BRAZIL Effective date: 7 September, 2023 1. FIRs afectadas RESISTENCIA – CURITIBA 2. Objetivo",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-396-0",
+    "text": "2.1 Facilitar y mantener el tránsito aéreo internacional en forma segura y ordenada entre la FIR RESISTENCIA y FIR CURITIBA, en caso de presentarse una interrupción en la prestación de los servicios de control de tránsito aéreo dentro de la FIR RESISTENCIA. 3. Generalidades",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-398-0",
+    "text": "3.1 El personal del ACC CURITIBA (BRASIL) tomará conocimiento del presente Plan de Contingencia, de modo tal que ante una situación de contingencia en la FIR RESISTENCIA, encaminará el tránsito aéreo de acuerdo con lo establecido en el presente apéndice.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-400-0",
+    "text": "3.2 Sin coordinación entre las dependencias de control de jurisdicción, se aplicará el método de autotransferencia. 4. Autotransferencia",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-402-0",
+    "text": "4.1 Los siguientes procedimientos de autotransferencia deberán ser aplicados de la siguiente manera: a) La dependencia ATS deberá: 1) Informar al piloto la imposibilidad de comunicación con la dependencia ATC aceptante; y 2) Suministrar instrucción para que haga contacto con la dependencia aceptante. b) El piloto deberá: 1) Hacer contacto con la dependencia aceptante; 2) Informar a la dependencia aceptante que está llevando a cabo una autotransferencia; 3) Transmitir su procedencia, destino, ruta, nivel de vuelo, código transponder, estado de aprobación RVSM y estima al límite de la FIR; 4) Informar a la dependencia transferidora cuando la dependencia aceptante aceptó la transferencia. 5. Suspensión de RPL",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.1",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-404-0",
+    "text": "5.1 Mientras dure la contingencia se suspenderá la aplicación de las listas RPL, debiendo los usuarios presentar, en todos los casos, los FPL correspondientes. 6. Asignación de códigos SSR",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "5.1",
+      "chapter": "5"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-406-0",
+    "text": "6.1 Aunque los sistemas RADAR estuvieran fuera de servicio se continuará asignando códigos SSR a todas las aeronaves. 1. Affected FIRs RESISTENCIA – CURITIBA 2. Purpose",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.1",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-408-0",
+    "text": "2.1 To facilitate and maintain an orderly and safe international air traffic between the RESISTENCIA FIR and the CURITIBA FIR, in case of an interruption of the air traffic services provision within the RESISTENCIA FIR. 3. General",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-410-0",
+    "text": "3.1 The personnel of CURITIBA ACC (BRAZIL) shall be informed of this Contingency Plan, so that in case of a contingency situation in RESISTENCIA FIR, they shall direct the air traffic according to what is established in this appendix.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-412-0",
+    "text": "3.2 Without coordination between the control units of jurisdiction, the auto-transfer method shall be applied. 4. Auto-transfer",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-414-0",
+    "text": "4.1 The following auto-transfer procedures shall be applied as follows: a) The ATS unit shall: 1) Inform the pilot of the impossibility of communication with the accepting ATS unit; and 2) Provide instruction for contact to be made with the accepting unit. b) The pilot shall: 1) Make contact with the accepting unit; 2) Inform the accepting unit that an auto-transfer is being carried out; 3) Transmit its origin, destination, route, flight level, transponder code, RVSM state of approval and estimated FIR limit; 4) Inform the transferring unit when the accepting unit accepted the transfer. 5. RPL Suspension",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.1",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-416-0",
+    "text": "5.1 During the contingency, the application of the RPL lists shall be suspended, and the users shall submit, in all cases, the respective FPLs. 6. SSR codes Assignation",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "5.1",
+      "chapter": "5"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-418-0",
+    "text": "6.1 Even if the RADAR systems were out of service, all aircraft will continue being assigned the SSR codes. AIP ARGENTINA ENR 1.15-22 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2023 30 NOVIEMBRE 2023 7. Procedimientos de radiodifusión de información en vuelo (información de tráfico difundida por la aeronave)",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.1",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-420-0",
+    "text": "7.1 Las aeronaves deberán, en caso de no poder realizar su autotransferencia y dentro de las 50 NM de los puntos que así se indican, utilizar estos procedimientos en la frecuencia aire/aire 123,45 MHz. 8. Separación vertical",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "7.1",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-422-0",
+    "text": "8.1 Se proveerá separación vertical mínima de acuerdo con lo establecido en el Anexo 2 de la OACI, Apéndice 3, Tabla a) de Niveles de Crucero (RVSM). 9. Plan de vuelo no transmitido",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "8.1",
+      "chapter": "8"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-424-0",
+    "text": "9.1 En el periodo de contingencia las dependencias ATS aceptarán vuelos cuyos FPL no hayan podido ser trasmitidos. No obstante, la presentación del FPL por parte del usuario será igualmente exigida. 10. Teléfonos: Para Argentina: Resistencia ACC Fono / Fax (+54 362) 4440939 (+54 362) 4436291 /92 /93 Extensión 32138/32195 /32101 Para Brasil: CURITIBA ACC Fono / Fax (+55 41) 33563475 (+55 41) 32515342 (+55 41) 32515308 (+55 41) 32515388 REDDIG: 3060 AFTN: SBCWZQZX 11. Rutas troncales internacionales ATS:",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-426-0",
+    "text": "11.1 Al encontrarse activados los Planes de Contingencia, solo se utilizarán aquellas rutas troncales internacionales que se detallan a continuación: 7. In flight information broadcast procedures (traffic information transmitted by the aircraft)",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "11.1",
+      "chapter": "11"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-428-0",
+    "text": "7.1 If they cannot make their auto-transfer, and within 50 NM from the indicated points, the aircraft shall use these procedures in the air-to-air frequency 123.45 MHz. 8. Vertical separation",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "7.1",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-430-0",
+    "text": "8.1 The vertical separation minimum shall be provided according to ICAO Annex 2, Appendix 3, Table a) of cruising levels (RVSM). 9. Flight plan not transmitted",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "8.1",
+      "chapter": "8"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-432-0",
+    "text": "9.1 During the contingency, the ATS units shall accept flights whose FPL could not have been transmitted. However, the FPL submission by the user shall be required in any case. 10. Telephone numbers: For Argentina: Resistencia ACC Phone / Fax (+54 362) 4440939 (+54 362) 4436291 /92 /93 Extensión 32138/32195 /32101 For Brazil: CURITIBA ACC Fono / Fax (+55 41) 33563475 (+55 41) 32515342 (+55 41) 32515308 (+55 41) 32515388 REDDIG: 3060 AFTN: SBCWZQZX 11. ATS international trunk routes:",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-434-0",
+    "text": "11.1 When the Contingency Plans are activated, only the following international trunk routes shall be used:  AIP ARGENTINA ENR 1.15-23 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2023 30 NOVIEMBRE 2023 RED SIMPLIFICADA DE RUTAS ATS SIMPLIFIED NETWORK OF ATS ROUTES RUTAS / ROUTES TRAMO / SEGMENT FIR RESTRICCIONES / RESTRICTIONS UL324 EZEIZA / KUKEN / CUARA / ELAMO / IGU / FOZ EZEIZA MONTEVIDEO CURITIBA RESISTENCIA CURITIBA - Con coordinación entre las FIR ́s (con o sin radar): se aplicará la Carta de Acuerdo Operacional vigente. - Sin coordinación entre las FIR ́s: El ACC CURITIBA entregará al ACC RESISTENCIA las aeronaves en ELAMO. - Capacidad de tráfico en la ruta: una (1) aeronave cada 15’ minutos en ELAMO (ver notas 1 y 2). - Sin coordinación, se utiliza el método de autotransferencia, con no menos de 30 NM de ELAMO o 5’ minutos antes de dicho punto. - Único sentido del vuelo: desde EZEIZA hacia FOZ. - Las aeronaves aplicarán el PROCEDIMIENTO de RADIODIFUSIÓN DE INFORMACIÓN EN VUELO a 50 NM o 5’ minutos antes y después de ELAMO. - With coordination between the FIRs (with or without radar): the current Agreement Chart shall be applied. - Without coordination between the FIRs: the CURITIBA ACC shall deliver aircraft to the RESISTENCIA ACC in ELAMO. - En route traffic capacity: one (1) aircraft every 15’ in ELAMO (See notes 1 and 2) - Without coordination, the auto-transfer method is applied, with no less than 30 NM of ELAMO or 5’ minutes before said point. - Unique flight path: from EZEIZA towards FOZ. - Aircraft shall apply the IN-FLIGHT INFORMATION BROADCAST PROCEDURE at 50 NM or 5’ minutes before and after ELAMO. Nota 1. –– El tráfico entre la FIR RESISTENCIA y la FIR CURITIBA será de una (1) aeronave cada quince (15) minutos, lo cual conforma un flujo máximo de cuatro (4) aeronaves por hora entre ambos FIR ́s., por punto de transferencia, independientemente del nivel de vuelo utilizado por las aeronaves. Nota 2. –– Dependiendo del nivel de degradación de los servicios, los respectivos Supervisores podrán, de mutuo acuerdo, coordinar el acomodamiento de un mayor número de aeronaves por puntos de transferencia. Note 1. –– The traffic between RESISTENCIA FIR and CURITIBA FIR shall be of one (1) aircraft every fifteen (15) minutes, which constitutes a maximum flow of four (4) aircraft per hour between both FIRs, per transference point, regardless of the flight level used by the aircraft. Note 2. –– Depending on the degradation level of the services, the respective Supervisors may agree to coordinate an adaptation of more aircraft per transference points. AIP ARGENTINA ENR 1.15-24 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 APÉNDICE 3 APPENDIX 3 MEDIDAS DE CONTINGENCIA ATS ACORDADAS ENTRE ARGENTINA Y PARAGUAY Fecha de efectividad: 30 de abril de 2015 ATS CONTINGENCY MEASURES AGREED BETWEEN ARGENTINA AND PARAGUAY Effective date: April 30, 2015 1. FIR ́S afectadas RESISTENCIA – ASUNCIÓN 2. Objetivo",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "11.1",
+      "chapter": "11"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-434-450",
+    "text": "NOVIEMBRE 2022 APÉNDICE 3 APPENDIX 3 MEDIDAS DE CONTINGENCIA ATS ACORDADAS ENTRE ARGENTINA Y PARAGUAY Fecha de efectividad: 30 de abril de 2015 ATS CONTINGENCY MEASURES AGREED BETWEEN ARGENTINA AND PARAGUAY Effective date: April 30, 2015 1. FIR ́S afectadas RESISTENCIA – ASUNCIÓN 2. Objetivo",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-436-0",
+    "text": "2.1 Facilitar y mantener el tránsito aéreo internacional en forma segura y ordenada entre la FIR RESISTENCIA y FIR ASUNCIÓN, en caso de presentarse una interrupción en la prestación de los servicios de control de tránsito aéreo dentro de la FIR RESISTENCIA. 3. Generalidades",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-438-0",
+    "text": "3.1 El personal del ACC ASUNCIÓN (PARAGUAY) tomará conocimiento del presente Plan de Contingencia, de modo tal que ante una situación de contingencia en la FIR RESISTENCIA, encaminará el tránsito aéreo de acuerdo con lo establecido en el presente apéndice.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-440-0",
+    "text": "3.2 Sin coordinación entre las dependencias de control de jurisdicción, se aplicará el método de autotransferencia. 4. Autotransferencia",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-442-0",
+    "text": "4.1 Los siguientes procedimientos de autotransferencia deberán ser aplicados de la siguiente manera: a) La dependencia ATS deberá: 1) Informar al piloto la imposibilidad de comunicación con la dependencia ATC aceptante; y 2) Suministrar instrucción para que haga contacto con la dependencia aceptante. b) El piloto deberá: 1) Hacer contacto con la dependencia aceptante; 2) Informar a la dependencia aceptante que está llevando a cabo una autotransferencia; 3) Transmitir su procedencia, destino, ruta, nivel de vuelo, código transponder, estado de aprobación RVSM y estima al límite de la FIR; 4) Informar a la dependencia transferidora cuando la dependencia aceptante aceptó la transferencia. 5. Suspensión de RPL",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.1",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-444-0",
+    "text": "5.1 Mientras dure la contingencia se suspenderá la aplicación de las listas RPL, debiendo los usuarios presentar, en todos los casos, los FPL correspondientes. 6. Asignación de códigos SSR",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "5.1",
+      "chapter": "5"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-446-0",
+    "text": "6.1 Aunque los sistemas RADAR estuvieran fuera de servicio se continuará asignando códigos SSR a todas las aeronaves. 1. Affected FIRs RESISTENCIA – ASUNCIÓN 2. Purpose",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.1",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-448-0",
+    "text": "2.1 To facilitate and maintain an orderly and safe international air traffic between the RESISTENCIA FIR and the ASUNCION FIR, in case of an interruption of the air traffic services provision within the RESISTENCIA FIR. 3. General",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-450-0",
+    "text": "3.1 The personnel of ASUNCIÓN ACC (PARAGUAY) shall be informed of this Contingency Plan, so that in case of a contingency situation in RESISTENCIA FIR, they shall direct the air traffic according to what is established in this appendix.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-453-0",
+    "text": "3.2 Without coordination between the control units of jurisdiction, the auto-transfer method shall be applied. 4. Auto- transfer",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-455-0",
+    "text": "4.1 The following auto-transfer procedures shall be applied in the following way: a) The ATS unit shall: 1) Inform the pilot the impossibility of communication with the accepting ATS; and 2) Provide instruction for contact to be made with the accepting unit. b) The pilot shall: 1) Make contact with the accepting unit; 2) Inform the accepting unit that an auto-transfer is being carried out; 3) Transmit its origin, destination, route, flight level, transponder code, RVSM state of approval and estimated time to the FIR limit; 4) Inform the transferring unit when the accepting unit accepts the transfer. 5. RPL suspension",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.1",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-457-0",
+    "text": "5.1 During the contingency, the application of the RPL lists shall be suspended, the users shall file, in all cases, the respective FPLs. 6. SSR codes assignation",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "5.1",
+      "chapter": "5"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-459-0",
+    "text": "6.1 Even if the RADAR systems were out of service, the SSR codes will continue to be assigned to all aircraft. AIP ARGENTINA ENR 1.15-25 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2023 30 NOVIEMBRE 2023 7. Procedimientos de radiodifusión de información en vuelo (información de tráfico difundida por la aeronave)",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.1",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-461-0",
+    "text": "7.1 Las aeronaves deberán, en caso de no poder realizar su autotransferencia y dentro de las 50 NM de los puntos que así se indican, utilizar estos procedimientos en la frecuencia aire-aire",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "7.1",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-464-0",
+    "text": "8.1 Se proveerá separación vertical mínima de acuerdo con lo establecido en el Anexo 2 de la OACI, Apéndice 3 Tabla a) de Niveles de Crucero (RVSM). 9. Plan de vuelo no transmitido",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "8.1",
+      "chapter": "8"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-466-0",
+    "text": "9.1 En el periodo de contingencia las dependencias ATS aceptarán vuelos cuyos FPL no hayan podido ser trasmitidos. No obstante, la presentación del FPL por parte del usuario será igualmente exigida. 10. Teléfonos Para Argentina: Resistencia ACC Fono / Fax (+54 362) 4440939 (+54 362) 4436291 /92 /93 Extensión 32138/ 32195 /32101 Ezeiza ACC Fono / Fax (+54 11) 44802203 (+54 11) 44802210/17 Extensión 57203 / 57265 Córdoba ACC Fono / Fax (+54 351) 4335350 (+54 351) 4756450 Mendoza ACC Fono / Fax (+54 261) 4487486 (+54 261) 4487128 Extensión 24337 Comodoro Rivadavia ACC Fono / Fax (+54 297) 4548375 (+54 297) 4548355 Extensión 50519/50256 Para Paraguay: ASUNCIÓN ACC Fono / Fax (+595 21) 646081 o 646082 e-mail: acc_sgas@dinac.gov.py 11. Rutas troncales internacionales ATS:",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-468-0",
+    "text": "11.1 Al encontrarse activados los Planes de Contingencia, solo se utilizarán aquellas rutas troncales internacionales que se detallan a continuación. 7. In flight information broadcast procedures (traffic information transmitted by the aircraft)",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "11.1",
+      "chapter": "11"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-470-0",
+    "text": "7.1 The aircraft, if they cannot make their auto-transfer and within 50 NM from the points that indicate it, shall use these procedures in the air-air frequency 123.45 MHz 8. Vertical separation",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "7.1",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-472-0",
+    "text": "8.1 Minimum Vertical Separation shall be provided according to ICAO Annex 2, Appendix 3, Chart a): Cruise Level Chart (RVSM). 9. Flight plan not transmitted",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "8.1",
+      "chapter": "8"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-474-0",
+    "text": "9.1 During the contingency, the ATS units shall accept flights whose FPL could not been transmitted. However, the FPL filing by the user shall be required nevertheless. 10. Telephone numbers For Argentina: Resistencia ACC Phone / Fax (+54362) 4440939 (+54362) 4436291 /92 /93 Extension 32138/32195 /32101 Ezeiza ACC Phone / Fax (+5411) 44802203 (+5411) 44802210/17 Extension 57203 / 57265 Córdoba ACC Phone / Fax (+54351) 4335350 (+54351) 4756450 Mendoza ACC Phone / Fax (+54261) 4487486 (+54261) 4487128 Extension 24337 Comodoro Rivadavia ACC Phone / Fax (54297) 4548375 (+54297) 4548355 Extension 50519/50256 For Paraguay: ASUNCIÓN ACC Phone / Fax (595) 21-646081 or 646082 E-mail: acc_sgas@dinac.gov.py 11. ATS international trunk routes:",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-476-0",
+    "text": "11.1 Due to the activation of the Contingency Plans, only the following international trunk routes shall be used. AIP ARGENTINA ENR 1.15-26 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 RED SIMPLIFICADA DE RUTAS ATS SIMPLIFIED NETWORK OF ATS ROUTES RUTAS / ROUTES TRAMO / SEGMENT FIR RESTRICCIONES / RESTRICTIONS UL 793 GUA / RESISTENCIA / KUBIR / ASUNCIÓN EZEIZA RESISTENCIA ASUNCIÓN - Con coordinación entre las FIR ́s (con o sin radar): se aplicará la Carta de Acuerdo Operacional vigente. - Sin coordinación entre las FIR ́s: El ACC RESISTENCIA entregará al ACC ASUNCIÓN las aeronaves en KUBIR. - Capacidad de tráfico en la ruta: una (1) aeronave cada 15’ minutos en KUBIR (ver notas 1 y 2). - Sin coordinación, se utiliza el método de autotransferencia, con no menos de 30 NM de KUBIR o 5’ minutos antes y después de dicho punto. - Único sentido del vuelo: desde EZEIZA hacia ASUNCIÓN. - Las aeronaves aplicarán procedimiento de RADIODIFUSIÓN DE INFORMACIÓN EN VUELO a 50 NM o 5’ minutos antes y después de KUBIR. - With coordination between the FIRs (with or without radar): the current Agreement Chart shall be applied. - Without coordination between the FIRs: the RESISTENCIA ACC shall deliver the aircrafts to the ASUNCION ACC in KUBIR. - En route traffic capacity: one (1) aircraft every 15’ in KUBIR (See notes 1 and 2). - Without coordination, the auto-transfer method is applied, with no less than 30 NM of KUBIR or 5’ minutes before and after said point. - One-way flight: from EZEIZA towards ASUNCION. - The aircraft shall apply the IN-FLIGHT INFORMATION BROADCAST procedure at 50 NM or 5’ minutes before and after KUBIR. UB 688 ASUNCIÓN / POSADAS / MONTE CASEROS/ EZEIZA ASUNCIÓN RESISTENCIA EZEIZA - Con coordinación entre las FIR ́s (con o sin radar): se aplicará la Carta de Acuerdo Operacional vigente. - Sin coordinación entre las FIR ́s: El ACC ASUNCIÓN entregará las aeronaves en POSADAS VOR/DME. - Capacidad de tráfico en la ruta: una (1) aeronave cada 15’ minutos en POSADAS VOR/DME (ver notas 1 y 2). - Sin coordinación, se utiliza el método de autotransferencia con no menos de 30 NM de POSADAS VOR/DME o 5’ minutos antes y después de dicho punto. - Único sentido del vuelo: desde ASUNCIÓN hacia EZEIZA. - Las aeronaves aplicarán procedimiento de RADIODIFUSIÓN DE INFORMACIÓN EN VUELO a 50 NM o 5’ minutos antes y después POSADAS VOR/DME. - With coordination between the FIRs (with or without radar): the current Agreement Chart shall be applied. - Without coordination between the FIRs: the ASUNCIÓN ACC shall deliver the aircrafts in POSADAS VOR/DME. - En route traffic capacity: one (1) aircraft every 15’ in POSADAS VOR/DME. (See notes 1 and 2). - Without coordination, the auto-transfer method is applied, with no less than 30 NM of POSADAS VOR/DME or 5’ minutes before and after said point. - One-way flight: from ASUNCIÓN towards EZEIZA. - The aircraft shall apply the IN-FLIGHT INFORMATION",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "11.1",
+      "chapter": "11"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-476-450",
+    "text": "every 15’ in POSADAS VOR/DME. (See notes 1 and 2). - Without coordination, the auto-transfer method is applied, with no less than 30 NM of POSADAS VOR/DME or 5’ minutes before and after said point. - One-way flight: from ASUNCIÓN towards EZEIZA. - The aircraft shall apply the IN-FLIGHT INFORMATION BROADCAST procedure at 50 NM or 5’ minutes before and after POSADAS VOR/DME. AIP ARGENTINA ENR 1.15-27 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 RUTAS / ROUTES TRAMO / SEGMENT FIR RESTRICCIONES / RESTRICTIONS B 688 ASUNCIÓN / POSADAS / MONTE CASEROS/ EZEIZA ASUNCIÓN RESISTENCIA EZEIZA - Con coordinación entre las FIR ́s (con o sin radar): se aplicará la Carta de Acuerdo Operacional vigente. - Sin coordinación entre las FIR ́s: El ACC ASUNCIÓN entregará las aeronaves en POSADAS VOR/DME. - Capacidad de tráfico en la ruta: una (1) aeronave cada 15’ minutos en POSADAS VOR/DME (ver notas 1 y 2). - Sin coordinación, se utiliza el método de autotransferencia con no menos de 30 NM de POSADAS VOR/DME o 5’ minutos antes y después de dicho punto. - Único sentido del vuelo: desde ASUNCIÓN hacia EZEIZA. - Las aeronaves aplicarán procedimiento de RADIODIFUSIÓN DE INFORMACIÓN EN VUELO a 50 NM o 5’ minutos antes y después POSADAS VOR/DME. - With coordination between the FIRs (with or without radar): the current Agreement Chart shall be applied. - Without coordination between the FIRs: the ASUNCIÓN ACC shall deliver the aircrafts in POSADAS VOR/DME. - En route traffic capacity: one (1) aircraft every 15’ in POSADAS VOR/DME (see notes 1 and 2). - Without coordination, the auto-transfer method is applied, with no less than 30 NM of POSADAS VOR/DME or 5’ minutes before and after said point. - One-way flight: from ASUNCIÓN towards EZEIZA. - The aircraft shall apply the IN-FLIGHT INFORMATION BROADCAST procedure at 50 NM or 5’ minutes before and after POSADAS VOR/DME. UL 531 ASUNCIÓN / BOBIK / RESISTENCIA ASUNCIÓN RESISTENCIA - Con coordinación entre las FIR ́s (con o sin radar): se aplicará la Carta de Acuerdo Operacional vigente. - Sin coordinación entre las FIR ́s: el ACC ASUNCIÓN deberá entregar el tránsito en BOBIK. - Capacidad de tráfico en la ruta: una (1) aeronave cada 15’ minutos en BOBIK (ver notas 1 y 2). - Único sentido del vuelo: desde ASUNCIÓN hacia RESISTENCIA. - Sin coordinación se utiliza el método de autotransferencia, con no menos de 30 NM de BOBIK o 5’ minutos antes y después de dicho punto. Las aeronaves aplicarán procedimiento de RADIODIFUSIÓN DE INFORMACIÓN EN VUELO a 50 NM o 5’ minutos antes y después BOBIK. - With coordination between the FIRs (with or without radar): the current Agreement Chart shall be applied. - Without coordination between the FIRs: the ASUNCIÓN ACC shall deliver the traffic in BOBIK. - En route traffic capacity: one (1) aircraft every 15’ in BOBIK (see notes 1 and 2). - One-way flight: from ASUNCIÓN towards RESISTENCIA. - Without coordination, the auto-transfer method is applied,",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-476-900",
+    "text": "shall be applied. - Without coordination between the FIRs: the ASUNCIÓN ACC shall deliver the traffic in BOBIK. - En route traffic capacity: one (1) aircraft every 15’ in BOBIK (see notes 1 and 2). - One-way flight: from ASUNCIÓN towards RESISTENCIA. - Without coordination, the auto-transfer method is applied, with no less than 30 NM of BOBIK or 5’ minutes before and after said point. - The aircraft shall apply the IN-FLIGHT INFORMATION BROADCAST procedure at 50 NM or 5’ minutes before and after BOBIK. A 307 ASUNCIÓN / BOBIK / RESISTENCIA / CÓRDOBA / MENDOZA ASUNCIÓN RESISTENCIA CÓRDOBA MENDOZA - Con coordinación entre las FIR ́s (con o sin radar): se aplicará la Carta de Acuerdo Operacional vigente. - Sin coordinación entre las FIR ́s: el ACC ASUNCIÓN deberá entregar el tránsito en BOBIK. - Capacidad de tráfico en la ruta: una (1) aeronave cada 15’ minutos en BOBIK (ver notas 1 y 2) - Único sentido del vuelo: desde ASUNCIÓN hacia RESISTENCIA. - Sin coordinación se utiliza el método de autotransferencia, con no menos de 30 NM de BOBIK o 5’ minutos antes y después de dicho punto. - Las aeronaves aplicarán procedimiento de RADIODIFUSIÓN DE INFORMACIÓN EN VUELO a 50 NM o 5’ minutos antes y después BOBIK AIP ARGENTINA ENR 1.15-28 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 RUTAS / ROUTES TRAMO / SEGMENT FIR RESTRICCIONES / RESTRICTIONS - With coordination between the FIRs (with or without radar): the current Agreement Chart shall be applied. - Without coordination between the FIRs: the ASUNCIÓN ACC shall deliver the traffic in BOBIK. - En route traffic capacity: one (1) aircraft every 15’ in BOBIK (see notes 1 and 2) - One-way flight: from ASUNCIÓN towards RESISTENCIA. - Without coordination, the auto-transfer method is applied, with no less than 30 NM of BOBIK or 5’ minutes before and after said point. - The aircraft shall apply the IN-FLIGHT INFORMATION BROADCAST procedure at 50 NM or 5’ minutes before and after BOBIK. UM 529 RESISTENCIA / ARPAS / VOR VAS RESISTENCIA ASUNCIÓN - Con coordinación entre las FIR ́s (con o sin radar): se aplicará la Carta de Acuerdo Operacional vigente. - Sin coordinación entre las FIR ́s: el ACC RESISTENCIA deberá entregar el tránsito en ARPAS. - Capacidad de tráfico en la ruta: una (1) aeronave cada 15’ minutos en ARPAS (ver notas 1 y 2). - Único sentido del vuelo: desde RESISTENCIA hacia ASUNCIÓN. - Sin coordinación se utiliza el método de autotransferencia, con no menos de 30 NM de ARPAS o 5’ minutos antes y después de dicho punto. - Las aeronaves aplicarán procedimiento de RADIODIFUSIÓN DE INFORMACIÓN EN VUELO a 50 NM o 5’ minutos antes o después de ARPAS. - With coordination between the FIRs (with or without radar): the current Agreement Chart shall be applied. - Without coordination between the FIRs: the RESISTENCIA ACC shall deliver the traffic in ARPAS. - En route traffic capacity: one (1) aircraft every 15’",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-476-1350",
+    "text": "o 5’ minutos antes o después de ARPAS. - With coordination between the FIRs (with or without radar): the current Agreement Chart shall be applied. - Without coordination between the FIRs: the RESISTENCIA ACC shall deliver the traffic in ARPAS. - En route traffic capacity: one (1) aircraft every 15’ in ARPAS (see notes 1 and 2). - One-way flight: from RESISTENCIA towards ASUNCIÓN. - Without coordination, the auto-transfer method is applied, with no less than 30 NM of ARPAS or 5’ minutes before and after said point. - The aircraft shall apply the IN-FLIGHT INFORMATION BROADCAST procedure at 50 NM or 5’ minutes before and after ARPAS. A 428 RESISTENCIA / ARPAS / VOR VAS RESISTENCIA ASUNCIÓN - Con coordinación entre las FIR ́s (con o sin radar): se aplicará la Carta de Acuerdo Operacional vigente - Sin coordinación entre las FIR ́s: el ACC RESISTENCIA deberá entregar el tránsito en ARPAS. - Capacidad de tráfico en la ruta: una (1) aeronave cada 15’ minutos en ARPAS. (Ver nota 1 y 2) - Único sentido del vuelo: desde RESISTENCIA hacia ASUNCIÓN. - Sin coordinación se utiliza el método de autotransferencia, con no menos de 30 NM de ARPAS o 5’ minutos antes y después de dicho punto. - Las aeronaves aplicarán procedimiento de RADIODIFUSIÓN DE INFORMACIÓN EN VUELO a 50 NM o 5’ minutos antes o después de ARPAS. - With coordination between the FIRs (with or without radar): the current Agreement Chart shall be applied. - Without coordination between the FIRs: the RESISTENCIA ACC shall deliver the traffic in ARPAS. - En route traffic capacity: one (1) aircraft every 15’ in ARPAS (see notes 1 and 2). - One-way flight: from RESISTENCIA towards ASUNCIÓN. - Without coordination, the auto-transfer method is applied, with no less than 30 NM of ARPAS or 5’ minutes before and after said point. - The aircraft shall apply the IN-FLIGHT INFORMATION BROADCAST procedure at 50 NM or 5’ minutes before and after ARPAS. AIP ARGENTINA ENR 1.15-29 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 RUTAS / ROUTES TRAMO / SEGMENT FIR RESTRICCIONES / RESTRICTIONS UP 526 VOR VAS / REPAM / MCS RESISTENCIA ASUNCIÓN - Con coordinación entre las FIR ́s (con o sin radar): se aplicará la Carta de Acuerdo Operacional vigente. - Sin coordinación entre las FIR ́s: el ACC ASUNCIÓN deberá entregar el tránsito en REPAM. - Capacidad de tráfico en la ruta: una (1) aeronave cada 15’ minutos en REPAM (ver notas 1 y 2) - Único sentido del vuelo: desde ASUNCIÓN hacia EZEIZA. - Sin coordinación se utiliza el método de autotransferencia, con no menos de 30 NM de REPAM o 5’ minutos antes y después de dicho punto. - Las aeronaves aplicarán procedimiento de RADIODIFUSIÓN DE INFORMACIÓN EN VUELO a 50 NM o 5’ minutos antes o después de REPAM. - With coordination between the FIRs (with or without radar): the current Agreement Chart shall be applied. - Without coordination between the FIRs: the",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-476-1800",
+    "text": "después de dicho punto. - Las aeronaves aplicarán procedimiento de RADIODIFUSIÓN DE INFORMACIÓN EN VUELO a 50 NM o 5’ minutos antes o después de REPAM. - With coordination between the FIRs (with or without radar): the current Agreement Chart shall be applied. - Without coordination between the FIRs: the ASUNCIÓN ACC shall deliver the traffic in REPAM. - En route traffic capacity: one (1) aircraft every 15’ in REPAM (see notes 1 and 2). - One-way flight: from ASUNCIÓN towards EZEIZA. - Without coordination, the auto-transfer method is applied, with no less than 30 NM of REPAM or 5’ minutes before and after said point. - The aircraft shall apply the IN-FLIGHT INFORMATION BROADCAST procedure at 50 NM or 5’ minutes before and after REPAM. Nota 1. –– El tráfico entre la FIR RESISTENCIA y la FIR ASUNCIÓN será de una (1) aeronave cada quince (15’) minutos, lo cual conforma un flujo máximo de cuatro (4) aeronaves por hora entre ambos FIR ́s., por punto de transferencia, independientemente del nivel de vuelo utilizado por las aeronaves. Nota 2. –– Dependiendo del nivel de degradación de los Servicios, los respectivos Supervisores podrán, de mutuo acuerdo, coordinar el acomodamiento de un mayor número de aeronaves por puntos de transferencia. Note 1. –– The traffic between RESISTENCIA FIR and ASUNCIÓN FIR shall be of one (1) aircraft every fifteen (15) minutes, which constitutes a maximum flow of four (4) aircraft per hour between both FIRs, per transference point, regardless the flight level used by the aircraft. Note 2. –– Depending on the degradation level of the Services, the respective Supervisors may agree to coordinate an adaptation of more aircraft per transference points. AIP ARGENTINA ENR 1.15-30 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 APÉNDICE 4 APPENDIX 4 MEDIDAS DE CONTINGENCIA ATS ACORDADAS ENTRE ARGENTINA Y BOLIVIA Fecha de efectividad: 14 de febrero de 2008 ATS CONTINGENCY MEASURES AGREED BETWEEN ARGENTINA AND BOLIVIA Effective date: February 14, 2008 1. FIR ́S afectadas CÓRDOBA – LA PAZ 2. Objetivo",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-478-0",
+    "text": "2.1 Facilitar y mantener el tránsito aéreo internacional en forma segura y ordenada entre la FIR CÓRDOBA y FIR LA PAZ, en caso de presentarse una interrupción en la prestación de los servicios de control de tránsito aéreo dentro de la FIR CÓRDOBA. 3. Generalidades",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-480-0",
+    "text": "3.1 El personal del ACC LA PAZ (BOLIVIA) tomará conocimiento del presente Plan de Contingencia, de modo tal que ante una situación de contingencia en la FIR CÓRDOBA, encaminará el tránsito aéreo de acuerdo con lo establecido en el presente apéndice.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-482-0",
+    "text": "3.2 Sin coordinación entre las dependencias de control de jurisdicción, se aplicará el método de autotransferencia. 4. Autotransferencia",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-484-0",
+    "text": "4.1 Los siguientes procedimientos de autotransferencia deberán ser aplicados de la siguiente manera: a) La dependencia ATS deberá: 1) Informar al piloto la imposibilidad de comunicación con la dependencia ATC aceptante; y 2) Suministrar instrucción para que haga contacto con la dependencia aceptante. b) El piloto deberá: 1) Hacer contacto con la dependencia aceptante; 2) Informar a la dependencia aceptante que está llevando a cabo una autotransferencia; 3) Transmitir su procedencia, destino, ruta, nivel de vuelo, código transponder, estado de aprobación RVSM y estima al límite de la FIR; 4) Informar a la dependencia transferidora cuando la dependencia aceptante aceptó la transferencia. 5. Suspensión de RPL",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.1",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-486-0",
+    "text": "5.1 Mientras dure la contingencia se suspenderá la aplicación de las listas RPL, debiendo los usuarios presentar, en todos los casos, los FPL correspondientes. 6. Asignación de códigos SSR",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "5.1",
+      "chapter": "5"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-488-0",
+    "text": "6.1 Aunque los sistemas RADAR estuvieran fuera de servicio se continuará asignando códigos SSR a todas las aeronaves. 7. Procedimientos de radiodifusión de información en vuelo (información de tráfico difundida por la aeronave) 1. Affected FIRs CÓRDOBA – LA PAZ 2. Purpose",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.1",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-490-0",
+    "text": "2.1 To facilitate and maintain an orderly and safe international air traffic between the CORDOBA FIR and the LA PAZ FIR, in case of an interruption of the air traffic services provision within the CORDOBA FIR. 3. General",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-492-0",
+    "text": "3.1 The personnel of LA PAZ ACC (BOLIVIA) shall be informed of this Contingency Plan, so that in case of a contingency situation in CORDOBA FIR, they shall direct the air traffic according to what is established in this appendix.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-494-0",
+    "text": "3.2 Without coordination between the control units of jurisdiction, the auto-transfer method shall be applied. 4. Auto-transfer",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-496-0",
+    "text": "4.1 The following auto-transfer procedures shall be applied in the following way: a) The ATS unit shall: 1) Inform the pilot the impossibility of communication with the accepting ATS; and 2) Provide instruction for contact to be made with the accepting unit. b) The pilot shall: 1) Make contact with the accepting unit; 2) Inform the accepting unit that an auto-transfer is being carried out; 3) Transmit its origin, destination, route, flight level, transponder code, RVSM state of approval and estimated time to the FIR limit; 4) Inform the transferring unit when the accepting unit accepts the transfer. 5. RPL suspension",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.1",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-498-0",
+    "text": "5.1 During the contingency, the application of the RPL lists shall be suspended, the users shall file, in all cases, the respective FPLs. 6. SSR codes assignation",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "5.1",
+      "chapter": "5"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-500-0",
+    "text": "6.1 Even if the RADAR systems were out of service, the SSR codes will continue to be assigned to all aircraft. 7. In flight information broadcast procedures (traffic information transmitted by the aircraft) AIP ARGENTINA ENR 1.15-31 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2023 30 NOVIEMBRE 2023",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.1",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-502-0",
+    "text": "7.1 Las aeronaves deberán, en caso de no poder realizar su autotransferencia y dentro de las 50 NM de los puntos que así se indican, utilizar estos procedimientos en la frecuencia aire-aire 123,45 MHz. 8. Separación vertical",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "7.1",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-504-0",
+    "text": "8.1 Se proveerá separación vertical mínima de acuerdo con lo establecido en el Anexo 2 de la OACI, Apéndice 3 Tabla a) de Niveles de Crucero (RVSM). 9. Plan de vuelo no transmitido",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "8.1",
+      "chapter": "8"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-506-0",
+    "text": "9.1 En el periodo de contingencia las dependencias ATS aceptarán vuelos cuyos FPL no hayan podido ser trasmitidos. No obstante, la presentación del FPL por parte del usuario será igualmente exigida. 10. Teléfonos: Para Argentina: Resistencia ACC Fono / Fax (+54 362) 4440939 (+54 362) 4436291 / 92 / 93 Extensión 32138 / 32195/32101 Ezeiza ACC Fono / Fax (+54 11) 44802203 (+54 11) 44802210 / 17 Extensión 57203 / 57265 Córdoba ACC Fono / Fax (+54 351) 4335350 (+54 351) 4756450 Mendoza ACC Fono / Fax (+54 261) 4487486 (+54 261) 4487128 Extensión 24337 Comodoro Rivadavia ACC Fono / Fax (+54 297) 4548375 (+54 297) 4548355 Extensión 50519 / 50256 Para Bolivia: LA PAZ – BOLIVIA Fono: (+59 12) 2316686 / (+59 12) 2317090 Fax: (+59 12) 2311302 / (+59 12) 2124042 11. Rutas troncales internacionales ATS:",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-508-0",
+    "text": "11.1 Al encontrarse activados los Planes de Contingencia, sólo se utilizarán aquellas rutas troncales internacionales que se detallan a continuación:",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "11.1",
+      "chapter": "11"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-519-0",
+    "text": "7.1 The aircraft, if they cannot make their auto-transfer and within 50 NM from the points that indicate it, shall use these procedures in the air-air frequency 123.45 MHz. 8. Vertical separation",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "7.1",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-521-0",
+    "text": "8.1 Minimum Vertical Separation shall be provided according to ICAO Annex 2, Appendix 3, Chart A: Cruise Level Chart (RVSM). 9. Flight plan not transmitted",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "8.1",
+      "chapter": "8"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-523-0",
+    "text": "9.1 During the contingency, the ATS units shall accept flights whose FPL could not been transmitted. However, the FPL filing by the user shall be required nevertheless. 10. Telephone numbers: For Argentina: Resistencia ACC Phone / Fax (+54362) 4440939 (+54362) 4436291 /92 /93 Extension 32138/32195/32101 Ezeiza ACC Phone / Fax (5411) 44802203 (5411) 44802210/17 Extension 57203 / 57265 Córdoba ACC Phone / Fax (54351) 4335350 (54351) 4756450 Mendoza ACC Phone / Fax (54261) 4487486 (54261) 4487128 Extension 24337 Comodoro Rivadavia ACC Phone / Fax (54297) 4548375 (54297) 4548355 Extension 50519/50256 For Bolivia: LA PAZ – BOLIVIA phone: (5912) 2316686 - (5912) 2317090 Fax: (5912) 2311302 - (5912) 2124042 11. ATS international trunk routes:",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-525-0",
+    "text": "11.1 Due to the activation of the Contingency Plans, only the following international trunk routes shall be used. AIP ARGENTINA ENR 1.15-32 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 RED SIMPLIFICADA DE RUTAS ATS SIMPLIFIED NETWORK OF ATS ROUTES RUTAS / ROUTES TRAMO / SEGMENT FIR RESTRICCIONES / RESTRICTIONS UL 417 LA PAZ / PUBUM / CÓRDOBA / EZEIZA LA PAZ CÓRDOBA EZEIZA - Con coordinación entre las FIR ́s (con o sin radar): se aplicará la Carta de Acuerdo Operacional vigente. - Sin coordinación entre las FIR ́s: el ACC LA PAZ entregará al ACC CÓRDOBA las aeronaves en PUBUM. - Capacidad de tráfico en la ruta: una (1) aeronave cada 15’ minutos en PUBUM (ver notas 1 y 2). - Sin coordinación, se utiliza el método de autotransferencia, con no menos de 30 NM de PUBUM o 5’ minutos antes y después de dicho punto. - Único sentido del vuelo: desde LA PAZ hacia CÓRDOBA. - Las aeronaves aplicarán procedimiento de RADIODIFUSIÓN DE INFORMACIÓN EN VUELO a 50 NM o 5’ minutos antes y después de PUBUM. - With coordination between the FIRs (with or without radar): the current Agreement Chart shall be applied. - Without coordination between the FIRs: the LA PAZ ACC shall deliver the aircraft to the CÓRDOBA ACC in PUBUM. - En route traffic capacity: one (1) aircraft every 15’ in PUBUM (see notes 1 and 2). - Without coordination, the auto-transfer method is applied, with no less than 30 NM of PUBUM or 5’ minutes before and after said point. - One-way flight: from LA PAZ towards CÓRDOBA. - The aircraft shall apply the IN-FLIGHT INFORMATION BROADCAST procedure at 50 NM or 5’ minutes before and after PUBUM. UM 776 EZEIZA / CÓRDOBA / UBSAS / LA PAZ EZEIZA CÓRDOBA LA PAZ - Con coordinación entre las FIR ́s (con o sin radar): se aplicará la Carta de Acuerdo Operacional vigente. - Sin coordinación entre las FIR ́s: El ACC CÓRDOBA entregará al ACC LA PAZ las aeronaves en UBSAS. - Capacidad de tráfico en la ruta: una (1) aeronave cada 15’ minutos en UBSAS. (Ver nota 1 y 2) - Sin coordinación, se utiliza el método de autotransferencia con no menos de 30 NM de UBSAS o 5’ minutos antes y después de dicho punto. - Único sentido del vuelo: desde CÓRDOBA hacia LA PAZ. - Las aeronaves aplicarán procedimiento de RADIODIFUSIÓN DE INFORMACIÓN EN VUELO a 50 NM o 5’ minutos antes y después UBSAS - With coordination between the FIRs (with or without radar): the current Agreement Chart shall be applied. - Without coordination between the FIRs: the CÓRDOBA ACC shall deliver the aircraft to the LA PAZ ACC in UBSAS. - En route traffic capacity: one (1) aircraft every 15’ in n UBSAS (see notes 1 and 2). - Without coordination, the auto-transfer method is applied, with no less than 30 NM of UBSAS or 5’ minutes before and after said point. - One-way flight:",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "11.1",
+      "chapter": "11"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-525-450",
+    "text": "LA PAZ ACC in UBSAS. - En route traffic capacity: one (1) aircraft every 15’ in n UBSAS (see notes 1 and 2). - Without coordination, the auto-transfer method is applied, with no less than 30 NM of UBSAS or 5’ minutes before and after said point. - One-way flight: from CÓRDOBA towards LA PAZ. - The aircraft shall apply the IN-FLIGHT INFORMATION BROADCAST procedure at 50 NM or 5’ minutes before and after UBSAS. Nota 1. –– El tráfico entre la FIR CÓRDOBA y la FIR LA PAZ será de una (1) aeronave cada quince (15’) minutos, lo cual conforma un flujo máximo de cuatro (4) aeronaves por hora entre ambos FIR., por punto de transferencia e independientemente del nivel de vuelo utilizado por las aeronaves. Nota 2. –– Dependiendo del nivel de degradación de los Servicios, los respectivos Supervisores podrán de mutuo acuerdo, coordinar el acomodamiento de un mayor número de aeronaves por puntos de transferencia. Note 1. –– The traffic between CORDOBA FIR and LA PAZ FIR shall be of one (1) aircraft every fifteen (15) minutes, which constitutes a maximum flow of four (4) aircraft per hour between both FIRs, per transference point, regardless the flight level used by the aircraft. Note 2. –– Depending on the degradation level of the Services, the respective Supervisors may agree to coordinate an adaptation of more aircraft per transference points. AIP ARGENTINA ENR 1.15-33 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 APÉNDICE 5 APPENDIX 5 MEDIDAS DE CONTINGENCIA ATM ACORDADAS ENTRE ARGENTINA Y CHILE Fecha de efectividad: 3 de noviembre de 2022 ATM CONTINGENCY MEASURES AGREED BETWEEN ARGENTINA AND CHILE Effective date: November 3, 2022 1. FIR ́S afectadas ANTOFAGASTA – CÓRDOBA SANTIAGO – MENDOZA PUERTO MONTT – EZEIZA PUNTA ARENAS – COMODORO RIVADAVIA 2. Generalidades",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-527-0",
+    "text": "2.1 Los mensajes de Plan de Vuelo (no se contempla la utilización de RPL) se deberán transmitir a los correspondientes FIR ́s adyacentes a través de la Red AFTN/AMHS de acuerdo a los procedimientos normales. De no ser posible se utilizarán los siguientes medios alternativos: a) Red de Circuitos Orales de Coordinación ATS. b) Servicio Móvil Aeronáutico - Frecuencias HF establecidas para la zona SAM 1 especialmente 10,024 – 6,649 y 2,944 KHz. Se mantendrá en escucha dos frecuencias simultáneas, 6,649 KHz durante las 24 hs, y los dos restantes se alternarán de la siguiente forma, 2,944 KHz en horario nocturno y 10024 KHz en horario diurno, efectuándose los cambios durante el crepúsculo. c) Teléfono / Telefax. d) Teléfono Celular e) Correo electrónico.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-529-0",
+    "text": "2.2 Durante el período de contingencia la FIR afectada deberá emitir un NOTAM indicando lo siguiente: a) Hora, fecha de inicio, y tiempo de duración previsto, de las medidas de contingencia; b) Se aplicará el Plan de Contingencia de la República Argentina/Chile, FIR afectadas; c) Detalles de las instalaciones y servicios no disponibles; d) Procedimientos a seguir por las dependencias ATS adyacentes; e) Procedimientos a seguir por los pilotos, quienes deberán mantener en escucha la frecuencia principal del sector que se está volando, si estuviera disponible, así como también las frecuencias aire/aire 123,45 MHz aplicando los procedimientos de radiodifusión de información en vuelo; y f) Cualquier otro detalle relacionado con las contingencias que requiera ser de conocimiento inmediato de los usuarios. 3. Rutas ATS",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.2",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-531-0",
+    "text": "3.1 Durante la vigencia del Plan de Contingencia, sólo se utilizarán entre ambos países las rutas ATS que figuran a continuación: Entre FIR ANTOFAGASTA y FIR CÓRDOBA: UM 789 KADAT (único sentido de vuelo hacia FIR CÓRDOBA) UL 550 KONRI (único sentido de vuelo hacia FIR ANTOFAGASTA) 1. Affected FIRs ANTOFAGASTA – CÓRDOBA SANTIAGO – MENDOZA PUERTO MONTT – EZEIZA PUNTA ARENAS – COMODORO RIVADAVIA 2. General",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-533-0",
+    "text": "2.1 The Flight Plan messages (the use of RPL is not considered) shall be sent to the respective adjacent FIRs through the AFTN/AMHS network according to normal procedures. If not possible, the following alternative means shall be used: a) Oral Circuits Network of ATS Coordination. b) Aeronautical Mobile Service – Established HF Frequencies for the SAM 1 zone, especially 10.024 - 6.649 and 2.944 KHz. A listening watch shall be maintained on two simultaneous frequencies, 6.649 KHz during the 24 hs, and two others shall be alternated in the following way, 2.944 KHz during nighttime and 10024 KHz during daytime, making the change during twilight. c) Telephone / Telefax. d) Cell phone e) E-mail.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-536-0",
+    "text": "2.2 During the contingency period, the affected FIR shall issue a NOTAM indicating the following: a) Time and date of the beginning and the estimated time of duration of the contingency measures; b) The contingency plan of the Republic of Argentina/Chile shall be applied, affected FIRs; c) Details of the unavailable installations and/or services; d) Procedures to be followed by the adjacent ATS units. e) Procedures to be followed by the pilots, who shall maintain listening watch on the main frequency of the sector where they are flying, if available, as well as the air-air frequency",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.2",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-537-0",
+    "text": "123.45 MHz applying the in-flight information broadcast procedures; and f) Any other detail related to the contingency required to be immediately known by the users. 3. ATS routes",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "123.45",
+      "chapter": "123"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-539-0",
+    "text": "3.1 While the Contingency Plan remains active, only the following ATS routes between both countries shall be used: Between ANTOFAGASTA FIR and CÓRDOBA FIR: UM 789 KADAT (one-way flight towards CÓRDOBA FIR) UL 550 KONRI (one-way flight towards ANTOFAGASTA FIR) AIP ARGENTINA ENR 1.15-34 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 Entre FIR SANTIAGO y FIR MENDOZA: UL 416 MIBAS (único sentido de vuelo hacia FIR MENDOZA) UM 529 ASIMO (único sentido de vuelo hacia FIR MENDOZA) UN 527 GUVOL (único sentido de vuelo hacia FIR MENDOZA) UL 405 UMKAL (único sentido de vuelo hacia FIR SANTIAGO) UM 424 ALBAL (único sentido de vuelo hacia FIR MENDOZA) Entre FIR PUERTO MONTT y FIR EZEIZA: B 682 /T 132 TONAR (doble sentido de vuelo) UM 658 TONAR (doble sentido de vuelo) Entre FIR PUERTO MONTT y FIR COMODORO RIVADAVIA: W 58 BALMACEDA /AROPO (doble sentido de vuelo) UZ 131 BALMACEDA (doble sentido de vuelo) G 550 BALMACEDA /NEGOS (doble sentido de vuelo) UL 670 BALMACEDA (doble sentido de vuelo) Entre FIR PUNTA ARENAS y FIR COMODORO RIVADAVIA: G 550 EGOSA (doble sentido de vuelo) UL 670 EGOSA (doble sentido de vuelo) A 570 PALIX (doble sentido de vuelo) UP 664 PALIX (doble sentido de vuelo) B 561 TOGOR (doble sentido de vuelo) G 550 ROMIV (doble sentido de vuelo) UL 670 ROMIV (doble sentido de vuelo 4. Procedimientos de tránsito aéreo",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-545-0",
+    "text": "4.3 Se asignarán solamente niveles de vuelo de acuerdo con la Tabla de Niveles de Crucero (Anexo 2 de la OACI - Apéndice 3a).",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.3",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-547-0",
+    "text": "4.4 Se comunicarán lo antes posible, las horas estimadas sobre los puntos de notificación de ingreso al siguiente FIR, vía medios indicados en Párrafo 3 “Generalidades”.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.4",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-549-0",
+    "text": "4.5 Efectuada la transferencia, no se autorizará ningún cambio de nivel o de velocidad sin antes haber obtenido la aprobación del ACC aceptante. No se transferirá tráfico en ascenso o descenso.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.5",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-551-0",
+    "text": "4.6 La coordinación interna y externa entre FIR ́s se efectuará por los medios indicados en Punto 2.1 de “Generalidades”.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.6",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-553-0",
+    "text": "4.7 Se instruirá a las aeronaves a mantener escucha en determinada frecuencia VHF o HF, de acuerdo a las coordinaciones efectuadas entre las dependencias de Control de Tránsito Aéreo.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.7",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-555-0",
+    "text": "4.8 Se instruirá a las aeronaves a mantener continuamente encendidas las luces de navegación y de anticolisión, así como el último código SSR asignado.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.8",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-557-0",
+    "text": "4.9 En caso de interrupción total de los sistemas de comunicación tierra - aire, las aeronaves involucradas utilizarán como medida de contingencia la frecuencia aire - aire 123,45 MHz.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.9",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-559-0",
+    "text": "4.10 Se aplicará control de afluencia del tráfico entre la FIR ANTOFAGASTA y FIR CÓRDOBA – FIR SANTIAGO y FIR MENDOZA – FIR PUERTO MONTT y FIR EZEIZA – FIR PUERTO MONTT y FIR COMODORO RIVADAVIA– FIR PUNTA ARENAS y FIR COMODORO RIVADAVIA, el cual será de una (1) aeronave cada quince (15) Between SANTIAGO FIR and MENDOZA FIR: UL 416 MIBAS (one-way flight towards MENDOZA FIR) UM 529 ASIMO (one-way flight towards SANTIAGO FIR) UN 527 GUVOL (one-way flight towards MENDOZA FIR) UL 405 UMKAL (one-way flight towards SANTIAGO) UM 424 ALBAL (one-way flight towards MENDOZA FIR) Between PUERTO MONTT FIR and EZEIZA FIR: B 682/ T 132 TONAR (two-way flight) UM 658 TONAR (two-way flight) Between PUERTO MONTT FIR and COMODORO RIVADAVIA FIR: W 58 BALMACEDA/AROPO (two-way flight) UZ 131 BALMACEDA (two-way flight) G 550 BALMACEDA/NEGOS (two-way flight) UL 670 BALMACEDA (two-way flight) Between PUNTA ARENAS FIR and COMODO-RO RIVADAVIA FIR: G 550 EGOSA (two-way flight) UL 670 EGOSA (two-way flight) A 570 PALIX (two-way flight) UP 664 (two-way flight) B 561 TOGOR (two-way flight) G 550 ROMIV (two-way flight) UL 670 ROMIV (two-way flight) 4. Air Traffic Procedures",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.10",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-565-0",
+    "text": "4.3 The only flight levels to be assigned shall be the ones in the Cruise Level Chart (ICAO Annex 2, Appendix 3 a).",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.3",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-567-0",
+    "text": "4.4 The estimated times over the notification points of entry to the following FIR shall be communicated as soon as possible via means indicated in Paragraph 3 “General”.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.4",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-569-0",
+    "text": "4.5 Once the transfer is made, no level or speed change shall be authorized without the approval of the accepting ACC. No traffic in climb or descent shall be transferred.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.5",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-571-0",
+    "text": "4.6 The internal and external coordination between FIRs shall be made via the means indicated in Paragraph 3 “General”.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.6",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-573-0",
+    "text": "4.7 The aircraft shall be instructed to maintain a listening watch on a certain VHF or HF frequency, according to the coordination made between the Air Traffic Control units.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.7",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-575-0",
+    "text": "4.8 The aircraft shall be instructed to maintain the navigation and anti-collision lights turned on, as well as their last assigned SSR code.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.8",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-577-0",
+    "text": "4.9 In case of a total interruption of the ground-air communication systems, the involved aircraft shall use as a contingency measure the air/air frequency 123.45 MHz",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.9",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-579-0",
+    "text": "4.10 The traffic flow control shall be applied between FIR ANTOFAGASTA y FIR CÓRDOBA – FIR SANTIAGO y FIR MENDOZA – FIR PUERTO MONTT y FIR EZEIZA – FIR PUERTO MONTT y FIR COMODORO RIVADAVIA– FIR PUNTA ARENAS y FIR COMODORO RIVADAVIA, which shall be of one (1) aircraft every fifteen (15) AIP ARGENTINA ENR 1.15-35 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 3/2022 3 NOVIEMBRE 2022 minutos, conformando un flujo máximo de cuatro (4) aeronaves por hora, en el punto de transferencia correspondiente, independientemente del nivel de vuelo utilizado por las aeronaves.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.10",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-581-0",
+    "text": "4.11 En caso de contingencia, no se degradarán los servicios suministrados en los espacios aéreos involucrados.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.11",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-583-0",
+    "text": "4.12 En caso de falla de la radioayuda en la cual esté basada la aerovía de ingreso a la FIR, se mantendrá el curso de la aerovía y el nivel de vuelo autorizado para la ruta, en espera de la aplicación de procedimientos radar o RNAV. minutes, which constitutes a maximum of four (4) aircraft per hour in the respective transference point, regardless of the flight level used by the aircraft.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.12",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-585-0",
+    "text": "4.11 In case of a contingency, the services provided in the involved airspaces shall not be degraded.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.11",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 15.pdf-587-0",
+    "text": "4.12 In case of a radioaid failure on which the entry airway to the FIR is based on, the airway direction and the flight level authorized for the route shall be maintained, while waiting for the radar or RNAV procedures application.",
+    "metadata": {
+      "source": "AIP - ENR1 - 15.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.12",
+      "chapter": "4"
+    }
+  }
+]

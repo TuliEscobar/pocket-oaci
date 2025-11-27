@@ -1,0 +1,1497 @@
+[
+  {
+    "id": "AIP - ENR1 - 10.pdf-0-0",
+    "text": "AIP ARGENTINA ENR 1.10-1 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 ENR 1. REGLAS Y PROCEDIMIENTOS GENERALES / GENERAL RULES AND PROCEDURES ENR 1.10 PLANIFICACIÓN DE LOS VUELOS ENR 1.10 FLIGHT PLANNING 1. GENERALIDADES",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-2-0",
+    "text": "1.1. Antes de iniciar un vuelo, el piloto al mando de la aeronave debe analizar toda la información MET y AIS disponible, independientemente del vuelo proyectado (IFR o VFR). Las medidas previas para aquellos vuelos que no se limiten a las inmediaciones de un aeródromo y para todos los vuelos IFR comprenderán el estudio minucioso de los informes y pronósticos meteorológicos de actualidad que se dispongan, información sobre obstáculos naturales y no naturales, el trazado sobre la cartografía pertinente de la ruta proyectada de vuelo, la información NOTAM que afecta a su vuelo, zonas de maniobras y entrenamiento militares, zona de identificación para defensa aérea (ADIZ), el cálculo de combustible necesario y la preparación del plan a seguir en caso de no poder completarse el vuelo tal como se ha proyectado.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-4-0",
+    "text": "1.2 Los pilotos, despachantes de aeronaves y todo personal aeronáutico, previo al vuelo, deben consultar las publicaciones argentinas de información aeronáutica (AIP, SUP, AIC, MADHEL y NOTAM), las cuales son de cumplimiento obligatorio para realizar cualquier operación aérea (ver RAAC Parte 91.2 (a)).",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.2",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-6-0",
+    "text": "1.3 Asimismo, se cerciorará de no iniciar un vuelo a menos que haya determinado previamente, a través de la información publicada oficialmente por los Servicios de Información Aeronáutica y/o Servicio de Tránsito Aéreo, que las instalaciones y servicios terrestres o marítimos, incluidas las instalaciones de comunicaciones y las ayudas para la navegación, que se requieran necesariamente durante ese vuelo para la operación segura de la aeronave, que estas estén disponibles y sean adecuadas para el tipo de operación que se pretende realizar.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.3",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-8-0",
+    "text": "1.4 Antes del despegue e inmediatamente después del aterrizaje, el piloto al mando de la aeronave o su despachante de vuelo deberá presentar a la oficina ARO/AIS por los medios acordados, los datos correspondientes a la cantidad transportada de carga, correo y pasajeros, de corresponder, indicar tipo de mercancías peligrosas que transporta.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.4",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-10-0",
+    "text": "1.5 El orden mencionado en los párrafos anteriores no es taxativo ni excluyente, y no exonera al piloto al mando, al copiloto que en su caso hubiere elaborado el plan de vuelo o al despachante de aeronave y al explotador de dicha aeronave de cumplimentar lo establecido en las RAAC Partes 91, 121, 133 y 135.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.5",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-12-0",
+    "text": "1.6 Las oficinas ARO/AIS brindan información previa al vuelo y la información meteorológica se puede obtener en las oficinas meteorológicas, de acuerdo con GEN 3.5.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.6",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-14-0",
+    "text": "1.7 La presentación y aprobación del Plan de Vuelo no exonera el cumplimiento de los requisitos exigidos por otras autoridades nacionales como aduanas, migración, control sanitario, judiciales, policiales, impuestos, etc.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.7",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-16-0",
+    "text": "1.8 Sobrevuelo aeronaves extranjeras: Los requisitos que aplican a las aeronaves privadas extranjeras de la aviación civil que necesiten sobrevolar la República Argentina se encuentran en AIP Parte GEN 1.2. 1. GENERAL",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.8",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-18-0",
+    "text": "1.1 Before starting a flight, the pilot in command of the aircraft must analyze all the MET and AIS information available, regardless of the planned flight (IFR or VFR). The previous measures for flights that are not limited to an aerodrome vicinity and for all IFR flights shall include: the thorough study of the current weather reports and forecasts available, the information about natural and artificial obstacles, the plotting on the relevant cartography of the projected flight route, the NOTAM information that affects the flight, maneuvering and military training areas, air defense identification zone (ADIZ), the necessary fuel calculation, and the preparation of the plan to follow in case the flight cannot be completed exactly as planned.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.1",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-21-0",
+    "text": "1.2 The pilots, aircraft dispatchers, and all aeronautical staff, before the flight, must consult the Argentine aeronautical information publications (AIP, SUP, AIC, MADHEL and NOTAM), which are considered mandatory to carry out any air operation. (See RAAC Part 91.2 (a))",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.2",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-23-0",
+    "text": "1.3 Likewise, he/she shall ensure that he/she shall not commence a flight unless he has previously determined, through information officially published by the Aeronautical Information Services and/or Air Traffic Service, that the ground or maritime facilities and services, including communications facilities and navigational aids, necessarily required during that flight for the safe operation of the aircraft, that these are available and adequate for the type of operation intended to be performed.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.3",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-26-0",
+    "text": "1.4 Before take-off and immediately after landing, the pilot in command of the aircraft or his flight dispatcher shall submit to the ARO/AIS office by the agreed means, the data corresponding to the quantity of cargo, mail and passengers transported, if applicable, indicating the type of dangerous goods being transported.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.4",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-28-0",
+    "text": "1.5 The order mentioned in the preceding paragraphs is neither restricted nor excluding, and it does not exonerate the pilot in command, the co-pilot who might have developed the flight plan or the aircraft dispatcher or the operator of such aircraft from complying with RAAC Parts 91, 121, 133 and 135.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.5",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-30-0",
+    "text": "1.6 The ARO/AIS office provides pre-flight information and the weather information can be obtained in the meteorological offices, in accordance with GEN 3.5.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.6",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-32-0",
+    "text": "1.7 The filing and approval of the Flight Plan does not exonerate from complying with the requirements from other national authorities, for example customs, migrations, sanitary control, judiciary, police, taxes, etc.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.7",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-34-0",
+    "text": "1.8 Overflight of foreign aircraft: The requirements applicable to private civil aviation foreign aircraft that need to overfly the Republic of Argentina are described in AIP Part GEN 1.2. AIP ARGENTINA ENR 1.10-2 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2025 27 NOVIEMBRE 2025",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.8",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-35-0",
+    "text": "1.9 Permanencia en el país de aeronaves extranjeras: Las indicaciones y requisitos para la permanencia en el país de aeronaves extranjeras se encuentran en la AIP Parte GEN 1.2.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.9",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-37-0",
+    "text": "1.10 Vuelo a territorio nacional argentino - Islas Malvinas y Atlántico Sur: Los requisitos de solicitud de las aeronaves privadas extranjeras de la aviación civil que ingresen al espacio aéreo argentino con destino a TERRITORIO INSULAR O QUE PARTAN DE ESOS DESTINOS, están determinadas en la AIP Parte GEN 1.2.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.10",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-40-0",
+    "text": "1.11 Internacionalización temporaria de aeropuertos nacionales: Los procedimientos para la solicitud de internacionalización temporaria de aeropuertos nacionales de la República Argentina se encuentran en la AIP Parte GEN 1.2. 2. PRESENTACIÓN DE UN PLAN DE VUELO",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.11",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-42-0",
+    "text": "2.1 Es responsabilidad del piloto completar el FPL con datos correctos y actualizados respecto del vuelo que proyecta realizar, para lo cual podrá obtener la información pertinente en la Oficina ARO/AIS del aeródromo de jurisdicción, a menos que se tenga disponibilidad electrónica de la Información Aeronáutica para la planificación del vuelo.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-44-0",
+    "text": "2.2 La presentación del plan de vuelo se realizará, de acuerdo a lo establecido en las RAAC Parte 91.153, a una Oficina de Notificación de los Servicios de Tránsito Aéreo antes de la salida, o se transmitirá durante el vuelo, a la dependencia de los Servicios de Tránsito Aéreo o a la estación de radio de control aeroterrestre competente, a menos que se hayan efectuado otros arreglos para la presentación de planes de vuelo repetitivos.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.2",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-46-0",
+    "text": "2.3 Para un vuelo con escalas intermedias, se podrá presentar planes de vuelo para cada etapa, en el aeródromo de salida inicial. En este caso, el piloto, el explotador o su representante designado originarán mensajes FPL (mensaje de plan de vuelo presentado), para las restantes escalas, dirigidos a las dependencias de los servicios ATS que sirvan a los aeródromos de salidas intermedias.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.3",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-48-0",
+    "text": "2.3.1 Excepciones: Las aeronaves que deben presentar plan de vuelo antes de la salida podrán hacerlo por radio o por teléfono/fax, o electrónicamente, en los siguientes casos: a) A la dependencia apropiada de los servicios de tránsito aéreo del aeródromo más cercano, o vía electrónica a la Estación Principal de Comunicaciones, cuando no exista Oficina ARO/AIS en el aeródromo de salida. b) Cuando la operación se realice en jurisdicción nacional, exclusivamente entre aeródromos controlados situados debajo de una misma Área de Control Terminal, sin embargo, la dependencia de control podrá exigir la presentación del plan de vuelo en el formulario correspondiente. c) En cumplimiento de una misión sanitaria urgente o cuando la operación esté destinada a prestar ayuda urgente en situaciones de emergencia social o catástrofe (RAAC 91 Apéndice T). Aclaración: El concepto “aeródromo más cercano” se refiere a distancias, a menos que el ANSP o la ANAC determinen otra disposición.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.3.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-50-0",
+    "text": "1.9 Foreign aircraft stay in the country: The indications and requirements for foreign aircraft stay in the country are described in AIP Part GEN 1.2.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.9",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-52-0",
+    "text": "1.10 Flight to the Argentine national territory - Islas Malvinas y Atlántico Sur (Malvinas and South Atlantic Islands): The application requirements for private civil aviation foreign aircraft entering the Argentine airspace with destination to INSULAR TERRITORY OR DEPARTING FROM THESE DESTINATIONS are established in AIP Part GEN 1.2",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.10",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-54-0",
+    "text": "1.11 Temporary internationalization of national airports: The application procedures for the temporary internationalization of national airports in the Republic of Argentina are described in AIP Part GEN 1.2 2. FILING A FLIGHT PLAN",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.11",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-56-0",
+    "text": "2.1 It is the pilot's responsibility to complete the FPL with correct and updated data regarding the flight he/she plans to perform, for which he/she may obtain the pertinent information at the ARO/AIS Office of the aerodrome of jurisdiction, unless the Aeronautical Information for flight planning is available electronically.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-59-0",
+    "text": "91.153 of the RAAC, to an Air Traffic Services Notification Office prior to departure, or transmitted during the flight, to the Air Traffic Services unit or competent air-ground control radio station, unless other arrangements have been made for the filing of repetitive flight plans.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-62-0",
+    "text": "2.3 For a flight with intermediate stops, flight plans may be filed for each leg at the initial departure aerodrome. In this case, the pilot, the operator or his designated representative shall originate FPL messages (flight plan filed message), for the remaining stopovers, addressed to the ATS units serving the aerodromes of intermediate departures.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.3",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-65-0",
+    "text": "2.3.1 Exceptions: Aircraft required to file flight plan prior to departure may do so by radio or telephone/fax, or electronically, in the following cases: a) To the appropriate air traffic services unit of the nearest aerodrome, or electronically to the Main Communications Station, when there is no ARO/AIS Office at the aerodrome of departure. b) When the operation is performed in national jurisdiction, exclusively between controlled aerodromes located under the same Terminal Control Area, however, the control unit may require the submission of the flight plan in the corresponding form. c) In compliance with an urgent sanitary mission or when the operation is intended to provide urgent assistance in situations of social emergency or catastrophe (RAAC 91 Appendix T). Clarification: The concept “nearest aerodrome” refers to distances, unless otherwise determined by the ANSP or the ANAC AIP ARGENTINA ENR 1.10-3 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2025 27 NOVIEMBRE 2025   ",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.3.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-66-0",
+    "text": "2.4 Los planes de vuelo de aeronaves de compañías aéreas de operación comercial serán tramitados por un miembro de la tripulación (piloto o copiloto) o despachante de aeronave de la respectiva compañía.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.4",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-68-0",
+    "text": "2.5 Las aeronaves de aviación general, antes de iniciar un vuelo internacional, deben presentar ante la oficina ARO/AIS, copia de la declaración general con los sellos de las autoridades de migraciones y aduana, a menos que se hayan realizado los acuerdos de servicio para el envío de la documentación por medios electrónicos.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.5",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-70-0",
+    "text": "2.6 Los pilotos de aeronaves de aviación general, que hagan uso de aeródromos privados, helipuertos y/o lugares aptos declarados, deberán estar autorizados por el propietario/explotador para utilizar el mismo.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.6",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-72-0",
+    "text": "2.7 Para operar en zona ADIZ es obligatorio presentar un plan de vuelo o formulario de intención de vuelo conforme a la Parte ENR 5.2.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.7",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-74-0",
+    "text": "2.8 Se presentará un plan de vuelo (FPL) antes de realizar cualquier vuelo especificado en las RAAC Parte 91. 3. FORMAS DE PRESENTACIÓN DEL PLAN DE VUELO",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.8",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-76-0",
+    "text": "3.1. El plan de vuelo se presentará a una oficina de notificación de los servicios de tránsito aéreo (ARO) antes de la salida, en una de las siguientes formas: a) En papel, con formato OACI, en la oficina ARO/AIS del Aeródromo de Salida; b) Por radio, mientras la aeronave respectiva se encuentre en vuelo; c) Vía fax para el caso donde no exista oficina ARO/AIS en el Aeródromo de Salida; d) Vía telefónica para el caso donde no exista oficina ARO/AIS en el Aeródromo de Salida; e) Vía electrónica a la Oficina ARO/AIS en el aeródromo de salida; f) Vía Correos electrónicos. Una vez completado el Plan de Vuelo deberá ser firmado, digitalizado y enviado como adjunto (en PDF) a la Oficina ARO/AIS del aeródromo de salida o a la más cercana que se encuentre brindando servicio; g) Cualquier otro medio que sea solicitado por el ANSP y aprobado por la ANAC.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-78-0",
+    "text": "3.2. Cualquiera que sea su forma de presentación; el piloto al mando de la correspondiente aeronave, el despachante o el copiloto que en su caso hubiere elaborado el plan de vuelo y el explotador de dicha aeronave, serán los únicos responsables por la información consignada en él y por su correcta ejecución.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-80-0",
+    "text": "2.4 The flight plans of aircraft belonging to commercial operation airlines shall be filed by a member of the crew (pilot or copilot) or a flight dispatcher of the respective airline.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.4",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-83-0",
+    "text": "2.5 Before beginning an international flight, the general aviation aircraft shall submit to the ARO/AIS office a copy of the General Declaration with the seals of the Customs and Migrations authorities, unless service agreements for sending said documentation via electronic means have been made.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.5",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-86-0",
+    "text": "2.6 The general aviation aircraft pilots that use private aerodromes, heliports and/or reported appointed places, shall be authorized by the owner/operator to use them.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.6",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-89-0",
+    "text": "2.7 In order to operate in ADIZ zone, it is mandatory to file a flight plan or flight Intent form, in accordance with ENR Part 5.2.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.7",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-92-0",
+    "text": "2.8 A flight plan (FPL) shall be filed prior to any flight, pursuant to Part 91 of the RAAC. 3. WAYS FOR FILING A FLIGHT PLAN",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.8",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-94-0",
+    "text": "3.1 The flight plan shall be filed with the respective air traffic services reporting office (ARO) in one of the following ways: a) On paper in the ICAO format, at the ARO/AIS office of the Departure Aerodrome; b) Over radio while the respective aircraft is in flight; c) Via fax in the case the ARO/AIS office does not exist at the Departure Aerodrome; d) Over the phone in the case the ARO/AIS office does not exist at the Departure Aerodrome; e) Electronically to the ARO/AIS office at the departure aerodrome; f) Via e-mail. Once the Flight Plan has been completed, it must be signed, scanned, and sent as attachment (in PDF format) to the ARO/AIS Office at the departure aerodrome or to the nearest one providing service; g) Any other means requested by the ANSP and approved by the ANAC.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-96-0",
+    "text": "3.2 Whichever way of filing; the pilot in command of the respective aircraft, the air dispatcher or the copilot, whoever made the flight plan and the aircraft operator shall be the sole responsible persons for the information included in the flight plan and for its correct execution. AIP ARGENTINA ENR 1.10-4 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2025 27 NOVIEMBRE 2025  4. EXTENSIÓN HORARIA DE SERVICIOS EN LOS AERÓDROMOS O APERTURA ANTICIPADA",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-98-0",
+    "text": "4.1. Los requerimientos de apertura anticipada o extensión horaria de servicios en los aeródromos deberán efectuarse en forma presencial o vía email, ante la Jefatura del aeródromo donde se pretende obtener la apertura anticipada o la extensión de servicios, con copia a la Dirección Regional de jurisdicción, con dos (2) horas de antelación como mínimo. La mencionada solicitud deberá ajustarse al PROCEDIMIENTO PARA LA SOLICITUD DE APERTURA ANTICIPADA O EXTENSIÓN DE SERVICIOS DE AERÓDROMOS NACIONALES DE LA REPÚBLICA ARGENTINA CON SERVICIOS DE TRÁNSITO AÉREO que se publica mediante una AIC serie A. 5. ACEPTACIÓN DE UN PLAN DE VUELO",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-100-0",
+    "text": "5.1. El plan de vuelo para un vuelo controlado equivale a una declaración formal del piloto, que la aeronave y la tripulación reúnen las condiciones necesarias exigidas para el vuelo controlado y que se ha de ajustar a lo dispuesto en las reglas para dicho vuelo.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-102-0",
+    "text": "5.2. La primera dependencia ATS que reciba un plan de vuelo, o un cambio del mismo debe: a) comprobar que el formato y las premisas convencionales han sido respetadas; b) comprobar que ha sido completado, y, en la medida de lo posible, que ha sido completado con exactitud; c) tomar las medidas oportunas, cuando sea necesario, para hacer que el mensaje sea aceptable para los servicios de tránsito aéreo; e d) indicar al remitente la aceptación del plan de vuelo o cambio del mismo 6. CAMBIOS EN EL PLAN DE VUELO (CHG)",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-104-0",
+    "text": "6.1. Si hubiese cambios en el FPL presentado con respecto a la autonomía de vuelo o el número total de personas transportadas a bordo, u otras modificaciones de importancias, deben rectificarse en el plan de vuelo o presentar un mensaje de modificación (CHG) a la Oficina ARO/AIS como mínimo hasta 15 minutos antes de la Hora de Fuera de Calzos.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-106-0",
+    "text": "6.2. La cantidad máxima de presentaciones de CHG en la Oficina ARO/AIS es de tres (3) formularios por vuelo.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-108-0",
+    "text": "6.3. Es importante tener en cuenta que el servicio de alerta se basa, en principio, en el plan de vuelo, por lo tanto, cualquier modificación que afecta la estimación que efectúa la dependencia de los servicios de tránsito aéreo, debe ser comunicada antes del lapso que motivará la movilización de los organismos de búsqueda y salvamento.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-110-0",
+    "text": "6.4. Los mensajes CHG solo son aplicables a cambios en planes de vuelo que aún no hayan recibido autorización ATC. Por lo tanto, si fuera necesario modificar un Plan de Vuelo Presentado que ya cuente con dicha autorización, las modificaciones deberán presentarse por radiotelefonía directamente a la dependencia ATC. 4. EXTENSION OF TIME OF SERVICES IN AERODROMES OR EARLY OPENING",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-112-0",
+    "text": "4.1 The requests for the early opening or extension of time of services in aerodromes shall be made in person or via e-mail at the Aerodrome Head Office where the early opening or extension of services is sought, with copy to the Regional Directorate of jurisdiction, at least two (2) hours earlier. Said request shall be adjusted to the PROCEDURE FOR THE REQUEST OF EARLY OPENING OR EXTENSION OF TIME OF SERVICES OF NATIONAL AERODROMES OF THE REPUBLIC OF ARGENTINA WITH AIR TRAFFIC SERVICES, published via an AIC - A Series. 5. FLIGHT PLAN ACCEPTANCE",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.1",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-114-0",
+    "text": "5.1 The flight plan for a controlled flight is equivalent to a formal declaration by the pilot that the aircraft and crew meet the necessary conditions required for the controlled flight and that it must comply with the provisions of the rules for such flight.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "5.1",
+      "chapter": "5"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-116-0",
+    "text": "5.2 he first ATS unit that receives a flight plan, or a change thereof, must: a) check that the conventional format and assumptions have been respected; b) check that it has been completed, and, as far as possible, that it has been completed with accuracy; c) take appropriate action, where necessary, to make the message acceptable to air traffic services; and d) indicate to the sender the acceptance or change of the flight plan. 6. CAMBIOS EN EL PLAN DE VUELO (CHG)",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-118-0",
+    "text": "6.1 If there are any changes to the FPL submitted regarding flight endurance or the total number of persons carried on board, or other significant changes, these must be rectified in the flight plan or a change message (CHG) must be submitted to the ARO/AIS Office at least 15 minutes before the Estimated Off-block Time (EOBT).",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.1",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-122-0",
+    "text": "6.3 It is important to note that the alert service is based, in principle, on the flight plan. Therefore, any modification that affects the estimate made by the air traffic services unit must be communicated before the period that will trigger the mobilization of search and rescue agencies.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.3",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-125-0",
+    "text": "6.4 CHG messages are only applicable to changes in flight plans that have not yet received ATC clearance. Therefore, if it is necessary to change a Submitted Flight Plan that has already received such clearance, the changes shall be submitted by radiotelephony directly to the ATC unit. AIP ARGENTINA ENR 1.10-5 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2025 27 NOVIEMBRE 2025     7. DEMORAS EN LA SALIDA (DLA)",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.4",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-127-0",
+    "text": "7.1. En caso de que haya una demora de más de treinta (30) minutos respecto a la hora prevista de inicio de rodaje, indicada en el plan de vuelo presentado, para un vuelo controlado o IFR, o de una (1) hora para otros vuelos, el plan de vuelo deberá enmendarse o presentarse un nuevo plan de vuelo cancelando el antiguo, según corresponda.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-129-0",
+    "text": "7.2. Las demoras deberán ser notificadas a la oficina ARO/AIS con no menos de 30 minutos antes de la EOBT, pasado ese tiempo deberá presentar un nuevo plan de vuelo.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-131-0",
+    "text": "7.3. La cantidad máxima de presentaciones de DLA en la Oficina ARO/AIS es de tres (3) formularios por vuelo.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-133-0",
+    "text": "7.4. Los mensajes DLA solo son aplicables a cambios en planes de vuelo que aún no hayan recibido autorización ATC. Por lo tanto, si fuera necesario modificar un Plan de Vuelo Presentado que ya cuente con dicha autorización, las modificaciones deberán presentarse por radiotelefonía directamente a la dependencia ATC. 8. CONFIRMACIÓN DE RECEPCIÓN, ACEPTACIÓN O RECHAZO DEL PLAN DE VUELO",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-135-0",
+    "text": "8.1. Para toda modalidad de presentación del plan de vuelo, los usuarios deberán contactarse por cualquier medio de comunicación disponible, o por el que prescriba el ANSP, con la oficina ARO/AIS para confirmar la recepción, aceptación o rechazo del plan de vuelo. 9. RECHAZO DE PLANES DE VUELO POR DEUDA",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-137-0",
+    "text": "9.1. El prestador de los Servicios de Navegación Aérea podrá rechazar los Planes de Vuelo, correspondientes a las aeronaves que hayan generado deudas impagas, liquidas y exigibles en concepto de tasas de conformidad con lo establecido en el Artículo 1°, inc. b) de la Ley 13.041 y su Decreto Reglamentario N°",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-140-0",
+    "text": "9.2. La Autoridad Aeronáutica otorgó esta atribución al ANSP mediante Resolución ANAC 823/2018 (Boletín Oficial 26 de octubre de 2018). 10. INFORMES DE LLEGADA",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-142-0",
+    "text": "10.1. Los informes de llegada hechos por los pilotos a la oficina ARO/AIS o a las dependencias ATC contendrán los siguientes elementos de información: a) Identificación de la aeronave; b) aeródromo de salida; c) aeródromo de destino (solamente si el aterrizaje no se efectuó en el aeródromo de destino); d) aeródromo de llegada; y e) hora de llegada. 11. SISTEMA DE PLAN DE VUELO REPETITIVO Los procedimientos relativos al empleo de planes de vuelo repetitivos (RPL) se ajustan al Doc. 7030 de la OACI y al documento 7. DEPARTURE DELAYS (DLA)",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-144-0",
+    "text": "7.1 In the event of a delay of more than thirty (30) minutes from the scheduled start of taxiing, as indicated in the flight plan submitted, for a controlled or IFR flight, or one (1) hour for other flights, the flight plan must be amended or a new flight plan submitted, canceling the old one, as appropriate.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "7.1",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-147-0",
+    "text": "7.2 Delays must be notified to the ARO/AIS office no less than 30 minutes before the EOBT; after that time, a new flight plan shall be submitted.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "7.2",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-151-0",
+    "text": "7.4 DLA messages are only applicable to changes to flight plans that have not yet received ATC clearance. Therefore, if it is necessary to modify a Submitted Flight Plan that already has such clearance, the changes must be submitted by radiotelephony directly to the ATC unit. 8. CONFIRMATION OF RECEIPT, ACCEPTANCE, OR REJECTION OF THE FLIGHT PLAN",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "7.4",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-153-0",
+    "text": "8.1 For all flight plan submission methods, users must contact the ARO/AIS office by any available means of communication, or by the means prescribed by the ANSP, to confirm receipt, acceptance, or rejection of the flight plan. 9. FLIGHT PLAN REJECTION DUE TO DEBT",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "8.1",
+      "chapter": "8"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-155-0",
+    "text": "9.1 The Air Navigation Services provider may reject the Flight Plans for aircraft that have generated unpaid, liquid and enforceable debts for fees in accordance with the provisions of Section 1, subsection b) of Act No. 13.041 and its Regulatory Decree No. 1,674 dated August 6, 1976 and/or the rule that may replace it in the future.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.1",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-158-0",
+    "text": "9.2 The Aviation Authority granted this attribution to the ANSP by ANAC Resolution No. 823/2018 (Official Gazette, October 26, 2018). 10. ARRIVAL REPORTS",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "9.2",
+      "chapter": "9"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-160-0",
+    "text": "10.1 Arrival reports made by pilots to the ARO/AIS office or ATC units shall contain the following items of information: a) aircraft identification; b) departure aerodrome; c) destination aerodrome (only if the landing was not made at the destination aerodrome); d) arrival aerodrome; and e) time of arrival. 11. REPETITIVE FLIGHT PLAN SYSTEM The procedures related to the use of repetitive flight plans (RPL) are consistent with the ICAO Doc. 7030 and to the document: General AIP ARGENTINA ENR 1.10-6 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 Procedimientos Generales – Gestión del Tránsito Aéreo (PROGEN- ATM) en su capítulo 16 “Procedimientos Mixtos”, sección 16.4 “Uso de los Planes de Vuelos Repetitivos (RPL)”. Los RPL comprenderán todo el vuelo desde el aeródromo de salida hasta el aeródromo de destino. Los procedimientos RPL se aplicarán solamente a condición de que todas las autoridades ATS interesadas en los vuelos en cuestión hayan convenido en aceptar los RPL. El Proveedor de Servicios de Navegación Aérea (ANSP) no aplicará los RPL para vuelos internacionales, a menos que los Proveedores de Servicios de Navegación Aérea (ANSP) de los Estados contiguos afectados ya los usen o vayan a usarlos al mismo tiempo. Los procedimientos relativos a la utilización de dichos planes entre ANSP serán objeto de acuerdos bilaterales, multilaterales o de acuerdos regionales de navegación aérea, previamente aprobados por la Autoridad Aeronáutica. Se presentarán listas de RPL correspondientes a los vuelos hacia la República Argentina o que sobrevuelen la misma, con una anticipación de por lo menos 15 (QUINCE) días a la Empresa Argentina de Navegación Aérea (EANA) y, cuando así lo requieran, a la Dirección Nacional de Transporte Aéreo (DNTA) y la Dirección General de Infraestructura y Servicios Aeroportuarios (DGIySA). Nota. –– La información de contacto sobre estos organismos figura en la Parte GEN 1.1.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "10.1",
+      "chapter": "10"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-162-0",
+    "text": "11.1. Cambios incidentales y cancelaciones de RPL Los cambios permanentes que impliquen la inclusión, modificación o supresión de uno o más vuelos que figuren en la lista RPL, obligarán a las líneas aéreas a la presentación de una nueva lista RPL, la cual se hará llegar con una antelación no menor de 7 (SIETE) días, respecto a la fecha de entrada en vigor de dichos cambios. Para los vuelos que se incluyan en dicha lista RPL, no se requerirá presentar un formulario de plan de vuelo en la Oficina ARO/AIS. En este caso las dependencias ATS (Centro de Control, Torre de Control y Oficina ARO/AIS) se basarán en la información incluida en la lista RPL para aprobar la salida.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-164-0",
+    "text": "11.2. Cambios temporales del RPL Cualquier cambio temporal respecto a la Hora Prevista de Fuera Calzos (EOBT), tipo de aeronave, nivel de vuelo o matrícula, deberá ser informada por lo menos 30 minutos antes de la (EOBT), directamente a la Oficina ARO/ AIS del aeropuerto de salida correspondiente, que a su vez lo informará a las dependencias ATS pertinentes. En caso de que se tenga que modificar la identificación del vuelo, la ruta ATS o el aeródromo de destino, se deberá cancelar el RPL para el día en cuestión y se presentará un plan de vuelo en base al formulario normalizado establecido. Siempre que el explotador disponga la cancelación de un vuelo de la lista RPL, deberá notificarlo, a la brevedad, a la Oficina ARO/AIS del aeródromo de salida.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-166-0",
+    "text": "11.3. Excepción para el llenado de aeródromos de alternativa de destino Las aerolíneas que operen hacia los EEUU y que vayan a aplicar las excepciones para el llenado del aeródromo de alternativa de Procedures – Air Traffic Management (PROGEN-ATM), its chapter 16 “Mixed Procedures”, section 16.4 “Use of Repetitive Flight Plans (RPL)”. RPL will include the entire flight from the aerodrome of departure to the aerodrome of destination. RPL procedures shall only be applied provided that all ATS authorities interested in these flights have agreed to accept the RPL. The Air Navigation Services Provider (ANSP) shall not apply the RPL to international flights, unless the Air Navigation Services Provider of the affected contiguous States, either if they use them or if they may use them at the same time. The procedures related to the use of such plans among ANSP will be subject to bilateral or multilateral agreements, or of air navigation regional agreements previously approved by the Aeronautical Authority. RPL lists of flights towards the Republic of Argentina, or that overfly the country, shall be submitted, at least 15 (FIFTEEN) days in advance, to the Argentine Air Navigation Company (EANA) and, when required, to the National Directorate of Air Transport (DNTA) and the General Directorate of Airport Infrastructure and Services (DGIySA). Note. –– The contact information of these organizations is contained in Part GEN 1.1.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-168-0",
+    "text": "11.1 RPL incidental changes and cancellations The permanent changes that imply the adding, change or elimination of one or more flights of the RPL list shall force the airlines to submit a new RPL list, which will have to be submitted at least 7 (SEVEN) days before the effective date of those changes. For flights included in that RPL list no flight plan form will be required to submit to the ARO/AIS office. In this case, the ATS units (Control Center, Control Tower and ARO/AIS Office) will use the information included in the RPL list to approve the departure.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "11.1",
+      "chapter": "11"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-171-0",
+    "text": "11.2 RPL temporary changes Any temporary change regarding the Estimated Off-Block Time (EOBT), type of aircraft, flight level or registration, shall be informed at least 30 minutes before the EOBT, directly to the ARO/AIS Office of the respective departure aerodrome that, in turn, shall inform the relevant ATS units. If the flight identification, the ATS route or the destination aerodrome had to be changed, the RPL of that day will have to be cancelled and a flight plan based on the standard form shall be submitted. Any time the operator decides to cancel a flight from the RPL list, they shall notify it, as soon as possible, to the ARO/AIS Office of the departure aerodrome.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "11.2",
+      "chapter": "11"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-173-0",
+    "text": "11.3 Exception for the completion of the destination alternative aerodromes The airlines that operate towards the USA and that apply the exceptions for the completion of the destination alternative AIP ARGENTINA ENR 1.10-7 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2025 27 NOVIEMBRE 2025  destino, deberán colocar en la casilla 16 del FPL “ZZZZ” y en la casilla 18 especificar ALTN//NIL. 12. CIERRE DE PLAN DE VUELO",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "11.3",
+      "chapter": "11"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-175-0",
+    "text": "12.1. Se dará aviso de la llegada, personalmente, por radiotelefonía o por enlace de datos, tan pronto como sea posible después del aterrizaje, a la correspondiente dependencia ATS del aeródromo de llegada, después de todo vuelo respecto al cual se haya presentado un plan de vuelo que comprenda la totalidad del vuelo o la parte restante de un vuelo hasta el aeródromo de destino.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-177-0",
+    "text": "12.2. Cuando se haya presentado un Plan de Vuelo únicamente respecto a una parte del vuelo distinta de la parte restante del vuelo hasta el punto de destino se cerrará, cuando sea necesario, mediante un informe apropiado a la dependencia pertinente de los Servicios de Tránsito Aéreo, de acuerdo a las circunstancias prescriptas en las RAAC Parte 91.153 (n). 13. FORMULARIOS MENSAJES ATS Los siguientes apéndices contienen los formularios ATS que se encuentran en el PROGEN ATM y en los PANS-ATM Doc. 4444 OACI.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-187-0",
+    "text": "13.5 APÉNDICE 5 – CANCELACIÓN (CNL) aerodrome shall insert “ZZZZ” in the item 16 of the FPL and they shall specify ALT/NIL in the item 18. 12. FLIGHT PLAN CLOSURE",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "13.5",
+      "chapter": "13"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-189-0",
+    "text": "12.1 The arrival will be announced, in person, by radiotelephony, or via data link, as soon as it is possible after landing, to the pertinent ATS unit of the aerodrome of arrival, after all flights for which a flight plan has been filed covering the whole flight or the remaining part of a flight until the aerodrome of destination.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "12.1",
+      "chapter": "12"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-192-0",
+    "text": "12.2 When a flight plan has been filed only for a part of the flight different to the remaining part of the flight until the destination point, it will be closed, when necessary, by means of a suitable report to the pertinent unit of the air traffic services, in accordance with the circumstances described in RAAC Part 91.153 (n). 13. ATS MESSAGE FORMS The following appendixes contain the ATS forms found in ATM PROGEN and in the PANS-ATM Doc. 4444 ICAO.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "12.2",
+      "chapter": "12"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-202-0",
+    "text": "13.5 APPENDIX 5 – CANCELLATION (CNL) AIP ARGENTINA ENR 1.10-8 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 Apéndice 1 / Appendix 1 PLAN DE VUELO / FLIGHT PLAN 1. Formulario de plan de vuelo modelo OACI / ICAO model flight plan form 2. Instrucciones para completar el formulario de plan de vuelo / Instructions to complete the flight plan form 3. Instrucciones para la transmisión de los mensajes de plan de vuelo presentado (FPL) / Instructions for the transmission of a filed flight plan (FPL) message 4. Instrucciones para la transmisión de los mensajes de plan de vuelo suplementario (SPL) / Instructions for the transmission of a supplementary flight plan (SPL) message AIP ARGENTINA ENR 1.10-9 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 1. FORMULARIO DE PLAN DE VUELO MODELO OACI 1. ICAO MODEL FLIGHT PLAN FORM AIP ARGENTINA ENR 1.10-10 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 2. INSTRUCCIONES PARA COMPLETAR EL FORMULARIO DE PLAN DE VUELO",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "13.5",
+      "chapter": "13"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-204-0",
+    "text": "2.1 Generalidades Síganse con exactitud los formatos prescritos y la manera de indicar los datos. Comiéncese insertando los datos en el primer espacio. Cuando haya exceso de espacio, déjese éste en blanco. Insértense siempre las horas con 4 cifras UTC. Insértense las duraciones previstas con 4 cifras (horas y minutos). Espacio sombreado que precede a la Casilla 3 — para uso exclusivo de los servicios ATS y COM, a no ser que haya sido delegada la responsabilidad de originar los mensajes de plan de vuelo. Nota. –– El propósito del término “aeródromo”, en los planes de vuelo, incluya también emplazamientos distintos a los definidos como aeródromos, pero que pueden ser utilizados por algunos tipos de aeronaves, ej., helicópteros o globos.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-206-0",
+    "text": "2.2 Instrucciones para la inserción de los datos ATS Complétense las casillas 7 a 18 como se indica a continuación. Complétense también la casilla 19 como se indica a continuación. Nota 1. –– Los números de las casillas del formulario no son consecutivos, ya que corresponden a los números de los Tipos de campo de los mensajes ATS. Nota 2. –– Los sistemas de datos de los servicios de tránsito aéreo pueden imponer restricciones de comunicación o procesamiento en cuanto a la información de los planes de vuelo presentados. Las posibles restricciones pueden ser, por ejemplo, las limitaciones res- pecto al espacio de las casillas, el número de elementos de la Casilla de ruta o el espacio total de las casillas del plan de vuelo. Las restricciones importantes se documentan en la publicación de información aeronáutica pertinente. 2. INSTRUCTIONS TO COMPLETE THE FLIGHT PLAN FORM",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.2",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-209-0",
+    "text": "2.1 General Follow with precision the prescribed formats and manner of indicating data. Start entering data in the first space provided. Leave unused spaces blank. Always enter all clock times in 4 figures UTC. Enter all estimated elapsed times in 4 figures (hours and minutes). The shaded area preceding Item 3 - to be completed by ATS and COM services, unless the responsibility for originating flight plan messages has been delegated. Note. –– The term “aerodrome” when used in the flight plan, is intended to also cover places other than aerodromes, which may be used by certain types of aircraft; for example, helicopters or balloons.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-0",
+    "text": "2.2 Instructions for entering ATS data Complete Items 7 to 18 as indicated below. Complete also Item 19 as indicated below. Note 1. –– Item numbers on the form are not consecutive, since they correspond to Field Type numbers in ATS messages. Note 2. –– The ATS data systems may impose communication or processing restrictions regarding the information in filed flight plans. Possible restrictions may be, for example, limitations regarding item length, number of elements in the route item, or total flight plan length. Significant restrictions are documented in the relevant Aeronautical Information Publication. CASILLA 7: IDENTIFICACIÓN DE LA AERONAVE (máximo 7 caracteres) / ITEM 7: AIRCRAFT IDENTIFICATION (Maximum 7 characters) INSÉRTESE una de las siguientes identificaciones de aeronave, sin exceder de 7 caracteres alfanuméricos y sin guiones o símbolos: a) el designador OACI de la empresa explotadora de aeronaves seguido de la identificación del vuelo (por ej.: ARG1766, JES3820, FBZ5901) cuando el distintivo de llamada radiotelefónico que empleará la aeronave consista en el designador telefónico OACI de la empresa explotadora de aeronaves, seguido de la identificación del vuelo (p. ej.: ARGENTINA 1766, SMARTBIRD 3820, BONDI 5901); o b) las marcas de nacionalidad o común y la marca de matrícula de la aeronave (por ej.: LVGVE, EIAKO, 4XBCD, N2567GA), cuando: 1) el distintivo de llamada radiotelefónico que empleará la aeronave consista en esta identificación solamente (p. ej., CGAJS), o cuando vaya precedida del designador ENTER one of the following aircraft identifications, not exceeding 7 alphanumeric characters and without hyphens or symbols: a) the ICAO designator for the aircraft operating company, followed by the flight identification (for example ARG1766, JES3820, FBZ5901). When in radiotelephony the callsign to be used by the aircraft will consist of the ICAO telephony designator for the operating company followed by the flight identification (for example: ARGENTINA 1766, SMARTBIRD 3820, BONDI 5901); or b) the nationality or common mark and registration marking of the aircraft (for example: LVGVE, EIAKO, 4XBCD, N2567GA), when: 1) In radiotelephony, the callsign to be used by the aircraft consists of this identification alone (for example, CGAJS) or preceded by the ICAO telephony designator for the AIP ARGENTINA ENR 1.10-11 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 telefónico OACI de la empresa explotadora de aeronaves (p. ej., BLIZZARD CGAJS); 2) la aeronave no esté equipada con radio; Nota 1. –– Las normas relativas a las marcas de nacionalidad, comunes y de matrícula que deben utilizarse figuran en el Anexo 7 OACI, Capítulo 2. Nota 2. –– Las disposiciones relativas al empleo de los distintivos de llamada radiotelefónicos están contenidas en el Anexo 10, de OACI y/o el documento nacional que lo contenga y la normativa nacional que lo complemente. Los designadores OACI y los designadores telefónicos de empresas explotadoras de aeronaves están contenidos en el Doc. 8585 — Designadores de empresas explotadoras de aeronaves, de entidades oficiales y de servicios aeronáuticos y/o el documento nacional que lo contenga y la normativa nacional que lo complemente. aircraft operating company (for",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.2",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-450",
+    "text": "Los designadores OACI y los designadores telefónicos de empresas explotadoras de aeronaves están contenidos en el Doc. 8585 — Designadores de empresas explotadoras de aeronaves, de entidades oficiales y de servicios aeronáuticos y/o el documento nacional que lo contenga y la normativa nacional que lo complemente. aircraft operating company (for example: BLIZZARD CGAJS); or 2) the aircraft is not equipped with radio; Note 1. –– Standards for nationality, common and registration marks to be used are contained in Annex 7 ICAO, Chapter 2. Note 2. –– Provisions for using radiotelephony callsigns are contained in ICAO Annex 10 and/or the national document that contains it and the national regulations that complement it. ICAO designators and telephony designators for aircraft operating companies are contained in Doc 8585 — Designators for Aircraft Operating Agencies, of official agencies and aviation services and/or the national document that contains it and the national regulations that complement it. CASILLA 8: REGLAS DE VUELO Y TIPO DE VUELO (uno o dos caracteres) / ITEM 8: FLIGHT RULES AND TYPE OF FLIGHT (one or two characters) a) REGLAS DE VUELO: INSÉRTESE una de las siguientes letras para indicar la clase de reglas de vuelo que el piloto se propone observar: I si se tiene previsto que todo el vuelo se realizará con IFR V si se tiene previsto que todo el vuelo se realizará con VFR Y si el vuelo se realizará inicialmente con IFR, seguida de uno o más cambios subsiguientes en las reglas de vuelo, o Z si el vuelo se realizará inicialmente con VFR, seguida de uno o más cambios subsiguientes en las reglas de vuelo Especifíquese en la Casilla 15 el punto o puntos en los que se ha previsto hacer el cambio de reglas de vuelo. b) TIPO DE VUELO: INSÉRTESE una de las letras siguientes para indicar el tipo de vuelo, cuando lo requiera el ANSP: S si es de servicio aéreo regular N si es de transporte aéreo no regular G si es de aviación general M si es militar X si corresponde a alguna otra categoría, distinta de las indicadas Especifíquese en la Casilla 18 el estado de un vuelo luego del indicador STS, o cuando sea necesario para señalar otros motivos para manejo específico por los ATS, indíquese el motivo después del indicador RMK en la Casilla 18. a) FLIGHT RULES: ENTER one of the following letters to denote the category of flight rules with which the pilot intends to comply: I if it is intended that the entire flight will be operated under IFR. V if it is intended that the entire flight will be operated under VFR. Y if the flight initially will be operated under IFR, followed by one or more changes of flight rules. Z if the flight initially will be operated under VFR, followed by one or more changes of flight rules. Specify in Item 15 the point or points where change of flight rules is planned. b) TYPE OF FLIGHT: ENTER one of the",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-900",
+    "text": "by one or more changes of flight rules. Z if the flight initially will be operated under VFR, followed by one or more changes of flight rules. Specify in Item 15 the point or points where change of flight rules is planned. b) TYPE OF FLIGHT: ENTER one of the following letters to indicate the type of flight when required by the ANSP: S if scheduled air service N if non-scheduled air transport operation G if general aviation M if military X if other than any of the defined categories above. Specify flight status following the indicator “STS” in Item 18, or when necessary to indicate other reasons for specific handling by the ATS, indicate the reason following the indicator “RMK” in Item 18. CASILLA 9: NÚMERO Y TIPO DE AERONAVES Y CATEGORÍA DE ESTELA TURBULENTA / ITEM 9: NUMBER AND TYPE OF AIRCRAFT AND WAKE TURBULENCE CATEGORY a) NÚMERO DE AERONAVES (1 o 2 caracteres): INSÉRTESE el número de aeronaves, si se trata de más de una. a) NUMBER OF AIRCRAFT (1 or two characters): ENTER the number of aircraft, if more than one. AIP ARGENTINA ENR 1.10-12 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 b) TIPO DE AERONAVES (2 o 4 caracteres): INSÉRTESE el designador apropiado, según se especifica en el Doc. 8643 de la OACI, Designadores de tipos de aeronave y/o el documento nacional que lo contenga y la normativa nacional que lo complemente. O si tal designador no ha sido asignado, o si se trata de vuelos en formación que comprendan más de un tipo, INSÉRTESE ZZZZ, e INDÍQUESE en la Casilla 18 los (números y) tipos de aeronaves, precedidos de TYP/ c) CATEGORÍA DE ESTELA TURBULENTA (1 carácter): INSÉRTESE una barra oblicua, seguida de una de las letras siguientes, para indicar la categoría de estela turbulenta de la aeronave: J — SUPER, para indicar un tipo de aeronave especificado como tal en Designadores de tipos de aeronaves (Doc. 8643 de la OACI); H — PESADA, para indicar un tipo de aeronave de masa máxima certificada de despegue de 136.000 kg o más, a excepción de los tipos de aeronaves que se indican en el Doc. 8643 dentro de la categoría SUPER (J); M — MEDIA, para indicar un tipo de aeronave de masa máxima certificada de despegue inferior a 136.000 kg, pero superior a 7.000 kg; L — LIGERA, para indicar un tipo de aeronave de masa máxima certificada de despegue de 7.000 kg o menos. b) TYPE OF AIRCRAFT (2 to 4 characters): ENTER the appropriate designator as specified in ICAO Doc 8643, Aircraft Type Designators, and/or the national document that contains them and the national document that complements it. OR if no such designator has been assigned, or in case of formation flights comprising more than one type, ENTER ZZZZ, and SPECIFY in Item 18, the (numbers and) type(s) of aircraft preceded by TYP/. c) WAKE TURBULENCE CATEGORY (1 character): ENTER an oblique stroke followed by one of the following",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-1350",
+    "text": "if no such designator has been assigned, or in case of formation flights comprising more than one type, ENTER ZZZZ, and SPECIFY in Item 18, the (numbers and) type(s) of aircraft preceded by TYP/. c) WAKE TURBULENCE CATEGORY (1 character): ENTER an oblique stroke followed by one of the following letters to indicate the wake turbulence category of the aircraft: J - SUPER, to indicate an aircraft type specified as such in Aircraft Type Designators (ICAO Doc. 8643); H - HEAVY, to indicate an aircraft type with a maximum certificated take-off mass of 136,000 kg or more, except for the types of aircraft indicated in Doc. 8643 within the SUPER (J) category; M - MEDIUM, to indicate an aircraft type with a maximum certificated take-off mass of less than 136,000 kg but more than 7,000 kg; L - LIGHT, to indicate an aircraft type with a maximum certificated take-off mass of 7,000 kg or less. CASILLA 10: EQUIPO Y CAPACIDADES / ITEM 10: EQUIPMENT AND CAPABILITIES Las capacidades abarcan los siguientes elementos: 1) la presencia del equipo pertinente en funcionamiento a bordo de la aeronave; 2) equipo y capacidades equiparables a las cualificaciones de la tripulación de vuelo; y 3) la autorización, cuando corresponda, de la autoridad de aviación civil. a) EQUIPO Y CAPACIDADES DE RADIOCOMUNICACIONES Y DE AYUDAS PARA LA NAVEGACIÓN Y LA APROXIMACIÓN INSÉRTESE una letra, como sigue: N si no se lleva equipo COM/NAV de ayudas para la aproximación, para la ruta considerada, o si el equipo no funciona. O Capabilities comprise the following elements: 1) Presence of relevant serviceable equipment on board the aircraft; 2) Equipment and capabilities corresponding with flight crew qualifications; and 3) Where applicable, authorization from the appropriate civil aviation authority. a) RADIO COMMUNICATION, NAVIGATION AND APPROACH AID EQUIPMENT AND CAPABILITIES ENTER one letter as follows: N if no COM/NAV/approach aid equipment for the route to be flown is carried or the equipment is unserviceable, OR AIP ARGENTINA ENR 1.10-13 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2025 27 NOVIEMBRE 2025 S si se lleva equipo normalizado COM/NAV de ayuda para la aproximación para la ruta considerada y si este equipo funciona (véase la Nota 1), Y/O INSÉRTESE una o más de las letras siguientes para indicar el equipo y las capacidades COM/NAV y de ayudas para la navegación y la aproximación, disponibles y en funcionamiento: A Sistema de aterrizaje GBAS B LPV (APV con SBAS) C LORAN C D DME E1 FMC WPR ACARS E2 D-FIS ACARS E3 PDC ACARS F ADF G GNSS Si se tiene previsto realizar con IFR cualquier porción del vuelo, se refiere a los receptores del GNSS que cumplen los requisitos establecidos en las RAAC Parte 210. H HF RTF I Navegación inercial J1 CPDLC ATN VDL Modo 2 (véase Nota 3) J2 CPDLC FANS 1/A HFDL J3 CPDLC FANS 1/A VDL Modo A J4 CPDLC FANS 1/A VDL Modo 2 J5 CPDLC FANS 1/A SATCOM (INMARSAT) J6 CPDLC FANS 1/A SATCOM (MTSAT) J7 CPDLC FANS 1/A SATCOM",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-1800",
+    "text": "HF RTF I Navegación inercial J1 CPDLC ATN VDL Modo 2 (véase Nota 3) J2 CPDLC FANS 1/A HFDL J3 CPDLC FANS 1/A VDL Modo A J4 CPDLC FANS 1/A VDL Modo 2 J5 CPDLC FANS 1/A SATCOM (INMARSAT) J6 CPDLC FANS 1/A SATCOM (MTSAT) J7 CPDLC FANS 1/A SATCOM (Iridum) K MLS L ILS M1 ATC SATVOICE (INMARSAT) M2 ATC SATVOICE (MTSAT) M3 ATC SATVOICE (Iridium) O VOR P1 CPDLC RCP 400 (véase la Nota 7) P2 CPDLC RCP 240 (véase la Nota 7) P3 SATVOICE RCP 400 (véase la Nota 7) P4–P9 Reservado para RCP R PBN aprobada (véase la Nota 4) T TACAN U UHF RTF V VHF RTF W RVSM aprobada X MNPS aprobada Y VHF con capacidad de separación de canales de 8,33 kHz Z Demás equipo instalado a bordo u otras capacidades (véase la Nota 5) Los caracteres alfanuméricos que no aparecen más arriba están reservados. Nota 1. –– Si se usa la letra S, los equipos VHF RTF, VOR e ILS se consideran normalizados, salvo que el Proveedor de Servicios de Navegación Aérea (ANSP) prescriba alguna otra combinación. Nota 2. –– Si se utiliza la letra G, los tipos de aumentación GNSS externa, si la hay, se especifican en la Casilla 18 después del indicador NAV/ y se separan mediante un espacio. S if standard COM/NAV/approach aid equipment for the route to be flown is carried and serviceable (see Note 1), AND/OR ENTER one or more of the following letters to indicate the serviceable COM/NAV/ approach aid equipment and capabilities available: A GBAS landing system B LPV (APV with SBAS) C LORAN C D DME E1 FMC WPR ACARS E2 D-FIS ACARS E3 PDC ACARS F ADF G GNSS - if it is intended to perform any portion of the flight with IFR, it refers to the GNSS receptors that comply with the requirements established in RAAC Part 210. H HF RTF I Inertial navigation J1 CPDLC ATN VDL Mode 2 (See Note 3) J2 CPDLC FANS 1/A HFDL J3 CPDLC FANS 1/A VDL Mode A J4 CPDLC FANS 1/A VDL Mode 2 J5 CPDLC FANS 1/A SATCOM (INMARSAT) J6 CPDLC FANS 1/A SATCOM (MTSAT) J7 CPDLC FANS 1/A SATCOM (Iridium) K MLS L ILS M1 ATC SATVOICE (INMARSAT) M2 ATC SATVOICE (MTSAT) M3 ATC SATVOICE (Iridium) O VOR P1 CPDLC RCP 400 (see Note 7) P2 CPDLC RCP 240 (see Note 7) P3 SATVOICE RCP 400 (see Note 7) P4–P9 Reserved for RCP R PBN approved (see Note 4) T TACAN U UHF RTF V VHF RTF W RVSM approved X MNPS approved Y VHF with 8.33 kHz channel spacing capability Z Other equipment carried or other capabilities (See Note 5) Any alphanumeric characters not indicated above are reserved. Note 1. –– If the letter S is used, standard equipment is considered to be VHF RTF, VOR, and ILS, unless another combination is prescribed by the Air Navigation Service Provider (ANSP). Note 2. –– If the letter G is used, the types",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-2250",
+    "text": "alphanumeric characters not indicated above are reserved. Note 1. –– If the letter S is used, standard equipment is considered to be VHF RTF, VOR, and ILS, unless another combination is prescribed by the Air Navigation Service Provider (ANSP). Note 2. –– If the letter G is used, the types of external GNSS augmentation, if any, are specified in Item 18 following the indicator NAV/ and are separated by a space. AIP ARGENTINA ENR 1.10-14 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 Nota 3. –– Véase RTCA/EUROCAE Interoperability Requirements Standard for ATN Baseline 1 (ATN B1 INTEROP Standard – DO- 280B/ED-110B) con respecto a servicios por enlace de datos/autorizaciones e información de control de tránsito aéreo/gestión de las comunicaciones de control de tránsito aéreo/verificación de micrófonos de control de tránsito aéreo. Nota 4. –– Si se usa la letra R, los niveles de navegación basada en la performance que pueden alcanzarse se especifican en la Casilla 18 después del indicador PBN/. En el Manual de navegación basada en la performance (PBN) (Doc. 9613) figuran textos de orientación sobre la aplicación de la navegación basada en la performance a tramos de ruta, rutas o áreas específicos. Nota 5. –– Si se usa la letra Z, especifíquese en la Casilla 18 cualquier otro tipo de equipo o capacidades instalados a bordo, precedido por COM/, NAV/ y/o DAT, según corresponda. Nota 6. –– la información sobre capacidad de navegación se proporciona al ATC a efectos de autorización y encaminamiento. Nota 7. –– El Manual de comunicaciones y vigilancia basadas en la performance (PBCS) (Doc. 9869) contiene textos de orientación sobre la aplicación de la comunicación basada en la performance en los que se prescribe la RCP para un servicio de tránsito aéreo en un área específica. b) EQUIPO Y CAPACIDADES DE VIGILANCIA: INSÉRTESE la letra N si no se lleva a bordo equipo de vigilancia para la ruta que debe volarse o si el equipo no funciona. O, INSÉRTESE uno o más de los siguientes descriptores, hasta un máximo de 20 caracteres, para indicar el tipo de equipo y/o capacidades de vigilancia en funcionamiento, abordo: SSR en Modos A y C A Transpondedor — Modo A (4 dígitos — 4 096 códigos) C Transpondedor — Modo A (4 dígitos — 4 096 códigos) y Modo C SSR en Modo S E Transpondedor — Modo S, comprendida la identificación de aeronave, la altitud de presión y la capacidad de señales espontáneas ampliadas (ADS-B). H Transpondedor — Modo S, comprendida la identificación de aeronave, la altitud de presión, y la capacidad de vigilancia mejorada. I Transpondedor — Modo S, comprendida la identificación de aeronave, pero sin capacidad de altitud de presión. L Transpondedor — Modo S, comprendida la identificación de aeronave, la altitud de presión, la capacidad de señales espontáneas Note 3. –– See RTCA/EUROCAE Interoperability Requirements Standard for ATN Baseline 1 (ATN B1 INTEROP Standard – DO- 280B/ED-110B) for data link services air traffic control clearance and information/air traffic control communications",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-2700",
+    "text": "Transpondedor — Modo S, comprendida la identificación de aeronave, la altitud de presión, la capacidad de señales espontáneas Note 3. –– See RTCA/EUROCAE Interoperability Requirements Standard for ATN Baseline 1 (ATN B1 INTEROP Standard – DO- 280B/ED-110B) for data link services air traffic control clearance and information/air traffic control communications management/air traffic control microphone check. Note 4. –– If the letter R is used, the performance based navigation levels that can be met are specified in Item 18 following the indicator PBN/. Guidance material on the application of performance based navigation to a specific route segment, route or area is contained in the Performance-Based Navigation Manual (Doc. 9613). Note 5. –– If the letter Z is used, specify in Item 18 the other equipment carried or other capabilities, preceded by COM/, NAV/ and/or DAT/, as appropriate. Note 6. –– Information on navigation capability is provided to ATC for clearance and routing purposes. Note 7. –– Guidance material on the application of performance-based communication, which prescribes RCP to an air traffic service in a specific area, is contained in the Performance-based Communication and Surveillance (PBCS) Manual (Doc. 9869). b) SURVEILLANCE EQUIPMENT AND CAPABILITIES: ENTER N if no surveillance equipment for the route to be flown is carried, or if the equipment is unserviceable, OR ENTER one or more of the following descriptors, up to a maximum of 20 characters, to describe the serviceable surveillance equipment and/or capabilities on board: SSR Modes A and C: A Transponder - Mode A (4 digits - 4096 codes) C Transponder - Mode A (4 digits - 4096 codes) and Mode C SSR Mode S E Transponder - Mode S, including aircraft identification, pressure-altitude and extended squitter (ADS-B) capability. H Transponder - Mode S, including aircraft identification, pressure-altitude and enhanced surveillance capability. I Transponder - Mode S, including aircraft identification, but no pressure-altitude capability. L Transponder - Mode S, including aircraft identification, pressure-altitude, extended squitter (ADS- B) and enhanced surveillance capability. AIP ARGENTINA ENR 1.10-15 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 ampliadas (ADS-B) y de vigilancia mejorada. P Transpondedor — Modo S, comprendida la altitud de presión, pero sin capacidad de identificación de aeronave. S Transpondedor — Modo S, comprendida la altitud de presión y la capacidad de identificación de aeronave. X Transpondedor — Modo S, sin identificación de aeronave ni capacidad de altitud de presión. Nota. –– La capacidad de vigilancia mejorada es la capacidad que tiene la aeronave de transmitir en enlace descendente datos de la aeronave vía un transpondedor en modo S. ADS-B B1 ADS-B con capacidad especializada ADS-B “out” de 1 090 MHz B2 ADS-B con capacidad especializada ADS-B “out” e “in” de 1 090 MHz U1 Capacidad ADS-B “out” usando UAT U2 Capacidad ADS-B “out” e “in” usando UAT V1 Capacidad ADS-B “out” usando VDL en Modo 4 V2 Capacidad ADS-B “out” e “in” usando VDL en Modo 4 ADS-C D1 ADS-C con capacidades FANS 1/A G1 ADS-C con capacidades ATN Los caracteres alfanuméricos que no aparecen",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-3150",
+    "text": "ADS-B “out” usando UAT U2 Capacidad ADS-B “out” e “in” usando UAT V1 Capacidad ADS-B “out” usando VDL en Modo 4 V2 Capacidad ADS-B “out” e “in” usando VDL en Modo 4 ADS-C D1 ADS-C con capacidades FANS 1/A G1 ADS-C con capacidades ATN Los caracteres alfanuméricos que no aparecen más arriba están reservados. Ejemplo: ADE3RV/HB2U2V2G1 Nota 1. –– La especificación o especificaciones RSP, si procede, se enumerarán en la Casilla 18 luego del indicador SUR/. El Manual de comunicaciones y vigilancia basadas en la performance (PBCS) (Doc. 9869) contiene textos de orientación sobre la aplicación de la vigilancia basada en la performance en los que se prescribe la RSP para un servicio de tránsito aéreo en un área específica. Nota 2. –– En la Casilla 18, después del indicador SUR/, como lo requiera el Proveedor de Servicios de Navegación Aérea (ANSP), se enumerarán el equipo o las capacidades de vigilancia adicionales. P Transponder — Mode S, including pressure-altitude, but no aircraft identification capability. S Transponder - Mode S, including both pressure-altitude and aircraft identification capability. X Transponder - Mode S with neither aircraft identification nor pressure-altitude capability. Note. –– Enhanced surveillance capability is the ability of the aircraft to down-link aircraft derived data via a mode S transponder. ADS-B B1 ADS-B with dedicated 1090 MHz ADS-B “out” capability B2 ADS-B with dedicated 1090 MHz ADS-B “out” and “in” capability U1 ADS-B “out” capability using UAT U2 ADS-B “out” and “in” capability using UAT V1 ADS-B “out” capability using VDL Mode 4 V2 ADS-B “out” and “in” capability using VDL Mode 4 ADS-C D1 ADS-C with FANS 1/A capabilities G1 ADS-C with ATN capabilities Alphanumeric characters not indicated above are reserved. Example: ADE3RV/HB2U2V2G1 Note 1. –– The RSP specification or specifications, if applicable, shall be described in Item 18 after the SUR/ indicator. The Performance Based Communications and Surveillance Manual (PBCS, Doc 9869) contains guiding texts about the performance-based surveillance application in which RSP is prescribed for an air traffic service in a specific area. Note 2. –– In Item 18, after the SUR indicator, as required by the Air Navigation Service Provider (ANSP), the additional surveillance equipment or capabilities shall be listed. CASILLA 13: AERÓDROMO DE SALIDA Y HORA (8 caracteres) / ITEM 13: DEPARTURE AERODROME AND TIME (8 characters) INSÉRTESE el indicador de lugar OACI de cuatro letras del aeródromo de salida, como se especifica en Indicadores de lugar (Doc. 7910). Los indicadores de lugares nacionales de tres letras y de países americanos se encuentran publicados en una Circular de Información Aeronáutica (AIC) en la página web https://ais.anac.gob.ar/aic O, si no se ha asignado indicador de lugar, ENTER the ICAO four-letter location indicator of the departure aerodrome as specified in locations Indicators (Doc. 7910). The national locations indicators of three-letter and American countries are published through an Aeronautical Information Circular (AIC) on the website https://ais.anac.gob.ar/aic, OR if no location indicator has been assigned, AIP ARGENTINA ENR 1.10-16 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 INSÉRTESE",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-3600",
+    "text": "specified in locations Indicators (Doc. 7910). The national locations indicators of three-letter and American countries are published through an Aeronautical Information Circular (AIC) on the website https://ais.anac.gob.ar/aic, OR if no location indicator has been assigned, AIP ARGENTINA ENR 1.10-16 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 INSÉRTESE ZZZZ e INDÍQUESE, en la Casilla 18, el nombre y lugar del aeródromo, precedido de DEP/, O, el primer punto de la ruta o la radiobaliza precedida de DEP/..., si la aeronave no ha despegado del aeródromo, O, si el plan de vuelo se ha recibido de una aeronave en vuelo, INSÉRTESE AFIL, e INDÍQUESE, en la Casilla 18, el indicador de lugar OACI de cuatro letras de la dependencia ATS de la cual pueden obtenerse datos del plan de vuelo suplementario, precedidos de DEP/ LUEGO, SIN NINGÚN ESPACIO, INSÉRTESE para un plan de vuelo presentado antes de la salida, la hora prevista de fuera calzos (EOBT), O, para un plan de vuelo recibido de una aeronave en vuelo, la hora prevista o actual de paso sobre el primer punto de la ruta a la cual se refiere el plan de vuelo. ENTER ZZZZ and SPECIFY, in Item 18, the name and location of the aerodrome preceded by DEP/, OR the first point of the route or the marker radio beacon preceded by DEP/..., if the aircraft has not taken off from the aerodrome, OR if the flight plan is received from an aircraft in flight, ENTER AFIL, and SPECIFY in Item 18, the ICAO four-letter location indicator of the location of the ATS unit from which supplementary flight plan data can be obtained, preceded by DEP/. THEN, WITHOUT A SPACE, ENTER for a flight plan submitted before departure, the estimated off-block time (EOBT), OR for a flight plan received from an aircraft in flight, the actual or estimated time over the first point of the route to which the flight plan applies. CASILLA 15: RUTA / ITEM 15: ROUTE INSÉRTESE la primera velocidad de crucero como en a) y el primer nivel de crucero como en b), sin espacio alguno entre ellos. LUEGO, siguiendo la flecha, INSÉRTESE la descripción de la ruta, como en c). a) VELOCIDAD DE CRUCERO (máximo 5 caracteres): INSÉRTESE la velocidad verdadera, para la primera parte o la totalidad del vuelo en crucero, en función de: Kilómetros por hora, mediante la letra K seguida de 4 cifras (p. ej., K0830), o nudos, mediante la letra N seguida de 4 cifras (p. ej., N0485), o Número de Mach verdadero, cuando el Proveedor de Servicios de Navegación Aérea (ANSP) lo haya prescrito, redondeando a las centésimas más próximas de unidad Mach, mediante la letra M seguida de 3 cifras (p. ej., M082). b) NIVEL DE CRUCERO (máximo 5 caracteres): INSÉRTESE el nivel de crucero proyectado para la primera parte o para toda la ruta que haya que volar, por medio de: Nivel de vuelo, expresado mediante una F seguida de 3 cifras (p. ej., F085; F330); o",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-4050",
+    "text": "3 cifras (p. ej., M082). b) NIVEL DE CRUCERO (máximo 5 caracteres): INSÉRTESE el nivel de crucero proyectado para la primera parte o para toda la ruta que haya que volar, por medio de: Nivel de vuelo, expresado mediante una F seguida de 3 cifras (p. ej., F085; F330); o *Nivel métrico normalizado en decenas de metros, expresado mediante una S seguida de 4 cifras (p. ej., S1130); o Altitud en centenares de pies, expresada mediante una A seguida de 3 cifras (p. ej., A045; A100); o Altitud en decenas de metros, expresada mediante una M seguida de 4 cifras (p. ej., M0840); o ENTER the first cruising speed as in a) and the first cruising level as in b), without a space between them. THEN following the arrow, ENTER the route description as in c). a) CRUISING SPEED (maximum 5 characters): ENTER the True Air Speed for the first or the whole cruising portion of the flight, in terms of: Kilometers per hour, expressed as K followed by 4 figures (for example, K0830), or knots, expressed as N followed by 4 figures (for example, N0485), or True Mach number, when so prescribed by the Air Navigation Service Provider (ANSP), to the nearest hundredth of unit Mach, expressed as M followed by 3 figures (for example, M082). b) CRUISING LEVEL (maximum 5 characters): ENTER the planned cruising level for the first or the whole portion of the route to be flown, in terms of: Flight level, expressed as F followed by 3 figures (for example, F085; F330), or *Standard Metric Level in tens of meters, expressed as S followed by 4 figures (for example, S1130), or Altitude in hundreds of feet, expressed as A followed by 3 figures (for example, A045; A100), or Altitude in tens of meters, expressed as M followed by 4 figures (for example, M0840), or AIP ARGENTINA ENR 1.10-17 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 respecto a los vuelos VFR no controlados, las letras VFR. c) RUTA (incluyendo cambios de velocidad, nivel o reglas de vuelo): Vuelos a lo largo de las rutas ATS designadas INSÉRTESE, si el aeródromo de salida está situado en la ruta ATS o conectado a ella, el designador de la primera ruta ATS, O, si el aeródromo de salida no está en la ruta ATS ni conectado a ella, las letras DCT seguidas del punto de encuentro de la primera ruta ATS, seguido del designador de la ruta ATS. LUEGO INSÉRTESE cada punto en el cual esté previsto comenzar un cambio de velocidad y/o nivel, o cambiar de ruta ATS y/o de reglas de vuelo, Nota. –– Cuando se planee la transición entre una ruta ATS inferior y una ruta ATS superior, y cuando la orientación de dichas rutas sea la misma, no será necesario insertar el punto de transición. SEGUIDO, EN CADA CASO del designador del próximo tramo de rutas ATS, incluso si es el mismo que el precedente, O de DCT, si el vuelo hasta",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-4500",
+    "text": "y una ruta ATS superior, y cuando la orientación de dichas rutas sea la misma, no será necesario insertar el punto de transición. SEGUIDO, EN CADA CASO del designador del próximo tramo de rutas ATS, incluso si es el mismo que el precedente, O de DCT, si el vuelo hasta el punto próximo se va a efectuar fuera de una ruta designada, a no ser que ambos puntos estén definidos por coordenadas geográficas. Vuelos fuera de las rutas ATS designadas INSÉRTENSE los puntos normalmente separados por no más de 30 minutos de tiempo de vuelo o por 370 km (200 NM), incluyendo cada punto en el cual se piensa cambiar de velocidad o nivel, cambiar de derrota, o cambiar de reglas de vuelo. O, cuando lo requiera el Proveedor de Servicios de Navegación Aérea (ANSP). DEFÍNASE la derrota de los vuelos que predominantemente siguen la dirección este-oeste entre los 70° N y los 70° S, por referencia a los puntos significativos formados por las intersecciones de paralelos de latitud en grados enteros, o medios, con meridianos espaciados a intervalos de 10° de longitud. Para los vuelos fuera de dichas latitudes las derrotas se definirán mediante puntos significativos formados por intersecciones de paralelos de latitud con meridianos normalmente espaciados a 20° de longitud. En la medida de lo posible, la distancia entre dos puntos significativos no excederá de una hora de tiempo de vuelo. Se establecerán otros puntos significativos según se considere necesario. Para los vuelos que predominantemente siguen la dirección norte-sur, defínanse derrotas por referencia a los puntos significativos formados por la intersección de meridianos en grados completos de longitud con paralelos especificados, espaciados a 5°. for uncontrolled VFR flights, the letters VFR. c) ROUTE (including changes of speed, level and/or flight rules): Flights along designated ATS routes ENTER if the departure aerodrome is located on or connected to the ATS route, the designator of the first ATS route, OR, if the departure aerodrome is not located on or connected to the ATS route, the letters DCT followed by the point of joining the first ATS route, followed by the designator of the ATS route. THEN ENTER each point at which either a change of speed and/or level is planned to start, or a change of ATS route, and/or a change of flight rules is planned, Note. –– When a transition is planned between a lower and upper ATS route and the routes are oriented in the same direction, the point of transition does not need to be entered. FOLLOWED IN EACH CASE by the designator of the next ATS route segment, even if it is the same as the previous one, OR by DCT, if the flight to the next point will be outside a designated route, unless both points are defined by geographical coordinates. Flights outside designated ATS routes ENTER points normally not more than 30 minutes flying time or 370 km (200 NM) apart, including each point at which a change of speed or level, a change",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-4950",
+    "text": "next point will be outside a designated route, unless both points are defined by geographical coordinates. Flights outside designated ATS routes ENTER points normally not more than 30 minutes flying time or 370 km (200 NM) apart, including each point at which a change of speed or level, a change of track, or a change of flight rules is planned. OR, when required by the Air Navigation Service Provider (ANSP). DEFINE the track of flights operating predominantly in an east- west direction between 70° N and 70° S by reference to significant points formed by the intersections of half or whole degrees of latitude with meridians spaced at intervals of 10 degrees of longitude. For flights operating in areas outside those latitudes the tracks must be defined by significant points formed by the intersection of parallels of latitude with meridians normally spaced at 20 degrees of longitude. The distance between two significant points must, as far as possible, not exceed one hour's flight time. Additional significant points must be established as deemed necessary. For flights operating predominantly in a north-south direction, define tracks by reference to significant points formed by the intersection of whole degrees of longitude with specified parallels of latitude, which are spaced at 5 degrees. AIP ARGENTINA ENR 1.10-18 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 INSÉRTESE DCT entre puntos sucesivos, a no ser que ambos puntos estén definidos por coordenadas geográficas o por marcación y distancia. ÚSESE SOLAMENTE la presentación convencional de los datos que figuran en 1) a 5) que siguen, y SEPÁRESE cada elemento con un espacio. 1) RUTA ATS (2 a 7 caracteres): El designador cifrado asignado a la ruta o al tramo de ruta, con inclusión, cuando corresponda, del designador ci- frado asignado a la ruta normalizada de salida o de llegada (p. ej., BCN1, B1, R14, UB10, KODAP2A). Nota. –– Las disposiciones relativas a la aplicación de designadores de ruta figuran en las RAAC Parte 211-Gestión de la Tránsito Aéreo. 2) PUNTO SIGNIFICATIVO (2 a 11 caracteres): El designador cifrado (2 a 5 caracteres) asignado al punto (p. ej., LN, MAY, HADDY), o, si no ha sido asignado ningún designador cifrado, una de las indicaciones siguientes:  Grados solamente (7 caracteres): 2 cifras que indiquen la latitud en grados, seguida de “N” (Norte) o “S” (Sur), seguida de 3 cifras que indiquen la longitud en grados, seguida de “E” (Este) o “W” (Oeste). Complétese el número correcto de cifras, cuando sea necesario, insertando ceros, p. ej., 46N078W.  Grados y minutos (11 caracteres): 4 cifras que indiquen la latitud en grados y en decenas y unidades de minutos, seguida de “N” (Norte) o “S” (Sur), seguida de 5 cifras que indiquen la longitud en grados y decenas y unidades de minutos, seguida de “E” (Este) o “W” (Oeste). Complétese el número correcto de cifras, cuando sea necesario, insertando ceros, p. ej., 4620N07805W.  Marcación y distancia con respecto a un punto de referencia: La identificación del punto de",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-5400",
+    "text": "cifras que indiquen la longitud en grados y decenas y unidades de minutos, seguida de “E” (Este) o “W” (Oeste). Complétese el número correcto de cifras, cuando sea necesario, insertando ceros, p. ej., 4620N07805W.  Marcación y distancia con respecto a un punto de referencia: La identificación del punto de referencia seguida de la marcación desde el punto, con 3 cifras, dando los grados magnéticos, seguida de la distancia desde el punto, con 3 cifras que expresen millas marinas. En áreas de alta latitud en donde las autoridades pertinentes hayan determinado que la referencia a grados magnéticos no es práctica, pueden usarse grados verdaderos. Complétese el número correcto de cifras, cuando sea necesario, insertando ceros, p. ej., un punto a 180º magnéticos y una distancia del VOR “DUB” de 40 NM, debería indicarse así: DUB180040. ENTER DCT between successive points unless both points are defined by geographical coordinates or by bearing and distance. USE ONLY the convention presentation of the data described in 1) to 5) below and SEPARATE each sub-item by a space. 1) ATS ROUTE (2 to 7 characters): The coded designator assigned to the route or route segment including, where appropriate, the coded designator assigned to the standard departure or arrival route (for example BCN1, B1, R14, UB10, KODAP2A). Note. –– Provisions for the application of route designators are contained in Part 211 of the RAAC – Air Traffic Management. 2) SIGNIFICANT POINT (2 to 11 characters): The coded designator (2 to 5 characters) assigned to the point (for example, LN, MAY, HADDY), or, if no coded designator has been assigned, one of the following ways:  Degrees only (7 characters): 2 figures describing latitude in degrees, followed by “N” (North) or “S” (South), followed by 3 figures describing longitude in degrees, followed by “E” (East) or “W” (West). Make up the correct number of figures, where necessary, by insertion of zeros, for example, 46N078W.  Degrees and minutes (11 characters): 4 figures describing latitude in degrees and tens and units of minutes followed by “N” (North) or “S” (South), followed by 5 figures describing longitude in degrees and tens and units of minutes, followed by “E” (East) or “W” (West). Make up the correct number of figures, where necessary, by entering zeros; for example, 4620N07805W.  Bearing and distance from a significant point: The identification of the significant point, followed by the bearing from the point in the form of 3 figures giving degrees magnetic, followed by the distance from the point in the form of 3 figures expressing nautical miles. In areas of high latitude where it is determined by the appropriate authority that reference to degrees magnetic is impractical, degrees true may be used. Make up the correct number of figures, where necessary, by insertion of zeros; for example, a point 180° magnetic at a distance of 40 nautical miles from VOR “DUB” should be expressed as DUB180040. AIP ARGENTINA ENR 1.10-19 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 3) CAMBIO",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-5850",
+    "text": "Make up the correct number of figures, where necessary, by insertion of zeros; for example, a point 180° magnetic at a distance of 40 nautical miles from VOR “DUB” should be expressed as DUB180040. AIP ARGENTINA ENR 1.10-19 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 3) CAMBIO DE VELOCIDAD O DE NIVEL (máximo 21 caracteres): El punto en el cual esté previsto cambiar de velocidad (5% TAS o 0,01 Mach o más) o cambiar de nivel para comenzar, expresado exactamente como en 2) anterior, seguido de una barra oblicua y tanto la velocidad de crucero como el nivel de crucero, expresados exactamente como en a) y b) anteriores, sin un espacio entre ellos, aun cuando solamente se cambie uno de estos elementos. Ejemplos: LN/N0284A045 MAY/N0305F180 HADDY/N0420F330 4602N07805W/N0500F350 46N078W/M082F330 DUB180040/N0350M0840 4) CAMBIO DE REGLAS DE VUELO (máximo 3 caracteres): El punto en el cual está previsto cambiar de reglas de vuelo, expresado exactamente como en 2) o 3) anteriores, seguido de un espacio y de una de las indicaciones siguientes: VFR si es de IFR a VFR IFR si es de VFR a IFR Ejemplos: LN VFR LN/N0284A050 IFR 5) ASCENSO EN CRUCERO (máximo 28 caracteres): La letra C seguida de una barra oblicua; LUEGO el punto en el cual esté previsto iniciar el ascenso en crucero, expresado como en 2) anterior, seguido de una barra oblicua; LUEGO la velocidad que se piense mantener durante el ascenso en crucero, expresada exactamente como en a) anterior seguida de los dos niveles que determinan la capa que se piensa ocupar durante el ascenso en crucero, cada nivel expresado exactamente como en b) anterior, o el nivel sobre el cual el ascenso en crucero esté previsto, seguido de las letras PLUS, sin un espacio entre ellos: Ejemplos: C/48N050W/M082F290F350 C/48N050W/M082F290PLUS C/52N050W/M220F580F620 3) CHANGE OF SPEED OR LEVEL (maximum 21 characters): The point at which a change of speed (5% TAS or 0.01 Mach or more) or a change of level is planned to start, expressed exactly as in 2) above, followed by an oblique stroke and both the cruising speed and the cruising level, expressed exactly as in a) and b) above, without a space between them, even when only one of these elements will be changed. Examples: LN/N0284A045 MAY/N0305F180 HADDY/N0420F330 4602N07805W/N0500F350 46N078W/M082F330 DUB180040/N0350M0840 4) CHANGE OF FLIGHT RULES (maximum 3 characters): The point at which the change of flight rules is planned, expressed exactly as in 2) or 3) above, as appropriate, followed by a space and one of the following indications: VFR if from IFR to VFR IFR if from VFR to IFR Examples: LN VFR LN/N0284A050 IFR 5) CRUISE CLIMB (maximum 28 characters): The letter C followed by an oblique stroke; THEN the point at which cruise climb is planned to start, expressed exactly as in 2) above, followed by an oblique stroke; THEN the speed to be maintained during cruise climb, expressed exactly as in a) above, followed by the two levels defining the layer to be occupied",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-6300",
+    "text": "oblique stroke; THEN the point at which cruise climb is planned to start, expressed exactly as in 2) above, followed by an oblique stroke; THEN the speed to be maintained during cruise climb, expressed exactly as in a) above, followed by the two levels defining the layer to be occupied during cruise climb, each level expressed exactly as in b) above, or the level above which cruise climb is planned followed by the letters PLUS, without a space between them: Examples: C/48N050W/M082F290F350 C/48N050W/M082F290PLUS C/52N050W/M220F580F620 CASILLA 16: AERÓDROMO DE DESTINO Y DURACIÓN TOTAL PREVISTA, AERÓDROMOS DE ALTERNATIVA DE DESTINO / ITEM 16: DESTINATION AERODROME AND TOTAL ESTIMATED ELAPSED TIME, DESTINATION ALTERNATE AERODROMES a) AERÓDROMO DE DESTINO Y DURACIÓN TOTAL PREVISTA (8 caracteres): INSÉRTESE el indicador de lugar OACI de cuatro letras del aeródromo de destino, como se especifica en Indicadores de lugar (Doc. 7910). Los indicadores de lugares nacionales de tres letras y de países americanos se encuentran publicados en una Circular de Información Aeronáutica (AIC) en la página web https://ais.anac.gob.ar/aic, O, si no se ha asignado indicador de lugar, a) DESTINATION AERODROME AND TOTAL ESTIMATED ELAPSED TIME (8 characters): ENTER the ICAO four-letter location indicator of the destination aerodrome as specified in locations Indicators (Doc. 7910). The national locations indicators of three-letter and American countries are published through an Aeronautical Information Circular (AIC) on the website https://ais.anac.gob.ar/aic, OR if no location indicator has been assigned, AIP ARGENTINA ENR 1.10-20 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 INSÉRTESE ZZZZ e INDÍQUESE en la Casilla 18 el nombre y lugar del aeródromo, precedido de DEST/. DESPUÉS, SIN DEJAR UN ESPACIO INSÉRTESE la duración total prevista. Note. –– En el caso de un plan de vuelo recibido de una aeronave en vuelo, la duración total prevista se cuenta a partir del primer punto de la ruta a la que se aplica el plan de vuelo hasta el punto de terminación del plan de vuelo. b) AERÓDROMOS DE ALTERNATIVA DE DESTINO: INSÉRTENSE los indicadores de lugar OACI de cuatro letras, de no más de dos aeródromos de alternativa de destino, como se especifica en Indicadores de lugar (Doc. 7910) y en los indicadores de lugares nacionales de tres letras y de países americanos se encuentran publicados en una Circular de Información Aeronáutica (AIC) en la página web https://ais.anac.gob.ar/aic, separados por un espacio, O, si no se ha asignado un indicador de lugar a los aeródromos de alternativa de destino, INSÉRTESE ZZZZ e INDÍQUESE en la Casilla 18 el nombre y lugar de los aeródromos de alternativa de destino, precedido de ALTN/ ENTER ZZZZ and SPECIFY in Item 18 the name and location of the aerodrome, preceded by DEST/. THEN, WITHOUT A SPACE, ENTER the total estimated elapsed time. Note. –– For a flight plan received from an aircraft in flight, the total estimated elapsed time is the estimated time from the first point of the route to which the flight plan applies to the termination point of the flight plan. b)",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-6750",
+    "text": "SPACE, ENTER the total estimated elapsed time. Note. –– For a flight plan received from an aircraft in flight, the total estimated elapsed time is the estimated time from the first point of the route to which the flight plan applies to the termination point of the flight plan. b) DESTINATION ALTERNATE AERODROMES: ENTER the ICAO four-letter location indicators of not more than two destination alternate aerodromes, as specified in Location Indicators (Doc 7910), and the indicators for three-letter national places and American countries are published in an Aeronautical Information Circular (AIC) on the website https://ais.anac.gob.ar/aic, separated by a space, OR if no location indicator has been assigned to the destination alternate aerodrome(s), ENTER ZZZZ and SPECIFY in Item 18 the name and location of the destination alternate aerodromes, preceded by ALTN/ CASILLA 18: OTROS DATOS / ITEM 18: OTHER INFORMATION El uso de indicadores que no se incluyen en esta casilla, puede ocasionar que los datos se rechacen, se procesen de manera incorrecta o se pierdan. Los guiones o barras oblicuas sólo deben usarse como se estipula a continuación. INSÉRTESE 0 (cero) si no hay otros datos, O, cualquier otra información necesaria en el orden indicado a continuación, mediante el indicador apropiado seleccionado de los que se definen a continuación seguido de una barra oblicua y de la información que ha de consignarse: STS/ Motivo del manejo especial por parte del ATS, p. ej., misión de búsqueda y salvamento, del modo siguiente: ALTRV: para un vuelo realizado de acuerdo con una reservación de altitud; ATFMX: para un vuelo aprobado por el Proveedor de Servicios de Navegación Aérea (ANSP) para que esté exento de medidas ATFM; FFR: extinción de incendios; FLTCK: verificación de vuelo para calibración de ayudas para la navegación; HAZMAT: para un vuelo que transporta material peligroso; HEAD: un vuelo con estatus “Jefe de Estado”; Use of indicators not included under this item may result in data being rejected, incorrectly processed or lost. Hyphens or oblique strokes should only be used as prescribed below. ENTER 0 (zero) if no other information, OR, any other necessary information in the sequence shown hereunder, in the form of the appropriate indicator selected from those defined hereunder followed by an oblique stroke and the information to be recorded: STS/ Reason for special handling by ATS (for example, a search and rescue mission), as follows: ALTRV: for a flight operated in accordance with an altitude reservation; ATFMX: for a flight approved for exemption from ATFM measures by the Air Navigation Service Provider (ANSP); FFR: fire-fighting; FLTCK: flight check for calibration of NAVAIDs; HAZMAT: for a flight carrying hazardous material; HEAD: a flight with “Head of State” status; AIP ARGENTINA ENR 1.10-21 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 HOSP: para un vuelo médico declarado por autoridades médicas; HUM: para un vuelo que se realiza en misión humanitaria; MARSA: para un vuelo del cual una entidad militar se hace responsable de su separación respecto de aeronaves militares; MEDEVAC: para una evacuación",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-7200",
+    "text": "INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 HOSP: para un vuelo médico declarado por autoridades médicas; HUM: para un vuelo que se realiza en misión humanitaria; MARSA: para un vuelo del cual una entidad militar se hace responsable de su separación respecto de aeronaves militares; MEDEVAC: para una evacuación por emergencia médica crítica para salvaguardar la vida; NONRVSM: para un vuelo que no cuenta con capacidad RVSM que intenta operar en un espacio aéreo RVSM; SAR: para un vuelo que realiza una misión de búsqueda y salvamento; y STATE: para un vuelo que realiza servicios militares, de aduanas o policíacos. Otros motivos del manejo especial por parte del ATS se denotarán bajo el designador RMK/. PBN/ Indicación de las capacidades RNAV y/o RNP. Inclúyase la cantidad necesaria de los descriptores que figuran a continuación, que se apliquen al vuelo, usando un máximo de 8 entradas, es decir, un total de no más de 16 caracteres HOSP: for a medical flight declared by medical authorities; HUM: for a flight operating on a humanitarian mission; MARSA: for a flight for which a military entity assumes responsibility for separation of military aircraft; MEDEVAC: for a life critical medical emergency evacuation; NONRVSM: for a non-RVSM capable flight intending to operate in RVSM airspace; SAR: for a flight engaged in a search and rescue mission; and STATE: for a flight engaged in military, customs or police services. Other reasons for special handling by ATS must be denoted under the designator RMK/. PBN/ Indication of RNAV and/or RNP capabilities. Include as many of the applicable descriptors, up to a maximum of 8 entries (not more than 16 characters). ESPECIFICACIONES RNAV / RNAV SPECIFICATIONS A1 RNAV 10 (RNP 10) B1 RNAV 5, todos los sensores permitidos / RNAV 5, all permitted sensors B2 RNAV 5 GNSS B3 RNAV 5 DME/DME B4 RNAV 5 VOR/DME B5 RNAV 5 INS or IRS B6 RNAV 5 LORANC C1 RNAV 2, todos los sensores permitidos / RNAV 2 all permitted sensors C2 RNAV 2 GNSS C3 RNAV 2 DME/DME C4 RNAV 2 DME/DME/IRU D1 RNAV 1, todos los sensores permitidos / RNAV 1 all permitted sensors D2 RNAV 1 GNSS D3 RNAV 1 DME/DME D4 RNAV 1 DME/DME/IRU ESPECIFICACIONES RNP / RNP SPECIFICATIONS L1 RNP 4 O1 RNP 1 básica, todos los sensores permitidos / Basic RNP 1, all permitted sensors O2 RNP 1 básica GNSS / Basic RNP 1 GNSS O3 RNP 1 DME/DME básica / Basic RNP 1 DME/DME O4 RNP 1 DME/DME/IRU básica / Basic RNP 1 DME/DME/IRU S1 RNP APCH S2 RNP APCH con BARO-VNAV / RNP APCH with BARO-VNAV AIP ARGENTINA ENR 1.10-22 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 T1 RNP AR APCH con RF (se requiere autorización especial) / RNP AR APCH with RF (special authorization required) T2 RNP AR APCH sin RF (se requiere autorización especial) / RNP AR APCH without RF (special authorization required) Todas las aeronaves que despeguen desde la República Argentina, que operen a través de",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-7650",
+    "text": "AR APCH con RF (se requiere autorización especial) / RNP AR APCH with RF (special authorization required) T2 RNP AR APCH sin RF (se requiere autorización especial) / RNP AR APCH without RF (special authorization required) Todas las aeronaves que despeguen desde la República Argentina, que operen a través de rutas RNAV 10 y/o RNP 4 en el Atlántico Norte (NAT), deberán disponer de aprobación HLA (Espacio aéreo de alto nivel) y cumplir con los requisitos y especificaciones para volar en rutas RNAV 10 y/o RNP 4. Ver nota. En el plan de vuelo deberán indicar en la casilla10a el ítem \"X\" e insertar en la casilla 18 las capacidades RNAV 10 (A1) y/o RNP 4 (L1) anteponiendo el designador PBN/. Por ejemplo: PBN/A1L1 Nota. –– La agencia Estatal de Seguridad Aérea (EASA) mediante el Reglamento UE 2018/1139 informa que, a partir de febrero de 2016, el espacio aéreo NAT MNPS se denomina NAT HLA. Los operadores con aprobación MNPS deberán solicitar aprobación NAT HLA. Las combinaciones de caracteres alfanuméricos que no aparecen más arriba están reservadas. NAV/ Insértense los datos importantes relativos al equipo de navegación, distinto del que se especifica en PBN/, según lo requiera el Proveedor de Servicios de Navegación Aérea (ANSP). Indíquese la aumentación GNSS bajo este indicador, dejando un espacio entre dos o más métodos de aumentación, p. ej., NAV/GBAS SBAS. COM/ Indíquense las aplicaciones o capacidades de comunicaciones no especificadas en la Casilla 10 a). DAT/ Indíquense las aplicaciones o capacidades de datos no especificadas en la Casilla 10 a). SUR/ Inclúyanse las aplicaciones o capacidades de vigilancia no especificadas en la Casilla 10 b). Indíquese la mayor cantidad de especificaciones RSP que se aplican al vuelo utilizando designadores sin espacio. Las especificaciones RSP múltiples se separan mediante un espacio. Ejemplo: RSP180 RSP400. DEP/ Insértense el nombre y lugar del aeródromo de salida, cuando se inserte ZZZZ en la casilla 13, o nombre de la dependencia ATS, de la cual pueden obtenerse datos del plan de vuelo suplementario, o cuando se inserte AFIL en la casilla 13. Para aeródromos que no aparecen en la publicación de información aeronáutica pertinente, indíquese el lugar como se indica a continuación: Con 4 dígitos que indiquen la latitud en grados y en decenas y unidades de minutos, seguidas de la letra “N” (Norte) o “S” (Sur) seguida de 5 dígitos, que indiquen la longitud en grados y decenas y unidades de minutos, seguidas de “E” (Este) o “W” (Oeste). Complétese el número correcto de dígitos, cuando sea necesario, insertando ceros, p. ej., 4620N07805W (11 caracteres). O, All aircraft taking off from the Argentine Republic, operating through RNAV 10 and/or RNP 4 routes in the North Atlantic (NAT), must have HLA (High Level Airspace) approval and comply with the requirements and specifications to fly RNAV 10 and/or RNP 4 routes. See note. In the flight plan they must indicate in box 10a the item \"X\" and insert in box 18 the RNAV 10 (A1) and/or RNP 4 (L1) capabilities,",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-8100",
+    "text": "have HLA (High Level Airspace) approval and comply with the requirements and specifications to fly RNAV 10 and/or RNP 4 routes. See note. In the flight plan they must indicate in box 10a the item \"X\" and insert in box 18 the RNAV 10 (A1) and/or RNP 4 (L1) capabilities, prefixing the designator PBN/. For example: PBN/A1L1 Note. –– The State Aviation Safety Agency (EASA) by EU Regulation 2018/1139 informs that, as of February 2016, NAT MNPS airspace is referred to as NAT HLA. Operators with MNPS approval will have to apply for NAT HLA approval. Combinations of alphanumeric characters not indicated above are reserved. NAV/ Insert the significant data related to navigation equipment, other than specified in PBN/, as required by the Air Navigation Service Provider (ANSP). Indicate GNSS augmentation under this indicator, with a space between two or more methods of augmentation, for example, NAV/GBAS SBAS. COM/ Indicate communications applications or capabilities not specified in Item 10 a). DAT/ Indicate data applications or capabilities not specified in 10 a). SUR/ Include surveillance applications or capabilities not specified in Item 10 b). Indicate as many RSP specifications as possible that are applied to the flight by using designators without space. The multiple RSP specifications are separated by a space. Example: RSP180 RSP400 DEP/ Insert the name and location of departure aerodrome, if ZZZZ is inserted in Item 13, or the name of unit from which supplementary flight plan data can be obtained, or if AFIL is inserted in Item 13. For aerodromes not listed in the relevant aeronautical information publication, indicate location as follows: With 4 figures describing latitude in degrees and tens and units of minutes followed by “N” (North) or “S” (South), followed by 5 figures describing longitude in degrees and tens and units of minutes, followed by “E” (East) or “W” (West). Make up the correct number of figures, where necessary, by insertion of zeros, e.g. 4620N07805W (11 characters). OR AIP ARGENTINA ENR 1.10-23 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 con la marcación y distancia respecto del punto significativo más próximo, como sigue: La identificación del punto significativo seguida de la marcación respecto del punto en la forma de 3 cifras que den los grados magnéticos, seguidas de la distancia al punto en la forma de 3 cifras que expresen millas marinas. En áreas de gran altitud donde la autoridad competente determine que no resulta práctico hacer referencia a grados magnéticos, pueden utilizarse grados verdaderos. Complétese el número correcto de cifras, cuando sea necesario, insertando ceros, p. ej., un punto a 180º magnéticos y una distancia al VOR “DUB” de 40 millas marinas, debería indicarse así: DUB180040 O, el primer punto de la ruta (nombre o LAT/LONG) o la radiobaliza, si la aeronave no ha despegado desde un aeródromo. DEST/ Insértense el nombre y lugar del aeródromo de destino, cuando se inserte ZZZZ en la casilla 16. Para aeródromos que no aparecen en la publicación de información aeronáutica, indíquese el lugar en",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-8550",
+    "text": "la ruta (nombre o LAT/LONG) o la radiobaliza, si la aeronave no ha despegado desde un aeródromo. DEST/ Insértense el nombre y lugar del aeródromo de destino, cuando se inserte ZZZZ en la casilla 16. Para aeródromos que no aparecen en la publicación de información aeronáutica, indíquese el lugar en LAT/LONG o la marcación y distancia respecto del punto significativo más próximo, como se describió anteriormente en DEP/. DOF/ Insértese la fecha de la salida del vuelo en formato de seis dígitos (AAMMDD), donde AA es el año, MM el mes y DD el día). Ejemplo: DOF/040727 REG/ Insértese la marca de nacionalidad o común y la marca de matrícula de la aeronave, si difieren de la identificación de la aeronave que figura en la casilla 7. EET/ Insértese los designadores de puntos significativos o límites de la FIR y duración total prevista desde el despegue hasta esos puntos o límites de la FIR cuando esté prescrito por la Autoridad Aeronáutica en acuerdos regionales de navegación aérea o por el Proveedor de Servicios de Navegación Aérea (ANSP). Ejemplos: EET/CAP0745 XYZ0830 EET/EINN0204 SEL/ Insértese la Clave SELCAL, para aeronaves equipadas de este modo. TYP/ Insértense los tipos de aeronaves, precedidos, de ser necesario, sin un espacio por el número de aeronaves y separados por un espacio, cuando se inserte ZZZZ en la casilla 9. Ejemplo: TYP/2F15 5F5 3B2 CODE/ Insértese la dirección de aeronave (expresada como código alfanumérico de seis caracteres hexadecimales) cuando lo requiera la autoridad ATS competente. Ejemplo: “F00001” es la dirección de aeronave más baja contenida en el bloque específico administrado por la OACI. DLE/ Demora o espera en ruta: insértense los puntos significativos en la ruta donde se tenga previsto que ocurrirá la demora, seguidos de la duración de la demora usando cuatro dígitos para el tiempo en horas y minutos (hhmm). Ejemplo: DLE/MDG0030 Bearing and distance from the nearest significant point, as follows: The identification of the significant point followed by the bearing from the point in the form of 3 figures giving degrees magnetic, followed by the distance from the point in the form of 3 figures expressing nautical miles. In areas of high latitude where it is determined by the appropriate authority that reference to degrees magnetic is impractical, degrees true may be used. Make up the correct number of figures, where necessary, by insertion of zeros, e.g., a point of 180° magnetic at a distance of 40 nautical miles from VOR “DUB” should be expressed as DUB180040. OR The first point of the route (name or LAT/LONG) or the marker radio beacon, if the aircraft has not taken off from an aerodrome. DEST/ Insert the name and location of destination aerodrome, if ZZZZ is inserted in Item 16. For aerodromes not listed in the relevant aeronautical information publication, indicate location in LAT/LONG or bearing and distance from the nearest significant point, as described under DEP/ above. DOF/ Insert the date of flight departure in a six figure format (YYMMDD, where YY equals the",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-9000",
+    "text": "is inserted in Item 16. For aerodromes not listed in the relevant aeronautical information publication, indicate location in LAT/LONG or bearing and distance from the nearest significant point, as described under DEP/ above. DOF/ Insert the date of flight departure in a six figure format (YYMMDD, where YY equals the year, MM equals the month and DD equals the day). Example: DOF/040727 REG/ Insert the the nationality or common mark and registration mark of the aircraft, if different from the aircraft identification in Item 7. EET/ Insert the significant points or FIR boundary designators and accumulated estimated elapsed times from take-off to such points or FIR boundaries, when so prescribed by the Aviation Authority based on regional air navigation agreements, or by the Air Navigation Service Provider (ANSP). Examples: ET/CAP0745 XYZ0830 EET/EINN0204 SEL/ Insert the SELCAL Code, for aircraft so equipped. TYP/ Insert the Types of aircraft, preceded, if necessary, without a space by number of aircraft and separated by one space, if ZZZZ is inserted in Item 9. Example: TYP/2F15 5F5 3B2 CODE/ Insert the Aircraft address (expressed in the form of an alphanumerical code of six hexadecimal characters) when required by the appropriate ATS authority. Example: “F00001” is the lowest aircraft address contained in the specific block administered by ICAO. DLE/ En-route delay or holding: insert the significant points on the route where a delay is planned to occur, followed by the length of delay using four figure time in hours and minutes (hhmm). Example: DLE/MDG0030 AIP ARGENTINA ENR 1.10-24 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 OPR/ Insértese el designador OACI o nombre del explotador, si difieren de la identificación de la aeronave que figura en la casilla 7. ORGN/ Insértese la dirección AFTN de 8 letras del originador u otros detalles del contacto apropiados cuando el originador del plan de vuelo no pueda identificarse fácilmente, como lo disponga el Proveedor de Servicios de Navegación Aérea (ANSP). Nota. –– En algunas áreas, los centros de recepción del plan de vuelo pueden insertar automáticamente el identificador ORGN/ y la dirección AFTN del originador. PER/ Insértense los datos de performance de la aeronave, indicados por una sola letra, como se especifica en los Procedimientos para los servicios de navegación aérea — Operación de aeronaves (PANS-OPS, Doc. 8168), Volumen I — Procedimientos de vuelo, Capítulo 1, Subcapítulo 1.3 CATEGORÍAS DE AERONAVES: Categoría A: Menos de 169 km/h (91 kt) (IAS) Categoría B: 169 km/h (91 kt) o más, pero menos de 224 km/h (121 kt) IAS Categoría C: 224 km/h (121 kt) o más, pero menos de 261 km/h (141 kt) IAS Categoría D: 261 km/h (141 kt) o más, pero menos de 307 km/h (166 kt) IAS Categoría E: 307 km/h (166 kt) o más, pero menos de 391 km/h (211 kt) IAS Categoría H: Helicópteros. ALTN/ Insértese el nombre de los aeródromos de alternativa de destino, si se inserta ZZZZ en la Casilla 16. Para aeródromos que no aparecen en la Publicación de Información Aeronáutica",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-9450",
+    "text": "IAS Categoría E: 307 km/h (166 kt) o más, pero menos de 391 km/h (211 kt) IAS Categoría H: Helicópteros. ALTN/ Insértese el nombre de los aeródromos de alternativa de destino, si se inserta ZZZZ en la Casilla 16. Para aeródromos que no aparecen en la Publicación de Información Aeronáutica pertinente, indíquese el lugar en LAT/LONG o la marcación y distancia respecto del punto significativo más próximo, como se describió anteriormente en DEP/. RALT/ Insértense los indicadores OACI de cuatro letras para aeródromos de alternativa en ruta, como se especifica en Indicadores de lugar (Doc. 7910) o indicadores de lugar de tres letras o el nombre de los aeródromos, si no se asigna indicador, publicados en una Circular de Información Aeronáutica (AIC). Para aeródromos que no aparecen en la Publicación de Información Aeronáutica pertinente, indíquese el lugar en LAT/LONG o la marcación y distancia respecto del punto significativo más próximo, como se describió anteriormente en DEP/. TALT/ Insértense los indicadores OACI de cuatro letras para aeródromos de alternativa de despegue, como se especifica en Indicadores de lugar (Doc. 7910) o indicadores de lugar de tres letras o el nombre de los aeródromos, si no se asigna indicador, publicados en una Circular de Información Aeronáutica (AIC). Para aeródromos que no aparecen en la publicación de información aeronáutica pertinente, indíquese el lugar en LAT/LONG o la marcación y distancia respecto del punto significativo más próximo, como se describió anteriormente en DEP/. RIF/ Insértense los detalles de la ruta que lleva al nuevo aeródromo de destino, seguidos del indicador de lugar OACI de cuatro letras correspondiente a dicho aeródromo. La ruta revisada está sujeta a una nueva autorización en vuelo. OPR/ Insert the ICAO designator or name of the aircraft operating agency, if different from the aircraft identification in item 7. ORGN/ Insert the originator-s 8 letter AFTN address or other appropriate contact details, in cases where the originator of the flight plan may not be readily identified, as required by the Air Navigation Service Provider (ANSP). Note. –– In some areas, flight plan reception centers may insert the ORGN/ identifier and originator's AFTN address automatically. PER/ Insert the aircraft performance data, indicated by a single letter as specified in the Procedures for Air Navigation Services — Aircraft Operations (PANS-OPS, Doc. 8168), Volume I — Flight Procedures, Chapter 1, Subchapter 1.3 AIRCRAFT CATEGORIES: Category A: Less than 169 km/h (91 kt) (IAS) Category B: 169 km/h (91 kt) or more, but less than 224 km/h (121 kt) IAS Category C: 224 km/h (121 kt) or more, but less than 261 km/h (141 kt) IAS Category D: 261 km/h (141 kt) or more, but less than 307 km/h (166 kt) IAS Category E: 307 km/h (166 kt) or more, but less than 391 km/h (211 kt) IAS Category H: Helicopters. ALTN/ Insert the name of destination alternate aerodromes, if ZZZZ is inserted in Item 16. For aerodromes not listed in the relevant Aeronautical Information Publication, indicate location in LAT/LONG or bearing and distance from",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-9900",
+    "text": "km/h (166 kt) or more, but less than 391 km/h (211 kt) IAS Category H: Helicopters. ALTN/ Insert the name of destination alternate aerodromes, if ZZZZ is inserted in Item 16. For aerodromes not listed in the relevant Aeronautical Information Publication, indicate location in LAT/LONG or bearing and distance from the nearest significant point, as described in DEP/ above. RALT/ Insert the ICAO four letter indicators for en-route alternate aerodromes, as specified in location indicators (Doc. 7910) or three letter location indicators or the name of aerodromes, if no indicator is assigned, published in an Aeronautical Information Circular (AIC). For aerodromes not listed in the relevant Aeronautical Information Publication, indicate location in LAT/LONG or bearing and distance from the nearest significant point, as described in DEP/ above. TALT/ Insert the ICAO four letter indicators for take-off alternate aerodromes, as specified in location indicators (Doc. 7910) or three letter location indicators or the name of aerodromes, if no indicator is assigned, published in an Aeronautical Information Circular (AIC). For aerodromes not listed in the relevant Aeronautical Information Publication, indicate location in LAT/LONG or bearing and distance from the nearest significant point, as described in DEP/ above. RIF/ Insert the route details to the new destination aerodrome, following by the ICAO four-letter location indicator of the aerodrome. The revised route is subject to a new clearance in flight. AIP ARGENTINA ENR 1.10-25 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 Ejemplos: RIF/DTA HEC KLAX RIF/ESP G94 CLA YPPH RMK/ Insértese cualesquier otras observaciones en lenguaje claro, cuando así lo requiera el Proveedor de Servicios de Navegación Aérea (ANSP) o cuando se estime necesario. Examples: RIF/DTA HEC KLAX RIF/ESP G94 CLA YPPH RMK/ Insert any other plain language remarks when required by the Air Navigation Service Provider (ANSP) or when deemed necessary. CASILLA 19: INFORMACIÓN SUPLEMENTARIA / ITEM 19: SUPPLEMENTARY INFORMATION AUTONOMÍA: Después de E/ INSÉRTESE un grupo de 4 cifras para indicar la autonomía de combustible en horas y minutos. PERSONAS A BORDO: Después de P/ INSÉRTESE el número total de personas (pasajeros y tripulación) a bordo, cuando así lo requiera el Proveedor de Servicios de Navegación Aérea (ANSP). INSÉRTESE TBN (que ha de notificarse) si no se conoce el número total de personas en el momento de presentar el plan de vuelo. EQUIPO DE EMERGENCIA Y SUPERVIVENCIA: R/ (RADIO) TÁCHESE U si no está disponible la frecuencia UHF de 243,0 MHz. TÁCHESE V si no está disponible la frecuencia VHF de 121,5 MHz. TÁCHESE E si no se dispone de transmisor de localización de emergencia (ELT). S/ (EQUIPO DE SUPERVIVENCIA) TÁCHENSE todos los indicadores si no se lleva a bordo equipo de supervivencia. TÁCHESE P si no se lleva a bordo equipo de supervivencia polar. TÁCHESE D si no se lleva a bordo equipo de supervivencia para el desierto. TÁCHESE M si no se lleva a bordo equipo de supervivencia marítimo. TÁCHESE J si no se lleva a bordo equipo de supervivencia para la selva. J/ (CHALECOS) TÁCHENSE todos",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-10350",
+    "text": "a bordo equipo de supervivencia polar. TÁCHESE D si no se lleva a bordo equipo de supervivencia para el desierto. TÁCHESE M si no se lleva a bordo equipo de supervivencia marítimo. TÁCHESE J si no se lleva a bordo equipo de supervivencia para la selva. J/ (CHALECOS) TÁCHENSE todos los indicadores si no se llevan a bordo chalecos salvavidas. TÁCHESE L si los chalecos salvavidas no están dotados de luces. TÁCHESE F si los chalecos salvavidas no están equipados con fluoresceína. TÁCHESE U o V o ambos, según se señaló en R/, para indicar los medios de comunicación por radio que lleven los chalecos D/ (BOTES) (NÚMERO NEUMÁTICOS) TÁCHENSE los indicadores D y C si no se llevan botes neumáticos a bordo; o ENDURANCE: After E/ ENTER a 4-figure group giving the fuel endurance in hours and minutes. PERSONS ON BOARD: After P/ ENTER the total number of persons (passengers and crew) on board, when required by the Air Navigation Service Provider (ANSP). ENTER TBN (to be notified) if the total number of persons is not known at the time of filing. EMERGENCY AND SURVIVAL EQUIPMENT: R/ (RADIO) CROSS OUT U if UHF on frequency 243.0 MHz is not available. CROSS OUT V if VHF on frequency 121.5 MHz is not available. CROSS OUT E if emergency locator transmitter (ELT) is not available. S/ (SURVIVAL EQUIPMENT) CROSS OUT all indicators if survival equipment is not carried. CROSS OUT P if polar survival equipment is not carried. CROSS OUT D if desert survival equipment is not carried. CROSS OUT M if maritime survival equipment is not carried. CROSS OUT J if jungle survival equipment is not carried. J/ (JACKETS) CROSS OUT all indicators if life jackets are not carried. CROSS OUT L if life jackets are not equipped with lights. CROSS OUT F if life jackets are not equipped with fluorescein. CROSS OUT U or V or both as in R/ above to indicate radio capability of jackets, if any. D/ (DINGHIES) (NUMBER) CROSS OUT indicators D and C if no dinghies are carried onboard, OR AIP ARGENTINA ENR 1.10-26 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 INSÉRTESE número de botes neumáticos que se llevan a bordo; y (CAPACIDAD) INSÉRTESE la capacidad total, número de personas, de todos los botes neumáticos que se lleven a bordo; y (CUBIERTA) TÁCHESE el indicador C si los botes neumáticos no están cubiertos; y (COLOR) INSÉRTESE el color de los botes neumáticos, si se llevan a bordo. A/ (COLOR Y MARCAS DE LA AERONAVE) INSÉRTESE el color de la aeronave y las marcas importantes. N/(OBSERVACIONES) TÁCHESE el indicador N si no hay observaciones, o INDÍQUESE todo otro equipo de supervivencia a bordo y cualquier otra observación relativa a dicho equipo. C/(PILOTO) INSÉRTESE el nombre del piloto al mando. PRESENTADO POR INSÉRTESE el nombre del miembro de la tripulación de vuelo o despachante de aeronave que presenta el plan de vuelo",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-211-10800",
+    "text": "bordo y cualquier otra observación relativa a dicho equipo. C/(PILOTO) INSÉRTESE el nombre del piloto al mando. PRESENTADO POR INSÉRTESE el nombre del miembro de la tripulación de vuelo o despachante de aeronave que presenta el plan de vuelo",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-213-0",
+    "text": "2.3 Aceptación del plan de vuelo Indíquese la aceptación del plan de vuelo en la forma prescrita por el Proveedor de Servicios de Navegación Aérea (ANSP).",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.3",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-215-0",
+    "text": "2.4 Instrucciones para la inserción de los datos COM Casillas a completar COMPLÉTENSE los dos primeros renglones sombreados del formulario, y COMPLÉTESE el tercero sólo cuando sea necesario, de acuerdo con las disposiciones del PROGEN-ATM, Capítulo 11,",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.4",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-216-0",
+    "text": "11.2.1.2, salvo que el ATS prescriba lo contrario. 3. INSTRUCCIONES PARA LA TRANSMISIÓN DE LOS MENSAJES DE PLAN DE VUELO PRESENTADO (FPL) Corrección de errores evidentes A menos que se prescriba lo contrario, CORRÍJANSE los errores y omisiones evidentes de presentación, (p. ej., las barras oblicuas) para asegurar el cumplimiento de las aeronotificaciones ordinarias - Información operacional (hora prevista de llegada y autonomia). Conceptos que han de transmitirse TRANSMÍTANSE los conceptos indicados a continuación, a menos que se prescriba lo contrario: a) los conceptos consignados en los renglones sombreados que preceden a la Casilla 3; b) empezando con << ≡ (FPL de la Casilla 3: todos los símbolos y datos que figuran en los recuadros sin sombrear hasta el símbolo )<<≡ del final de la Casilla 18; ENTER number of dinghies carried on board; and (CAPACITY) ENTER total capacity, number of people, all dinghies carried on board; and (COVER) CROSS OUT indicator C if dinghies are not covered; and (COLOR) ENTER color of dinghies if carried. A/ (AIRCRAFT COLOR AND MARKINGS) ENTER color of aircraft and significant markings. N/ (REMARKS) CROSS OUT indicator N if no remarks, or INDICATE any other survival equipment carried and any other remarks regarding survival equipment. C/ (PILOT) ENTER name of pilot-in-command. FILED BY ENTER the name of the flight crewmember or flight dispatcher filing the flight plan.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-219-0",
+    "text": "2.3 Acceptance of the flight plan Indicate acceptance of the flight plan in the manner prescribed by the Air Navigation Service Provider (ANSP).",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.3",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-221-0",
+    "text": "2.4 Instructions for entering COM data Items to be completed COMPLETE the top two shaded lines of the form, and COMPLETE the third shaded line only when necessary, following the provisions in PROGEN-ATM, Chapter 11, 11.2.1.2, unless the ATS prescribes otherwise. 3. INSTRUCTIONS FOR THE TRANSMISSION OF A FILED FLIGHT PLAN (FPL) MESSAGE Correction of obvious errors Unless otherwise prescribed, CORRECT obvious format errors and omissions (for example: oblique stokes) to ensure compliance with ordinary air notifications - Operational information (expected time of arrival and autonomy). Items to be transmitted, unless otherwise prescribed TRANSMIT items as indicated below, unless otherwise prescribed: a) the items in the shaded lines, before item 3; b) Starting with <<≡ (FPL of Item 3: All symbols and data in the unshaded boxes to the symbol )<<≡ at the end of Item 18; AIP ARGENTINA ENR 1.10-27 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 las funciones de alineación adicionales que sean necesarias para impedir la inclusión de más de 69 caracteres en cualquier línea de las Casillas 15 o 18; la función de alineación ha de insertarse sólo en lugar de un espacio a fin de no subdividir ningún grupo de datos, los cambios a letras y cambios a cifras (no impresos previamente en el formulario) que sean necesarios; c) el Fin de la AFTN, como se indica a continuación: Señal de Fin de Texto  un CAMBIO A LETRAS  dos RETORNOS DE CARRO, un CAMBIO DE LÍNEA Orden de la alimentación de página  Siete CAMBIOS DE LÍNEA  Señal de Fin de Mensaje  Cuatro letras N. 4. INSTRUCCIONES PARA LA TRANSMISIÓN DE LOS MENSAJES DE PLAN DE VUELO SUPLEMENTARIO (SPL) Conceptos que han de transmitirse Transmítanse los conceptos que se indican a continuación, a menos que se prescriba lo contrario: a) el indicador de prioridad AFTN, indicadores de destinatario << ≡, hora de depósito, indicador del remitente <<≡ y, de ser necesario, indicación específica de los destinatarios o del remitente; b) comenzando con << ≡ (SPL: Todos los símbolos y datos de las partes no sombreadas de las Casillas 7, 13, 16 y 18, excepto el “)”, del final de la Casilla 18, no ha de transmitirse, y luego los símbolos contenidos en la parte no sombreada de la Casilla 19 hasta el )<<≡, inclusive, de la Casilla 19; las funciones de alineación adicionales que sean necesarias para impedir la inclusión de más de 69 caracteres en cualquier línea de las Casillas 18 y 19. La función de alineación ha de insertarse sólo en lugar de un espacio a fin de no subdividir un grupo de datos; cambios a letras y cambios a cifras (no impresos previamente en el formulario) que sean necesarios; c) el Fin de la AFTN, como se indica a continuación: Señal de Fin de Texto  un CAMBIO A LETRAS  dos RETORNOS DE CARRO, un CAMBIO DE LÍNEA Orden de la alimentación de página  Siete CAMBIOS DE LÍNEA  Señal de Fin",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.4",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-221-450",
+    "text": "el formulario) que sean necesarios; c) el Fin de la AFTN, como se indica a continuación: Señal de Fin de Texto  un CAMBIO A LETRAS  dos RETORNOS DE CARRO, un CAMBIO DE LÍNEA Orden de la alimentación de página  Siete CAMBIOS DE LÍNEA  Señal de Fin de Mensaje  Cuatro letras N additional alignment functions as necessary to prevent the inclusion of more than 69 characters in any line of Items 15 or 18; the alignment function is to be inserted only in lieu of a space so as not to subdivide any group of data, letter shifts and figure shifts (not preprinted on the form) as necessary; c) the AFTN Ending, as described below: End-of-Text Signal  One LETTER SHIFT  two CARRIAGE RETURNS, one LINE FEED Page-feed Sequence  Seven LINE FEEDS  End-of-Message Signal  Four of the letter N. 4. INSTRUCTIONS FOR THE TRANSMISSION OF A SUPPLEMENTARY FLIGHT PLAN (SPL) MESSAGE Items to be transmitted Transmit items as indicated hereunder, unless otherwise prescribed: a) AFTN Priority Indicator, Addressee Indicators <<≡, Filing Time, Originator Indicator <<≡ and, if necessary, specific identification of addressees or originator; b) Starting with << ≡ (SPL: All symbols and data in the unshaded parts of boxes 7, 13, 16, and 18, except that the `)' at the end of box 18 is not to be transmitted, and then the symbols in the unshaded area of box 19 down to and including the )<< ≡ of box 19; additional alignment functions as necessary to prevent the inclusion of more than 69 characters in any line of Items 18 and 19. The alignment function is to be inserted only in lieu of a space, so as not to subdivide a group of data; letter shifts and figure shifts (not pre-printed on the form) as necessary; c) The AFTN Ending, as described below: End-of-Text Signal  one LETTER SHIFT  two CARRIAGE RETURNS, one LINE FEED Page-feed Sequence  Seven LINE FEEDS  End-of-Message Signal  Four of the letter N. AIP ARGENTINA ENR 1.10-28 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 Apéndice 2 / Appendix 2 PLAN DE VUELO REPETITIVO / REPETITIVE FLIGHT PLAN 1. Formulario de plan de vuelo repetitivo modelo OACI / ICAO model repetitive flight plan form 2. Instrucciones para la transmisión de los mensajes de plan de vuelo presentado (FPL) / Instructions for the transmission of a filed flight plan (FPL) message 3. Planes de vuelo repetitivos (RLP) – Vuelos entre CHILE y ARGENTINA / Repetitive flight plan (RLP). Flights between CHILE and ARGENTINA 4. Planes de vuelo repetitivos (RLP) – Vuelos entre BOLIVIA y ARGENTINA; BRASIL y ARGENTINA; PARAGUAY y ARGENTINA; URUGUAY y ARGENTINA / Repetitive flight plans (RPL) flights between BOLIVIA and ARGENTINA; BRAZIL and ARGENTINA; PARAGUAY and ARGENTINA; URUGUAY and ARGENTINA AIP ARGENTINA ENR 1.10-29 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 1. FORMULARIO DE PLAN DE VUELO REPETITIVO (RPL) 1. REPETITIVE FLIGHT PLAN (RPL) FORM AIP",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-221-900",
+    "text": "y ARGENTINA / Repetitive flight plans (RPL) flights between BOLIVIA and ARGENTINA; BRAZIL and ARGENTINA; PARAGUAY and ARGENTINA; URUGUAY and ARGENTINA AIP ARGENTINA ENR 1.10-29 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 1. FORMULARIO DE PLAN DE VUELO REPETITIVO (RPL) 1. REPETITIVE FLIGHT PLAN (RPL) FORM AIP ARGENTINA ENR 1.10-30 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 2. INSTRUCCIONES PARA COMPLETAR EL FORMULARIO DE LISTA DE PLAN DE VUELO REPETITIVO (RPL)",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-223-0",
+    "text": "2.1. Generalidades Anótense solamente los planes de vuelo que hayan de realizarse de acuerdo con IFR. (Reglas de vuelo I en el formulario FPL). Se supone que todas las aeronaves realizan vuelos regulares (tipo de vuelo S en el formulario FPL), en caso contrario, notifíquese en Q (Observaciones). Se supone que todas las aeronaves que vuelen según RPL están equipadas con transpondedores en clave 4 096, Modos A y C. En caso contrario notifíquese en Q (Observaciones). Anótense los planes de vuelo en orden alfabético según el indicador de lugar del aeródromo de salida. Anótense los planes de vuelo para cada aeródromo de salida en orden cronológico según las horas previstas de fu era calzos. Sígase con exactitud la representación convencional de los datos indicada para el formulario de plan de vuelo, a menos que se indique específicamente otras cosas en .4. Insértense siempre las horas con 4 cifras UTC. Insértense todas las duraciones previstas con 4 cifras (horas y minutos). Insértense, en renglones separados, los datos correspondientes a cada tramo de la operación con una o más paradas; es decir, desde cualquier aeródromo de salida hasta el aeródromo de destino siguiente, aunque el distintivo de llamada o el número de vuelo sea el mismo para los diferentes tramos. Indíquense con claridad todas las adiciones y supresiones de acuerdo a lo establecido para la Casilla H. En las listas subsecuentes se anotarán los datos corregidos y agregados y se omitirán los planes de vuelo suprimidos. Numérense las páginas indicando el número de página y el número total de páginas que se han presentado. Utilícese más de una línea para cualquiera de los RPL en los que no sea suficiente el espacio proporcionado para las casillas O y Q en una línea.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-225-0",
+    "text": "2.2 Cancelación La cancelación de un vuelo se efectuará de la forma siguiente: 1) anótese en la Casilla H un signo menos (–) seguido de los demás conceptos del vuelo cancelado; 2) insértese una entrada subsiguiente que consista en un signo más (+) en la Casilla H y la fecha del último vuelo en la Casilla J, sin modificar los demás conceptos del vuelo cancelado.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.2",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-227-0",
+    "text": "2.3 Modificaciones Las modificaciones de un vuelo se anotarán de la forma siguiente: 2. INSTRUCTIONS TO FILL IN THE REPETITIVE FLIGHT PLAN (RPL)",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.3",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-229-0",
+    "text": "2.1 General List only flight plans that will operate in accordance with IFR (Flight rules I in FPL format). It is assumed that all aircraft are operating as regular flights (Type of flight S in the FPL form), otherwise notify in Q (Remarks). It is assumed that all aircraft operating on RPL are equipped with 4096-code transponders with modes A and C. Otherwise, notify Q (Remarks). List flight plans in alphabetical order of the location indicator of the departure aerodrome. List flight plans for each departure aerodrome in chronological order of estimated off-block times. Adhere closely to the data conventions as indicated for the Flight Plan Form unless otherwise specifically indicated in 4.4. Insert all clock times in 4 figures UTC. Insert all estimated elapsed times in 4 figures (hours and minutes). Insert data on a separate line for each segment of operations with one or more stops; i.e., from any departure aerodrome to the next destination aerodrome, even though the callsign or flight number is the same for multiple segments. Clearly identify additions and deletions in accordance with Item H. Subsequent listings shall list the corrected and added data, and deleted flight plans must be omitted. Number pages by indicating number of pages and total number of pages in submission. Utilize more than one line for any RPL where the space provided for items O and Q on one line is not sufficient.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-232-0",
+    "text": "2.2 Cancellation A flight must be canceled as follows: 1) indicate a minus sign in item H followed by all other items of the canceled flight; 2) Insert a subsequent entry denoted by a plus sign in item H and the date of the last flight in item J, without changing all the other items of the canceled flight.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.2",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-235-0",
+    "text": "2.3 Modifications Modifications to a flight must be made as follows: AIP ARGENTINA ENR 1.10-31 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 1) efectúese la cancelación según se indica en “cancelación”; y 2) insértese una tercera entrada con los nuevos planes de vuelo en los que se notificarán, según sea necesario, los conceptos apropiados incluso las nuevas fechas de validez que figuran en las casillas I y J. Nota. — Todas las entradas correspondientes al mismo vuelo se insertarán sucesivamente en el orden antes mencionado.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.3",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-239-0",
+    "text": "2.4.1 Cambios permanentes Los cambios permanentes, que impliquen la inclusión de nuevos vuelos y la supresión o modificación de los que figuran en las listas, se presentarán en forma de listas enmendadas. Estas listas deberán llegar al organismo interesado de los servicios de tránsito aéreo por lo menos siete días antes de la fecha de entrada en vigor de dichos cambios. Cuando se hayan presentado inicialmente listas RPL utilizando medios adecuados al tratamiento electrónico de datos, también se permitirá, por acuerdo mutuo entre el explotador y el Proveedor de Servicios de Navegación Aérea (ANSP), la presentación de ciertas modificaciones por medio de formularios RPL. Todos los cambios de los RPL deberán presentarse conforme a las instrucciones relativas a la preparación de las listas RPL.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.4.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-241-0",
+    "text": "2.4.2 Cambios temporales Los cambios de carácter temporal y ocasional de los RPL relativos al tipo de aeronave, categoría de estela turbulenta, velocidad o nivel de crucero, se notificarán por cada vuelo, tan pronto como fuere posible y a más tardar 30 minutos antes de la salida a la oficina de notificación ATS responsable del aeródromo de salida. Los cambios relativos solamente al nivel de crucero podrán notificarse por radiotelefonía en ocasión del primer intercambio de comunicaciones con la dependencia ATS correspondiente. Si hubiera que modificar lo relativo a la identificación de la aeronave, al aeródromo de salida, a la ruta o al aeródromo de destino, se cancelará el RPL para el día en cuestión, y se presentará un plan de vuelo para el caso. Siempre que el explotador prevea que un vuelo determinado, para el cual se haya presentado un RPL, es probable que se demore por lo menos 30 minutos con relación a la hora de fuera calzos indicada en dicho plan, deberá notificarlo inmediatamente a la dependencia ATS responsable del aeródromo de salida. Nota. — Debido a las estrictas exigencias del control de afluencia, si los explotadores no cumplieran con este procedimiento podría ocasionarse la cancelación automática del RPL para ese vuelo en particular en una o más dependencias ATS interesadas. Siempre que el explotador sepa que se ha cancelado un vuelo para el cual se haya presentado un RPL, deberá notificarlo a la dependencia ATS responsable del aeródromo de salida.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.4.2",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-243-0",
+    "text": "2.5 Instrucciones para la inserción de los datos RPL Complétense las casillas A a Q como se indica a continuación. 1) Carry out the cancellation as indicated in “cancelación”; and 2) insert a third entry giving the new flight plans with the appropriate items modified as necessary, including the new validity dates in items I and J. Note. — All entries related to the same flight shall be inserted in succession in the order specified above.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.5",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-247-0",
+    "text": "2.4.1 Permanent changes The permanent changes, which imply the inclusion of new flights and the removal or modification of those that appear on the lists, will be presented in the form of amended lists. Such lists shall reach the organization interested on the air traffic services at least seven days before the date when said changes come into force. When RPL lists have originally been presented using the suitable means for electronic data processing, certain modifications may also be presented via RPL forms by mutual agreements between the operator and the Air Navigation Services Provider (ANSP). All RPL changes shall be presented in accordance with the instructions related to RPL lists preparation.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.4.1",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-249-0",
+    "text": "2.4.2 Temporary changes Occasional, temporary RPL changes related to aircraft type, slipstream turbulence category, speed or cruiser level shall be notified, for each flight, to the ATS responsible reporting office of the aerodrome of departure as soon as possible or, at the latest, 30 minutes before departing. The changes only related to cruiser level shall be notified by radiotelephony on the occasion of the first communication interchange with the pertinent ATS unit. If what is related to the identification of the aircraft, the aerodrome of departure, the route, or the aerodrome of destination has to be modified, the RPL shall be canceled for the day in question, and a flight plan shall be filed for that case. Whenever the operator foresees that a particular flight for which an RPL has been filed may be delayed for at least 30 minutes with regard to the on-block time indicated in such plan, he/she shall notify that immediately to the responsible ATS unit of the aerodrome of departure. Note. — Due to the strict requirements of flow control, if the operators fail to comply with this procedure, the automatic cancellation of the RPL for this particular flight might occur in one or more ATS interested units. Whenever the operator knows that a flight for which an RPL had been filed has been canceled, he/she shall notify that to the responsible ATS unit of the aerodrome of departure.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.4.2",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-251-0",
+    "text": "2.5 Instructions for insertion of RPL data Complete Items A to Q as indicated hereunder. AIP ARGENTINA ENR 1.10-32 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 CASILLA A: EXPLOTADOR / ITEM A: OPERATOR INSÉRTESE el nombre del explotador. INSERT Name of operator. CASILLA B: DESTINATARIOS / ITEM B: ADDRESSEES INSÉRTENSE el nombre de los organismos designados por los Estados para administrar los RPL correspondientes a las FIR o a las zonas de responsabilidad afectadas por la ruta de vuelo. INSERT Name of entities designated by the States to administer RPLs for FIRs or areas of responsibility concerned with the flight route. CASILLA C: AERÓDROMOS DE SALIDA / ITEM C: DEPARTURE AERODROMES INSÉRTENSE los indicadores de lugar de los aeródromos de salida. INSERT location indicators of departure aerodromes. CASILLA D: FECHA / ITEM D: DATE INSÉRTESE año, mes y día correspondientes a la fecha de presentación del plan en cada página presentada, según grupos de 6 cifras. INSERT on each filed page the date of submission, year, month, day, in groups of 6 figures. CASILLA E: NÚMERO DE SERIE / ITEM E: SERIAL NUMBER INSÉRTESE el número de presentación de la lista, mediante dos cifras que indiquen las dos últimas del año, un guion y el número de secuencia de la presentación para el año indicado (comiéncese con el número 1 cada nuevo año). INSERT serial number of submission, two numbers indicating last two digits of year, a dash, and the sequential number of the submission for the indicated year (start with number 1 each new year). CASILLA F: PÁGINA DE / ITEM F: PAGE OF INSÉRTESE el número de página y el número total de páginas presentadas. INSERT page number and the total number of pages submitted. CASILLA G: DATOS SUPLEMENTARIOS EN / ITEM G: SUPPLEMENTARY DATA AT INSÉRTESE nombre y detalles apropiados del contacto de la entidad donde se mantiene disponible, y puede obtenerse inmediatamente, la información normalmente proporcionada en la Casilla 19 del FPL. INSERT contact name and appropriate details where the information under Item 19 of the FPL is available and may be immediately obtained. CASILLA H: TIPO DE INSCRIPCIÓN / ITEM H: ENTRY TYPE INSÉRTESE un signo menos (–) para cada plan de vuelo que debe suprimirse de la lista. INSERT a minus sign (-) for each flight plan that is to be deleted from the listing. AIP ARGENTINA ENR 1.10-33 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 INSÉRTESE un signo más (+) para cada inscripción inicial y, si se efectúan otras presentaciones para cada plan de vuelo que no se haya incluido en la presentación anterior. Nota. –– En esta Casilla no es necesario incluir los datos correspondientes a cualquier plan de vuelo que no hayan sido modificados después de la presentación anterior. INSERT a plus sign (+) for each initial listing and, in the case of subsequent submissions, for each flight plan not listed in the previous submission. Note. -- No information is required under this Item",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "2.5",
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-251-450",
+    "text": "a cualquier plan de vuelo que no hayan sido modificados después de la presentación anterior. INSERT a plus sign (+) for each initial listing and, in the case of subsequent submissions, for each flight plan not listed in the previous submission. Note. -- No information is required under this Item for any flight plan which is unchanged from the previous submission. CASILLA I: VÁLIDO DESDE / ITEM I: VALID FROM INSÉRTESE fecha primera (año, mes, día) en que está programado el vuelo regular. INSERT first date (year, month, day) upon which the regular flight is scheduled to operate. CASILLA J: VÁLIDO HASTA / TEM J: VALID UNTIL INSÉRTESE última fecha (año, mes, día) en que está programado el vuelo según lo indicado en la lista, o UFN si no se conoce la duración. INSERT last date (year, month, day) upon which the flight is scheduled to operate as listed, or UFN if the duration is unknown. CASILLA K: DÍAS DE OPERACIÓN / ITEM K: DAYS OF OPERATION INSÉRTESE número correspondiente al día de la semana en la columna correspondiente; lunes = 1 a domingo = 7. INSÉRTESE 0, en la columna correspondiente, para cada día en que no se realicen vuelos. INSERT number corresponding to the day of the week in the respective column; Monday = 1 through Sunday = 7. INSERT 0 for each day of no flights in the respective column. CASILLA L: IDENTIFICACIÓN DE LA AERONAVE / ITEM L: AIRCRAFT IDENTIFICATION (Casilla 7 del plan de vuelo OACI) (Item 7 of the ICAO flight plan) INSÉRTESE identificación de la aeronave que se ha de utilizar en el vuelo. INSERT aircraft identification to be used for the flight. CASILLA M: TIPO DE AERONAVE Y CATEGORÍA DE ESTELA TURBULENTA/ ITEM M: TYPE OF AIRCRAFT AND WAKE TURBULENCE CATEGORY (Casilla 9 del plan de vuelo OACI) (Item 9 of the ICAO flight plan) INSÉRTESE el designador OACI apropiado según se especifica en el Doc. 8643 de la OACI — Designadores de tipos de aeronave y/o el documento nacional que lo contenga y la normativa nacional que lo complemente. INSÉRTESE el indicador H, M o L según corresponda: J — SUPER, para indicar un tipo de aeronave especificado como tal en Designadores de tipos de aeronaves (Doc. 8643 de la OACI). H — PESADA para indicar un tipo de aeronave de masa máxima certificada de despegue de 136.000 kg o más, a excepción de los tipos de aeronaves que se indican en el Doc. 8643 dentro de la categoría SUPER (J). INSERT the appropriate ICAO designator as specified in ICAO Doc 8643 - Aircraft Type Designators and/or the national document that contains them and the national rules to complement them. INSERT H, M or L indicator as appropriate: J — SUPER, to indicate an aircraft type specified as such in Aircraft Type Designators (ICAO Doc. 8643) H — HEAVY to indicate an aircraft type with a maximum certificated take-off mass of 136,000 kg or more, except for the types of aircraft",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-251-900",
+    "text": "H, M or L indicator as appropriate: J — SUPER, to indicate an aircraft type specified as such in Aircraft Type Designators (ICAO Doc. 8643) H — HEAVY to indicate an aircraft type with a maximum certificated take-off mass of 136,000 kg or more, except for the types of aircraft indicated in Doc. 8643 within the SUPER (J) category. AIP ARGENTINA ENR 1.10-34 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 M — MEDIA para indicar un tipo de aeronaves de masa máxima certificada de despegue inferior a 136.000 kg, pero superior a 7.000 kg. L — LIGERA para indicar un tipo de aeronave de masa máxima certificada de despegue de 7.000 kg o menos. M — MEDIUM to indicate an aircraft type with a maximum certificated take-off mass of less than 136,000 kg but more than 7,000 kg. L — LIGHT to indicate an aircraft type with a maximum certificated take-off mass of 7,000 kg or less. CASILLA N: AERÓDROMOS DE SALIDA Y HORA / ITEM N: DEPARTURE AERODROME AND TIME (Casilla 13 del plan de vuelo OACI) (Item 13 of the ICAO flight plan) INSÉRTESE el indicador de lugar del aeródromo de salida. INSÉRTESE la hora de fuera calzos, es decir, la hora prevista en que la aeronave iniciará el desplazamiento asociado con la salida. INSERT location indicator of the departure aerodrome. INSERT the off-block time, i.e., the estimated time that the aircraft will commence movement associated with departure. CASILLA O: RUTA / ITEM O: ROUTE (Casilla 15 del plan de vuelo OACI) (Item 15 of the ICAO flight plan) a) Velocidad de crucero INSÉRTESE la velocidad verdadera respecto a la primera parte o a la totalidad del vuelo en crucero de acuerdo con la Casilla 15 a) del plan de vuelo OACI. b) Nivel de crucero INSÉRTESE el nivel de crucero para la primera parte o para toda la ruta de acuerdo con la Casilla 15 b) del plan de vuelo OACI. c) Ruta INSÉRTESE la ruta completa de acuerdo con la Casilla 15 c) del plan de vuelo OACI. a) Cruising speed INSERT the true airspeed for the first or whole cruising portion of the flight in accordance with Item 15 a) of the ICAO flight plan. b) Cruising level INSERT the planned cruising level for the first or whole portion of the route in accordance with Item 15 b) of the ICAO flight plan. c) Route INSERT the entire route according to the Item 15 c) of the ICAO flight plan. CASILLA P: AERÓDROMO DE DESTINO Y DURACIÓN TOTAL PREVISTA / ITEM P: DESTINATION AERODROME AND TOTAL ESTIMATED ELAPSED TIME (Casilla 16 del plan de vuelo OACI) (Item 16 of the ICAO flight plan) INSÉRTESE el indicador de lugar del aeródromo de destino. INSÉRTESE la duración total prevista INSERT location indicator of the destination aerodrome. INSERT the total estimated elapsed time. CASILLA Q: OBSERVACIONES / ITEM Q: REMARKS INSÉRTESE toda información requerida por el ATSP, datos notificados normalmente en la Casilla 18 del",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-251-1350",
+    "text": "plan) INSÉRTESE el indicador de lugar del aeródromo de destino. INSÉRTESE la duración total prevista INSERT location indicator of the destination aerodrome. INSERT the total estimated elapsed time. CASILLA Q: OBSERVACIONES / ITEM Q: REMARKS INSÉRTESE toda información requerida por el ATSP, datos notificados normalmente en la Casilla 18 del plan de vuelo OACI y toda otra información pertinente al plan de vuelo que resulte de interés para los ATS. INSERT all information as required by the appropriate ATSP, data normally notified in Item 18 of the ICAO flight plan and any other information relevant to the flight plan that might be of concern to the ATS. AIP ARGENTINA ENR 1.10-35 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 3 PLANES DE VUELO REPETITIVOS (RLP) – VUELOS ENTRE CHILE Y ARGENTINA Los vuelos internacionales regulares que sobrevuelan las rutas que cruzan las Regiones de Información de Vuelo (FIR) adyacentes de Chile -Argentina, que tengan origen y destino dentro de los mismos, podrán presentar planes de vuelo repetitivos de acuerdo con los procedimientos establecidos a continuación. El explotador presentará, por los medios y las direcciones que se indican más abajo, las listas RPL y/o sus enmiendas correspondientes al organismo designado, con por lo menos QUINCE (15) días de antelación a la fecha de validez. Las cancelaciones permanentes se informarán al organismo designado con una antelación mínima de SIETE (7) días. Las listas de planes de vuelo repetitivos deberán presentarse en la forma prescripta en la Parte ENR 1.10. Las fechas deberán ser indicadas en términos de día, mes, año (dd, mm, aa). Los organismos designados para la recepción de las listas RPL, informarán al explotador por los medios más apropiados, la recepción, y la aceptación o no aceptación de sus listas de RPL o de sus modificaciones. El explotador deberá asegurarse de la aceptación o no aceptación de su lista de RPL por todos los organismos involucrados, designados por los Estados, antes de la fecha de validez de los RPL de la lista. El explotador continuará presentando normalmente los Planes de Vuelo (FPL), aún cumplida la fecha de validez propuesta hasta recibir la confirmación de la aceptación de su lista de RPL por los organismos designados por los países. Los Centros de RPL o las dependencias asignadas para la recepción de las listas se informarán recíprocamente, a través de AFTN, o facsímil de la aceptación de las listas de RPL y sus enmiendas. En caso de falla de dicha red podrán ser utilizados los medios de alternativas establecidos en la RAAC 211 Gestión del Tránsito Aéreo, una vez normalizado el circuito AFTN deberán ser transmitidos por este medio. Los indicativos de los destinatarios de los mensajes serán: PARA ARGENTINA (SEGÚN LA FIR) SAMEZRZX (para ACC Mendoza) Informativo: SABAYRYX SAEZZRZX (para ACC Ezeiza) Informativo: SABAYRYX SACOZRZX (para ACC Córdoba) Informativo: SABAYRYX SAVCZRZX (para ACC Com. Rivadavia) Informativo: SABAYRYX SAREZRZX (para ACC Resistencia) Informativo: SABAYRYX Telefax ACC Ezeiza (5411) 4480 2203-2265 Telefax ACC Mendoza (54261) 4487486 4410900/0910 extensión 24337 Telefax ACC",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-251-1800",
+    "text": "(SEGÚN LA FIR) SAMEZRZX (para ACC Mendoza) Informativo: SABAYRYX SAEZZRZX (para ACC Ezeiza) Informativo: SABAYRYX SACOZRZX (para ACC Córdoba) Informativo: SABAYRYX SAVCZRZX (para ACC Com. Rivadavia) Informativo: SABAYRYX SAREZRZX (para ACC Resistencia) Informativo: SABAYRYX Telefax ACC Ezeiza (5411) 4480 2203-2265 Telefax ACC Mendoza (54261) 4487486 4410900/0910 extensión 24337 Telefax ACC Córdoba (54351) 4335350 / 4756450 Telefax ACC Com. Rivadavia (54297) 4548375 Telefax ACC Resistencia (54362) 440939 o 436291/92/93 PARA CHILE 3. REPETITIVE FLIGHT PLAN (RLP) – FLIGHTS BETWEEN CHILE AND ARGENTINA For regular international flights that overfly the routes that cross the Flight Information Regions (FIR) adjacent to Chile-Argentina, with departure and destination within the same, repetitive flight plans may be filed according to the following procedures: The operator shall file, through the means and addresses indicated below, the RPL lists and/or its amendments to the designated entity at least FIFTEEN (15) days before the effective date. The permanent cancellations shall be informed to the designated entity at least SEVEN (7) days in advance. The repetitive flight plan lists shall be filed in the way prescribed in this ENR 1.10. The dates shall be indicated in terms of day, month, year (dd, mm, yy). The entities designated to receive the RPL lists shall inform the operator, through the most adequate means, the reception, and the acceptance or non-acceptance of their RPL lists or of its modifications. The operator shall check if its RPL list was or was not accepted by all the involved entities, designated by the States, before the effective dates of the RPL of the list. The operator shall normally continue filing the Flight Plans (FPL), even when the proposed effective date has passed until receiving the confirmation of acceptance of its RPL list by the entities designated by the countries. The RPL Centers or units designated for the reception of the lists shall inform one another, through AFTN or fax, about the acceptance of the RPL lists and its amendments. If there is a failure in said network, the alternative means prescribed in RAAC 211 Air Traffic Management may be used, once the AFTN circuit is working, the information shall be transmitted by that means. The addressee’s indicators shall be: FOR ARGENTINA (ACCORDING TO THE FIR) SAMEZRZX (for Mendoza ACC) Informative: SABAYRYX SAEZZRZX (for Ezeiza ACC) Informative: SABAYRYX SACOZRZX (for Córdoba ACC) Informative: SABAYRYX SAVCZRZX (for Com. Rivadavia ACC) Informative: SABAYRYX SAREZRZX (for Resistencia ACC) Informative: SABAYRYX Telefax Ezeiza ACC (5411) 4480 2203-2265 Telefax Mendoza ACC (54261) 4487486 4410900/0910 extension 24337 Telefax Córdoba ACC (54351) 4335350 / 4756450 Telefax Com. Rivadavia ACC (54297) 4548375 Telefax Resistencia ACC (54362) 440939 or 436291/92/93 FOR CHILE AIP ARGENTINA ENR 1.10-36 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 (Ref. Acta acuerdo Reunión Bilateral ATS Argentina-Chile 01/12/2006) SCELZRZX (para ACC Santiago) Informativo: SCSCZXNT FONO / FAX ACC Santiago (56-2)- 7672001 / 4363027 FONO / FAX OF. OPERACIONES (562) 6019368. E-mail operaciones_amb@dgac.cl oficinaaro@dgac.cl (Ref. Memorandum of Agreement Argentina-Chile ATS Bilateral Meeting December 1st, 2006) SCELZRZX (for Santiago ACC) Informative: SCSCZXNT",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-251-2250",
+    "text": "(Ref. Acta acuerdo Reunión Bilateral ATS Argentina-Chile 01/12/2006) SCELZRZX (para ACC Santiago) Informativo: SCSCZXNT FONO / FAX ACC Santiago (56-2)- 7672001 / 4363027 FONO / FAX OF. OPERACIONES (562) 6019368. E-mail operaciones_amb@dgac.cl oficinaaro@dgac.cl (Ref. Memorandum of Agreement Argentina-Chile ATS Bilateral Meeting December 1st, 2006) SCELZRZX (for Santiago ACC) Informative: SCSCZXNT Phone / FAX ACC Santiago (56-2) - 7672001 / 4363027 Phone / FAX OPERATIONS OFFICE (562) 6019368. E-mail operaciones_amb@dgac.cl oficinaaro@dgac.cl 4. PLANES DE VUELO REPETITIVOS (RLP) – VUELOS ENTRE BOLIVIA Y ARGENTINA; BRASIL YARGENTINA; PARAGUAY Y ARGENTINA; URUGUAY Y ARGENTINA.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-253-0",
+    "text": "4.1 Extensión Los vuelos internacionales regulares que sobrevuelan las rutas que cruzan las Regiones de Información de Vuelo (FIR) adyacentes de Bolivia – Argentina, Brasil – Argentina, Paraguay y Uruguay – Argentina que tengas origen y destino dentro de los mismos, podrán presentar planes de vuelo repetitivos de acuerdo con los procedimientos establecidos a continuación.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.1",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-255-0",
+    "text": "4.2 Objetivo El propósito de este Acuerdo se relaciona únicamente con la aplicación a que hace referencia en el Reglamento del Aire (Anexo 2) de la Organización de Aviación Civil Internacional (OACI) párrafo",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.2",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-256-0",
+    "text": "3.3.1.3 y en los Procedimientos Generales – Gestión del Tránsito Aéreo (PROGEN-ATM) Capitulo 16, párrafo 16.4 (Uso de los planes de vuelo repetitivos) y Apéndice 2.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-258-0",
+    "text": "4.3 Procedimientos Presentación de los Planes de Vuelo repetitivos El explotador presentará, por los medios y a las direcciones que indique cada Estado, la lista RPL y/o sus enmiendas correspondientes al organismo designado con, por lo menos QUINCE (15) días de antelación a la fecha de validez y las modificaciones se presentarán con SIETE (7) días de antelación. Las cancelaciones permanentes se informarán en la forma descrita en el párrafo a) pero con una antelación mínima de SIETE (7) días. Las listas de Plan de Vuelo Repetitivo deberán presentarse en la forma descrita en los Procedimientos Generales – Gestión del Tránsito Aéreo (PROGEN-ATM) Capitulo 16, párrafo 16.4 (Uso de los planes de vuelo repetitivos) y Apéndice 2. Las fechas deberán ser indicadas en términos de días, mes y año (dd, mm, aa). Las listas RPL deberán contar con el nombre completo, dirección y teléfono del responsable. Las listas RPL deberán ser numeradas en forma correlativa. Control de Aceptación Los organismos designados para la recepción de las listas de RPL, informaran al explotador por los medios más apropiados, la recepción y la aceptación de sus listas de RPL o sus modificaciones. El explotador deberá asegurarse de la aceptación de su lista de RPL, por todos los organismos involucrados, designados por cada 4. REPETITIVE FLIGHT PLANS (RPL) – FLIGHTS BETWEEN BOLIVIA Y ARGENTINA; BRAZIL Y ARGENTINA; PARAGUAY Y ARGENTINA; URUGUAY Y ARGENTINA",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.3",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-260-0",
+    "text": "4.1 Extension For regular international flights that overfly the routes that cross the Flight Information Regions (FIR) adjacent to Bolivia-Argentina, Brazil-Argentina, Paraguay and Uruguay – Argentina with departure and destination within the same, repetitive flight plans may be filed according to the following procedures.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.1",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-263-0",
+    "text": "4.2 Purpose The purpose of this Agreement is only related to the application referred to in the ICAO Rules of the Air (Annex 2), paragraph 3.3.1.3 and in the General Procedures – Air Traffic Management (PROGEN- ATM), Chapter 16, paragraph 16.4 (Use of the repetitive flight plans) and of the Appendix 2.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.2",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-266-0",
+    "text": "4.3 Procedures Repetitive Flight Plan Filing The operator shall file the RPL list and/or its amendments through the means and to the addresses of the entities indicated by each State, at least FIFTEEN (15) days before the effective date and the changes shall be filed SEVEN (7) days in advance. The permanent cancellations shall be informed in the way described in paragraph a) but with SEVEN (7) days in advance. The Repetitive Flight Plan lists shall be filed in the way described by the General Procedures – Air Traffic Management (PROGEN-ATM), Chapter 16, paragraph 16.4 (Use of the repetitive flight plans) and of the Appendix 2. The dates shall be indicated in terms of days, month, and year (dd, mm, yy). The RPL lists shall have the complete name, address and telephone of the person responsible. The RPL lists shall be numerated in a consecutive order. Acceptance Control The entities designated to receive the RPL lists shall inform the operator, through the most adequate means, the reception, and the acceptance of their RPL lists or of its modifications. The operator shall check if its RPL list was or was not accepted by all the involved entities, designated by each State, before the FIFTEEN (15) days of the effective date of the RPL of the list. AIP ARGENTINA ENR 1.10-37 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 Estado, antes de los QUINCE (15) días de la fecha de validez de los RPL de la lista. El explotador continuara presentando normalmente los Planes de Vuelo (FPL) aun cumplida la fecha de validez propuesta hasta recibir la confirmación de la aceptación de su lista de RPL por los organismos designados por los Estados. Los Centros RPL o las dependencias así designadas para la recepción de las listas deberán contar con acuerdos multilaterales para la aceptación de los RPL. Dichos Centros o dependencias se informarán recíprocamente, a través del correo electrónico o AFTN/AMHS o fax, de la aceptación de la lista RPL y sus enmiendas/modificaciones. Las listas RPL autorizadas por los Estados serán enviadas a los demás Estados para su aprobación con una periodicidad de 4 veces al año y las modificaciones (hasta 20% del total) se harán según calendario AIRAC. En las listas no se utilizará el término UFN (hasta nuevo aviso), debiéndose colocar fecha final de validez. Los indicativos de los destinatarios de los mensajes serán: PARA ARGENTINA (SEGÚN LA FIR) AFTN SAEZZRZX (ACC Ezeiza) Informativo: SABAYRYX SAMEZRZX (ACC Mendoza) Informativo: SABAYRYX SACOZRZX (ACC Córdoba) Informativo: SABAYRYX SAREZRZX (ACC Resistencia) Informativo: SABAYRYX SAVCZRZX (ACC Com. Rivadavia) Informativo: SABAYRYX Telefax ACC Ezeiza (5411) 4480 2203-2265 ACC Mendoza (54261) 4487486 4410900/0910 extensión 24337 ACC Córdoba (54351) 4335350/4756450 ACC Resistencia (54362) 440939 o 436291/92/93 ACC Com. Rivadavia (54297) 4548375 PARA BOLIVIA Unidad ATM – Oficina RPL Departamento de Navegación Aérea Calle Reyes Ortiz 74 La Paz, Bolivia AFTN SLLPYRYB E-mail: rpl@aasana.bo Teléfono: 591-2-2316686 PARA BRASIL Central de Planes de Vuelo Repetitivos Centro de Gestión de Navegación Aérea (CGNA) Avenida General Justo",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.3",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-266-450",
+    "text": "440939 o 436291/92/93 ACC Com. Rivadavia (54297) 4548375 PARA BOLIVIA Unidad ATM – Oficina RPL Departamento de Navegación Aérea Calle Reyes Ortiz 74 La Paz, Bolivia AFTN SLLPYRYB E-mail: rpl@aasana.bo Teléfono: 591-2-2316686 PARA BRASIL Central de Planes de Vuelo Repetitivos Centro de Gestión de Navegación Aérea (CGNA) Avenida General Justo Nº 160, 4 (cuarto) piso Centro - CEP – 22295-090 Río de Janeiro – RJ E-mail: cpvr@cgna.gov.br Teléfono: 55-21-2101-6409 o 55-21-2101-6449 PARA PARAGUAY The operator shall normally continue filing the Flight Plans (FPL), even when the proposed effective date has passed until receiving the confirmation of acceptance of its RPL list by the entities designated by the States. The RPL Centers or units designated for the lists reception shall have multilateral agreements for the acceptance of the RPL. Such RPL Centers or units shall inform one another via e-mail or AFTN/AMHS or fax, about the acceptance of the RPL list and its amendments/modifications. The RPL lists authorized by the States shall be sent to the rest of the States for their approval 4 times a year and the modifications (up to 20 % of the total) shall be made according to the AIRAC calendar. In the lists, the term UFN (until further notice) shall not be used, the final effective date shall be indicated. The addressees’ indicatives for messages shall be: FOR ARGENTINA (ACCORDING TO THE FIR) AFTN SAEZZRZX (ACC Ezeiza) Informative: SABAYRYX SAMEZRZX (ACC Mendoza) Informative: SABAYRYX SACOZRZX (ACC Córdoba) Informative: SABAYRYX SAREZRZX (ACC Resistencia) Informative: SABAYRYX SAVCZRZX (ACC Com. Rivadavia) Informative: SABAYRYX Telefax Ezeiza ACC (5411) 4480 2203-2265 Mendoza ACC (54261) 4487486 4410900/0910 extension 24337 Córdoba ACC (54351) 4335350/4756450 Resistencia ACC (54362) 440939 or 436291/92/93 Com. Rivadavia ACC (54297) 4548375 FOR BOLIVIA ATM Unit– RPL Office. Air Navigation Department Calle Reyes Ortiz 74 La Paz, Bolivia AFTN SLLPYRYB E-mail: rpl@aasana.bo Phone: 591-2-2316686 FOR BRAZIL Repetitive Flight Plans Central Air Navigation Management Center (CGNA) Avenida General Justo Nº 160, 4 (fourth) floor. Centro - CEP – 22295-090 Río de Janeiro – RJ E-mail: cpvr@cgna.gov.br Phone: 55-21-2101-6409 o 55-21-2101-6449 FOR PARAGUAY AIP ARGENTINA ENR 1.10-38 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2024 28 NOVIEMBRE 2024 Telefax GNNA 595-21-205365 E-mail: rplparaguay@dinac.gov.py atm_gna@dinac.gov.py PARA URUGUAY AFTN SUMUZBZX (ACC MVD) SUMUZRZX (CENTRO RPL) Telefax ACC MVD (005982) 6040251 INT. 5155 CENTRO RPL (005981) 6040251 INT. 5111 E-mail: atmrpl@dinacia.gub.uy Los Centros de RPL o las dependencias ATS así designadas por los países signatarios de este Acuerdo informaran a los explotadores la ACEPTACIÓN o la NO ACEPTACIÓN de los RPL presentados.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-268-0",
+    "text": "4.4 MENSAJES ATS RPL El intercambio de mensajes ATS relacionados con el desarrollo de cada vuelo objeto de este Acuerdo, así como la aplicación de procedimientos complementarios a los enunciados, se efectuarán de conformidad con los principios contenidos en los Procedimientos Generales – Gestion del Transito Aereo (PROGEN – ATM). Asimismo, se tendrán en cuenta: 1) Mensajes de Demora (DLA): se trasmitirán cuando la demora en la hora prevista de partida exceda los TREINTA (30) minutos. 2) Mensaje de Cancelación de Plan de Vuelo (CNL): se trasmitirán cuando se anule un vuelo un día determinado. Este mensaje se cursará el día de la cancelación del vuelo. 3) Mensaje de Modificación (CHG): se trasmitirán cuando se produzcan cambios de índole temporal, en un día de- terminado en un RPL. Nota. –– Para los mensajes mencionados anteriormente se utilizará como canal de coordinación principal la red AFTN/AMHS y como secundario el Circuito oral ATS. Los mensajes mencionados en 3) se presentarán con no más de UNA (1) hora de la hora prevista de inicio del vuelo. Telefax GNNA 595-21-205365 E-mail: rplparaguay@dinac.gov.py atm_gna@dinac.gov.py FOR URUGUAY AFTN SUMUZBZX (MVD ACC) SUMUZRZX (RPL CENTER) Telefax MVD ACC (005982) 6040251 INT. 5155 RPL CENTER (005981) 6040251 INT. 5111 E-mail: atmrpl@dinacia.gub.uy The RPL Centers or the ATS units designated by the countries that sign this Agreement shall inform the operators about the ACCEPTANCE or NON ACCEPTANCE of the filed RPL.",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.4",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 10.pdf-270-0",
+    "text": "4.4 RPL ATS MESSAGES The ATS messages exchange related to the development of each flight referred to in this Agreement, as well as the application of procedures complementary to the mentioned ones, shall be made according to the principles contained in the General Procedures – Air Traffic Management (PROGEN – ATM). Likewise, it shall be taken into account: 1) Delay Messages (DLA): they will be transmitted when the estimated time of departure exceeds THIRTY (30) minutes. 2) Flight Plan Cancellation Message (CNL): they will be transmitted when a flight is cancelled for a certain day. This message shall be sent the day the flight is cancelled. 3) Change Message (CHG): they will be transmitted when temporary changes occur, in a certain day of a RPL. Note. –– For the abovementioned messages, the AFTN/AMHS network shall be used as the primary coordination channel, and the ATS oral Circuit shall be used as secondary. The messages mentioned in 3) shall be sent at least ONE (1) hour before the estimated time of the beginning of the flight. AIP ARGENTINA ENR 1.10-39 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2025 27 NOVIEMBRE 2025 Apéndice 3 / Appendix 3 FORMULARIO DE MODIFICACIÓN (CHG) / CHANGE FORM (CHG)  AIP ARGENTINA ENR 1.10-40 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2025 27 NOVIEMBRE 2025 Apéndice 4 / Appendix 4 FORMULARIO DE DEMORA (DLA) / DELAY FORM (DLA)  AIP ARGENTINA ENR 1.10-41 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AIRAC AMDT 2/2025 27 NOVIEMBRE 2025 Apéndice 5 / Appendix 5 FORMULARIO DE CANCELACIÓN (CNL) / CANCELLATION FORM (CNL) ",
+    "metadata": {
+      "source": "AIP - ENR1 - 10.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.4",
+      "chapter": "4"
+    }
+  }
+]

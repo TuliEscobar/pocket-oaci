@@ -13,24 +13,32 @@ export interface RAGSource {
 }
 
 export interface RAGResult {
-    answer: string;
+    answer?: string;
+    stream?: any; // GenerateContentStreamResult
     sources: RAGSource[];
     model: string;
 }
 
 export async function queryRAG(question: string, locale: string = 'es', jurisdiction: 'ICAO' | 'ARG' = 'ICAO'): Promise<RAGResult> {
     try {
+        console.log(`[RAG] Starting query for: "${question}" (Jurisdiction: ${jurisdiction})`);
+        const startTime = Date.now();
+
         // 1. Generar embedding de la pregunta
+        console.time('[RAG] Embedding Generation');
         const embeddingModel = genAI.getGenerativeModel({ model: 'text-embedding-004' });
         const questionEmbedding = await embeddingModel.embedContent(question);
+        console.timeEnd('[RAG] Embedding Generation');
 
         // 2. Buscar en Pinecone con más contexto para respuestas completas
+        console.time('[RAG] Pinecone Query');
         const index = pinecone.index('oaci-docs');
         const searchResults = await index.query({
             vector: questionEmbedding.embedding.values,
-            topK: 12, // Aumentado a 12 para obtener más contexto y respuestas más completas
+            topK: 8, // Reducido a 8 para mejorar latencia
             includeMetadata: true
         });
+        console.timeEnd('[RAG] Pinecone Query');
 
         // 3. Extraer contexto relevante
         const sources: RAGSource[] = searchResults.matches.map(match => ({
@@ -151,7 +159,8 @@ RESPONSE FORMAT:
 IMPORTANT: If you find relevant information in the context, respond with CONFIDENCE and COMPLETELY. Don't be vague or partial.`;
         }
 
-        const model = genAI.getGenerativeModel({ model: 'gemini-2.5-pro-preview-03-25' });
+        console.time('[RAG] LLM Initialization');
+        const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-exp' });
         const chat = model.startChat({
             history: [
                 { role: 'user', parts: [{ text: systemPrompt }] },
@@ -159,13 +168,18 @@ IMPORTANT: If you find relevant information in the context, respond with CONFIDE
             ]
         });
 
-        const result = await chat.sendMessage(question);
+        // Use sendMessageStream instead of sendMessage
+        const result = await chat.sendMessageStream(question);
+        console.timeEnd('[RAG] LLM Initialization');
 
-        // 5. Retornar respuesta con fuentes
+        const totalTime = Date.now() - startTime;
+        console.log(`[RAG] Setup execution time: ${totalTime}ms`);
+
+        // 5. Retornar stream y fuentes
         return {
-            answer: result.response.text(),
+            stream: result,
             sources: sources,
-            model: 'gemini-2.5-pro-preview-03-25 + RAG'
+            model: 'gemini-2.0-flash-exp + RAG'
         };
 
     } catch (error: any) {

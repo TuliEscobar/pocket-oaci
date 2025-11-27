@@ -1,0 +1,383 @@
+[
+  {
+    "id": "AIP - ENR1 - 9.pdf-0-0",
+    "text": "AIP ARGENTINA ENR 1.9.-1 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AMDT AIRAC 2/2025 27 NOVIEMBRE 2025       DEFINICIONES Aeronave pilotada a distancia. Aeronave cuyo piloto no se encuentra a bordo. Aeropuertos de Interés ATFM. Aeropuertos cuya demanda a veces excede, o se espera que exceda, la capacidad aeroportuaria declarada. Área reservada temporalmente (TRA). Espacio aéreo reservado temporalmente y asignado para el uso específico de un usuario, por un periodo de tiempo determinado, a través del cual pueden transitar otros vuelos bajo autorización del control del tránsito aéreo (ATC). Área segregada temporalmente (TSA). Espacio aéreo segregado y asignado temporalmente para el uso exclusivo de un usuario, durante un periodo de tiempo determinado, a través del cual no se permitirá el tránsito de otros vuelos. ATFM Transfronterizo. Es una iniciativa regional para implementar la red de la Gestión de Afluencia del Tránsito Aéreo (ATFM) teniendo en cuenta el entorno regional y confiando en un fuerte espíritu de Toma de Decisiones en Colaboración (CDM) entre los ANSP regionales. Esta iniciativa facilita el equilibrio de la capacidad y demanda transfronteriza para garantizar que la región pueda hacer frente a una demanda de tráfico en constante crecimiento y cuando enfrenta limitaciones de capacidad. Capacidad ATC. El término genérico que incluye los conceptos de capacidad de pista y de capacidad del espacio aéreo (de los sectores ATC). Nota. —Las capacidades ATC no son valores estáticos, sino que varían con la complejidad del tránsito y otros factores (por ej. condiciones meteorológicas, disponibilidad del sistema CNS/ATM, demanda, diseño del aeródromo, etc.). Capacidad de pista declarada. Número máximo de operaciones de aeronaves para una determinada pista en condiciones especificadas (diseño del aeródromo, mix de aeronaves, condiciones meteorológicas, etc.) tomando en cuenta todas las operaciones de despegue y aterrizaje para un período especificado de tiempo (hora, día, mes, año, estacional). Nota. – Para la prestación del Servicio ATFM, se consideran los valores de capacidad declarada de pista. Capacidad de sector ATC declarada. Número de aeronaves dentro de una parte específica del espacio aéreo en un período determinado de tiempo, teniendo en cuenta las condiciones climáticas, la configuración de la unidad ATC, el personal operativo, el equipamiento disponible, así como cualquier otro factor que puedan afectar la carga de trabajo del controlador responsable por el espacio aéreo. Nota. – Para la prestación del Servicio ATFM, se consideran los valores de capacidad de sector ATC declarada. DEFINITIONS Remotely piloted aircraft. An aircraft whose pilot is not on board. Airports of ATFM Interest. Airports whose demand sometimes exceeds, or is expected to exceed, the declared airport capacity. Temporarily reserved area (TRA). Airspace temporarily reserved and assigned for the specific use of a user, for a specified period of time, through which other flights may transit with the authorization of air traffic control (ATC). Temporarily Segregated Area (TSA). Airspace that is temporarily segregated and allocated for the exclusive use of a user for a specific period of time, during which other flights are not permitted to transit. ATFM Cross-border. It",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-0-450",
+    "text": "through which other flights may transit with the authorization of air traffic control (ATC). Temporarily Segregated Area (TSA). Airspace that is temporarily segregated and allocated for the exclusive use of a user for a specific period of time, during which other flights are not permitted to transit. ATFM Cross-border. It is a regional initiative to implement the Air Traffic Flow Management (ATFM) network, taking into account the regional environment and relying on a strong spirit of Collaborative Decision-Making (CDM) among regional ANSPs. This initiative will facilitate the balancing of cross-border capacity and demand to ensure the region can cope with ever-increasing traffic demand and capacity constraints. ATC Capacity. The generic term that includes the concepts of runway capacity and airspace capacity (of ATC sectors). Note. —ATC capacities are not static values, but vary with traffic complexity and other factors (e.g. weather conditions, CNS/ATM system availability, demand, aerodrome design, etc.). Declared runway capacity. Maximum number of aircraft operations for a given runway under specified conditions (aerodrome design, aircraft mix, meteorological conditions, etc.), taking into account all takeoff and landing operations for a specified period (hour, day, month, year, season). Note. – For the provision of ATFM services, declared runway capacity values are considered. Declared ATC sector capacity. The number of aircraft within a specific portion of the airspace in a given period, taking into account weather conditions, ATC unit configuration, operational personnel, available equipment, and any other factors that may affect the workload of the controller responsible for the airspace. Note. – For the provision of ATFM services, declared ATC sector capacity values are considered. ENR 1. REGLAS Y PROCEDIMIENTOS GENERALES / GENERAL RULES AND PROCEDURES ENR 1.9 GESTIÓN DE LA AFLUENCIA DE TRÁNSITO AÉREO Y GESTIÓN DEL ESPACIO AÉREO ENR 1.9 AIR TRAFFIC FLOW MANAGEMENT AND AIRSPACE MANAGEMENT AIP ARGENTINA ENR 1.9.-2 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AMDT AIRAC 2/2025 27 NOVIEMBRE 2025    Capacidad Horaria del Sector (CHS). Es el número máximo de aeronaves que un sector es capaz de prestar servicio de control de tránsito aéreo en el período de una hora. Nota. – Los valores de CHS son, en otras palabras, los valores de la capacidad de sector ATC declarada (por hora). Capacidad practicable. Este concepto representa a un porcentaje menor de la capacidad declarada, mayormente utilizado en espacios aéreos de menores dimensiones, tales como TMA, CTR y ATZ donde no influye el factor de convergencia y donde el tiempo de permanencia es bajo, dando como resultado un NRef y NPico reducido. Nota. – La capacidad practicable representa normalmente el 80% de la capacidad declarada o capacidad horaria del sector (CHS). Comunidad ATM. Conjunto de organizaciones, organismos o entidades que pudieran participar, colaborar y cooperar en la planificación, desarrollo, utilización, reglamentación, funcionamiento y mantenimiento del sistema ATM. Congestión de tránsito aéreo. Situación en la que la demanda del tráfico aéreo es igual o superior a los valores de capacidad practicable, pero menor que la capacidad declarada, pudiendo generar retrasos y la necesidad de implementar medidas ATFM",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-0-900",
+    "text": "la planificación, desarrollo, utilización, reglamentación, funcionamiento y mantenimiento del sistema ATM. Congestión de tránsito aéreo. Situación en la que la demanda del tráfico aéreo es igual o superior a los valores de capacidad practicable, pero menor que la capacidad declarada, pudiendo generar retrasos y la necesidad de implementar medidas ATFM para regular el flujo y optimizar la operación del sistema ATC. Demanda. El número de aeronaves que solicitan utilizar el sistema durante un período determinado. Desbalance. Situación en la cual, la demanda de tránsito aéreo excede la capacidad declarada de sector ATC y/o de aeródromo. Elemento Evaluado. Aeródromo o Sector ATC del espacio aéreo cuya capacidad fue declarada por la autoridad competente. Espacio aéreo segregado. Espacio aéreo de dimensiones específicas asignado para uso exclusivo de un usuario o usuarios. Estación de pilotaje a distancia (RPS). Estación desde la cual el piloto opera a distancia el vuelo de una aeronave no tripulada. Gestión de Afluencia de Tránsito Aéreo (ATFM). Servicio cuyo objetivo es contribuir con una circulación segura, ordenada y eficiente del tránsito aéreo, asegurando el uso óptimo de la capacidad ATC y que el volumen de tránsito es compatible con las capacidades declaradas por la autoridad ATS competente. Gestión del Espacio Aéreo (ASM). El proceso mediante el cual se seleccionan y aplican las opciones de espacio aéreo para satisfacer las necesidades de los usuarios del espacio aéreo. Gestión del Tránsito Aéreo (ATM). La gestión dinámica e integrada del tránsito aéreo y del espacio aéreo, segura, económica y eficiente, que se realiza mediante el suministro de instalaciones y servicios sin límites perceptibles entre sus componentes y en colaboración con todas las partes. Instantaneidad de pico de tránsito. Período en el que se da el mayor número vuelos simultáneos, teniendo en cuenta un intervalo de 3 minutos. Sector Hourly Capacity (SHC). This is the maximum number of aircraft that a sector is capable of providing air traffic control service in a one-hour period. Note: CHS values are, in other words, the declared ATC sector capacity (per hour). Practicable capacity. This concept represents a smaller percentage of declared capacity and is mostly used in smaller airspaces, such as TMA, CTR, and ATZ, where the convergence factor is not a factor and where residence time is low, resulting in reduced NRef and NPpeak. Note: Practicable capacity typically represents 80% of declared capacity or sector hourly capacity (SHC). ATM Community. The set of organizations, agencies or entities that may participate, collaborate and cooperate in the planning, development, use, regulation, operation and maintenance of the ATM system. Air traffic congestion. A situation in which air traffic demand equals or exceeds practicable capacity values, but less than declared capacity, potentially generating delays and requiring the implementation of ATFM measures to regulate flow and optimize the operation of the ATC system. Demand. The number of aircraft requesting to use the system during a given period. Imbalance. A situation in which air traffic demand exceeds the declared capacity of the ATC sector and/or aerodrome. Evaluated Element. Aerodrome or ATC",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-0-1350",
+    "text": "ATFM measures to regulate flow and optimize the operation of the ATC system. Demand. The number of aircraft requesting to use the system during a given period. Imbalance. A situation in which air traffic demand exceeds the declared capacity of the ATC sector and/or aerodrome. Evaluated Element. Aerodrome or ATC Sector of the airspace whose capacity was declared by the competent authority. Segregated airspace. Airspace of specific dimensions assigned for the exclusive use of one or more users. Remote piloting station (RPS). Station from which the pilot remotely operates the flight of an unmanned aircraft. Air Traffic Flow Management (ATFM). Service whose objective is to contribute to a safe, orderly and efficient flow of air traffic, ensuring the optimal use of ATC capacity and that the volume of traffic is compatible with the capacities declared by the competent ATS authority. Airspace Management (ASM). The process by which airspace options are selected and implemented to meet the needs of airspace users. Air Traffic Management (ATM). The dynamic and integrated management of air traffic and airspace that is safe, economical and efficient accomplished through the provision of facilities and services with no discernible boundaries between its components and in collaboration with all parties. Peak traffic instantaneousness. Period during which the greatest number of simultaneous flights occur, taking into account a 3 minute interval.      AIP ARGENTINA ENR 1.9-3 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AMDT AIRAC 2/2025 27 NOVIEMBRE 2025 Medidas ATFM. Las medidas ATFM son técnicas empleadas para gestionar la demanda de tránsito aéreo según la capacidad del sistema. Toda medida ATFM tiene como objetivo maximizar el uso de las capacidades declaradas. Nota. — Algunas medidas ATFM se deben entender como instrucciones o procedimientos de control, como, por ejemplo, las esperas en vuelo. Número de referencia (Nref). Es el número óptimo de aeronaves en control simultáneo que el sector ATC es capaz de mantener por un período de tiempo, sin provocar una sobrecarga de trabajo para el ATC. Debe tenerse en cuenta que la capacidad calculada es el número de referencia. Número Pico (NPico). Es la capacidad de control simultáneo que un sector ATC en particular es capaz de mantener, por un máximo de 19 (diecinueve) minutos, continuos o no, en una hora, con el fin de cumplir con un aumento de la demanda a corto plazo. Durante ese período, el ATCO experimenta una sobrecarga de trabajo controlada. Si se percibe que la situación tiende a prolongarse, se deben tomar medidas ATFM. Piloto a distancia. Persona que opera a distancia los controles de vuelo de una aeronave pilotada a distancia durante el vuelo. Plan Diario ATFM (PDA). Planificación realizada en la fase pretáctica, basada en las hipótesis desarrolladas en la fase estratégica, cuyo objetivo es optimizar la eficiencia del sistema y equilibrar la demanda y capacidad. Puesto de Gestión de Afluencia (FMP). Puesto de trabajo del Servicio ATFM establecido con el fin de monitorear y equilibrar de manera táctica la demanda de tránsito dentro de sus áreas de responsabilidad",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-0-1800",
+    "text": "la fase estratégica, cuyo objetivo es optimizar la eficiencia del sistema y equilibrar la demanda y capacidad. Puesto de Gestión de Afluencia (FMP). Puesto de trabajo del Servicio ATFM establecido con el fin de monitorear y equilibrar de manera táctica la demanda de tránsito dentro de sus áreas de responsabilidad garantizando el enlace necesario con la FMU a la cual se encuentra subordinada. Región de información de vuelo (FIR). Espacio aéreo de dimensiones definidas dentro del cual se facilitan los servicios de información de vuelo y de alerta. Ruta condicional (CDR). Ruta ATS no permanente, o parte de ella, que puede planificarse y usarse en condiciones especiales. Saturación de tránsito aéreo. Situación en la que la demanda del tráfico aéreo alcanza los valores de capacidad declarada en un determinado espacio aéreo, sector o aeródromo, afectando negativamente a la eficiencia, a la previsibilidad y/o a la seguridad de las operaciones. Servicios de tránsito aéreo (ATS). Expresión genérica que se aplica, según el caso, a los servicios de información de vuelo, alerta, asesoramiento de tránsito aéreo, control de tránsito aéreo (servicios de control de área, control de aproximación o control de aeródromo). Sistema de aeronave no tripulada (UAS). Aeronave y sus elementos asociados operada sin piloto a bordo. Sistema de aeronave pilotada a distancia (RPAS). Conjunto de elementos configurables compuestos por una aeronave pilotada a distancia, su(s) estación(es) de pilotaje a distancia, los enlaces requeridos de mando y control, y cualquier otro elemento del sistema que se requiera en algún momento durante la operación de vuelo. ATFM measures. ATFM measures are techniques used to manage air traffic demand according to system capacity. All ATFM measures aim to maximize the use of declared capacities. Note. — Some ATFM measures are to be understood as control instructions or procedures, such as in-flight holding. Reference Number (Nref). The optimum number of aircraft in simultaneous control that the ATC sector is capable of maintaining for a period, without causing an overload of work for the ATC. It should be noted that the calculated capacity is the reference number. Peak Number (NPico). This is the simultaneous control capacity that a particular ATC sector is able to maintain, for a maximum of 19 (nineteen) minutes, continuous or not, in one hour, in order to meet a short-term increase in demand. During this period, the ATCO experiences a controlled workload. If the situation is perceived as tending to prolong, ATFM measures should be taken. Remote pilot. A person who remotely operates the flight controls of a remotely piloted aircraft during flight. ATFM Daily Plan (ATFM). Planning carried out in the pre-tactical phase, based on the assumptions developed in the strategic phase, the objective of which is to optimize system efficiency and balance demand and capacity. Flow Management Post (FMP). This ATFM Service position is established to tactically monitor and balance traffic demand within its areas of responsibility, ensuring the necessary liaison with the FMU to which it reports. Flight Information Region (FIR). An airspace of defined dimensions within which",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-0-2250",
+    "text": "efficiency and balance demand and capacity. Flow Management Post (FMP). This ATFM Service position is established to tactically monitor and balance traffic demand within its areas of responsibility, ensuring the necessary liaison with the FMU to which it reports. Flight Information Region (FIR). An airspace of defined dimensions within which flight information and alerting services are provided. Conditional Route (CDR). A non-permanent ATS route, or part thereof, which may be planned and used under special conditions. Air traffic congestion. A situation in which air traffic demand reaches declared capacity levels in a given airspace, sector, or aerodrome, negatively affecting the efficiency, predictability, and/or safety of operations. Air traffic services (ATS). Generic term that applies, as appropriate, to flight information services, alerting, air traffic advisory services, air traffic control (area control services, approach control services, or aerodrome control services). Unmanned Aircraft System (UAS). Aircraft and associated elements operated without a pilot on board. Remotely Piloted Aircraft System (RPAS). A set of configurable elements consisting of a remotely piloted aircraft, its remote piloting station(s), the required command and control links, and any other system elements required at any time during flight operation.         AIP ARGENTINA ENR 1.9.-4 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AMDT AIRAC 2/2025 27 NOVIEMBRE 2025 Toma de Decisión en Colaboración (CDM). Es el proceso que permite que las decisiones se tomen combinando todas las fuentes pertinentes y precisas de información, garantizando que los datos reflejen, de la mejor manera posible, la situación tal como es conocida y asegurando que todas las partes involucradas, tengan la oportunidad de influir en la decisión. Uso flexible del espacio aéreo (FUA). Concepto de gestión del espacio aéreo basado en el principio de que el espacio aéreo no debe designarse como exclusivamente militar o civil, sino como un espacio continuo en el que se satisfagan al máximo posible los requisitos de todos los usuarios. UTM. Sigla (en inglés) utilizada para designar la gestión del tránsito aéreo no tripulado. UTMS. Sistema de gestión del tránsito aéreo no tripulado. Volumen de Tránsito Aéreo. El número de aeronaves dentro de un espacio aéreo definido o área de movimiento de un aeropuerto, en un periodo de tiempo específico. Zona de Identificación de Defensa Aérea (ADIZ). Espacio aéreo de dimensiones definidas, dentro del cual las aeronaves deben satisfacer procedimientos especiales de identificación y notificación; además de aquellos que se relacionan con el suministro de servicios de tránsito aéreo (ATS). Zona peligrosa. Espacio aéreo de dimensiones definidas en el cual pueden desplegarse, en determinados momentos, actividades peligrosas para el vuelo de las aeronaves. Zona prohibida. Espacio aéreo de dimensiones definidas dentro del cual está prohibido el vuelo de las aeronaves. Zona restringida. Espacio aéreo de dimensiones definidas, dentro del cual está restringido el vuelo de las aeronaves, de acuerdo con determinadas condiciones especificadas. Zona libre de RPA/RPAS - NO DRONE ZONE. Espacio aéreo dentro del cual, por disposición de la autoridad aeronáutica o del prestador del servicio de navegación aérea, se encuentra prohibido el",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-0-2700",
+    "text": "de dimensiones definidas, dentro del cual está restringido el vuelo de las aeronaves, de acuerdo con determinadas condiciones especificadas. Zona libre de RPA/RPAS - NO DRONE ZONE. Espacio aéreo dentro del cual, por disposición de la autoridad aeronáutica o del prestador del servicio de navegación aérea, se encuentra prohibido el uso de RPA/RPAS. Collaborative Decision Making (CDM). The process that allows decisions to be made by combining all relevant and accurate sources of information, ensuring that the data best reflects the situation as it is known and ensuring that all parties involved have the opportunity to influence the decision. Flexible Use of Airspace (FUA). An airspace management concept based on the principle that airspace should not be designated as exclusively military or civil, but as a continuous space in which the requirements of all users are met to the greatest extent possible. UTM. Acronym used to designate unmanned air traffic management. UTMS. Unmanned air traffic management system. Air Traffic Volume. The number of aircraft within a defined airspace or movement area of an airport in a specific period. Air Defense Identification Zone (ADIZ). Airspace of defined dimensions within which aircraft must comply with special identification and reporting procedures, in addition to those related to the provision of air traffic services (ATS). Danger area. Airspace of defined dimensions in which activities dangerous to aircraft flight may be carried out at certain times. Prohibited area. Airspace of defined dimensions within which aircraft flight is prohibited. Restricted area. Airspace of defined dimensions within which aircraft flight is restricted in accordance with certain specified conditions. RPA/RPAS-free zone - NO DRONE ZONE. Airspace within which, by order of the aviation authority or air navigation service provider, the use of RPA/RPAS is prohibited. GESTIÓN DE LA AFLUENCIA DE TRÁNSITO AÉREO (ATFM) 1. INTRODUCCIÓN El Servicio de Gestión de Afluencia del Tránsito Aéreo (ATFM) tiene por objetivo asegurar un flujo de tránsito aéreo seguro, ordenado y expeditivo, optimizando al máximo la utilización de la capacidad de los servicios de control de tránsito aéreo (ATC) y garantizando que el volumen de tránsito se mantenga dentro de los límites de capacidad declarados por el Proveedor de Servicios de Navegación Aérea (ANSP). 2. AUTORIDAD RESPONSABLE La Empresa Argentina de Navegación Aérea (EANA S.A.), en el marco de la Ley N° 27.161, es la responsable del suministro del Servicio de Gestión del Flujo de Tránsito Aéreo (ATFM), en cumplimiento de sus políticas operativas y de la misión que le ha sido asignada. AIR TRAFFIC FLOW MANAGEMENT (ATFM) 1. RESPONSIBLE AUTHORITY The Air Traffic Flow Management (ATFM) service aims to ensure a safe, orderly, and expeditious flow of air traffic, maximizing the utilization of air traffic control (ATC) capacity and ensuring that traffic volume remains within the capacity limits declared by the Air Navigation Service Provider (ANSP). 2. RESPONSIBLE AUTHORITY The Argentine Air Navigation Company (EANA S.A.), within the framework of Law No. 27,161, is responsible for providing the Air Traffic Flow Management (ATFM) Service, in compliance with its operational policies and",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-0-3150",
+    "text": "traffic volume remains within the capacity limits declared by the Air Navigation Service Provider (ANSP). 2. RESPONSIBLE AUTHORITY The Argentine Air Navigation Company (EANA S.A.), within the framework of Law No. 27,161, is responsible for providing the Air Traffic Flow Management (ATFM) Service, in compliance with its operational policies and the mission assigned to it.         AIP ARGENTINA ENR 1.9-5 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AMDT AIRAC 2/2025 27 NOVIEMBRE 2025 Dependencia / Unit Ubicación / Location Área de responsabilidad / Area of responsibility Datos de contacto / Contact information FMU EZE Aeropuerto Internacional Ministro Pistarini Autopista Tte. Gral. Ricchieri Km 33,5 Puerta 50, Piso 3º Ezeiza (B1802EZE) Partido de Ezeiza Provincia de Buenos Aires FIR EZE (SAEF) FIR CBA (SACF) FIR DOZ (SAMF) FIR SIS (SARR) FIR CRV (SAVF) Tel: (+54 11) 4480-2318 Tel RTI: 57318 Email: fmueze@eana.com.ar HORARIO DE OPERACIÓN FMU EZE: Brinda Servicio ATFM durante las 24 horas los 365 días del año. / EZE FMU HOURS OF OPERATION: Provides ATFM Service 24 hours a day, 365 days a year.",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-2-0",
+    "text": "4.1.1 FMP EZE El Puesto de Gestión de Flujo de Tránsito Aéreo Ezeiza (FMP EZE) se establece como medio de enlace entre la FMU EZE y las dependencias ATS de la FIR EZE. Depende directamente de la FMU EZE y es responsable del seguimiento, la planificación y la coordinación táctica de las medidas ATFM que afecten a la FIR EZE.",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.1.1",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-4-0",
+    "text": "4.1.1 EZE FMP The Air Traffic Flow Management Post Ezeiza (FMP EZE) is established as a liaison between the EZE FMU and the ATS units of the EZE FIR. It reports directly to the EZE FMU and is responsible for the monitoring, planning and tactical coordination of ATFM measures affecting the EZE FIR. Puesto / Position Ubicación / Location Área de responsabilidad / Area of responsibility Datos de contacto / Contact information FMP EZE Aeropuerto Internacional Ministro Pistarini Autopista Tte. Gral. Ricchieri Km 33,5 Puerta 50, Piso 4º Ezeiza (B1802EZE) Provincia de Buenos Aires FIR EZE (SAEF) Tel: (+54 11) 4480-2418 Tel RTI: 57418 HORARIO DE OPERACIÓN FMP EZE: El puesto FMP EZE brinda el Servicio ATFM Táctico los 365 días del año en dos turnos operativos durante el horario comprendido entre las 09:00 hs y la 01:00 hs UTC / EZE FMP HOURS OF OPERATION: The EZE FMP post provides the Tactical ATFM Service 365 days a year in two operational shifts between 09:00 and 01:00 UTC. 3. SERVICIO PROPORCIONADO El Servicio ATFM se brinda en fin de mantener el equilibrio capacidad/demanda, por medio de los procesos de planificación (Estratégica, Pre-táctica y Táctica) para los diferentes sectores de espacio aéreo y para todos los aeropuertos de la República Argentina que así lo requieran. La prestación del Servicio ATFM se realiza en el marco de lo establecido en las RAAC Parte 211 y conforme a los conceptos y recomendaciones contenidos en el Documento 9971 AN/485 de la OACI. El Servicio ATFM es proporcionado en todas las Regiones de Información de Vuelo de la República Argentina 4. DEPENDENCIA RESPONSABLE DE LA PRESTACIÓN DEL SERVICIO ATFM",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.1.1",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-6-0",
+    "text": "4.1 FMU EZE La Unidad de Gestión de Afluencia Ezeiza (FMU EZE) es la dependencia responsable de la prestación del Servicio ATFM en todas las Regiones de Información de Vuelo de la República Argentina. 3. SERVICE PROVIDED The ATFM Service is provided in order to maintain the capacity/demand balance, through planning processes (Strategic, Pre-tactical and Tactical) for the different airspace sectors and for all airports of the Argentine Republic that require it. The ATFM service is provided within the framework established in RAAC Part 211 and in accordance with the concepts and recommendations contained in ICAO Document 9971 AN/485. The ATFM Service is provided in all Flight Information Regions of the Argentine Republic. 4. UNIT RESPONSIBLE FOR THE PROVISION OF THE ATFM SERVICE",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.1",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-8-0",
+    "text": "4.1 FMU EZE The Ezeiza Flow Management Unit (FMU EZE) is the unit responsible for the provision of the ATFM Service in all the Flight Information Regions of the Argentine Republic. AIP ARGENTINA ENR 1.9.-6 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AMDT AIRAC 2/2025 27 NOVIEMBRE 2025 5. PRESTACIÓN DEL SERVICIO ATFM",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.1",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-10-0",
+    "text": "5.1 Toma de Decisiones en Colaboración (CDM) Siempre que sea posible, la FMU EZE aplicará la CDM combinando todas las fuentes posibles de información y asegurando que todas las partes involucradas, tengan la oportunidad de colaborar para alcanzar la mejor Solución ATFM.",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "5.1",
+      "chapter": "5"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-12-0",
+    "text": "5.2 Reglas generales El Servicio de Gestión de Flujo de Tránsito Aéreo (ATFM) se prestará a todas las aeronaves que operen en los aeródromos y en el espacio aéreo de jurisdicción de la República Argentina. Las medidas ATFM podrán ser aplicadas a todos los vuelos, excluyendo: a) los vuelos que experimenten una emergencia, incluidas las aeronaves sujetas a interferencia ilícita; b) los vuelos en misiones de búsqueda y salvamento y de extinción de incendios; c) los vuelos de evacuaciones sanitarias de urgencia declarados específicamente por las autoridades de salud; d) los vuelos que transporten o destinados al transporte de enfermos o lesionados en estado grave que necesiten asistencia médica urgente, o que transporten órganos vitales para trasplante humano; e) los vuelos que transporten a Jefes de Gobierno Nacionales; f) los vuelos en operación policial, militar de interceptación aérea o en acción de defensa aeroespacial; g) otros vuelos eximidos por EANA S.A. a través de su FMU. Nota. — Para vuelos eximidos por EANA S.A. debería incluirse como requisito del Plan de Vuelo en el casillero 18 el motivo del tratamiento STS/ATFMX (Ejemplo: STATE, HEAD, HUM, SAR, FFR, MEDEVAC, HOSP).",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "5.2",
+      "chapter": "5"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-14-0",
+    "text": "5.3 Medidas ATFM Cuando se prevea que la demanda superará la capacidad, la FMU EZE podrá aplicar la/s medida/s necesaria/s, luego de realizar el análisis correspondiente de los factores que ocasionaron tal decisión, basándose en los criterios y medidas establecidos en el Doc. 9971 de la OACI. Tales medidas se detallan a continuación: a) Intervalos mínimos de salida (MDI): Medida táctica ATFM que se aplica cuando el ATC establece, por ejemplo, un índice de flujo de salidas de 3 minutos entre salidas sucesivas. Por lo general, los MDl se aplican durante períodos breves cuando un sector de salida se ocupa excesivamente, si la capacidad sectorial se reduce súbitamente (en particular por fallas del equipo o condiciones meteorológicas), o para contribuir a ajustar la demanda en un aeródromo de llegada con desequilibrio entre demanda capacidad a corto plazo. 5. ATFM SERVICE PROVISION",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "5.3",
+      "chapter": "5"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-16-0",
+    "text": "5.1 Collaborative Decision Making (CDM) Whenever possible, the EZE FMU will apply the CDM by combining all possible sources of information and ensuring that all parties involved have the opportunity to collaborate to achieve the best ATFM Solution.",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "5.1",
+      "chapter": "5"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-18-0",
+    "text": "5.2 General rules The Air Traffic Flow Management Service (ATFM) will be provided to all aircraft operating in aerodromes and airspace under the jurisdiction of the Argentine Republic. ATFM measures may be applied to all flights, excluding: a) flights experiencing an emergency, including aircraft subject to unlawful interference; b) flights on search and rescue and firefighting missions; c) emergency medical evacuation flights specifically declared by the health authorities; d) flights carrying or intended for the transport of seriously ill or injured persons in need of urgent medical assistance, or carrying vital organs for human transplantation; e) flights carrying Heads of National Governments; f) flights in police operation, military air interception or aerospace defense action; g) Other flights exempted by EANA S.A. through its FMU. Note. — For flights exempted by EANA S.A. the reason for STS/ATFMX treatment should be included as a Flight Plan requirement in item 18 (Example: STATE, HEAD, HUM, SAR, FFR, MEDEVAC, HOSP).",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "5.2",
+      "chapter": "5"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-20-0",
+    "text": "5.3 ATFM measures When demand is expected to exceed capacity, the EZE FMU may apply the necessary measure(s), after performing the corresponding analysis of the factors that caused such decision, based on the criteria and measures established in ICAO DOC 9971. These measures are detailed below: a) Minimum Departure Intervals (MDI): A tactical ATFM measure that is applied when ATC establishes, for example, a departure flow rate of 3 minutes between successive departures. MDIs are usually applied for short periods when a departure sector becomes excessively busy, if sector capacity is suddenly reduced (particularly due to equipment failure or weather conditions), or to help adjust demand at an arrival aerodrome with a short-term demand-capacity imbalance. AIP ARGENTINA ENR 1.9-7 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AMDT AIRAC 2/2025 27 NOVIEMBRE 2025 b) Intercambio de turnos: Medida táctica ATFM que se puede aplicar manualmente o por medios automáticos. La capacidad de intercambiar turnos de salida brinda a los usuarios la posibilidad de cambiar el orden de las salidas de los vuelos que deberían volar en un área limitada. Esta medida permite a los usuarios gestionar y adaptar sus modelos de negocio en un entorno limitado. c) Minutos en cola (MINIT) y Millas en cola (MIT): Estas son medidas tácticas ATFM y se expresan como el número de minutos o millas entre cada aeronave sucesiva en un punto límite del espacio aéreo. La carga de trabajo asociada con su cumplimiento recae en el controlador de tránsito aéreo debido a los posibles efectos en la red. Como tal, el uso regular de MINIT o MIT puede indicar que deban utilizarse otras medidas ATFM más apropiadas en sus lugares. Ejemplos: MINIT de una ACFT cada 5 minutos vía SARGO independientemente del FL o MIT de una ACFT cada 30 NM vía SARGO independientemente del FL. d) Equilibrio de puntos de referencia: Medida táctica ATFM que tiene por objeto distribuir la demanda y evitar demoras. Se asigna a la aeronave un punto de referencia de llegada o salida diferente del indicado en el plan de vuelo. Esto se puede aplicar también durante períodos de actividad convectiva en los que no se puede utilizar una llegada normalizada por instrumentos (STAR) ni una salida normalizada por instrumentos (SID). e) Escenarios de topes de nivel: Medida que se cumple restringiendo el nivel de vuelo (por ejemplo, los vuelos desde Buenos Aires a la TMA de Mendoza deberán realizarse por debajo del FL280 y los vuelos desde Buenos Aires a la FIR Santiago de Chile estarán limitados a FL300 o superior). f) Cambios de ruta: Medidas ATFM basadas en rutas (horizontales o verticales) que tienen como objetivo remover una serie de vuelos programados para llegar a un recurso ATM restringido. Los cambios de rutas generalmente se organizan en escenarios y pueden ser obligatorios o alternativos. Suele emitirse un cambio de ruta para: 1) garantizar que las aeronaves operen junto con una afluencia de tránsito requerida; 2) dejar libre el espacio aéreo con restricciones o reservas; 3) evitar áreas cuyas condiciones",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "5.3",
+      "chapter": "5"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-20-450",
+    "text": "Los cambios de rutas generalmente se organizan en escenarios y pueden ser obligatorios o alternativos. Suele emitirse un cambio de ruta para: 1) garantizar que las aeronaves operen junto con una afluencia de tránsito requerida; 2) dejar libre el espacio aéreo con restricciones o reservas; 3) evitar áreas cuyas condiciones meteorológicas conocidas son tales que las aeronaves tienen que sortearlas. g) Escenarios de cambio obligatorio de ruta: Se trata de desvíos obligatorios de afluencias para disminuir el nivel de tránsito en zonas restringidas. h) Programa de Demora en tierra (GDP): El GDP es una medida ATFM táctica o pretáctica relativa a un proceso ATM en el que las aeronaves permanecen en tierra con el objeto de gestionar la capacidad y la demanda en un volumen de espacio aéreo especifico o en un aeródromo determinado. En ese proceso, las horas de salida se asignan a los correspondientes turnos de entrada disponibles en el espacio aéreo restringido o a los turnos de llegada/salida hacia/desde el aeródromo restringido. b) Shift swapping: A tactical ATFM measure that can be applied manually or by automated means. The ability to swap departure turns gives users the ability to change the order of departures of flights that should fly in a limited area. This measure allows users to manage and adapt their business models in a constrained environment. c) Minutes in queue (MINIT) and Miles in queue (MIT): These are tactical ATFM measures and are expressed as the number of minutes or miles between each successive aircraft at an airspace boundary point. The workload associated with their enforcement falls on the air traffic controller due to the potential effects on the network. As such, regular use of MINIT or MIT may indicate that other more appropriate ATFM measures should be used in their places. Examples: MINIT of an ACFT every 5 minutes via SARGO regardless of FL or MIT of an ACFT every 30 NM via SARGO regardless of FL. d) Reference points balancing: A tactical ATFM measure intended to distribute demand and avoid delays. The aircraft is assigned an arrival or departure reference point different from that indicated in the flight plan. This can also be applied during periods of convective activity when neither a standard instrument arrival (STAR) nor a standard instrument departure (SID) can be used. e) Level capping scenarios: a measure that is met by restricting the flight level (e.g., flights from Buenos Aires to Mendoza TMA shall be below FL280 and flights from Buenos Aires to Santiago de Chile FIR shall be limited to FL300 or higher). f) Route change: Route-based ATFM measures (horizontal or vertical) that aim to remove a series of scheduled flights to reach a restricted ATM resource. Route changes are generally organized in scenarios and can be mandatory or alternative. A rerouting is usually issued to: 1) ensure that aircraft operate in conjunction with a required traffic flow; 2) clear airspace with restrictions or reservations; 3) Avoid areas whose known weather conditions are such that aircraft have to",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-20-900",
+    "text": "changes are generally organized in scenarios and can be mandatory or alternative. A rerouting is usually issued to: 1) ensure that aircraft operate in conjunction with a required traffic flow; 2) clear airspace with restrictions or reservations; 3) Avoid areas whose known weather conditions are such that aircraft have to circumvent them. g) Mandatory rerouting scenarios: These are mandatory rerouting of inflows to reduce the level of traffic in restricted areas. h) Ground Delay Program (GDP): GDP is a tactical or pre-tactical ATFM measure relating to an ATM process in which aircraft remain on the ground in order to manage capacity and demand in a specific volume of airspace or at a specific aerodrome. In this process, departure times are allocated to the corresponding available entry slots in the restricted airspace or to the arrival/departure slots to/from the restricted aerodrome. AIP ARGENTINA ENR 1.9.-8 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AMDT AIRAC 2/2025 27 NOVIEMBRE 2025 El GDP tiene como objetivo, entre otras cosas, minimizar las demoras aéreas. Se trata de un programa flexible y, en consecuencia, su forma puede variar en función de las necesidades del sistema ATM. Los GDP se elaboran mejor de manera colaborativa, a pesar de que generalmente son administrados y gestionados por una FMU o un centro ATFM nacional/internacional. Cuando se programa un GDP para que dure varias horas, la probabilidad de que sea necesario revisar los turnos aumenta, puesto que las condiciones podrían variar. Por lo tanto, debería implantarse un sistema para notificar a los usuarios del espacio aéreo y/o pilotos los turnos de salida, así como todo cambio en el GDP. i) Parada en tierra (GSt): Es una medida ATFM táctica adoptada para hacer frente a una situación adversa imprevista. Se basa en la selección de aeronaves específicas para que permanezcan en tierra. A raíz de la gran repercusión en los usuarios de las paradas en tierra (principalmente debido a la falta de notificación), deberían estudiarse y aplicarse medidas ATFM alternativas antes de realizar una GSt, siempre y cuando el tiempo y las circunstancias lo permitan. La GSt también se denomina \"medida ATFM de régimen cero\". Se aplica habitualmente: 1) en los casos en los que la capacidad de los aeródromos se ha reducido notablemente por fenómenos meteorológicos muy adversos o el cierre de pistas, por ejemplo, como consecuencia de accidentes/incidentes de aviación; 2) para evitar períodos prolongados de retención en vuelo y que un sector/centro alcance niveles cercanos a la saturación o se provoque un atasco en el aeródromo; 3) en el caso de que una instalación no pueda, total o parcialmente, prestar servicios de tránsito aéreo debido a circunstancias imprevistas; y 4) cuando las rutas no están disponibles por fenómenos meteorológicos extremos o catástrofes graves. j) Espera en vuelo: Medida táctica ATFM diseñada estratégicamente. Es un proceso que requiere que la aeronave espere en un punto de recorrido en un circuito de espera normalizado predefinido. Se suele utilizar para enfrentar desequilibrios de demanda y capacidad notificados con poca anticipación. También puede permitir la",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-20-1350",
+    "text": "catástrofes graves. j) Espera en vuelo: Medida táctica ATFM diseñada estratégicamente. Es un proceso que requiere que la aeronave espere en un punto de recorrido en un circuito de espera normalizado predefinido. Se suele utilizar para enfrentar desequilibrios de demanda y capacidad notificados con poca anticipación. También puede permitir la creación de una lista de aeronaves que podrían aprovechar aumentos temporarios de capacidad que surgen con poca anticipación, como los que se producen durante cierto tipo de eventos meteorológicos. 6. PROCEDIMIENTOS ATFM",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-22-0",
+    "text": "6.1 Cálculo de Capacidad de Pista y de Sector ATC La FMU EZE realiza los cálculos de Capacidad de Pista y de Sector ATC de los aeropuertos y de los espacios aéreo que gestiona EANA Nota. — Estas tareas son coordinadas desde el Área de Gestión “Cálculo de Capacidad” de la FMU EZE.",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.1",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-24-0",
+    "text": "6.2 Procedimientos estratégicos La FMU EZE planifica de forma estratégica cada una de las temporadas del año, así como cualquier otro evento especial por medio de la elaboración de informes. The GDP aims, among other things, to minimize air delays. It is a flexible schedule and, consequently, its form may vary depending on the needs of the ATM system. GDPs are best developed collaboratively, although they are generally administered and managed by an FMU or a national/international ATFM center. When a GDP is scheduled to last for several hours, the likelihood of needing to revise shifts increases as conditions may change. Therefore, a system should be implemented to notify airspace users and/or pilots of departure shifts as well as any changes to the GDP. i) Ground Stop (GSt): It is a tactical ATFM measure adopted to cope with an unforeseen adverse situation. It is based on the selection of specific aircraft to remain on the ground. Due to the high user impact of ground stops (mainly due to lack of notification), alternative ATFM measures should be considered and implemented prior to conducting a GSt, time and circumstances permitting. GSt is also referred to as a \"zero-speed ATFM measure\". It is usually applied: 1) in cases where aerodrome capacity has been significantly reduced due to very adverse weather events or runway closures, e.g. as a result of aviation accidents/incidents; 2) to avoid prolonged periods of in-flight holding and a sector/center reaching near saturation levels or causing aerodrome congestion; 3) in the event that a facility is unable, in whole or in part, to provide air traffic services due to unforeseen circumstances; and 4) When routes are unavailable due to extreme weather events or major catastrophes. j) In-flight holding: A strategically designed tactical ATFM measure. A process that requires the aircraft to wait at a waypoint on a predefined standardized holding circuit. It is often used to deal with short notice demand and capacity imbalances. It can also allow the creation of a list of aircraft that could take advantage of temporary increases in capacity that arise at short notice, such as during certain types of weather events. 6. ATFM PROCEDURES",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.2",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-26-0",
+    "text": "6.1 Runway and ATC Sector Capacity calculation The FMU EZE performs Runway and ATC Sector Capacity Calculations for airports and airspace managed by EANA (S.A). Note. – These tasks are coordinated by the “Capacity Calculation” Management Area of the FMU EZE.",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.1",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-28-0",
+    "text": "6.2 Strategic procedures FMU EZE strategically plans each season of the year, as well as any other special event, through the preparation of reports. AIP ARGENTINA ENR 1.9-9 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AMDT AIRAC 2/2025 27 NOVIEMBRE 2025 Nota. — Estas tareas son coordinadas desde el Área de Gestión: “ATFM Estratégico” de la FMU EZE.",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.2",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-30-0",
+    "text": "6.3 Procedimientos pre-tácticos Diariamente, la FMU EZE elabora su Plan Diario ATFM (PDA) como parte de la Fase Pretáctica del servicio ATFM en el cual dará conocimiento a la Comunidad Aeronáutica acerca de las condiciones en las que se prevé que se desarrollará el día en cuestión. El PDA integra información esencial acerca de la capacidad- demanda de los aeropuertos del área de responsabilidad, pronósticos e informes meteorológicos, el estado de la infraestructura aeroportuaria y de los sistemas CNS en cuestión, y cualquier otra información pertinente. Teniendo en cuenta toda la Información ATFM Integrada precedente, el PDA incluirá las medidas ATFM previstas del día, producto de un Análisis de Capacidad-Demanda (DCB) elaborado por la FMU EZE cada noche durante el período comprendido entre la 01:00 y las 08:00 UTC. Previo a determinados eventos especiales, la FMU EZE elabora un Plan Pretáctico a fin de planificar cualquier posible desbalance entre la capacidad y la demanda de los espacios aéreos y/o de los aeropuertos que puedan estar involucrados. Nota. — Estas tareas son coordinadas desde el Área de Gestión: “ATFM Pre-Táctico” de la FMU EZE.",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.3",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-32-0",
+    "text": "6.4 Procedimientos tácticos Durante las 24 horas, la FMU EZE brinda el Servicio ATFM en su fase táctica, monitoreando el flujo de tránsito y, de ser necesario, ajustando y adecuando el PDA (Pre-Táctico) a cada circunstancia operativa. Para esto, la FMU EZE podrá enmendar medidas ATFM publicadas en el PDA y/o aplicar nuevas a fin de gestionar los flujos de tránsito aéreo. Nota. — Estas tareas son coordinadas desde el Área de Gestión: “ATFM Táctico” de la FMU EZE.",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.4",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-34-0",
+    "text": "6.5 Análisis posterior a las operaciones Esta fase es el paso final en el proceso de Planificación y Gestión ATFM. Durante esta fase, se lleva a cabo un proceso analítico para medir, investigar e informar los procesos y actividades operacionales. La FMU EZE realiza un Informe Post Operaciones (POST OPS) diario en donde se incluirán la planificación prevista para el día de la operación y lo efectivamente acontecido con el fin de generar un aprendizaje y establecer un proceso de mejora continua. Asimismo, se podrán realizar otro tipo de Informes POST OPS, ya sean estos semanales, quincenales, mensuales y/o anuales. Nota. — Estas tareas son coordinadas desde el Área de Gestión: “ATFM Post Operaciones” de la FMU EZE. 7. MENSAJES ATFM",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.5",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-36-0",
+    "text": "7.1 Difusión de los mensajes ATFM a las dependencias ATS Note. – These tasks are coordinated by the “Strategic ATFM” Management Area of the FMU EZE.",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "7.1",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-38-0",
+    "text": "6.3 Pre-tactical procedures On a daily basis, EZE FMU prepares its Daily ATFM Plan (PDA) as part of the Pre-tactical Phase of the ATFM service in which it will inform the Aeronautical Community about the conditions under which the day in question is expected to develop. The PDA integrates essential information about the capacity- demand of the airports in the area of responsibility, weather forecasts and reports, the status of the airport infrastructure and CNS systems in question, and any other relevant information. Taking into account all the preceding Integrated ATFM Information, the PDA will include the day's forecasted ATFM measurements, resulting from a Capacity-Demand Analysis (DCB) prepared by the EZE FMU every night during the period between 01:00 and 08:00 UTC. Prior to certain special events, the EZE FMU prepares a Pre-tactical Plan in order to plan for any possible imbalance between capacity and demand of the airspaces and/or airports that may be involved. Note. – These tasks are coordinated by the “Pre-Tactical ATFM” Management Area of the FMU EZE.",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.3",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-40-0",
+    "text": "6.4 Tactical procedures During 24 hours, the EZE FMU provides the ATFM Service in its tactical phase, monitoring the traffic flow and, if necessary, adjusting and adapting the PDA (Pre-Tactical) to each operational circumstance. For this purpose, the EZE FMU may amend ATFM measures published in the PDA and/or apply new ones in order to manage air traffic flows. Note. – These tasks are coordinated by the “Pre-Tactical ATFM” Management Area of the FMU EZE.",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.4",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-42-0",
+    "text": "6.5 Post operations analysis This phase is the final step in the ATFM Planning and Management process. During this phase, an analytical process is conducted to measure, investigate and report on operational processes and activities. The EZE FMU performs a daily Post Operations Report (POST OPS) which will include the scheduled planning for the day of the operation and what actually happened in order to generate learning and establish a process of continuous improvement. Likewise, other types of POST OPS Reports may be made, whether weekly, biweekly, monthly and/or yearly. Note. – These tasks are coordinated by the “ATFM Post Operations” Management Area of the FMU EZE. 7 ATFM MESSAGES",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.5",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-44-0",
+    "text": "7.1 Broadcasting of ATFM messages to ATS units AIP ARGENTINA ENR 1.9.-10 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AMDT AIRAC 2/2025 27 NOVIEMBRE 2025 A fin de dar conocimiento sobre los mensajes ATFM a las Dependencias ATS, ya sean estas un ACC, una TWR, o una oficina ARO/AIS, se utiliza la red AFTN (Air Fix Telecomunications Net) mediante el uso del sistema AMHS (ATS Message Handling System). A continuación, se describe el formato para los mensajes que contengan medidas ATFM y que serán difundidos a las Dependencias ATS: In order to broadcast ATFM messages to ATS Units, whether they are an ACC, a TWR, or an ARO/AIS office, the Air Fix Telecommunications Net (AFTN) is utilized through the use of the ATS Message Handling System (AMHS). The following describes the format for messages containing ATFM measurements to be broadcast to the ATS Units:  Ejemplo MDI / MDI Example SVC FLOW CONTROL MDI FM SADP BTN 1901130900 AND 1901132359 1 ACFT EV 8 MIN DEP FM SADP TO TMA BAIRES BTN 1901131200 AND 1901132359 1 ACFT EV 10 MIN DEP FM SADF TO SAZS DUE TO POSS CONGESTION AND WEATHER EXC SAR, HUMANITARIAN AND STATE FLT TWR AEROPARQUE ASSIGN HR DEP FM SADP TO SAZS COORDINATION FMU EZEIZA TE 011 44802318 RTI 57318 PTO  Ejemplos MIT / MIT Examples SVC FLOW CONTROL MIT AT THE ENTRANCE TO SAEF BTN 1901131000 AND 1901131500 BTN 1901132100 AND 1901140200 1 ACFT EV 60 NM FM SACF BY ROKER/ISOPO POINTS BTN NTL FLT 1 ACFT EV 20 NM FM SACF BY ROKER/ISOPO POINTS BTN INTL FLT AND BTN INTUNTL FLT 1 ACFT EV 25 NM FM SACF BY MJZ POINT BTN NTL FLT DUE TO POSS CONGESTION EXC SAR, HUMANITARIAN, STATE FLT AND INTL FLT WITH MORE THAN 3 HR FLT COORDINATION FMU EZEIZA TE 011 44802318 RTI 57318 PTO SVC FLOW CONTROL MIT AT THE ENTRANCE TO SAEF BTN 1901131000 AND 1901131400 BTN 1901132000 AND 1901140100 1 ACFT EV 40 NM FM SUEO BY KUKEN/PAPIX AND SARGO POINTS DUE TO POSS CONGESTION EXC SAR HUMANITARIAN AND STATE FLT COORDINATION FMU EZEIZA TE 011 44802318 RTI 57318 PTO  Ejemplos MINIT / MINIT Examples SVC FLOW CONTROL MINIT AT THE ENTRANCE TO SAEF BTN 1901132200 AND 1901140100 1 ACFT EV 10 MIN FM SARR BY TODES/RIOKA/KORTA AND VARES POINTS DUE TO POSS CONGESTION EXC SAR, HUMANITARIAN, STATE FLT AND INTL FLT WITH MORE THAN 3 HR FLT COORDINATION FMU EZEIZA TE 011 44802318 RTI 57318 PTO SVC FLOW CONTROL MINIT AT THE ENTRANCE TO TMA BAIRES BTN 1901131400 AND 1901132359 1 ACFT EV 10 MIN FM SAZS SAZY SAZN BY ASADA POINT DUE TO POSS CONGESTION EXC SAR HUMANITARIAN AND STATE FLT CTA EZEIZA RADAR IV ASSIGN HR DEP FM SAZS SAZY SAZN COORDINATION FMU EZEIZA TE 011 44802318 RTI 57318 PTO",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "7.1",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-47-0",
+    "text": "7.2 Difusión de los mensajes ATFM a la comunidad aeronáutica Las medidas ATFM son difundidas a la comunidad aeronáutica a través de la plataforma web oficial de EANA S.A. www.eana.com.ar en la sección \"servicios\" (https://eana.com.ar/servicios).",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "7.2",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-50-0",
+    "text": "7.3 Broadcasting ATFM messages to the aeronautical community ATFM measurements are made available to the aeronautical community through EANA S.A.'s official web platform www.eana.com.ar in the \"services\" section (https://eana.com.ar/servicios). AIP ARGENTINA ENR 1.9-11 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AMDT AIRAC 2/2025 27 NOVIEMBRE 2025     Allí también se podrá tener acceso a los PDA y a los Informes Post Operaciones que elabore la FMU EZE mediante la descarga de tales archivos en formato PDF. Ante cualquier consulta sobre las medidas vigentes, puede recurrirse a la FMU EZE a través de los medios de contacto especificados en el ítem 4. There you can also access the PDAs and Post Operations Reports prepared by the EZE FMU by downloading such files in PDF format. If you have any questions about the measures in force, you can contact the EZE FMU through the means of contact specified in item 4. GESTIÓN DEL ESPACIO AÉREO (ASM) 1. INTRODUCCIÓN La organización del espacio aéreo establece estructuras destinadas a dar cabida a los distintos tipos de actividades aéreas, a los volúmenes de tránsito y a los niveles de servicio requeridos. La gestión del espacio aéreo constituye el proceso mediante el cual se determinan y aplican las opciones de utilización del mismo, a fin de satisfacer las necesidades de la comunidad ATM/UTM, de los usuarios y de las dependencias ATC. La totalidad del espacio aéreo se reconoce como un recurso de carácter común, cuya gestión deberá garantizar condiciones de equidad, dinamismo y flexibilidad. En consecuencia, y de conformidad con el principio de uso óptimo de los recursos de espacio aéreo previsto en la normativa OACI, toda restricción impuesta al empleo de un volumen específico tendrá carácter estrictamente temporal. 2. AUTORIDAD RESPONSABLE La Empresa Argentina de Navegación Aérea (EANA S.A.) es la responsable de brindar la Gestión de Espacios Aéreos. 3. SERVICIO PROPORCIONADO El desarrollo, diseño, estructuración y administración del uso de los volúmenes de espacio aéreo tienen por objeto poner a disposición de todos los usuarios un canal de gestión ordenado, que permita el acceso a dichos volúmenes en momentos y periodos determinados. Este proceso posibilita la coexistencia de actividades aeronáuticas civiles y militares de diversa índole y naturaleza, asegurando en todo momento un nivel aceptable de seguridad operacional en su ejecución. La Gestión del Espacio Aéreo se proporciona en las cinco (5) Regiones de Información de Vuelo (FIR) de la República Argentina incluyendo el espacio aéreo AORRA. 4. UNIDADES DE GESTIÓN DE ESPACIO AÉREO El Departamento de Diseño de Espacio Aéreo, dependiente de la Gerencia de Planificación, tiene a su cargo la prestación del servicio de diseño de Procedimientos de Vuelo Instrumental (IFP) y de los espacios aéreos asociados. Asimismo, es responsable de la planificación, ejecución, supervisión y mejora continua de dichos servicios, garantizando su adecuación a las normas nacionales e internacionales vigentes y a las necesidades operativas del sistema. Sede: Bouchard 547, C1006, Ciudad Autónoma de Buenos Aires, República Argentina Correo de contacto: dptopbn@eana.com.ar AIRSPACE MANAGEMENT (ASM) 1. INTRODUCTION Airspace organization establishes",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "7.3",
+      "chapter": "7"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-50-450",
+    "text": "la planificación, ejecución, supervisión y mejora continua de dichos servicios, garantizando su adecuación a las normas nacionales e internacionales vigentes y a las necesidades operativas del sistema. Sede: Bouchard 547, C1006, Ciudad Autónoma de Buenos Aires, República Argentina Correo de contacto: dptopbn@eana.com.ar AIRSPACE MANAGEMENT (ASM) 1. INTRODUCTION Airspace organization establishes structures designed to accommodate different types of air activities, traffic volumes, and required service levels. Airspace management is the process by which airspace usage options are determined and implemented in order to meet the needs of the ATM/UTM community, users, and ATC agencies. All airspace is recognized as a common resource, the management of which shall ensure conditions of equity, dynamism, and flexibility. Consequently, and in accordance with the principle of optimal use of airspace resources set out in ICAO regulations, any restriction imposed on the use of a specific volume shall be strictly temporary. 2. RESPONSIBLE AUTHORITY The Argentine Air Navigation Company (EANA S.A.) is responsible for providing Airspace Management. 3. SERVICE PROVIDED The development, design, structuring, and administration of airspace volumes are intended to provide all users with an orderly management channel that allows access to these volumes at specific times and periods. This process enables the coexistence of civil and military aeronautical activities of various types and natures, ensuring an acceptable level of operational safety at all times. Airspace Management is provided in the five (5) Flight Information Regions (FIR) of the Argentine Republic, including the AORRA airspace. 4. AIRSPACE MANAGEMENT UNITS The Airspace Design Department, under the Planning Management, is responsible for providing Instrument Flight Procedures (IFP) design services and associated airspace. It is also responsible for the planning, execution, supervision, and continuous improvement of these services, ensuring their compliance with current national and international standards and the operational needs of the system. Headquarters: Bouchard 547, C1006, Autonomous City of Buenos Aires, Argentine Republic Contact email: dptopbn@eana.com.ar AIP ARGENTINA ENR 1.9.-12 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AMDT AIRAC 2/2025 27 NOVIEMBRE 2025 5. GESTIÓN DE ESPACIO AÉREO/RESERVA DE ESPACIO AÉREO (ASM/REA) El Departamento de Gestión y Reserva del Espacio Aéreo (ASM/REA) opera a nivel nacional. Sus unidades ASM/REA se encargan de la coordinación y gestión del espacio aéreo para actividades civiles y militares que no están relacionadas con el transporte aéreo comercial. Esto incluye la afectación, reserva y restricción del espacio aéreo, así como coordinaciones operativas en los niveles estratégico, pre- táctico y táctico, interactuando de manera directa con los servicios ATC, la ATFM, usuarios civiles, unidades militares, fuerzas de seguridad y organismos de defensa del Estado Argentino, con el objetivo de garantizar un uso ordenado, seguro y eficiente del espacio aéreo. Sede central ASM-REA: Aeropuerto Internacional Ministro Pistarini Puerta 50, Piso 4º Ezeiza (B1802EZE) Provincia de Buenos Aires, República Argentina. Teléfono: (+54 11) 4480-2250 / 4480-2291 Correo de contacto: reacentral@eana.com.ar Dirección telegráfica aeronáutica: GAO-ASM-JF (SAEZEASM) Información del servicio prestado, canales de comunicación y gestión en: https://www.eana.com.ar/servicios#reserva-espacio- aereo 6. Unidades ASM-REA 5. AIRSPACE MANAGEMENT/AIRSPACE RESERVATION (ASM/REA) The Airspace Management and Reservation Department (ASM/REA) operates at the national",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 9.pdf-50-900",
+    "text": "Buenos Aires, República Argentina. Teléfono: (+54 11) 4480-2250 / 4480-2291 Correo de contacto: reacentral@eana.com.ar Dirección telegráfica aeronáutica: GAO-ASM-JF (SAEZEASM) Información del servicio prestado, canales de comunicación y gestión en: https://www.eana.com.ar/servicios#reserva-espacio- aereo 6. Unidades ASM-REA 5. AIRSPACE MANAGEMENT/AIRSPACE RESERVATION (ASM/REA) The Airspace Management and Reservation Department (ASM/REA) operates at the national level. Its ASM/REA units are responsible for coordinating and managing airspace for civil and military activities that are not related to commercial air transport. This includes the allocation, reservation, and restriction of airspace, as well as operational coordination at the strategic, pre-tactical, and tactical levels, interacting directly with ATC services, ATFM, civil users, military units, security forces, and defense agencies of the Argentine State, with the aim of ensuring the orderly, safe, and efficient use of airspace. ASM-REA headquarters: Ministro Pistarini International Airport Gate 50, 4th Floor Ezeiza (B1802EZE) Province of Buenos Aires, Argentine Republic. Telephone: (+54 11) 4480-2250 / 4480-2291 Contact email: reacentral@eana.com.ar Aeronautical telegraphic address: GAO-ASM-JF (SAEZEASM) Information the service provided, communication channels and management in: https://www.eana.com.ar/servicios#reserva- espacio-aereo 6. ASM-REA Units Dependencia / Unit Ubicación / Location Área de responsabilidad / Area of responsibility Datos de contacto / Contact information ASM/REA EZE Aeropuerto Internacional Ministro Pistarini Autopista Tte. Gral. Ricchieri Km 33,5 Puerta 50, Piso 4º Ezeiza (B1802EZE) Provincia de Buenos Aires FIR SAEF FIR SAVF Tel: (+54 11) 4480-2250 / 4480-2291 INT/RTI: 57250 / 57291 ASM/REA CBA Aeropuerto Int. Ing. Ambrosio Taravella Av. La Voz Interior KM 8,5 Córdoba. (X5008HMH) Provincia de Córdoba FIR SACF FIR SAMF FIR SARR Tel: (+54 351) 475-6400 INT/RTI: 36202 HORARIO DE OPERACIÓN ASM/REA: lunes a viernes de 11:00 a 19:00 UTC / ASM/REA UNITS HOURS OF OPERATION: Monday to Friday from 11:00 am to 7:00 pm UTC  ",
+    "metadata": {
+      "source": "AIP - ENR1 - 9.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  }
+]

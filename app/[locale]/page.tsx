@@ -41,7 +41,12 @@ export default function HomePage() {
     }
 
     setLoading(true);
-    setResponse(null);
+    // Initialize response with empty text to show the UI immediately
+    setResponse({
+      text: "",
+      sources: [],
+      source: "Thinking..."
+    });
 
     try {
       const res = await fetch('/api/chat', {
@@ -54,24 +59,54 @@ export default function HomePage() {
         })
       });
 
-      const data = await res.json();
-
-      if (res.ok) {
-        setResponse({
-          text: data.text,
-          sources: data.sources || [],
-          source: data.source
-        });
-      } else {
-        setResponse({
-          text: "Error: " + (data.error || "Failed to connect to OACI Brain."),
-          sources: [],
-          source: "System"
-        });
+      if (!res.ok) {
+        const data = await res.json();
+        throw new Error(data.error || "Failed to connect to OACI Brain.");
       }
-    } catch (err) {
+
+      if (!res.body) throw new Error("No response body");
+
+      const reader = res.body.getReader();
+      const decoder = new TextDecoder();
+      let buffer = "";
+
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+
+        buffer += decoder.decode(value, { stream: true });
+        const lines = buffer.split('\n');
+
+        // Keep the last line in buffer if it's not empty (incomplete)
+        buffer = lines.pop() || "";
+
+        for (const line of lines) {
+          if (!line.trim()) continue;
+          try {
+            const data = JSON.parse(line);
+            if (data.type === 'metadata') {
+              setResponse(prev => ({
+                text: prev?.text || "",
+                sources: data.sources,
+                source: data.source
+              }));
+            } else if (data.type === 'chunk') {
+              setResponse(prev => ({
+                text: (prev?.text || "") + data.text,
+                sources: prev?.sources || [],
+                source: prev?.source
+              }));
+            }
+          } catch (e) {
+            console.error("Error parsing JSON chunk", e);
+          }
+        }
+      }
+
+    } catch (err: any) {
+      console.error(err);
       setResponse({
-        text: "Connection Error. Please check your internet.",
+        text: `Error: ${err.message || "Connection Error. Please check your internet."}`,
         sources: [],
         source: "System"
       });
@@ -253,44 +288,100 @@ export default function HomePage() {
                   </div>
                 </div>
 
+
                 {/* Sources Section */}
-                {response.sources && response.sources.length > 0 && (
-                  <div className="mt-6 pt-6 border-t border-zinc-800/50">
-                    <h4 className="text-xs font-bold text-zinc-500 uppercase tracking-wider mb-3 flex items-center gap-2">
-                      <CheckCircle className="w-3 h-3" />
-                      {t('source') || 'Verified Sources'}
-                    </h4>
-                    <div className="grid gap-2">
-                      {response.sources.map((src, idx) => (
-                        <div key={idx} className="bg-black/40 border border-zinc-800 rounded-lg p-3 flex items-center justify-between hover:border-cyan-500/30 transition-colors group/source">
-                          <div className="flex flex-col">
-                            <span className="text-sm font-medium text-cyan-400">
-                              {src.source.replace('.json', '').replace(/-/g, ' ').replace('icao doc', 'ICAO Doc').toUpperCase()}
-                            </span>
-                            {src.section && (
-                              <span className="text-xs text-zinc-500">
-                                Section {src.section}
-                              </span>
-                            )}
-                          </div>
-                          {src.score && (
-                            <div className="flex items-center gap-1" title="Relevance Score">
-                              <div className="h-1.5 w-16 bg-zinc-800 rounded-full overflow-hidden">
-                                <div
-                                  className="h-full bg-cyan-500/50 rounded-full"
-                                  style={{ width: `${(src.score || 0) * 100}%` }}
-                                />
+                {response.sources && response.sources.length > 0 && (() => {
+                  // Group sources by document name
+                  const groupedSources = response.sources.reduce((acc: any, src: any) => {
+                    const docName = src.source.replace('.json', '').replace(/-/g, ' ').replace('icao doc', 'ICAO Doc').toUpperCase();
+                    if (!acc[docName]) {
+                      acc[docName] = {
+                        name: docName,
+                        sections: [],
+                        avgScore: 0,
+                        count: 0
+                      };
+                    }
+                    acc[docName].sections.push(src.section);
+                    acc[docName].avgScore += src.score || 0;
+                    acc[docName].count += 1;
+                    return acc;
+                  }, {});
+
+                  // Calculate average scores
+                  Object.values(groupedSources).forEach((doc: any) => {
+                    doc.avgScore = doc.avgScore / doc.count;
+                  });
+
+                  const uniqueDocs = Object.values(groupedSources);
+
+                  return (
+                    <div className="mt-6 pt-6 border-t border-zinc-800/50">
+                      <h4 className="text-xs font-bold text-zinc-500 uppercase tracking-wider mb-4 flex items-center gap-2">
+                        <CheckCircle className="w-3 h-3" />
+                        {t('source') || 'Verified Sources'} ({uniqueDocs.length} {uniqueDocs.length === 1 ? 'document' : 'documents'})
+                      </h4>
+                      <div className="grid gap-3">
+                        {uniqueDocs.map((doc: any, idx: number) => (
+                          <div
+                            key={idx}
+                            className="group relative bg-gradient-to-br from-zinc-900/80 to-black/60 border border-zinc-800 rounded-xl p-4 hover:border-cyan-500/40 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/10"
+                          >
+                            {/* Glow effect on hover */}
+                            <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/0 via-cyan-500/5 to-blue-500/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl pointer-events-none" />
+
+                            <div className="relative flex items-start justify-between gap-4">
+                              <div className="flex-1 min-w-0">
+                                {/* Document name */}
+                                <div className="flex items-center gap-2 mb-2">
+                                  <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 group-hover:animate-pulse" />
+                                  <h5 className="text-sm font-bold text-cyan-400 group-hover:text-cyan-300 transition-colors">
+                                    {doc.name}
+                                  </h5>
+                                </div>
+
+                                {/* Sections info */}
+                                <div className="flex items-center gap-3 text-xs text-zinc-500">
+                                  <span className="flex items-center gap-1.5">
+                                    <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                    </svg>
+                                    {doc.count} {doc.count === 1 ? 'reference' : 'references'}
+                                  </span>
+                                  {doc.sections.filter((s: any) => s).length > 0 && (
+                                    <span className="flex items-center gap-1.5">
+                                      <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14" />
+                                      </svg>
+                                      {doc.sections.filter((s: any) => s).length} {doc.sections.filter((s: any) => s).length === 1 ? 'section' : 'sections'}
+                                    </span>
+                                  )}
+                                </div>
                               </div>
-                              <span className="text-[10px] text-zinc-600 font-mono">
-                                {Math.round((src.score || 0) * 100)}%
-                              </span>
+
+                              {/* Relevance score */}
+                              <div className="flex flex-col items-end gap-1">
+                                <div className="flex items-center gap-2">
+                                  <div className="h-1.5 w-20 bg-zinc-800 rounded-full overflow-hidden">
+                                    <div
+                                      className="h-full bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full transition-all duration-500"
+                                      style={{ width: `${(doc.avgScore || 0) * 100}%` }}
+                                    />
+                                  </div>
+                                  <span className="text-[10px] text-zinc-600 font-mono font-bold min-w-[32px] text-right">
+                                    {Math.round((doc.avgScore || 0) * 100)}%
+                                  </span>
+                                </div>
+                                <span className="text-[9px] text-zinc-600 uppercase tracking-wider">relevance</span>
+                              </div>
                             </div>
-                          )}
-                        </div>
-                      ))}
+                          </div>
+                        ))}
+                      </div>
                     </div>
-                  </div>
-                )}
+                  );
+                })()}
+
 
                 {(!response.sources || response.sources.length === 0) && response.source && (
                   <div className="mt-6 pt-4 border-t border-zinc-800 flex items-center justify-between text-xs text-zinc-500 uppercase tracking-wider">

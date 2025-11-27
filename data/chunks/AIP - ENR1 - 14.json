@@ -1,0 +1,284 @@
+[
+  {
+    "id": "AIP - ENR1 - 14.pdf-0-0",
+    "text": "AIP ARGENTINA ENR 1.14.-1 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AMDT AIRAC 1/2022 11 JULIO 2024   ENR 1. REGLAS Y PROCEDIMIENTOS GENERALES / GENERAL RULES AND PROCEDURES ENR 1.14 INCIDENTES DE TRÁNSITO AÉREO ENR 1.14 AIR TRAFFIC INCIDENTS 1. Notificación de eventos y deficiencias de seguridad operacional (PNSO)",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-2-0",
+    "text": "1.1. A través de la Resolución ANAC N°85/2012 de la Administración Nacional de Aviación Civil se aprobó el “Programa Nacional de Notificación de Sucesos y Deficiencias de Seguridad Operacional”, de acuerdo a los lineamientos proporcionados por el Documento 9859 “Manual de Gestión de la Seguridad Operacional”, emitido por la Organización Nacional de Aviación Civil y ratificado por la segunda Edición del Anexo 19 en el año 2016. Así, se incorpora en este documento el link para el Formulario de Notificación de Eventos y Deficiencias de Seguridad Operacional (PNSO) como único formulario para reportes de deficiencias respecto de la seguridad operacional en la República Argentina: https://www.argentina.gob.ar/anac/seguridad- operacional/programa-de-notificacion-de-eventos-de-seg- operacional-pnso/notificacion-pnso. 2. Definiciones Deficiencia de seguridad operacional: condición en el sistema que permite o es la fuente de origen de los peligros y de su perduración en el tiempo. Se trata de condiciones que están presentes en el sistema en forma latente, muchas veces con significativa anticipación al suceso cuyas consecuencias las hace evidentes. Gestión de riesgo de seguridad operacional: actividades para la identificación y el control inicial de deficiencias de seguridad operacional y peligros en el contexto operativo dentro del cual tiene lugar la prestación de servicios por parte del proveedor de servicios. Notificación: comunicación del personal operativo que describe un suceso de seguridad operacional, deficiencias de seguridad operacional o peligros experimentados u observados durante la ejecución de las operaciones aéreas. Peligro: Condición u objeto que podría provocar un incidente o accidente de aviación o contribuir al mismo. Programa Nacional de Notificación de Sucesos y Deficiencias de Seguridad Operacional: actividad del organismo de aviación civil de Estado que ha sido designado, como parte del SCDPS, para administrar la obtención, evaluación, procesamiento y conservación de la información sobre sucesos y deficiencias de seguridad operacional y peligros. Proveedor de servicios: Toda organización que proporciona servicios y productos aeronáuticos. El término incluye a las escuelas de vuelo, los explotadores de aeronaves, los operadores de trabajo aéreo, los talleres de mantenimiento reconocidos, los fabricantes de aeronaves, los proveedores de servicios de tránsito aéreo y los operadores de aeródromos, según corresponda. Seguridad operacional: Estado en el que los riesgos asociados a las actividades de aviación relativas a la operación de aeronaves, o que apoyan directamente dicha operación, se reducen y controlan a un nivel aceptable. Suceso de seguridad operacional: Circunstancias que hayan tenido o hayan podido tener consecuencias sobre la seguridad operacional y que no hayan dado lugar a un accidente o incidente grave. 1. Reporting of Operational Safety events and deficiencies (PNSO, in Spanish)",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-4-0",
+    "text": "1.1 Through ANAC Resolution No. 85/2012 of the National Civil Aviation Administration, the \"National Program for Reporting Operational Safety Events and Deficiencies\" was approved, according to the guidelines provided by Document 9859 \"Operational Safety Management Manual\", issued by the International Civil Aviation Organization and ratified by the second Edition of Annex 19 in 2016. Thus, the Operational Safety Event and Deficiency Reporting (PNSO) link is incorporated in this document as the only form for deficiency reports regarding operational safety in the Republic of Argentina. https://www.argentina.gob.ar/anac/seguridad- operacional/programa-de-notificacion-de-eventos-de-seg- operacional-pnso/notificacion-pnso. 2. Definitions Safety Deficiency: condition in the system that allows or is the source of origin of the hazards and of their persistence over time. These are conditions that are latently present in the system; often significantly, in advance of the event whose consequences make them evident. Operational safety risk management: activities for the identification and initial control of operational safety deficiencies and hazards in the operational context within which service provision by the service provider takes place. Notification: communication from operational personnel describing an operational safety event, operational safety deficiencies or hazards experienced or observed during the performance of air operations. Hazard: A condition or object that could cause or contribute to an aviation incident or accident. National Operational Safety Event and Deficiency Reporting Program: activity of the State civil aviation agency that has been designated, as part of the SCDPS, to manage the collection, evaluation, processing and retention of information on safety occurrences, deficiencies and hazards. Service Provider: Any organization that provides aeronautical services and products. The term includes flight schools, aircraft operators, aerial work operators, recognized repair stations, aircraft manufacturers, air traffic service providers and aerodrome operators, as appropriate. Operational Safety: the state in which risks associated with aviation activities, related to, or in direct support of the operation of aircraft, are reduced and controlled to an acceptable level” Safety Event: Circumstances which have had or may have had consequences on operational safety and which have not resulted in an accident or serious incident. AIP ARGENTINA ENR 1.14.-2 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AMDT AIRAC 1/2024 11 JULIO 2024 3. Uso del Formulario de Notificación de Eventos y Deficiencias de Seguridad Operacional",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "1.1",
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-6-0",
+    "text": "3.1 El uso del Formulario de Notificación de Eventos y Deficiencias de Seguridad Operacional está destinado principalmente para el uso del personal operativo, el cual participa de las operaciones de aviación o su supervisión directa, incluyendo, pero sin estar limitado a: tripulaciones de vuelo, estaciones aeronáuticas, técnicos de mantenimientos, tripulaciones de cabina, despachantes de aeronaves, personal de inspectores de aviación civil. El personal operativo podrá notificar directamente al PNSO, o a través de los programas internos de notificación de seguridad operacional establecidos por su empleador, el que a su vez derivará las notificaciones recibidas de su personal al PNSO.",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-8-0",
+    "text": "3.2 Del mismo modo, los proveedores de servicios podrán notificar al sistema PNSO. 4. Procedimientos de Notificación",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.2",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-10-0",
+    "text": "4.1 La notificación al PNSO deberá efectuarse vía internet al siguiente link: https://occurrences-app-sga.anac.gob.ar/app/occurrences/safety- report/new En el Adjunto A del presente, se pude observar una copia del formulario para su referencia. Asimismo, las especificaciones acerca que se debe notificar y que no, se encuentra en el siguiente link: https://www.argentina.gob.ar/anac/seguridad- operacional/programa-denotificacion-de-eventos-de-seg- operacional-pnso/notificacion-pnso",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.1",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-12-0",
+    "text": "4.2 El plazo de notificación no deberá exceder las 72 horas desde la ocurrencia del evento, circunstancias(s) o condición(es) experimentada(s) u observada(s). En caso de que el notificante considere que la información a notificar reviste gran significación para la gestión de la seguridad operacional, se espera que tal notificación sea cursada en forma tan inmediata como las circunstancias lo permitan.",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.2",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-14-0",
+    "text": "4.3 Las notificaciones serán dirigidas al PNSO, únicamente, a los siguientes puntos de contacto: Portal /web: https://occurrences-app- sga.anac.gob.ar/app/occurrences/safety-report/new",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.3",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-16-0",
+    "text": "4.4 Una vez enviado el formulario PNSO, el notificante recibirá en su casilla de correo un mail de respuesta con la siguiente leyenda: “Tu reporte ha sido recibido y está siendo analizado por nuestros funcionarios. Podés hacer un seguimiento del estado de mitigación de tu reporte a través del siguiente Link” 5. Objetivo y presentación del formulario",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.4",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-18-0",
+    "text": "5.1 El objetivo del formulario PNSO es recopilar información sobre deficiencias del sistema aeronáutico argentino, y contribuir de esta manera a la mejora del mismo, a través de la detección temprana y solución de las deficiencias notificadas. 6. Categorías de las notificaciones",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "5.1",
+      "chapter": "5"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-20-0",
+    "text": "6.1 El PNSO operará sobre la base de dos tipos de categorías de notificaciones de seguridad operacional: notificaciones obligatorias sobre eventos y/o circunstancias, y notificaciones voluntarias sobre condiciones, eventos y/o circunstancias.",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.1",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-22-0",
+    "text": "6.2 NOTIFICACIONES OBLIGATORIAS: Se notificarán eventos y/o circunstancias que están especificados en las regulaciones nacionales, que a su vez han sido traspuestas de normas 3. Use of the Operational Safety Event and Deficiency Reporting Form",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.2",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-24-0",
+    "text": "3.1 The use of the Operational Safety Event and Deficiency Reporting Form is intended primarily for the use of operational personnel, who participate in aviation operations or their direct supervision, including, but not limited to: flight crews, aircraft stations, maintenance technicians, cabin crews, aircraft dispatchers, civil aviation inspector personnel. Operational personnel may notify the PNSO directly, or through the internal operational safety reporting programs established by their employer, which in turn will derive the notifications received from its personnel to the PNSO.",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "3.1",
+      "chapter": "3"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-28-0",
+    "text": "4.1 Notification to the PNSO should be made via the Internet at the following link: Notification to the PNSO should be made via the Internet at the following link: https://occurrences-app- sga.anac.gob.ar/app/occurrences/safety-report/new. A copy of the form is provided at the end of this part for your reference. Likewise, the specifications regarding what should be notified can be found at the following link: https://www.argentina.gob.ar/anac/seguridad- operacional/programa-denotificacion-de-eventos-de-seg- operacional-pnso/notificacion-pnso",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.1",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-30-0",
+    "text": "4.2 The notification period shall not exceed 72 hours from the occurrence of the event, circumstance(s) or condition(s) experienced or observed. In the event that the notifier considers the information to be notified to be of great significance to safety management, it is expected that such notification will be made as immediately as circumstances permit.",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.2",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-32-0",
+    "text": "4.3 Notifications should be addressed to the PNSO at the following contact point only: Website: https://occurrences-app- sga.anac.gob.ar/app/occurrences/safety-report/new.",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.3",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-35-0",
+    "text": "4.4 Once the PNSO form has been sent, the notifier will receive a reply mail in his mailbox with the following text: \"Your report has been received and is being analyzed by our officials. You can follow the mitigation status of your report through the following link\" 5. Purpose and presentation of the form",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "4.4",
+      "chapter": "4"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-37-0",
+    "text": "5.1 The purpose of the PNSO form is to collect information on deficiencies in the Argentine aeronautical system, and thus contribute to its improvement, through the early detection and resolution of reported deficiencies. 6. Report categories",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "5.1",
+      "chapter": "5"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-39-0",
+    "text": "6.1 The PNSO will operate based on two types of categories of safety notifications: mandatory notifications on events and/or circumstances, and voluntary notifications on conditions, events and/or circumstances.",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.1",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-41-0",
+    "text": "6.2 MANDATORY REPORTS: Reports of events and/or circumstances that are specified in national regulations, which in turn have been transposed from international standards. The AIP ARGENTINA ENR 1.14-3 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AMDT AIRAC 1/2024 11 JULIO 2024 internacionales. Las notificaciones que corresponden a esta categoría son aquellas que generan información sobre eventos y/o circunstancias con serio potencial pero que no han generado consecuencias de gravedad.",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.2",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-43-0",
+    "text": "6.2.1 Se proporcionan algunos ejemplos de Notificaciones Obligatorias, no obstante, se recomienda la lectura de la Guía para la Notificación para los Proveedores de Servicios, del Programa Nacional de Notificación de Eventos y Deficiencias de Seguridad Operacional (PNSO): https://www.argentina.gob.ar/sites/default/files/resolucion-528- 2012-anac-guia-pnso_0.pdf  Operación de la aeronave en vuelo: Maniobras evasivas para evitar una colisión con otra aeronave, con el terreno o con un objeto.  Operación de servicios de tránsito aéreo: Circunstancias relacionadas con la activación de alerta de ACAS.  Operación de servicios de aeródromo: Circunstancias de fallo o deterioro significativo de las superficies destinadas a la operación de aeronaves en el aeropuerto.",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.2.1",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-45-0",
+    "text": "6.3 NOTIFICACIONES VOLUNTARIAS: Se notificarán eventos, circunstancias y/o condiciones observadas o experimentadas durante las operaciones aéreas que no están comprendidos bajo las notificaciones obligatorias. Esta categoría de notificación es la fuente básica de información sobre condiciones de baja o escasa gravedad (aunque con significativo potencial de daño), y por su naturaleza genera información sobre deficiencias de seguridad operacional y peligros.",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.3",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-47-0",
+    "text": "6.3.1 Se proporcionan algunos ejemplos de Notificaciones Voluntarias, no obstante, se recomienda la lectura de la Guía para la Notificación para los Proveedores de Servicios, del Programa Nacional de Notificación de Eventos y Deficiencias de Seguridad Operacional (PNSO): https://www.argentina.gob.ar/sites/default/files/resolucion-528- 2012-anac-guia-pnso_0.pdf  Operación de la aeronave en vuelo: Degradación de la performance de la aeronave en alcanzar los parámetros previstos durante el despegue o el ascenso inicial.  Operación de servicios de tránsito aéreo: Desviación de la aeronave del espacio aéreo asignado por los servicios de tránsito aéreo.  Operación de servicios de aeródromo: Deterioro significativo de las superficies destinadas a la operación de aeronaves en el aeropuerto. Nota 1. — Las siguientes son aéreas cuyas entidades están fuera de la competencia del PNSO: Accidentes/ actividades ilegales/ denuncias, cualquiera sea la naturaleza de las mismas/ infracciones normativas/ deficiencias en el desempeño humano operativo, errores y violaciones, propias o de terceras personas/ cuestiones industriales o condiciones laborales de conflicto / seguridad aeroportuaria/ seguridad ocupacional/ salud ocupacional / cuestiones referidas a control de calidad/ interferencia ilícita/ quejas-cuestiones relacionadas con el servicio a los usuarios. reports that fall into this category are those that generate information about events and/or circumstances with serious potential but that have not generated serious consequences.",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.3.1",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-50-0",
+    "text": "6.2.1 Some examples of Mandatory Reports are provided; however, it is recommended that you read the Guide for the Reports of Service Providers, from the National Program for Reporting Operational Safety Events and Deficiencies (PNSO): https://www.argentina.gob.ar/sites/default/files/resolucion-528- 2012-anac-guia-pnso_0.pdf  Operation of the aircraft in flight: Evasive maneuvers to avoid a collision with another aircraft, terrain or object.  Air traffic services operation: Circumstances related to the activation of ACAS alerts.  Aerodrome services operation: Circumstances of failure or significant deterioration of surfaces intended for aircraft operation at the airport.",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.2.1",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-53-0",
+    "text": "6.3 VOLUNTARY REPORTS: Events, circumstances and/or conditions observed or experienced during air operations that are not covered by the mandatory reports will be reported. This report category is the basic source of information on low or non-serious conditions (although with significant potential for damage), and by its nature generates information on safety deficiencies and hazards.",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.3",
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "AIP - ENR1 - 14.pdf-56-0",
+    "text": "6.3.1 Some examples of Voluntary Notifications are provided, however, it is recommended to read the National Program for Notification of Operational Safety Events and Deficiencies (PNSO) Guide for Service Providers: https://www.argentina.gob.ar/sites/default/files/resolucion-528- 2012-anac-guia-pnso_0.pdf.  Operation of the aircraft in flight: Degradation of the aircraft performance in reaching the expected parameters during take-off or initial climb.  Operation of air traffic services: Deviation of the aircraft from the airspace allocated by air traffic services.  Aerodrome services operation: Significant deterioration of aircraft operation surfaces at the airport. Nota 1. — The following are areas whose entities are outside the competence of the PNSO: Accidents / illegal activities / complaints, whatever their nature / regulatory violations / deficiencies in human operational performance, errors and violations, own or of third parties / industrial issues or conflicting working conditions/ airport safety / occupational safety / occupational health / quality control issues / unlawful interference/ complaints / user service issues or complaints. AIP ARGENTINA ENR 1.14.-4 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AMDT AIRAC 1/2024 11 JULIO 2024 FORMULARIO EN LA PÁGINA WEB PNSO / FORM ON THE PNSO WEBSITE AIP ARGENTINA ENR 1.14-5 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA AMDT AIRAC 1/2024 11 JULIO 2024",
+    "metadata": {
+      "source": "AIP - ENR1 - 14.pdf",
+      "docType": "doc",
+      "docNumber": "1",
+      "section": "6.3.1",
+      "chapter": "6"
+    }
+  }
+]
