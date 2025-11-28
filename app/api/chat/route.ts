@@ -67,6 +67,9 @@ export async function POST(req: Request) {
              
              INSTRUCCIONES:
              - Proporciona la información técnica más precisa y completa posible
+             - **EXTRAE Y PRESENTA DATOS ESPECÍFICOS:** números, valores, límites, velocidades, altitudes, etc.
+             - **NUNCA** digas "según especificado en [documento]" sin dar los valores concretos
+             - **NUNCA** remitas al usuario a consultar la documentación
              - Usa terminología aeronáutica estándar
              - Sé directo y profesional
              - Prioriza la precisión técnica
@@ -90,6 +93,9 @@ export async function POST(req: Request) {
              
              INSTRUCTIONS:
              - Provide the most accurate and complete technical information possible
+             - **EXTRACT AND PRESENT SPECIFIC DATA:** numbers, values, limits, speeds, altitudes, etc.
+             - **NEVER** say "as specified in [document]" without giving concrete values
+             - **NEVER** refer the user to consult documentation
              - Use standard aeronautical terminology
              - Be direct and professional
              - Prioritize technical accuracy
