@@ -1,0 +1,92 @@
+🔍 Buscando información sobre rutas desde Resistencia...
+
+📊 Encontrados 10 resultados:
+
+1. **AIP - ENR3 - 3.pdf** (Score: 66.8%)
+   Sección: N/A
+   Preview: South of it, unless they verify the absence of traffic at that aerodrome. b) Pilots of aircraft proceeding along Corridor No. 9 towards Alta Gracia shall communicate with ESCUELA TWR starting from CORONEL OLMEDO (EDO) aerodrome or passing through its South side, before entering the SAR 56 Restricted...
+
+2. **ENR 6.9.pdf** (Score: 65.9%)
+   Sección: N/A
+   Preview: CÓ RDOBA FL 245 FL 195 FL 145 2000 FT AGL CÓ RDOBA CONT ROL A B C Mina Clavero Villa Rumipal/Primer Teniente Mario Nívoli Villa General Belgrano Río Tercero Córdoba / La Mezquita (PV) Jesús María Juárez Celman/ Brig. My. J. I. San Martín Deán Funes Córdoba /Cap. D. Omar Darío Gelardi Córdoba /Escuel...
+
+3. **ENR 6.9.jpg** (Score: 65.0%)
+   Sección: N/A
+   Preview: [IMAGEN DE CARTA AERONÁUTICA: ENR 6.9.jpg] De acuerdo a la información visible en la carta, aquí te presento las aerovías y sus secuencias de puntos. Ruta: VFR Corridor (8) Secuencia: TOLEDO -> Coronel Olmedo Ruta: VFR Corridor (10) Secuencia: CÓRDOBA (La Mezquita) -> L. Roque -> CARLO Ruta: VFR Cor...
+
+4. **AIP - ENR3 - 3.pdf** (Score: 64.9%)
+   Sección: N/A
+   Preview: the CTR Ancho de corredor de 2.500 m (1.250 m a cada lado del eje), circulación en ambos sentidos. / Corridor width of 2,500 m (1,250 m on each side of the axis), circulation in both directions. Velocidad máxima en corredor VFR /Maximum speed in VFR corridor IAS 150 Kt Nota. – Los límites laterales ...
+
+5. **AIP - ENR3 - 1.1.pdf** (Score: 63.8%)
+   Sección: 125.20
+   Preview: 125.20 MHz 133.95 MHz 64 NM 89 NM ENR 3 RUTAS ATS / ATS ROUTES ENR 3-1 RUTAS DE NAVEGACIÓN CONVENCIONALES / CONVENTIONAL NAVIGATION ROUTES ESPACIO AÉREO SUPERIOR / UPPER AIRSPACE DESIGNADOR DE RUTA / ROUTE DESIGNATOR NOMBRE DE LOS PUNTOS SIGNIFICATIVOS / NAME OF SIGNIFICANT POINTS COORDENADAS / COOR...
+
+6. **AIP - ENR3 - 3.pdf** (Score: 63.2%)
+   Sección: N/A
+   Preview: - 1 ENR 3. RUTAS ATS/ATS ROUTES ENR 3.3 OTRAS RUTAS/OTHER ROUTES DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA CORREDORES VFR PARA VUELOS VFR DEBAJO DE LAS TMA BAIRES VRF CORRIDORS FOR VFR FLIGHTS BELOW THE TMA BAIRES NORMAS PARA VUELOS VFR POR DEBAJO DEL LÍMITE INFERIOR DEL TMA BAIRES GENERALIDADES VFR P...
+
+7. **AIP - ENR3 - 3.pdf** (Score: 63.1%)
+   Sección: N/A
+   Preview: / TABLE-2 DESCRIPCIÓN DE LOS CORREDORES VFR / DESCRIPTION OF THE VFR CORRIDORS Número Corredor / Corridor Number Trayectoria y Coordenadas Geográficas/ Path and Geographic Coordinates Rumbo Magnético/ Magnetic Heading Distancias en NM/ Distances in NM AD. LA CUMBRE- 310018S-0643158W AD COSQUÍN/Santa...
+
+8. **AIP - ENR3 - 3.pdf** (Score: 63.1%)
+   Sección: N/A
+   Preview: corredor VFR. Vertical limits: 2000 FT MSL/GND Within the control zone (CTR): Maximum flight altitude 1000 FT MSL, being the pilot's responsibility to maintain the regulatory separation with the obstacles without exceeding the mentioned altitude. Outside the control zone (CTR): Maximum flight altitu...
+
+9. **AIP - ENR5 - 2.pdf** (Score: 63.0%)
+   Sección: N/A
+   Preview: 5.1. En todos los casos se debe cumplir lo dispuesto en la RAAC Parte 91 y AIP ENR 1.10 “Plan de vuelo”. 6. El incumplimiento de las disposiciones hará pasible a las aeronaves de la aplicación del Artículo 3 bis del Convenio sobre Aviación Civil Internacional, relativo a la interceptación de aeronav...
+
+10. **AIP - ENR3 - 3.pdf** (Score: 62.9%)
+   Sección: N/A
+   Preview: with jurisdictional control are all those VFR flights that are conducted in class "B", "C" or "D" airspaces; i.e: 1) Within the ATZs of aerodromes where Air Traffic Control Service is provided. 2) Within the CÓRDOBA CTR. 3) Within the CÓRDOBA TMA. 4) To avoid delays and/or frequency saturation in th...
+
+
+🔍 Buscando menciones específicas de "Resistencia" o "SIS"...
+
+✅ 1. **AIP - ENR1 - 15.pdf** (Score: 63.6%)
+   Contenido: 6.1 Aunque los sistemas RADAR estuvieran fuera de servicio se continuará asignando códigos SSR a todas las aeronaves. 1. Affected FIRs RESISTENCIA/SIS/SARE – CURITIBA 2. Purpose...
+
+✅ 2. **AIP - ENR1 - 15.pdf** (Score: 62.9%)
+   Contenido: 6.1 Aunque los sistemas RADAR estuvieran fuera de servicio se continuará asignando códigos SSR a todas las aeronaves. 1. Affected FIRs RESISTENCIA/SIS/SARE – ASUNCIÓN 2. Purpose...
+
+✅ 3. **AIP - ENR1 - 15.pdf** (Score: 61.2%)
+   Contenido: 2.1 Facilitar y mantener el tránsito aéreo internacional en forma segura y ordenada entre la FIR RESISTENCIA/SIS/SARE y FIR CURITIBA, en caso de presentarse una interrupción en la prestación de los servicios de control de tránsito aéreo dentro de la FIR RESISTENCIA/SIS/SARE. 3. Generalidades...
+
+✅ 4. **AIP - ENR3 - 2.pdf** (Score: 60.9%)
+   Contenido: 134.30 MHz 125.75 MHz Tramo RESISTENCIA/SIS/SARE / AKPEL solamente se podrá utilizar cuando no se encuentre activada la SAR 158, previa autorización de la ACC RESISTENCIA/SIS/SARE 49 MN 30 NM 55 NM 52 NM 96 NM 59 NM Ver AIP de PARAGUAY ENR 3 RUTAS DE NAVEGACIÓN AÉREA / AIR NAVIGATION ROUTES ENR 3-2 RUTAS DE NAVEGACIÓN AÉREO (RNAV 5) / AIR NAVIGATION ROUTES (RNAV 5) ESPACIO AÉREO SUPERIOR / UPPER AIRSPACE DESIGNADOR DE RUTA / ROUTE DESIGNATOR NOMBRE DE LOS PUNTOS SIGNIFICATIVOS / NAME OF SIGNIFIC...
+
+✅ 5. **AIP - ENR1 - 15.pdf** (Score: 60.9%)
+   Contenido: 2.1 Facilitar y mantener el tránsito aéreo internacional en forma segura y ordenada entre la FIR RESISTENCIA/SIS/SARE y FIR ASUNCIÓN, en caso de presentarse una interrupción en la prestación de los servicios de control de tránsito aéreo dentro de la FIR RESISTENCIA/SIS/SARE. 3. Generalidades...
+
+✅ 6. **AIP - ENR5 - 1.1.pdf** (Score: 60.7%)
+   Contenido: 30.16 NM arc from RESISTENCIA/SIS/SARE VOR/DME to 274231S - 0593226W. UNL GND Aeronaves militares en misión de defensa aérea. En la coordinación se establecerán los límites verticales de acuerdo con la necesidad operativa. Military aircraft on air defense mission. Coordination will establish vertical limits according to operational need. SAR 158 RESISTENCIA/SIS/SARE NORTE Desde 271423S – 0591158W, 263906S – 0602337W, 260910S – 0584006W, 271233S – 0590002W siguiendo un arco de 14,54 NM VOR/DME RE...
+
+✅ 7. **INF 1.jpg** (Score: 60.6%)
+   Contenido: [IMAGEN DE CARTA AERONÁUTICA: INF 1.jpg] Okay, I'll analyze the chart provided and extract the airways and their sequences based on your instructions. Ruta: W20 Secuencia: RESISTENCIA -> SIS -> OPKAN -> ITADO -> RECONQUISTA Detalles: - RESISTENCIA/SIS/SARE: VOR, 27°26'S 058°56'W - RESISTENCIA/SIS/SARE: VOR, 27°27'S 058°59'W, 113.5 MHz - OPKAN: Waypoint, 27°45'S 059°15'W - ITADO: Waypoint, 27°46'S 059°47'W - RECONQUISTA: VOR, 29°09'S 059°40'W, 117.1 MHz Ruta: W24 Secuencia: SANTA ROSA/OSA/SAZR ->...
+
+✅ 8. **ENR 6.8.pdf** (Score: 60.3%)
+   Contenido: 134.30 125.75 Emerg. 121.50 TMA RESISTENCIA FL 195 FL 145 2000 FT AGL FL 195 FL 145 FL 45 TWR RESISTENCIA...
+
+✅ 9. **INF 1.pdf** (Score: 60.3%)
+   Contenido: 134.30 125.75 Emerg. 121.50 TMA RESISTENCIA FL 195 FL 145 2000 FT AGL FL 195 FL 145 FL 45 TWR RESISTENCIA...
+
+✅ 10. **AIP - ENR5 - 1.1.pdf** (Score: 60.2%)
+   Contenido: RESTRICTED AREAS Identificación, nombre y límites laterales / Identification, name and lateral limits Límite superior Límite inferior / Upper limit Lower limit Observaciones (hora de actividad, tipo de restricción, naturaleza del riesgo, riesgo de interceptación) / Remarks (time of activity, type of restriction, nature of the risk, risk of interception) 1 2 3 SAR 155 POSADAS/POS/SARP SUDOESTE Desde 274551S – 0562029W, 282538S – 0564314W, 280556S – 0570457W, 274419S – 0562218W, siguiendo un arco ...
+
+✅ 11. **AIP - ENR5 - 1.1.pdf** (Score: 59.6%)
+   Contenido: RESISTENCIA/SIS/SARE, según corresponda. - 24 DEPARTAMENTO DE INFORMACIÓN AERONÁUTICA ENR 5. AVISOS PARA LA NAVEGACIÓN / NAVIGATION WARNINGS ENR 5.1 ZONAS PROHIBIDAS, RESTRINGIDAS Y PELIGROSAS / ENR 5.1 PROHIBITED, RESTRICTED AND DANGER AREAS ZONAS RESTRINGIDAS / RESTRICTED AREAS Identificación, nombre y límites laterales / Identification, name and lateral limits Límite superior Límite inferior / Upper limit Lower limit Observaciones (hora de actividad, tipo de restricción, naturaleza del riesgo...
+
+✅ 12. **AIP - ENR3 - 2.pdf** (Score: 59.5%)
+   Contenido: 118.70 MHz 118.10 MHz Tramo RESISTENCIA/SIS/SARE/UROLI solamente se podrá utilizar cuando no se encuentre activada la SAR 156, previa autorización del ACC RESISTENCIA/SIS/SARE. 55 NM 22 NM ACC RESISTENCIA/SIS/SARE...
+
+✅ 13. **AIP - GEN2 - 7.pdf** (Score: 59.5%)
+   Contenido: 5:52 6:18 19:54 20:20 Ene 30 6:01 6:26 19:51 20:16 Feb 10 6:10 6:35 19:44 20:08 Feb 20 6:18 6:42 19:36 20:00 Mar 10 6:30 6:53 19:18 19:41 Mar 20 6:35 6:59 19:07 19:30 Mar 30 6:41 7:04 18:56 19:19 Abr 10 6:46 7:10 18:44 19:07 Abr 20 6:51 7:15 18:34 18:57 Abr 30 6:56 7:20 18:25 18:49 May 10 7:01 7:26 18:18 18:42 May 20 7:06 7:31 18:12 18:37 May 30 7:11 7:37 18:09 18:34 Jun 10 7:16 7:42 18:08 18:34 Jun 20 7:19 7:45 18:09 18:35 Jun 30 7:21 7:46 18:12 18:38 Jul 10 7:20 7:46 18:16 18:41 Jul 20 7:18 7:...
+
+✅ 14. **ENR 6.14.pdf** (Score: 59.3%)
+   Contenido: LAS RUTAS AÉREAS VIGENTES PARA LA PLANIFICACIÓN DE LOS VUELOS DURANTE LA ACTIVACIÓN DEL PLAN DE CONTINGENCIA. / NOT FOR NAVIGATION. THIS CHART ONLY SHOWS CURRENT AIR ROUTES FOR FLIGTH PLANNING DURING THE ACTIVATION OF THE CONTINGENCY PLAN. D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D FIR RESISTENCIA SARF FIR MENDOZA SAMF FIR EZEIZA SAEF FIR CÓRDOBA SACF FIR PUERTO MONTT FIR ANTOFAGASTA FIR RESISTENCIA SARU FIR CURITIBA FIR CURI...
+
+✅ 15. **AIP - ENR3 - 1.1.pdf** (Score: 59.3%)
+   Contenido: 125.20 MHz 124.10 MHz 133.95 MHz ENR 3 RUTAS ATS / ATS ROUTES ENR 3-1 RUTAS DE NAVEGACIÓN CONVENCIONALES / CONVENTIONAL NAVIGATION ROUTES ESPACIO AÉREO INFERIOR / LOWER AIRSPACE DESIGNADOR DE RUTA / ROUTE DESIGNATOR NOMBRE DE LOS PUNTOS SIGNIFICATIVOS / NAME OF SIGNIFICANT POINTS COORDENADAS / COORDINATES DERROTA MAGNETICA / MAGNETIC TRACK DISTANCIAS / DISTANCES LIMITE SUPERIOR / UPPER LIMIT LIMITE INFERIOR / LOWER LIMIT CLASIFICACIÓN DEL ESPACIO AÉREO/ AIRSPACE CLASSIFICATION NIVEL DE VUELO MÍN...
+

@@ -12,9 +12,11 @@ OACI.ai is an intelligent chatbot that provides instant, accurate answers about 
 
 ### Core Technologies
 - **Framework**: [Next.js 16](https://nextjs.org/) with App Router
-- **AI Model**: [Google Gemini 2.0 Flash Experimental](https://ai.google.dev/)
-- **Embeddings**: Google text-embedding-004 (768 dimensions)
-- **Vector Database**: [Pinecone](https://www.pinecone.io/) Serverless
+- **AI Model**: [Google Gemini 2.0 Flash Experimental](https://ai.google.dev/) (Text & Vision)
+- **Embeddings**: 
+  - **Dense**: Google text-embedding-004 (768 dimensions)
+  - **Sparse**: Custom TF-Hashing (Keyword Search)
+- **Vector Database**: [Pinecone](https://www.pinecone.io/) Serverless (Hybrid Search)
 - **Authentication**: [Clerk](https://clerk.com/) with Google Sign-In
 - **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
 - **Animations**: [Framer Motion](https://www.framer.com/motion/)
@@ -24,6 +26,7 @@ OACI.ai is an intelligent chatbot that provides instant, accurate answers about 
 
 ### Performance Optimizations
 - **Streaming Responses**: Real-time text generation with NDJSON
+- **Hybrid Retrieval**: Combines semantic understanding with exact keyword matching
 - **Smart Caching**: Reduced context retrieval (topK: 8)
 - **Fast Model**: Gemini 2.0 Flash for sub-second first token
 - **Response Time**: ~6 seconds to first token, ~11 seconds total
@@ -33,8 +36,9 @@ OACI.ai is an intelligent chatbot that provides instant, accurate answers about 
 ## 🗄️ Database Status
 
 - **Pinecone Index**: `oaci-docs`
-- **Total Vectors**: 7,709
+- **Total Vectors**: 7,740+
 - **Documents Loaded**:
+  - ✅ **Visual Charts (New)**: ENR 6.x (High/Low Altitude Routes) extracted via Gemini Vision
   - ✅ **ICAO Doc 4444**: Air Traffic Management (PANS-ATM)
   - ✅ **ICAO Annex 15**: Aeronautical Information Services (Ed. 2018)
   - ✅ **AIP Argentina GEN**: General (Regulations, Tables, Services)
@@ -46,22 +50,22 @@ OACI.ai is an intelligent chatbot that provides instant, accurate answers about 
   - ✅ **PR GOPE 069**: Procedure for reception, control and transmission of FPL
   - ✅ **PROGEN ARO**: General ARO Procedures
   - ✅ **PROGEN ATM**: General Air Traffic Management Procedures (Amendment 2 2021)
-- **Embedding Model**: text-embedding-004 (768 dimensions)
+- **Embedding Model**: Hybrid (Dense + Sparse)
 - **Cost**: $0/month (within free tiers)
 
 ---
 
-## 🔄 RAG Pipeline
+## 🔄 Hybrid RAG Pipeline
 
-The system uses a complete RAG (Retrieval-Augmented Generation) pipeline with streaming support:
+The system uses an advanced **Hybrid RAG** pipeline that combines semantic search, keyword matching, and computer vision:
 
 ### Architecture Flow
 ```
-User Query → Embedding Generation (1-2s)
+User Query → Hybrid Embedding (Dense + Sparse)
           ↓
-    Pinecone Search (1-2s)
+    Pinecone Hybrid Search (Dot Product)
           ↓
-    Context Retrieval (8 chunks)
+    Context Retrieval (Text Chunks + Visual Route Data)
           ↓
     Gemini 2.0 Flash Stream (~1s to first token)
           ↓
@@ -70,34 +74,41 @@ User Query → Embedding Generation (1-2s)
 
 ### Pipeline Steps
 
-1. **PDF Extraction** → Extract text from official PDFs
-2. **Chunking** → Split documents into semantic chunks (~500 words)
-3. **Embedding** → Generate vectors using Google's text-embedding-004
-4. **Vector Storage** → Store in Pinecone for fast similarity search
-5. **Retrieval** → Find top 8 most relevant chunks for each query
-6. **Streaming Generation** → Gemini 2.0 Flash generates contextual answers with real-time streaming
+1.  **Multi-Modal Extraction**:
+    *   **PDFs**: Enhanced text extraction for regulations.
+    *   **Images**: Gemini Vision analyzes charts to extract structured route data (Waypoints, Airways).
+2.  **Enrichment**: Normalize airport codes (e.g., "RESISTENCIA" → "RESISTENCIA/SIS/SARE").
+3.  **Chunking**: Split documents into semantic chunks.
+4.  **Hybrid Embedding**: 
+    *   Generate dense vectors (semantics).
+    *   Generate sparse vectors (keywords/codes like "W20", "SARE").
+5.  **Vector Storage**: Store in Pinecone with `dotproduct` metric.
+6.  **Retrieval**: Find most relevant chunks using hybrid scoring.
+7.  **Streaming Generation**: Gemini 2.0 Flash generates contextual answers.
 
 ### Processing New Documents
 
 ```bash
-# 1. Place PDFs in data/pdfs/
-# 2. Extract text
-npx tsx scripts/1-extract-pdf.ts
+# 1. Place files in data/raw/ (PDFs or Images .png/.jpg)
 
-# 3. Chunk documents
-npx tsx scripts/2-chunk-documents.ts
+# 2. Extract Data (Choose based on file type)
+npx ts-node scripts/1-extract-images.ts       # For Charts/Images
+npx ts-node scripts/1-extract-pdf-enhanced.ts # For Text PDFs
 
-# 4. Generate embeddings
-npx tsx scripts/3-generate-embeddings.ts
+# 3. Enrich Data (Normalize codes)
+npx ts-node scripts/2-enrich-data.ts
 
-# 5. Upload to Pinecone
-npx tsx scripts/4-upload-to-pinecone.ts
+# 4. Chunk Documents
+npx ts-node scripts/3-chunk-text.ts
 
-# 6. Verify Embeddings (Optional)
-npx tsx scripts/verify-pinecone-docs.ts
+# 5. Generate Hybrid Embeddings
+npx ts-node scripts/4-generate-embeddings.ts
 
-# 7. Test RAG Speed (Optional)
-npx tsx scripts/test-rag-speed.ts
+# 6. Upload to Pinecone
+npx ts-node scripts/5-upload-to-pinecone.ts
+
+# 7. Verify Routes (Optional)
+npx ts-node scripts/verify-route-res-aer.ts
 ```
 
 ---
@@ -162,6 +173,11 @@ npm start
 - ✅ **Performance Logging**: Detailed timing metrics for debugging
 
 ### Recent Updates (November 2024)
+
+**New Capabilities:**
+- 👁️ **Vision Pipeline**: Extracts structured route data from aeronautical charts (images) using Gemini Vision.
+- 🔍 **Hybrid Search**: Implemented Dense + Sparse vector retrieval for precise keyword matching (e.g., "W20", "SARE").
+- ⚡ **Optimized Scripts**: Unified JSON-based processing pipeline.
 
 **Performance Improvements:**
 - Implemented streaming responses using NDJSON format

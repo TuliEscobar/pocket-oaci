@@ -105,23 +105,21 @@ Crear estructura de carpetas:
 ```
 pocket-oaci/
 ├── data/
-│   ├── raw/              # PDFs originales
-│   │   ├── anexo-1.pdf
-│   │   ├── anexo-6.pdf
-│   │   └── doc-4444.pdf
-│   ├── processed/        # Texto extraído
-│   └── chunks/           # Fragmentos procesados
+│   ├── raw/              # PDFs e Imágenes originales (.pdf, .png, .jpg)
+│   ├── processed/        # JSONs extraídos (Texto y Datos Estructurados)
+│   ├── chunks/           # Fragmentos semánticos
+│   └── embeddings/       # Vectores híbridos (Dense + Sparse)
 ├── scripts/
-│   ├── 1-extract-pdf.ts
-│   ├── 2-chunk-text.ts
-│   ├── 3-generate-embeddings.ts
-│   └── 4-upload-to-vectordb.ts
+│   ├── 1-extract-images.ts       # Extracción visual con Gemini Vision
+│   ├── 1-extract-pdf-enhanced.ts # Extracción de texto PDF
+│   ├── 2-enrich-data.ts          # Normalización de datos
+│   ├── 3-chunk-text.ts           # Chunking semántico
+│   ├── 4-generate-embeddings.ts  # Generación híbrida
+│   └── 5-upload-to-pinecone.ts   # Indexación
 └── lib/
     └── rag/
-        ├── document-processor.ts
-        ├── embedding-service.ts
-        ├── vector-store.ts
-        └── rag-pipeline.ts
+        ├── rag-service.ts
+        └── ...
 ```
 
 ### 1.2 Script de Extracción de PDFs
@@ -209,9 +207,11 @@ processAllPDFs().catch(console.error);
 
 **Uso**:
 ```bash
-# Coloca tus PDFs en data/raw/
-# Luego ejecuta:
-npx tsx scripts/1-extract-pdf.ts
+# 1. Para Imágenes (Cartas):
+npx ts-node scripts/1-extract-images.ts
+
+# 2. Para PDFs (Regulaciones):
+npx ts-node scripts/1-extract-pdf-enhanced.ts
 ```
 
 ---

@@ -411,25 +411,37 @@ export default function HomePage() {
         <div className="w-full relative z-10">
           <form onSubmit={handleSearch} className="relative group">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-2xl opacity-20 group-hover:opacity-40 transition duration-500 blur"></div>
-            <div className="relative bg-black rounded-2xl flex items-center p-2 border border-zinc-800 focus-within:border-zinc-700 transition-colors">
+            <div className="relative bg-black rounded-2xl flex items-start p-2 border border-zinc-800 focus-within:border-zinc-700 transition-colors">
               <button
                 type="button"
                 onClick={handleVoiceInput}
-                className={`p-3 transition-colors ${isListening ? 'text-red-500 animate-pulse' : 'text-zinc-500 hover:text-white'}`}
+                className={`p-3 transition-colors shrink-0 ${isListening ? 'text-red-500 animate-pulse' : 'text-zinc-500 hover:text-white'}`}
               >
                 <Mic className="w-5 h-5" />
               </button>
-              <input
-                type="text"
+              <textarea
                 value={query}
-                onChange={(e) => setQuery(e.target.value)}
+                onChange={(e) => {
+                  setQuery(e.target.value);
+                  // Auto-resize textarea
+                  e.target.style.height = 'auto';
+                  e.target.style.height = e.target.scrollHeight + 'px';
+                }}
+                onKeyDown={(e) => {
+                  // Submit on Enter (without Shift)
+                  if (e.key === 'Enter' && !e.shiftKey) {
+                    e.preventDefault();
+                    handleSearch(e as any);
+                  }
+                }}
                 placeholder={isListening ? (locale === 'es' ? 'Escuchando...' : 'Listening...') : t('placeholder')}
-                className="flex-1 bg-transparent border-none focus:ring-0 text-white placeholder-zinc-600 px-2 py-2 text-lg outline-none"
+                className="flex-1 bg-transparent border-none focus:ring-0 text-white placeholder-zinc-600 px-2 py-2 text-lg outline-none resize-none overflow-hidden min-h-[40px] max-h-[200px]"
+                rows={1}
               />
               <button
                 type="submit"
                 disabled={!query.trim() || loading}
-                className="p-3 bg-zinc-900 hover:bg-zinc-800 text-white rounded-xl transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+                className="p-3 bg-zinc-900 hover:bg-zinc-800 text-white rounded-xl transition-all disabled:opacity-50 disabled:cursor-not-allowed shrink-0"
               >
                 <Send className="w-5 h-5" />
               </button>

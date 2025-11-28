@@ -15,8 +15,10 @@ Tu copiloto regulatorio con IA. Respuestas instantáneas y citadas sobre normati
 ```
 
 **Sector:**
-- Software Development
-- Aviation & Aerospace
+```
+Software Development
+Aviation & Aerospace
+```
 
 **Tamaño de la Empresa:**
 ```
@@ -67,7 +69,7 @@ Hemos desarrollado "OACI de Bolsillo": una herramienta que permite a pilotos, co
 
 Utilizamos modelos de lenguaje de última generación (Google Gemini 2.5 Pro) integrados con una arquitectura RAG (Retrieval-Augmented Generation) propietaria, garantizando que cada respuesta esté libre de alucinaciones y sea 100% trazable a la normativa vigente.
 
-Nuestra base de datos vectorial contiene más de 2,960 fragmentos de documentos oficiales, indexados y optimizados para búsqueda semántica instantánea.
+Nuestra base de datos vectorial contiene más de 7,709 fragmentos de documentos oficiales, indexados y optimizados para búsqueda semántica instantánea.
 
 ✈️ Para quién es
 
@@ -130,13 +132,13 @@ OACI.ai responde preguntas en lenguaje natural con precisión quirúrgica:
 ✅ Bilingüe (Español/Inglés)
 
 🔹 La Tecnología
-Usamos Google Gemini 2.5 Pro con RAG (Retrieval-Augmented Generation) sobre una base vectorial de 2,960 chunks de documentos oficiales. Cero alucinaciones, 100% trazabilidad.
+Usamos Google Gemini 2.5 Pro con RAG (Retrieval-Augmented Generation) sobre una base vectorial de 7,709 chunks de documentos oficiales. Cero alucinaciones, 100% trazabilidad.
 
 🔹 ¿Por qué ahora?
 La aviación se moderniza, pero las regulaciones seguían en papel. OACI.ai trae la normativa a la era de la IA.
 
 👉 Pruébalo gratis: https://pocket-oaci.vercel.app
-📩 ¿Eres inversor o medio? Escríbeme: [tu_email]
+📩 ¿Eres inversor o medio? Escríbeme: hector.escobarr.89@gmail.com
 
 #Aviation #ArtificialIntelligence #RegTech #Aerospace #Startup #Innovation #ICAO #FlightSafety
 ```

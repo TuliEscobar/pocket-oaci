@@ -46,17 +46,21 @@ data/raw/
 Una vez tengas los PDFs, ejecuta estos comandos en orden:
 
 ```bash
-# Paso 1: Extraer texto de los PDFs
-npx tsx scripts/1-extract-pdf.ts
+# Paso 1: Extraer datos (Elige según el tipo de archivo)
+npx ts-node scripts/1-extract-images.ts       # Para imágenes (.png, .jpg)
+npx ts-node scripts/1-extract-pdf-enhanced.ts # Para PDFs
 
-# Paso 2: Dividir en chunks semánticos
-npx tsx scripts/2-chunk-text.ts
+# Paso 2: Normalizar datos
+npx ts-node scripts/2-enrich-data.ts
 
-# Paso 3: Generar embeddings (toma ~1 segundo por chunk)
-npx tsx scripts/3-generate-embeddings.ts
+# Paso 3: Dividir en chunks semánticos
+npx ts-node scripts/3-chunk-text.ts
 
-# Paso 4: Subir a Pinecone
-npx tsx scripts/4-upload-to-pinecone.ts
+# Paso 4: Generar embeddings híbridos (toma ~1 segundo por chunk)
+npx ts-node scripts/4-generate-embeddings.ts
+
+# Paso 5: Subir a Pinecone
+npx ts-node scripts/5-upload-to-pinecone.ts
 ```
 
 ### 4. Probar el RAG
