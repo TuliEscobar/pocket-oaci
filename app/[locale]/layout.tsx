@@ -113,7 +113,7 @@ export default async function LocaleLayout({
 
           // Form elements
           formButtonPrimary:
-            'bg-gradient-to-r from-cyan-500 to-blue-600 hover:opacity-90 text-white font-bold shadow-lg shadow-cyan-500/20 transition-all',
+            'bg-zinc-800 hover:bg-zinc-700 text-white font-bold shadow-lg shadow-black/20 transition-all',
 
           formFieldInput:
             'bg-zinc-900 border-zinc-800 text-white placeholder-zinc-600 focus:border-cyan-500 focus:ring-cyan-500/20 rounded-xl',
@@ -126,9 +126,9 @@ export default async function LocaleLayout({
 
           // Social buttons
           socialButtonsBlockButton:
-            'bg-zinc-900 border-zinc-800 text-white hover:bg-zinc-800 hover:border-zinc-700 transition-colors',
+            '!bg-cyan-500 hover:!bg-cyan-400 !border-transparent !text-white transition-all shadow-lg shadow-cyan-500/20 !h-14',
 
-          socialButtonsBlockButtonText: 'text-white font-medium',
+          socialButtonsBlockButtonText: '!text-white font-bold !text-lg',
 
           // Divider
           dividerLine: 'bg-zinc-800',

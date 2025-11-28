@@ -68,6 +68,7 @@
         "instructor": "Flight Instructor",
         "mechanic": "Aircraft Mechanic",
         "airport_ops": "Airport Operator",
+        "ais_operator": "AIS Operator",
         "enthusiast": "Aviation Enthusiast / Simmer",
         "other": "Other"
       },
@@ -97,6 +98,11 @@
         "title": "Free Beta",
         "desc": "Full access at no cost during the beta phase."
       }
+    },
+    "auth_required": {
+      "title": "Registration Required",
+      "description": "To ensure the quality of the waitlist, please sign in or register before continuing.",
+      "button": "Sign In / Register"
     }
   }
 }

@@ -68,6 +68,7 @@
                 "instructor": "Instructor de Vuelo",
                 "mechanic": "Técnico Aeronáutico",
                 "airport_ops": "Operador de Aeropuerto",
+                "ais_operator": "Operador AIS",
                 "enthusiast": "Entusiasta / Simmer",
                 "other": "Otro"
             },
@@ -97,6 +98,11 @@
                 "title": "Beta Gratuito",
                 "desc": "Acceso completo sin costo durante la fase beta."
             }
+        },
+        "auth_required": {
+            "title": "Registro Requerido",
+            "description": "Para asegurar la calidad de la lista de espera, por favor inicia sesión o regístrate antes de continuar.",
+            "button": "Iniciar Sesión / Registrarse"
         }
     }
 }

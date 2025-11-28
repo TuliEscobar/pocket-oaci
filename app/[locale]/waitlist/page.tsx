@@ -1,13 +1,15 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { useState } from 'react';
-import { Plane, CheckCircle, Zap, Users, Gift } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Plane, CheckCircle, Zap, Users, Gift, Lock } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
+import { useUser, SignInButton } from '@clerk/nextjs';
 
 export default function WaitlistPage() {
     const t = useTranslations('Waitlist');
+    const { user, isLoaded, isSignedIn } = useUser();
     const [formData, setFormData] = useState({
         email: '',
         role: '',
@@ -17,6 +19,12 @@ export default function WaitlistPage() {
     const [loading, setLoading] = useState(false);
     const [submitted, setSubmitted] = useState(false);
     const [error, setError] = useState('');
+
+    useEffect(() => {
+        if (user?.primaryEmailAddress?.emailAddress) {
+            setFormData(prev => ({ ...prev, email: user.primaryEmailAddress!.emailAddress }));
+        }
+    }, [user]);
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
@@ -80,92 +88,117 @@ export default function WaitlistPage() {
 
                         {/* Form */}
                         <div className="w-full max-w-xl">
-                            <form onSubmit={handleSubmit} className="space-y-6">
-                                <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-8 shadow-2xl shadow-cyan-500/5">
-                                    {/* Email */}
-                                    <div className="mb-6">
-                                        <label className="block text-sm font-medium text-zinc-300 mb-2">
-                                            {t('form.email')} <span className="text-cyan-500">*</span>
-                                        </label>
-                                        <input
-                                            type="email"
-                                            required
-                                            value={formData.email}
-                                            onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                                            placeholder={t('form.emailPlaceholder')}
-                                            className="w-full bg-black border border-zinc-800 rounded-xl px-4 py-3 text-white placeholder-zinc-600 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 outline-none transition-colors"
-                                        />
-                                    </div>
-
-                                    {/* Role */}
-                                    <div className="mb-6">
-                                        <label className="block text-sm font-medium text-zinc-300 mb-2">
-                                            {t('form.role')} <span className="text-cyan-500">*</span>
-                                        </label>
-                                        <select
-                                            required
-                                            value={formData.role}
-                                            onChange={(e) => setFormData({ ...formData, role: e.target.value })}
-                                            className="w-full bg-black border border-zinc-800 rounded-xl px-4 py-3 text-white focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 outline-none transition-colors"
-                                        >
-                                            <option value="">{t('form.rolePlaceholder')}</option>
-                                            <option value="pilot_commercial">{t('form.roles.pilot_commercial')}</option>
-                                            <option value="pilot_student">{t('form.roles.pilot_student')}</option>
-                                            <option value="atc">{t('form.roles.atc')}</option>
-                                            <option value="dispatcher">{t('form.roles.dispatcher')}</option>
-                                            <option value="instructor">{t('form.roles.instructor')}</option>
-                                            <option value="mechanic">{t('form.roles.mechanic')}</option>
-                                            <option value="airport_ops">{t('form.roles.airport_ops')}</option>
-                                            <option value="enthusiast">{t('form.roles.enthusiast')}</option>
-                                            <option value="other">{t('form.roles.other')}</option>
-                                        </select>
-                                    </div>
-
-                                    {/* Document */}
-                                    <div className="mb-6">
-                                        <label className="block text-sm font-medium text-zinc-300 mb-2">
-                                            {t('form.document')}
-                                        </label>
-                                        <input
-                                            type="text"
-                                            value={formData.document}
-                                            onChange={(e) => setFormData({ ...formData, document: e.target.value })}
-                                            placeholder={t('form.documentPlaceholder')}
-                                            className="w-full bg-black border border-zinc-800 rounded-xl px-4 py-3 text-white placeholder-zinc-600 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 outline-none transition-colors"
-                                        />
-                                    </div>
-
-                                    {/* Pain Point */}
-                                    <div className="mb-6">
-                                        <label className="block text-sm font-medium text-zinc-300 mb-2">
-                                            {t('form.painPoint')}
-                                        </label>
-                                        <textarea
-                                            value={formData.painPoint}
-                                            onChange={(e) => setFormData({ ...formData, painPoint: e.target.value })}
-                                            placeholder={t('form.painPointPlaceholder')}
-                                            rows={3}
-                                            className="w-full bg-black border border-zinc-800 rounded-xl px-4 py-3 text-white placeholder-zinc-600 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 outline-none transition-colors resize-none"
-                                        />
-                                    </div>
-
-                                    {/* Error */}
-                                    {error && (
-                                        <div className="mb-6 p-3 bg-red-500/10 border border-red-500/30 rounded-lg text-red-400 text-sm">
-                                            {error}
-                                        </div>
-                                    )}
-
-                                    {/* Submit */}
-                                    <button
-                                        type="submit"
-                                        disabled={loading}
-                                        className="w-full py-4 bg-cyan-500 hover:bg-cyan-400 text-black font-bold rounded-xl transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-cyan-500/20"
-                                    >
-                                        {loading ? t('form.submitting') : t('form.submit')}
-                                    </button>
+                            {!isLoaded ? (
+                                <div className="flex justify-center py-12">
+                                    <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-cyan-500"></div>
                                 </div>
-                            </form>
+                            ) : !isSignedIn ? (
+                                <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-8 text-center shadow-2xl shadow-cyan-500/5">
+                                    <div className="mb-6 inline-flex items-center justify-center w-16 h-16 bg-zinc-800 rounded-full">
+                                        <Lock className="w-8 h-8 text-zinc-400" />
+                                    </div>
+                                    <h3 className="text-xl font-bold text-white mb-3">
+                                        {t('auth_required.title', { defaultMessage: 'Registro Requerido' })}
+                                    </h3>
+                                    <p className="text-zinc-400 mb-8">
+                                        {t('auth_required.description', { defaultMessage: 'Para asegurar la calidad de la lista de espera, por favor inicia sesión o regístrate antes de continuar.' })}
+                                    </p>
+                                    <SignInButton mode="modal">
+                                        <button className="w-full py-4 bg-cyan-500 hover:bg-cyan-400 text-black font-bold rounded-xl transition-all shadow-lg shadow-cyan-500/20">
+                                            {t('auth_required.button', { defaultMessage: 'Iniciar Sesión / Registrarse' })}
+                                        </button>
+                                    </SignInButton>
+                                </div>
+                            ) : (
+                                <form onSubmit={handleSubmit} className="space-y-6">
+                                    <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-8 shadow-2xl shadow-cyan-500/5">
+                                        {/* Email */}
+                                        <div className="mb-6">
+                                            <label className="block text-sm font-medium text-zinc-300 mb-2">
+                                                {t('form.email')} <span className="text-cyan-500">*</span>
+                                            </label>
+                                            <input
+                                                type="email"
+                                                required
+                                                value={formData.email}
+                                                onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                                                placeholder={t('form.emailPlaceholder')}
+                                                className="w-full bg-black border border-zinc-800 rounded-xl px-4 py-3 text-white placeholder-zinc-600 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 outline-none transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                                                disabled={!!user?.primaryEmailAddress?.emailAddress}
+                                            />
+                                        </div>
+
+                                        {/* Role */}
+                                        <div className="mb-6">
+                                            <label className="block text-sm font-medium text-zinc-300 mb-2">
+                                                {t('form.role')} <span className="text-cyan-500">*</span>
+                                            </label>
+                                            <select
+                                                required
+                                                value={formData.role}
+                                                onChange={(e) => setFormData({ ...formData, role: e.target.value })}
+                                                className="w-full bg-black border border-zinc-800 rounded-xl px-4 py-3 text-white focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 outline-none transition-colors"
+                                            >
+                                                <option value="">{t('form.rolePlaceholder')}</option>
+                                                <option value="pilot_commercial">{t('form.roles.pilot_commercial')}</option>
+                                                <option value="pilot_student">{t('form.roles.pilot_student')}</option>
+                                                <option value="atc">{t('form.roles.atc')}</option>
+                                                <option value="dispatcher">{t('form.roles.dispatcher')}</option>
+                                                <option value="instructor">{t('form.roles.instructor')}</option>
+                                                <option value="mechanic">{t('form.roles.mechanic')}</option>
+                                                <option value="airport_ops">{t('form.roles.airport_ops')}</option>
+                                                <option value="ais_operator">{t('form.roles.ais_operator')}</option>
+                                                <option value="enthusiast">{t('form.roles.enthusiast')}</option>
+                                                <option value="other">{t('form.roles.other')}</option>
+                                            </select>
+                                        </div>
+
+                                        {/* Document */}
+                                        <div className="mb-6">
+                                            <label className="block text-sm font-medium text-zinc-300 mb-2">
+                                                {t('form.document')}
+                                            </label>
+                                            <input
+                                                type="text"
+                                                value={formData.document}
+                                                onChange={(e) => setFormData({ ...formData, document: e.target.value })}
+                                                placeholder={t('form.documentPlaceholder')}
+                                                className="w-full bg-black border border-zinc-800 rounded-xl px-4 py-3 text-white placeholder-zinc-600 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 outline-none transition-colors"
+                                            />
+                                        </div>
+
+                                        {/* Pain Point */}
+                                        <div className="mb-6">
+                                            <label className="block text-sm font-medium text-zinc-300 mb-2">
+                                                {t('form.painPoint')}
+                                            </label>
+                                            <textarea
+                                                value={formData.painPoint}
+                                                onChange={(e) => setFormData({ ...formData, painPoint: e.target.value })}
+                                                placeholder={t('form.painPointPlaceholder')}
+                                                rows={3}
+                                                className="w-full bg-black border border-zinc-800 rounded-xl px-4 py-3 text-white placeholder-zinc-600 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 outline-none transition-colors resize-none"
+                                            />
+                                        </div>
+
+                                        {/* Error */}
+                                        {error && (
+                                            <div className="mb-6 p-3 bg-red-500/10 border border-red-500/30 rounded-lg text-red-400 text-sm">
+                                                {error}
+                                            </div>
+                                        )}
+
+                                        {/* Submit */}
+                                        <button
+                                            type="submit"
+                                            disabled={loading}
+                                            className="w-full py-4 bg-cyan-500 hover:bg-cyan-400 text-black font-bold rounded-xl transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-cyan-500/20"
+                                        >
+                                            {loading ? t('form.submitting') : t('form.submit')}
+                                        </button>
+                                    </div>
+                                </form>
+                            )}
                         </div>
 
                         {/* Benefits */}
