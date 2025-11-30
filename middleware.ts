@@ -6,12 +6,11 @@ const intlMiddleware = createMiddleware({
     defaultLocale: 'es'
 });
 
-const isProtectedRoute = createRouteMatcher(['/api/chat(.*)']);
 const isApiRoute = createRouteMatcher(['/api(.*)']);
 
 export default clerkMiddleware(async (auth, req) => {
-    // Protect API routes with Clerk
-    if (isProtectedRoute(req)) await auth.protect();
+    // NOTE: Removed auth.protect() from /api/chat to allow free queries without sign-in
+    // Rate limiting and user verification is handled inside the route handler itself
 
     // Skip intl middleware for API routes
     if (isApiRoute(req)) {
