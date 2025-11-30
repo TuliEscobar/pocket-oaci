@@ -160,7 +160,7 @@ export default async function LocaleLayout({
         },
       }}
     >
-      <html lang={locale} className="dark">
+      <html lang={locale} className="scroll-smooth dark">
         <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black text-white`}>
           <NextIntlClientProvider messages={messages}>
             {children}

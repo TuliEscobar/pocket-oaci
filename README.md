@@ -194,6 +194,13 @@ npm start
 - Added hover effects and animations
 - Removed duplicate document names
 - Premium card design with glow effects
+- **New Landing Page Sections:**
+  - 📊 **Social Proof**: Showcases industry professionals using OACI.ai (Pilots, ATCs, Flight Schools, etc.)
+  - 🎯 **Use Cases**: Clear value propositions for Students, Professionals, and Operations teams
+  - ❓ **FAQ Section**: Collapsible accordion with frequently asked questions
+  - ⚖️ **Legal Footer**: Privacy Policy, Terms of Service, and FAQ links
+  - 🎨 **Radar Animation**: Synchronized aircraft blips on hero section
+  - ✨ **About Us Enhancement**: Background glow effect with technical details
 
 ### Coming Soon
 

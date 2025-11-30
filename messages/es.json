@@ -2,11 +2,19 @@
     "HomePage": {
         "title": "OACI.ai",
         "subtitle": "OACI de bolsillo",
+        "beta_badge": "Beta v0.7",
         "hero_desc": "Conocimiento regulatorio instantáneo, preciso y citado para pilotos, ATCs y profesionales. Deja de buscar, empieza a saber.",
         "placeholder": "Escribe tu duda (ej. '¿Cuáles son las velocidades de espera?')",
         "disclaimer": "No afiliado a la OACI. Solo para referencia.",
         "send": "Enviar",
         "source": "Fuente",
+        "nav": {
+            "home": "Inicio",
+            "chat": "Chat",
+            "pricing": "Planes",
+            "about": "Nosotros",
+            "faq": "FAQ"
+        },
         "features": {
             "title": "¿Por qué OACI.ai?",
             "speed": {
@@ -22,6 +30,33 @@
                 "desc": "Cambia sin problemas entre Inglés y Español. Perfecto para operaciones internacionales."
             }
         },
+        "SocialProof": {
+            "title": "Utilizado por profesionales de la industria",
+            "roles": {
+                "school": "Escuelas de Vuelo",
+                "pilot": "Pilotos Comerciales",
+                "atc": "Controladores Aéreos",
+                "mechanic": "Técnicos Aeronáuticos",
+                "instructor": "Instructores de Vuelo",
+                "student": "Estudiantes",
+                "ops": "Operaciones Aeroportuarias"
+            }
+        },
+        "UseCases": {
+            "title": "Diseñado para tu Misión",
+            "student": {
+                "title": "Estudiantes y Escuelas",
+                "desc": "Acelera el aprendizaje. Encuentra referencias exactas para exámenes y tesis en segundos."
+            },
+            "pro": {
+                "title": "Pilotos y Tripulación",
+                "desc": "Resuelve dudas operativas al instante. Verifica limitaciones y procedimientos sin bucear en manuales."
+            },
+            "ops": {
+                "title": "Operaciones y Mantenimiento",
+                "desc": "Toma decisiones informadas. Accede a RAACs y Anexos actualizados para garantizar el cumplimiento."
+            }
+        },
         "pricing": {
             "title": "Planes de Vuelo",
             "free": {
@@ -30,6 +65,7 @@
                 "features": [
                     "Acceso a Anexos OACI 1-19",
                     "Búsqueda IA Básica",
+                    "10 Consultas Diarias",
                     "Acceso Web",
                     "Soporte Bilingüe"
                 ]
@@ -38,26 +74,90 @@
                 "title": "Captain's Deck",
                 "price": "$9.99/mes",
                 "features": [
-                    "Todo en Gratis",
+                    "Historial de Consultas",
+                    "Seguimiento de Preguntas",
+                    "Mayor Límite de Consultas",
                     "Integración de SOPs de Aerolínea",
                     "Modo Offline (App)",
                     "Análisis de Escenarios Complejos",
                     "Soporte Prioritario"
                 ]
+            },
+            "enterprise": {
+                "title": "Aerolíneas / B2B",
+                "price": "A Medida",
+                "features": [
+                    "API Personalizada",
+                    "Integración con EFB",
+                    "SLA Garantizado",
+                    "Entrenamiento con Datos Propios",
+                    "Soporte Dedicado 24/7"
+                ],
+                "cta": "Contactar Ventas"
+            }
+        },
+        "about": {
+            "title": "Sobre Nosotros",
+            "mission": "OACI.ai es tu copiloto inteligente para regulaciones aeronáuticas. Transformamos el caos de la información normativa en respuestas instantáneas y precisas.",
+            "tech": "Potenciado por Google Gemini 2.0 Flash y un sistema RAG Híbrido con más de 7,700 documentos indexados (OACI, RAAC, AIP). Arquitectura moderna con Next.js 16, Pinecone y Clerk para máxima velocidad y seguridad.",
+            "contact": "¿Preguntas? Contáctanos en consultas@oaci.ai"
+        },
+        "FAQ": {
+            "title": "Preguntas Frecuentes",
+            "q1": {
+                "question": "¿La información es oficial?",
+                "answer": "Utilizamos documentos oficiales (Anexos OACI, RAAC, AIP) como base de conocimiento. Sin embargo, OACI.ai es una herramienta de soporte y siempre debes verificar la fuente oficial para decisiones operativas críticas."
+            },
+            "q2": {
+                "question": "¿Funciona sin conexión a internet?",
+                "answer": "La versión web actual requiere conexión. Nuestra próxima aplicación móvil incluirá capacidades offline para documentos descargados."
+            },
+            "q3": {
+                "question": "¿Qué documentos están incluidos?",
+                "answer": "Actualmente indexamos Anexos OACI (1-19), Documentos clave (4444, 8168), RAACs de Argentina y el AIP completo."
+            },
+            "q4": {
+                "question": "¿Ofrecen planes para Escuelas de Vuelo o Aerolíneas?",
+                "answer": "Sí. Nuestro plan Enterprise permite gestión de usuarios, carga de manuales propios (SOPs) y soporte dedicado. Contáctanos para una demo."
             }
         },
         "cta": {
             "title": "¿Listo para Despegar?",
             "button": "Empezar a Usar OACI.ai"
+        },
+        "PlanSelection": {
+            "title": "Selecciona tu Plan de Vuelo",
+            "subtitle": "Para continuar, elige cómo quieres volar con OACI.ai",
+            "free": {
+                "button": "Continuar con Pocket OACI",
+                "price": "Gratis (con limitaciones)",
+                "description": "Perfecto para consultas ocasionales."
+            },
+            "pro": {
+                "button": "Continuar con Captain's Deck",
+                "price": "$9.99/mes",
+                "description": "Para profesionales que necesitan potencia total."
+            }
+        },
+        "footer": {
+            "privacy": "Política de Privacidad",
+            "terms": "Términos de Servicio",
+            "copyright": "© 2025 OACI.ai"
         }
     },
     "Waitlist": {
         "title": "Únete al Beta Cerrado",
         "subtitle": "Acceso Anticipado a OACI.ai",
         "description": "Estamos liberando accesos gradualmente para asegurar la mejor experiencia. Únete a la lista de espera y sé de los primeros en usar la herramienta que está revolucionando cómo los profesionales de aviación acceden a regulaciones.",
+        "typeSelector": {
+            "individual": "Usuario Individual",
+            "company": "Empresa / Organización"
+        },
         "form": {
             "email": "Correo Electrónico",
             "emailPlaceholder": "tu@email.com",
+            "company": "Empresa / Organización",
+            "companyPlaceholder": "Nombre de tu empresa",
             "role": "¿Cuál es tu rol principal?",
             "rolePlaceholder": "Selecciona tu rol",
             "roles": {
@@ -72,10 +172,29 @@
                 "enthusiast": "Entusiasta / Simmer",
                 "other": "Otro"
             },
+            "companyRoles": {
+                "ceo": "CEO / Director General",
+                "coo": "COO / Director de Operaciones",
+                "operations_manager": "Jefe de Operaciones",
+                "safety_manager": "Gerente de Seguridad",
+                "training_manager": "Gerente de Entrenamiento",
+                "fleet_manager": "Gerente de Flota",
+                "compliance_officer": "Oficial de Cumplimiento",
+                "it_manager": "Gerente de TI",
+                "procurement": "Compras / Adquisiciones",
+                "other": "Otro"
+            },
             "document": "¿Qué documento consultas más?",
             "documentPlaceholder": "Ej: RAAC 91, Anexo 6, Doc 4444...",
             "painPoint": "¿Cuál es tu mayor desafío con las regulaciones?",
             "painPointPlaceholder": "Opcional: Cuéntanos tu mayor frustración",
+            "companySize": "Tamaño de la Empresa",
+            "companySizePlaceholder": "Ej: 1-10, 11-50, 50+...",
+            "useCase": "¿Para qué usarían OACI.ai?",
+            "useCasePlaceholder": "Ej: Entrenamiento, Operaciones, Soporte...",
+            "customData": "¿Necesitan cargar documentación propia?",
+            "customDataYes": "Sí, necesitamos cargar manuales propios",
+            "customDataNo": "No, solo regulaciones estándar",
             "submit": "Unirme a la Lista",
             "submitting": "Enviando..."
         },

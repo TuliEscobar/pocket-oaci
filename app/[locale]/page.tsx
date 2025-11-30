@@ -4,7 +4,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { useState, useEffect } from 'react';
 import { useRouter, usePathname } from 'next/navigation';
 import Link from 'next/link';
-import { Send, Mic, Plane, BookOpen, Zap, CheckCircle, Globe, Shield, ArrowRight } from 'lucide-react';
+import { Send, Mic, Plane, BookOpen, Zap, CheckCircle, Globe, Shield, ArrowRight, Linkedin, Twitter, Mail, Building, GraduationCap, Radio, Wrench, Briefcase, Activity, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useUser, useClerk, SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 
@@ -18,7 +18,7 @@ export default function HomePage() {
   const router = useRouter();
   const pathname = usePathname();
 
-  const { isSignedIn } = useUser();
+  const { isSignedIn, user } = useUser();
   const { openSignIn } = useClerk();
 
   const [query, setQuery] = useState('');
@@ -30,6 +30,36 @@ export default function HomePage() {
   }>(null);
   const [loading, setLoading] = useState(false);
   const [isListening, setIsListening] = useState(false);
+  const [showPlanModal, setShowPlanModal] = useState(false);
+
+  useEffect(() => {
+    if (isSignedIn && user) {
+      // Check if user has a plan selected
+      const hasPlan = user.publicMetadata?.plan;
+      if (!hasPlan) {
+        setShowPlanModal(true);
+      }
+    }
+  }, [isSignedIn, user]);
+
+  const handleSelectPlan = async (plan: 'free' | 'pro') => {
+    try {
+      const res = await fetch('/api/user/plan', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ plan })
+      });
+
+      if (res.ok) {
+        // Reload to update user metadata in the client
+        window.location.reload();
+      } else {
+        console.error("Failed to set plan");
+      }
+    } catch (error) {
+      console.error("Error setting plan:", error);
+    }
+  };
 
   const handleSearch = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -160,9 +190,21 @@ export default function HomePage() {
           {/* <h1 className="text-xl font-bold tracking-tight text-white">OACI.ai</h1> */}
           <img src="/logo.png" alt="OACI.ai" className="h-12 w-auto object-contain" />
           <h1 className="text-xl font-bold tracking-tight text-white">OACI.ai</h1>
+          <span className="px-2 py-0.5 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-[10px] font-bold uppercase tracking-wider">
+            {t('beta_badge')}
+          </span>
         </div>
 
         <div className="flex items-center gap-4">
+          {/* Navigation */}
+          <nav className="hidden md:flex items-center gap-6 mr-4">
+            <a href="#home" className="text-sm font-medium text-zinc-400 hover:text-white transition-colors">{t('nav.home')}</a>
+            <a href="#chat" className="text-sm font-medium text-zinc-400 hover:text-white transition-colors">{t('nav.chat')}</a>
+            <a href="#pricing" className="text-sm font-medium text-zinc-400 hover:text-white transition-colors">{t('nav.pricing')}</a>
+            <a href="#about" className="text-sm font-medium text-zinc-400 hover:text-white transition-colors">{t('nav.about')}</a>
+            <a href="#faq" className="text-sm font-medium text-zinc-400 hover:text-white transition-colors">{t('nav.faq')}</a>
+          </nav>
+
           {/* Jurisdiction Selector */}
           <div className="flex bg-zinc-900 rounded-lg p-1 border border-zinc-800">
             <button
@@ -212,14 +254,62 @@ export default function HomePage() {
       <DocumentTicker />
 
       {/* Hero Section (The Black Box) */}
-      <section className="flex-1 flex flex-col items-center justify-center p-6 w-full max-w-3xl mx-auto min-h-[80vh]">
+      <section id="home" className="relative flex-1 flex flex-col items-center justify-center p-6 w-full max-w-3xl mx-auto min-h-[80vh] overflow-hidden">
+        {/* Modern Radar/Swish Effect */}
+        <div className="absolute inset-0 pointer-events-none z-0 flex items-center justify-center">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1.5, ease: "easeOut" }}
+            className="relative w-[600px] h-[600px] md:w-[800px] md:h-[800px]"
+          >
+            <div className="absolute inset-0 bg-cyan-500/5 rounded-full blur-[100px]" />
+            <motion.div
+              animate={{ rotate: [90, 450] }}
+              transition={{ duration: 4, repeat: Infinity, ease: "linear" }}
+              className="absolute inset-0 rounded-full bg-[conic-gradient(from_0deg_at_50%_50%,transparent_0deg,rgba(6,182,212,0.1)_60deg,transparent_100deg)]"
+            />
+
+            {/* Radar Blips (Aircraft) - Synchronized 4s Cycle / Start 90deg */}
+            {[
+              { angle: 45, radius: 25, delay: 3.5 },   // (45-90+360)/360 * 4 = 3.5s
+              { angle: 135, radius: 35, delay: 0.5 },  // (135-90)/360 * 4 = 0.5s
+              { angle: 225, radius: 20, delay: 1.5 },  // (225-90)/360 * 4 = 1.5s
+              { angle: 315, radius: 40, delay: 2.5 },  // (315-90)/360 * 4 = 2.5s
+              { angle: 0, radius: 15, delay: 3.0 },    // (0-90+360)/360 * 4 = 3.0s
+              { angle: 90, radius: 42, delay: 0 },     // Start point = 0s
+            ].map((blip, i) => (
+              <motion.div
+                key={i}
+                className="absolute w-2 h-2 bg-cyan-400 rounded-full shadow-[0_0_10px_rgba(34,211,238,0.8)]"
+                style={{
+                  top: `${50 - blip.radius * Math.cos(blip.angle * Math.PI / 180)}%`,
+                  left: `${50 + blip.radius * Math.sin(blip.angle * Math.PI / 180)}%`,
+                }}
+                initial={{ opacity: 0, scale: 0 }}
+                animate={{
+                  opacity: [0, 1, 0],
+                  scale: [0.5, 1.5, 1],
+                }}
+                transition={{
+                  duration: 1.5,
+                  repeat: Infinity,
+                  delay: blip.delay,
+                  repeatDelay: 2.5, // 4s cycle - 1.5s duration
+                  ease: "easeOut",
+                }}
+              />
+            ))}
+          </motion.div>
+        </div>
+
         <AnimatePresence mode="wait">
           {!response && !loading ? (
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
-              className="text-center space-y-6 mb-12 flex flex-col items-center"
+              className="relative z-10 text-center space-y-6 mb-12 flex flex-col items-center"
             >
               <h2 className="text-5xl md:text-7xl font-bold bg-gradient-to-b from-white to-zinc-500 bg-clip-text text-transparent tracking-tighter">
                 {t('subtitle')}
@@ -228,13 +318,15 @@ export default function HomePage() {
                 {t('hero_desc')}
               </p>
 
-              <Link
-                href={`/${locale}/waitlist`}
-                className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-full font-bold text-lg hover:opacity-90 transition-opacity shadow-lg shadow-cyan-500/20 mt-4"
-              >
-                {t('cta.button') || 'Join Waitlist'}
-                <ArrowRight className="w-5 h-5" />
-              </Link>
+              {!isSignedIn && (
+                <Link
+                  href={`/${locale}/waitlist`}
+                  className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-full font-bold text-lg hover:opacity-90 transition-opacity shadow-lg shadow-cyan-500/20 mt-4"
+                >
+                  {t('cta.button') || 'Join Waitlist'}
+                  <ArrowRight className="w-5 h-5" />
+                </Link>
+              )}
             </motion.div>
           ) : null}
         </AnimatePresence>
@@ -408,7 +500,7 @@ export default function HomePage() {
         )}
 
         {/* Input Area */}
-        <div className="w-full relative z-10">
+        <div id="chat" className="w-full relative z-10 scroll-mt-32">
           <form onSubmit={handleSearch} className="relative group">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-2xl opacity-20 group-hover:opacity-40 transition duration-500 blur"></div>
             <div className="relative bg-black rounded-2xl flex items-start p-2 border border-zinc-800 focus-within:border-zinc-700 transition-colors">
@@ -455,6 +547,41 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Social Proof Section */}
+      <section className="py-12 bg-zinc-950/50 border-y border-zinc-900">
+        <div className="max-w-6xl mx-auto px-6">
+          <h3 className="text-center text-zinc-500 text-sm font-medium uppercase tracking-wider mb-8">
+            {t('SocialProof.title')}
+          </h3>
+          <div className="flex flex-wrap justify-center gap-4 md:gap-6 items-center">
+            <div className="flex items-center gap-2 text-zinc-400 hover:text-zinc-300 transition-colors">
+              <Plane className="w-5 h-5" />
+              <span className="text-sm">{t('SocialProof.roles.pilot')}</span>
+            </div>
+            <div className="flex items-center gap-2 text-zinc-400 hover:text-zinc-300 transition-colors">
+              <Radio className="w-5 h-5" />
+              <span className="text-sm">{t('SocialProof.roles.atc')}</span>
+            </div>
+            <div className="flex items-center gap-2 text-zinc-400 hover:text-zinc-300 transition-colors">
+              <GraduationCap className="w-5 h-5" />
+              <span className="text-sm">{t('SocialProof.roles.student')}</span>
+            </div>
+            <div className="flex items-center gap-2 text-zinc-400 hover:text-zinc-300 transition-colors">
+              <Wrench className="w-5 h-5" />
+              <span className="text-sm">{t('SocialProof.roles.mechanic')}</span>
+            </div>
+            <div className="flex items-center gap-2 text-zinc-400 hover:text-zinc-300 transition-colors">
+              <BookOpen className="w-5 h-5" />
+              <span className="text-sm">{t('SocialProof.roles.instructor')}</span>
+            </div>
+            <div className="flex items-center gap-2 text-zinc-400 hover:text-zinc-300 transition-colors">
+              <Building className="w-5 h-5" />
+              <span className="text-sm">{t('SocialProof.roles.school')}</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section className="py-24 bg-zinc-950 border-t border-zinc-900">
         <div className="max-w-6xl mx-auto px-6">
@@ -481,13 +608,55 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Use Cases Section */}
+      <section className="py-24 bg-black">
+        <div className="max-w-6xl mx-auto px-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-16">{t('UseCases.title')}</h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0 }}
+              viewport={{ once: true }}
+              className="p-6 rounded-2xl bg-zinc-900/50 border border-zinc-800 hover:border-cyan-500/30 transition-all group"
+            >
+              <GraduationCap className="w-10 h-10 text-cyan-500 mb-4 group-hover:scale-110 transition-transform" />
+              <h3 className="text-xl font-bold text-white mb-2">{t('UseCases.student.title')}</h3>
+              <p className="text-zinc-400">{t('UseCases.student.desc')}</p>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="p-6 rounded-2xl bg-zinc-900/50 border border-zinc-800 hover:border-cyan-500/30 transition-all group"
+            >
+              <Plane className="w-10 h-10 text-cyan-500 mb-4 group-hover:scale-110 transition-transform" />
+              <h3 className="text-xl font-bold text-white mb-2">{t('UseCases.pro.title')}</h3>
+              <p className="text-zinc-400">{t('UseCases.pro.desc')}</p>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              viewport={{ once: true }}
+              className="p-6 rounded-2xl bg-zinc-900/50 border border-zinc-800 hover:border-cyan-500/30 transition-all group"
+            >
+              <Activity className="w-10 h-10 text-cyan-500 mb-4 group-hover:scale-110 transition-transform" />
+              <h3 className="text-xl font-bold text-white mb-2">{t('UseCases.ops.title')}</h3>
+              <p className="text-zinc-400">{t('UseCases.ops.desc')}</p>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       {/* Pricing Section */}
-      <section className="py-24 bg-black border-t border-zinc-900">
+      <section id="pricing" className="py-24 bg-black border-t border-zinc-900 scroll-mt-28">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
             <h3 className="text-3xl font-bold text-white mb-4">{t('pricing.title')}</h3>
           </div>
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {/* Free Plan */}
             <div className="p-8 rounded-3xl border border-zinc-800 bg-zinc-900/20 hover:border-zinc-700 transition-colors">
               <h4 className="text-xl font-semibold text-zinc-400 mb-2">{t('pricing.free.title')}</h4>
@@ -507,7 +676,7 @@ export default function HomePage() {
             </div>
 
             {/* Pro Plan */}
-            <div className="p-8 rounded-3xl border border-cyan-500/30 bg-cyan-950/10 relative overflow-hidden">
+            <div className="p-8 rounded-3xl border border-cyan-500/50 bg-gradient-to-b from-cyan-950/20 to-zinc-900/50 relative overflow-hidden shadow-2xl shadow-cyan-500/10 hover:shadow-cyan-500/20 transition-all transform hover:-translate-y-1">
               <div className="absolute top-0 right-0 bg-cyan-500 text-black text-xs font-bold px-3 py-1 rounded-bl-xl">
                 RECOMMENDED
               </div>
@@ -526,14 +695,172 @@ export default function HomePage() {
                 {t('cta.button')}
               </Link>
             </div>
+
+            {/* Enterprise Plan */}
+            <div className="p-8 rounded-3xl border border-zinc-800 bg-zinc-900/20 hover:border-zinc-700 transition-colors">
+              <h4 className="text-xl font-semibold text-zinc-400 mb-2">{t('pricing.enterprise.title')}</h4>
+              <div className="text-4xl font-bold text-white mb-6">{t('pricing.enterprise.price')}</div>
+              <ul className="space-y-4 mb-8">
+                {/* @ts-ignore */}
+                {t.raw('pricing.enterprise.features').map((feature: string, i: number) => (
+                  <li key={i} className="flex items-center gap-3 text-zinc-300">
+                    <CheckCircle className="w-5 h-5 text-zinc-600" />
+                    {feature}
+                  </li>
+                ))}
+              </ul>
+              <Link href={`/${locale}/waitlist`} className="block w-full py-3 rounded-xl border border-zinc-700 text-white hover:bg-zinc-800 transition-colors font-medium text-center">
+                {t('pricing.enterprise.cta')}
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About Us Section */}
+      <section id="about" className="relative py-24 bg-zinc-950 border-t border-zinc-900 scroll-mt-28 overflow-hidden">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-cyan-900/20 rounded-full blur-[100px] pointer-events-none" />
+        <div className="relative max-w-4xl mx-auto px-6 text-center">
+          <h3 className="text-3xl font-bold text-white mb-8">{t('about.title')}</h3>
+          <p className="text-xl text-zinc-300 mb-6 leading-relaxed">
+            {t('about.mission')}
+          </p>
+          <p className="text-zinc-500 mb-8">
+            {t('about.tech')}
+          </p>
+          <a href="mailto:consultas@oaci.ai" className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition-colors">
+            <Mail className="w-5 h-5" />
+            {t('about.contact')}
+          </a>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section id="faq" className="py-24 bg-zinc-950 border-t border-zinc-900 scroll-mt-28">
+        <div className="max-w-3xl mx-auto px-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-12">{t('FAQ.title')}</h2>
+          <div className="space-y-4">
+            {[1, 2, 3, 4].map((i) => (
+              <details key={i} className="group bg-zinc-900/30 rounded-xl border border-zinc-800 overflow-hidden hover:border-zinc-700 transition-colors">
+                <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-zinc-900/50 transition-colors list-none">
+                  <span className="font-medium text-white pr-4">{t(`FAQ.q${i}.question`)}</span>
+                  <ChevronDown className="w-5 h-5 text-zinc-500 group-open:rotate-180 transition-transform shrink-0" />
+                </summary>
+                <div className="px-6 pb-6 text-zinc-400 leading-relaxed">
+                  {t(`FAQ.q${i}.answer`)}
+                </div>
+              </details>
+            ))}
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="py-12 border-t border-zinc-900 text-center text-zinc-600 text-sm">
-        <p>© 2025 OACI.ai. Built for the skies.</p>
+      <footer className="py-12 border-t border-zinc-900 bg-black">
+        <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+          <div className="flex items-center gap-2">
+            <img src="/logo.png" alt="OACI.ai" className="h-8 w-auto opacity-50 grayscale hover:grayscale-0 transition-all" />
+            <span className="text-zinc-600 text-sm">{t('footer.copyright')}</span>
+          </div>
+
+          <div className="flex items-center gap-6">
+            <Link href="#" className="text-zinc-600 hover:text-zinc-400 text-sm transition-colors">
+              {t('footer.privacy')}
+            </Link>
+            <Link href="#" className="text-zinc-600 hover:text-zinc-400 text-sm transition-colors">
+              {t('footer.terms')}
+            </Link>
+            <Link href="#faq" className="text-zinc-600 hover:text-zinc-400 text-sm transition-colors">
+              FAQ
+            </Link>
+            <a
+              href="https://www.linkedin.com/company/110325526/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-zinc-500 hover:text-[#0A66C2] transition-colors"
+              aria-label="LinkedIn"
+            >
+              <Linkedin className="w-5 h-5" />
+            </a>
+            <a
+              href="https://x.com/OACI_ai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-zinc-500 hover:text-white transition-colors"
+              aria-label="X (Twitter)"
+            >
+              <Twitter className="w-5 h-5" />
+            </a>
+            <a
+              href="mailto:consultas@oaci.ai"
+              className="text-zinc-500 hover:text-cyan-400 transition-colors"
+              aria-label="Email"
+            >
+              <Mail className="w-5 h-5" />
+            </a>
+          </div>
+        </div>
       </footer>
+
+      {/* Plan Selection Modal */}
+      <AnimatePresence>
+        {showPlanModal && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 backdrop-blur-sm p-4"
+          >
+            <motion.div
+              initial={{ scale: 0.9, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 max-w-2xl w-full shadow-2xl relative overflow-hidden"
+            >
+              <div className="text-center mb-8">
+                <h2 className="text-3xl font-bold text-white mb-2">{t('PlanSelection.title')}</h2>
+                <p className="text-zinc-400">{t('PlanSelection.subtitle')}</p>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-6">
+                {/* Free Option */}
+                <button
+                  onClick={() => handleSelectPlan('free')}
+                  className="group p-6 rounded-2xl border border-zinc-800 bg-black/50 hover:border-zinc-600 transition-all text-left flex flex-col h-full"
+                >
+                  <div className="mb-4 p-3 bg-zinc-800 rounded-xl w-fit group-hover:bg-zinc-700 transition-colors">
+                    <Plane className="w-6 h-6 text-zinc-400" />
+                  </div>
+                  <h3 className="text-xl font-bold text-white mb-1">{t('pricing.free.title')}</h3>
+                  <p className="text-zinc-400 font-medium mb-2">{t('PlanSelection.free.price')}</p>
+                  <p className="text-zinc-500 text-sm mb-6 flex-1">{t('PlanSelection.free.description')}</p>
+                  <div className="w-full py-2 rounded-lg bg-zinc-800 text-white text-center font-medium group-hover:bg-zinc-700 transition-colors">
+                    {t('PlanSelection.free.button')}
+                  </div>
+                </button>
+
+                {/* Pro Option */}
+                <button
+                  onClick={() => handleSelectPlan('pro')}
+                  className="group p-6 rounded-2xl border border-cyan-500/30 bg-cyan-950/10 hover:border-cyan-500/60 transition-all text-left flex flex-col h-full relative overflow-hidden"
+                >
+                  <div className="absolute top-0 right-0 bg-cyan-500 text-black text-[10px] font-bold px-2 py-1 rounded-bl-lg">
+                    RECOMMENDED
+                  </div>
+                  <div className="mb-4 p-3 bg-cyan-500/20 rounded-xl w-fit group-hover:bg-cyan-500/30 transition-colors">
+                    <Zap className="w-6 h-6 text-cyan-400" />
+                  </div>
+                  <h3 className="text-xl font-bold text-white mb-1">{t('pricing.pro.title')}</h3>
+                  <p className="text-cyan-400 font-medium mb-2">{t('PlanSelection.pro.price')}</p>
+                  <p className="text-cyan-200/60 text-sm mb-6 flex-1">{t('PlanSelection.pro.description')}</p>
+                  <div className="w-full py-2 rounded-lg bg-cyan-500 text-black text-center font-bold shadow-lg shadow-cyan-500/20 group-hover:bg-cyan-400 transition-colors">
+                    {t('PlanSelection.pro.button')}
+                  </div>
+                </button>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </main>
   );
 }

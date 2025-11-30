@@ -2,11 +2,19 @@
   "HomePage": {
     "title": "OACI.ai",
     "subtitle": "Pocket OACI",
+    "beta_badge": "Beta v0.7",
     "hero_desc": "Instant, accurate, and cited regulatory knowledge for pilots, ATCs, and aviation professionals. Stop searching, start knowing.",
     "placeholder": "Ask your question (e.g., 'What are the holding speeds?')",
     "disclaimer": "Not affiliated with ICAO. For reference only.",
     "send": "Send",
     "source": "Source",
+    "nav": {
+      "home": "Home",
+      "chat": "Chat",
+      "pricing": "Plans",
+      "about": "About",
+      "faq": "FAQ"
+    },
     "features": {
       "title": "Why OACI.ai?",
       "speed": {
@@ -22,6 +30,33 @@
         "desc": "Switch seamlessly between English and Spanish. Perfect for international ops."
       }
     },
+    "SocialProof": {
+      "title": "Trusted by Industry Professionals",
+      "roles": {
+        "school": "Flight Schools",
+        "pilot": "Commercial Pilots",
+        "atc": "Air Traffic Controllers",
+        "mechanic": "Aircraft Mechanics",
+        "instructor": "Flight Instructors",
+        "student": "Student Pilots",
+        "ops": "Airport Operations"
+      }
+    },
+    "UseCases": {
+      "title": "Designed for Your Mission",
+      "student": {
+        "title": "Students & Schools",
+        "desc": "Accelerate learning. Find exact references for exams and thesis in seconds."
+      },
+      "pro": {
+        "title": "Pilots & Crew",
+        "desc": "Solve operational queries instantly. Verify limitations and procedures without diving into manuals."
+      },
+      "ops": {
+        "title": "Operations & Maintenance",
+        "desc": "Make informed decisions. Access updated RAACs and Annexes to ensure compliance."
+      }
+    },
     "pricing": {
       "title": "Flight Plans",
       "free": {
@@ -30,6 +65,7 @@
         "features": [
           "Access to ICAO Annexes 1-19",
           "Basic AI Search",
+          "10 Daily Queries",
           "Web Access",
           "Bilingual Support"
         ]
@@ -38,26 +74,90 @@
         "title": "Captain's Deck",
         "price": "$9.99/mo",
         "features": [
-          "Everything in Free",
+          "Chat History",
+          "Question Tracking",
+          "Higher Daily Limits",
           "Airline SOPs Integration",
           "Offline Mode (App)",
           "Complex Scenario Analysis",
           "Priority Support"
         ]
+      },
+      "enterprise": {
+        "title": "Airlines / B2B",
+        "price": "Custom",
+        "features": [
+          "Custom API",
+          "EFB Integration",
+          "Guaranteed SLA",
+          "Custom Data Training",
+          "Dedicated 24/7 Support"
+        ],
+        "cta": "Contact Sales"
+      }
+    },
+    "about": {
+      "title": "About Us",
+      "mission": "OACI.ai is your intelligent copilot for aviation regulations. We transform the chaos of regulatory information into instant, accurate, and cited answers.",
+      "tech": "Powered by Google Gemini 2.0 Flash and a Hybrid RAG system with over 7,700 indexed documents (ICAO, RAAC, AIP). Modern architecture with Next.js 16, Pinecone, and Clerk for maximum speed and security.",
+      "contact": "Questions? Contact us at consultas@oaci.ai"
+    },
+    "FAQ": {
+      "title": "Frequently Asked Questions",
+      "q1": {
+        "question": "Is the information official?",
+        "answer": "We use official documents (ICAO Annexes, RAAC, AIP) as our knowledge base. However, OACI.ai is a support tool and you should always verify with the official source for critical operational decisions."
+      },
+      "q2": {
+        "question": "Does it work offline?",
+        "answer": "The current web version requires an internet connection. Our upcoming mobile app will include offline capabilities for downloaded documents."
+      },
+      "q3": {
+        "question": "Which documents are included?",
+        "answer": "We currently index ICAO Annexes (1-19), Key Documents (4444, 8168), Argentina RAACs, and the full AIP."
+      },
+      "q4": {
+        "question": "Do you offer plans for Flight Schools or Airlines?",
+        "answer": "Yes. Our Enterprise plan allows user management, custom manual upload (SOPs), and dedicated support. Contact us for a demo."
       }
     },
     "cta": {
       "title": "Ready for Takeoff?",
       "button": "Start Using OACI.ai"
+    },
+    "PlanSelection": {
+      "title": "Select Your Flight Plan",
+      "subtitle": "To continue, choose how you want to fly with OACI.ai",
+      "free": {
+        "button": "Continue with Pocket OACI",
+        "price": "Free (with limits)",
+        "description": "Perfect for occasional queries."
+      },
+      "pro": {
+        "button": "Continue with Captain's Deck",
+        "price": "$9.99/mo",
+        "description": "For professionals needing full power."
+      }
+    },
+    "footer": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "copyright": "© 2025 OACI.ai"
     }
   },
   "Waitlist": {
     "title": "Join the Beta",
     "subtitle": "Early Access to OACI.ai",
     "description": "We're releasing access gradually to ensure the best experience. Join the waitlist and be among the first to use the tool that's revolutionizing how aviation professionals access regulations.",
+    "typeSelector": {
+      "individual": "Individual User",
+      "company": "Company / Organization"
+    },
     "form": {
       "email": "Email Address",
       "emailPlaceholder": "your@email.com",
+      "company": "Company / Organization",
+      "companyPlaceholder": "Company Name",
       "role": "What is your primary role?",
       "rolePlaceholder": "Select your role",
       "roles": {
@@ -72,10 +172,29 @@
         "enthusiast": "Aviation Enthusiast / Simmer",
         "other": "Other"
       },
+      "companyRoles": {
+        "ceo": "CEO / General Manager",
+        "coo": "COO / Operations Director",
+        "operations_manager": "Operations Manager",
+        "safety_manager": "Safety Manager",
+        "training_manager": "Training Manager",
+        "fleet_manager": "Fleet Manager",
+        "compliance_officer": "Compliance Officer",
+        "it_manager": "IT Manager",
+        "procurement": "Procurement / Purchasing",
+        "other": "Other"
+      },
       "document": "Which document do you consult most?",
       "documentPlaceholder": "e.g., ICAO Annex 6, Doc 4444...",
       "painPoint": "What's your biggest challenge with regulations?",
       "painPointPlaceholder": "Optional: Tell us your biggest frustration",
+      "companySize": "Company Size",
+      "companySizePlaceholder": "e.g., 1-10, 11-50, 50+...",
+      "useCase": "How would you use OACI.ai?",
+      "useCasePlaceholder": "e.g., Training, Operations, Support...",
+      "customData": "Do you need to upload custom documentation?",
+      "customDataYes": "Yes, we need to upload our own manuals",
+      "customDataNo": "No, standard regulations are enough",
       "submit": "Join the Waitlist",
       "submitting": "Submitting..."
     },

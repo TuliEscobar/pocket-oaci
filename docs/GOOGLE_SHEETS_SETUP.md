@@ -1,107 +1,150 @@
 # Configuración de Google Sheets para Waitlist
 
-Esta guía te mostrará cómo conectar el formulario de registro con Google Sheets de forma simple y gratuita.
+Este documento explica cómo configurar dos hojas de Google Sheets separadas para registros individuales y de empresas.
 
-## Opción 1: Google Apps Script (Recomendado - Más Simple)
+## Estructura de Datos
 
-### Paso 1: Crear el Google Sheet
+### Hoja 1: Usuarios Individuales
+**Columnas:**
+- Timestamp
+- Email
+- Role (Rol)
+- Document (Documento más consultado)
+- Pain Point (Mayor desafío)
 
-1. Ve a [Google Sheets](https://sheets.google.com)
-2. Crea una nueva hoja llamada "OACI.ai - Waitlist"
-3. En la primera fila, agrega estos encabezados:
-   - `Timestamp` (A1)
-   - `Email` (B1)
-   - `Role` (C1)
-   - `Document` (D1)
-   - `Pain Point` (E1)
+### Hoja 2: Empresas
+**Columnas:**
+- Timestamp
+- Email
+- Company (Nombre de la empresa)
+- Role (Rol en la empresa)
+- Company Size (Tamaño de la empresa)
+- Use Case (Para qué usarían OACI.ai)
+- Custom Data (¿Necesitan cargar documentación propia?)
+- Pain Point (Mayor desafío)
 
-### Paso 2: Crear el Apps Script
+## Configuración de Google Apps Script
 
-1. En tu Google Sheet, ve a **Extensiones → Apps Script**
-2. Borra el código por defecto y pega este:
+### 1. Crear las Hojas de Cálculo
+
+1. Crea un nuevo Google Spreadsheet
+2. Renombra la primera hoja a "Individual Users"
+3. Crea una segunda hoja llamada "Companies"
+4. Agrega los encabezados correspondientes en cada hoja
+
+### 2. Script para Usuarios Individuales
 
 ```javascript
 function doPost(e) {
   try {
-    // Obtener la hoja activa
-    const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
-    
-    // Parsear los datos del POST
+    const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Individual Users');
     const data = JSON.parse(e.postData.contents);
     
-    // Agregar una nueva fila con los datos
-    sheet.appendRow([
-      new Date(), // Timestamp
-      data.email,
-      data.role,
-      data.document || '',
-      data.painPoint || ''
-    ]);
+    const timestamp = new Date();
+    const email = data.email || '';
+    const role = data.role || '';
+    const document = data.document || '';
+    const painPoint = data.painPoint || '';
     
-    // Respuesta exitosa
-    return ContentService
-      .createTextOutput(JSON.stringify({ success: true }))
-      .setMimeType(ContentService.MimeType.JSON);
-      
+    sheet.appendRow([timestamp, email, role, document, painPoint]);
+    
+    return ContentService.createTextOutput(JSON.stringify({
+      status: 'success',
+      message: 'Data saved successfully'
+    })).setMimeType(ContentService.MimeType.JSON);
+    
   } catch (error) {
-    // Respuesta de error
-    return ContentService
-      .createTextOutput(JSON.stringify({ success: false, error: error.toString() }))
-      .setMimeType(ContentService.MimeType.JSON);
+    return ContentService.createTextOutput(JSON.stringify({
+      status: 'error',
+      message: error.toString()
+    })).setMimeType(ContentService.MimeType.JSON);
   }
 }
 ```
 
-3. Haz clic en **Guardar** (icono de disco)
-4. Haz clic en **Implementar → Nueva implementación**
+### 3. Script para Empresas
+
+```javascript
+function doPost(e) {
+  try {
+    const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Companies');
+    const data = JSON.parse(e.postData.contents);
+    
+    const timestamp = new Date();
+    const email = data.email || '';
+    const company = data.company || '';
+    const role = data.role || '';
+    const companySize = data.companySize || '';
+    const useCase = data.useCase || '';
+    const customData = data.customData || '';
+    const painPoint = data.painPoint || '';
+    
+    sheet.appendRow([timestamp, email, company, role, companySize, useCase, customData, painPoint]);
+    
+    return ContentService.createTextOutput(JSON.stringify({
+      status: 'success',
+      message: 'Data saved successfully'
+    })).setMimeType(ContentService.MimeType.JSON);
+    
+  } catch (error) {
+    return ContentService.createTextOutput(JSON.stringify({
+      status: 'error',
+      message: error.toString()
+    })).setMimeType(ContentService.MimeType.JSON);
+  }
+}
+```
+
+## Pasos para Desplegar
+
+### Para Usuarios Individuales:
+1. Abre tu Google Spreadsheet con la hoja "Individual Users"
+2. Ve a **Extensiones** > **Apps Script**
+3. Pega el script para usuarios individuales
+4. Haz clic en **Implementar** > **Nueva implementación**
 5. Selecciona tipo: **Aplicación web**
 6. Configuración:
-   - **Descripción**: "OACI.ai Waitlist API"
-   - **Ejecutar como**: "Yo"
-   - **Quién tiene acceso**: "Cualquier persona"
-7. Haz clic en **Implementar**
-8. **COPIA LA URL** que te da (algo como `https://script.google.com/macros/s/ABC123.../exec`)
-9. Haz clic en **Autorizar acceso** y acepta los permisos
+   - Ejecutar como: **Yo**
+   - Quién tiene acceso: **Cualquier persona**
+7. Copia la URL del webhook
+8. Agrégala a `.env.local` como `GOOGLE_SHEETS_WEBHOOK_URL`
 
-### Paso 3: Configurar la Variable de Entorno
+### Para Empresas:
+1. Crea un NUEVO Google Spreadsheet con la hoja "Companies"
+2. Ve a **Extensiones** > **Apps Script**
+3. Pega el script para empresas
+4. Haz clic en **Implementar** > **Nueva implementación**
+5. Selecciona tipo: **Aplicación web**
+6. Configuración:
+   - Ejecutar como: **Yo**
+   - Quién tiene acceso: **Cualquier persona**
+7. Copia la URL del webhook
+8. Agrégala a `.env.local` como `GOOGLE_SHEETS_COMPANY_WEBHOOK_URL`
 
-En tu archivo `.env.local`, agrega:
+## Variables de Entorno
 
-```env
-GOOGLE_SHEETS_WEBHOOK_URL=https://script.google.com/macros/s/TU_URL_AQUI/exec
+Agrega estas líneas a tu archivo `.env.local`:
+
+```bash
+# Webhook para registros individuales
+GOOGLE_SHEETS_WEBHOOK_URL=https://script.google.com/macros/s/YOUR_INDIVIDUAL_SCRIPT_ID/exec
+
+# Webhook para registros de empresas
+GOOGLE_SHEETS_COMPANY_WEBHOOK_URL=https://script.google.com/macros/s/YOUR_COMPANY_SCRIPT_ID/exec
 ```
 
----
+## Verificación
 
-## Opción 2: Usando Google Sheets API (Más Complejo)
+Para verificar que todo funciona:
 
-Si prefieres usar la API oficial de Google Sheets (requiere más configuración):
+1. Completa el formulario de waitlist como usuario individual
+2. Verifica que los datos aparezcan en la hoja "Individual Users"
+3. Completa el formulario como empresa
+4. Verifica que los datos aparezcan en la hoja "Companies"
 
-### Paso 1: Crear Credenciales
+## Notas Importantes
 
-1. Ve a [Google Cloud Console](https://console.cloud.google.com/)
-2. Crea un nuevo proyecto o selecciona uno existente
-3. Habilita la **Google Sheets API**
-4. Ve a **Credenciales → Crear credenciales → Cuenta de servicio**
-5. Descarga el archivo JSON de la cuenta de servicio
-6. Comparte tu Google Sheet con el email de la cuenta de servicio (con permisos de editor)
-
-### Paso 2: Configurar Variables de Entorno
-
-```env
-GOOGLE_SERVICE_ACCOUNT_EMAIL=tu-cuenta@proyecto.iam.gserviceaccount.com
-GOOGLE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----\n"
-GOOGLE_SHEET_ID=1ABC123... (ID de tu hoja)
-```
-
----
-
-## ✅ Recomendación
-
-**Usa la Opción 1 (Apps Script)** porque:
-- ✅ No requiere configuración compleja
-- ✅ No necesitas guardar claves privadas en tu código
-- ✅ Es más rápido de implementar (5 minutos)
-- ✅ Funciona perfectamente para un MVP
-
-Una vez que tengas la URL del webhook de Apps Script, actualiza el archivo `.env.local` y ya estará funcionando.
+- Los dos webhooks pueden apuntar al mismo spreadsheet (diferentes hojas) o a spreadsheets separados
+- Si prefieres usar un solo spreadsheet, modifica los scripts para que usen `getSheetByName()` con el nombre correcto
+- Asegúrate de que los encabezados de las columnas coincidan con el orden en `sheet.appendRow()`
+- Los scripts están configurados para aceptar peticiones de cualquier origen (necesario para que funcione desde Vercel)

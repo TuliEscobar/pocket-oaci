@@ -12,10 +12,15 @@ export default function WaitlistPage() {
     const { user, isLoaded, isSignedIn } = useUser();
     const [formData, setFormData] = useState({
         email: '',
+        company: '',
         role: '',
         document: '',
-        painPoint: ''
+        painPoint: '',
+        companySize: '',
+        useCase: '',
+        customData: ''
     });
+    const [formType, setFormType] = useState<'individual' | 'company'>('individual');
     const [loading, setLoading] = useState(false);
     const [submitted, setSubmitted] = useState(false);
     const [error, setError] = useState('');
@@ -35,7 +40,10 @@ export default function WaitlistPage() {
             const res = await fetch('/api/waitlist', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(formData)
+                body: JSON.stringify({
+                    ...formData,
+                    formType
+                })
             });
 
             const data = await res.json();
@@ -112,6 +120,24 @@ export default function WaitlistPage() {
                             ) : (
                                 <form onSubmit={handleSubmit} className="space-y-6">
                                     <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-8 shadow-2xl shadow-cyan-500/5">
+                                        {/* Form Type Toggle */}
+                                        <div className="flex bg-zinc-900 p-1 rounded-xl mb-8">
+                                            <button
+                                                type="button"
+                                                onClick={() => setFormType('individual')}
+                                                className={`flex-1 py-2 text-sm font-medium rounded-lg transition-all ${formType === 'individual' ? 'bg-zinc-800 text-white shadow-lg' : 'text-zinc-400 hover:text-white'}`}
+                                            >
+                                                {t('typeSelector.individual')}
+                                            </button>
+                                            <button
+                                                type="button"
+                                                onClick={() => setFormType('company')}
+                                                className={`flex-1 py-2 text-sm font-medium rounded-lg transition-all ${formType === 'company' ? 'bg-zinc-800 text-white shadow-lg' : 'text-zinc-400 hover:text-white'}`}
+                                            >
+                                                {t('typeSelector.company')}
+                                            </button>
+                                        </div>
+
                                         {/* Email */}
                                         <div className="mb-6">
                                             <label className="block text-sm font-medium text-zinc-300 mb-2">
@@ -128,6 +154,39 @@ export default function WaitlistPage() {
                                             />
                                         </div>
 
+                                        {/* Company Name (Conditional) */}
+                                        {formType === 'company' && (
+                                            <div className="mb-6">
+                                                <label className="block text-sm font-medium text-zinc-300 mb-2">
+                                                    {t('form.company')} <span className="text-red-500">*</span>
+                                                </label>
+                                                <input
+                                                    type="text"
+                                                    required
+                                                    value={formData.company}
+                                                    onChange={(e) => setFormData({ ...formData, company: e.target.value })}
+                                                    placeholder={t('form.companyPlaceholder')}
+                                                    className="w-full bg-black border border-zinc-800 rounded-xl px-4 py-3 text-white placeholder-zinc-600 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 outline-none transition-colors"
+                                                />
+                                            </div>
+                                        )}
+
+                                        {/* Company Size (Conditional) */}
+                                        {formType === 'company' && (
+                                            <div className="mb-6">
+                                                <label className="block text-sm font-medium text-zinc-300 mb-2">
+                                                    {t('form.companySize')}
+                                                </label>
+                                                <input
+                                                    type="text"
+                                                    value={formData.companySize}
+                                                    onChange={(e) => setFormData({ ...formData, companySize: e.target.value })}
+                                                    placeholder={t('form.companySizePlaceholder')}
+                                                    className="w-full bg-black border border-zinc-800 rounded-xl px-4 py-3 text-white placeholder-zinc-600 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 outline-none transition-colors"
+                                                />
+                                            </div>
+                                        )}
+
                                         {/* Role */}
                                         <div className="mb-6">
                                             <label className="block text-sm font-medium text-zinc-300 mb-2">
@@ -140,32 +199,84 @@ export default function WaitlistPage() {
                                                 className="w-full bg-black border border-zinc-800 rounded-xl px-4 py-3 text-white focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 outline-none transition-colors"
                                             >
                                                 <option value="">{t('form.rolePlaceholder')}</option>
-                                                <option value="pilot_commercial">{t('form.roles.pilot_commercial')}</option>
-                                                <option value="pilot_student">{t('form.roles.pilot_student')}</option>
-                                                <option value="atc">{t('form.roles.atc')}</option>
-                                                <option value="dispatcher">{t('form.roles.dispatcher')}</option>
-                                                <option value="instructor">{t('form.roles.instructor')}</option>
-                                                <option value="mechanic">{t('form.roles.mechanic')}</option>
-                                                <option value="airport_ops">{t('form.roles.airport_ops')}</option>
-                                                <option value="ais_operator">{t('form.roles.ais_operator')}</option>
-                                                <option value="enthusiast">{t('form.roles.enthusiast')}</option>
-                                                <option value="other">{t('form.roles.other')}</option>
+                                                {formType === 'individual' ? (
+                                                    <>
+                                                        <option value="pilot_commercial">{t('form.roles.pilot_commercial')}</option>
+                                                        <option value="pilot_student">{t('form.roles.pilot_student')}</option>
+                                                        <option value="atc">{t('form.roles.atc')}</option>
+                                                        <option value="dispatcher">{t('form.roles.dispatcher')}</option>
+                                                        <option value="instructor">{t('form.roles.instructor')}</option>
+                                                        <option value="mechanic">{t('form.roles.mechanic')}</option>
+                                                        <option value="airport_ops">{t('form.roles.airport_ops')}</option>
+                                                        <option value="ais_operator">{t('form.roles.ais_operator')}</option>
+                                                        <option value="enthusiast">{t('form.roles.enthusiast')}</option>
+                                                        <option value="other">{t('form.roles.other')}</option>
+                                                    </>
+                                                ) : (
+                                                    <>
+                                                        <option value="ceo">{t('form.companyRoles.ceo')}</option>
+                                                        <option value="coo">{t('form.companyRoles.coo')}</option>
+                                                        <option value="operations_manager">{t('form.companyRoles.operations_manager')}</option>
+                                                        <option value="safety_manager">{t('form.companyRoles.safety_manager')}</option>
+                                                        <option value="training_manager">{t('form.companyRoles.training_manager')}</option>
+                                                        <option value="fleet_manager">{t('form.companyRoles.fleet_manager')}</option>
+                                                        <option value="compliance_officer">{t('form.companyRoles.compliance_officer')}</option>
+                                                        <option value="it_manager">{t('form.companyRoles.it_manager')}</option>
+                                                        <option value="procurement">{t('form.companyRoles.procurement')}</option>
+                                                        <option value="other">{t('form.companyRoles.other')}</option>
+                                                    </>
+                                                )}
                                             </select>
                                         </div>
 
-                                        {/* Document */}
-                                        <div className="mb-6">
-                                            <label className="block text-sm font-medium text-zinc-300 mb-2">
-                                                {t('form.document')}
-                                            </label>
-                                            <input
-                                                type="text"
-                                                value={formData.document}
-                                                onChange={(e) => setFormData({ ...formData, document: e.target.value })}
-                                                placeholder={t('form.documentPlaceholder')}
-                                                className="w-full bg-black border border-zinc-800 rounded-xl px-4 py-3 text-white placeholder-zinc-600 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 outline-none transition-colors"
-                                            />
-                                        </div>
+                                        {/* Use Case (Conditional) */}
+                                        {formType === 'company' && (
+                                            <div className="mb-6">
+                                                <label className="block text-sm font-medium text-zinc-300 mb-2">
+                                                    {t('form.useCase')}
+                                                </label>
+                                                <textarea
+                                                    value={formData.useCase}
+                                                    onChange={(e) => setFormData({ ...formData, useCase: e.target.value })}
+                                                    placeholder={t('form.useCasePlaceholder')}
+                                                    rows={3}
+                                                    className="w-full bg-black border border-zinc-800 rounded-xl px-4 py-3 text-white placeholder-zinc-600 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 outline-none transition-colors resize-none"
+                                                />
+                                            </div>
+                                        )}
+
+                                        {/* Custom Data (Conditional) */}
+                                        {formType === 'company' && (
+                                            <div className="mb-6">
+                                                <label className="block text-sm font-medium text-zinc-300 mb-2">
+                                                    {t('form.customData')}
+                                                </label>
+                                                <div className="flex gap-4">
+                                                    <label className="flex items-center gap-2 cursor-pointer">
+                                                        <input
+                                                            type="radio"
+                                                            name="customData"
+                                                            value="yes"
+                                                            checked={formData.customData === 'yes'}
+                                                            onChange={(e) => setFormData({ ...formData, customData: e.target.value })}
+                                                            className="text-cyan-500 focus:ring-cyan-500 bg-black border-zinc-800"
+                                                        />
+                                                        <span className="text-zinc-400 text-sm">{t('form.customDataYes')}</span>
+                                                    </label>
+                                                    <label className="flex items-center gap-2 cursor-pointer">
+                                                        <input
+                                                            type="radio"
+                                                            name="customData"
+                                                            value="no"
+                                                            checked={formData.customData === 'no'}
+                                                            onChange={(e) => setFormData({ ...formData, customData: e.target.value })}
+                                                            className="text-cyan-500 focus:ring-cyan-500 bg-black border-zinc-800"
+                                                        />
+                                                        <span className="text-zinc-400 text-sm">{t('form.customDataNo')}</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        )}
 
                                         {/* Pain Point */}
                                         <div className="mb-6">
@@ -245,7 +356,7 @@ export default function WaitlistPage() {
                     </motion.section>
                 )}
             </AnimatePresence>
-        </main>
+        </main >
     );
 }
 

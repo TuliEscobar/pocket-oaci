@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { NextResponse } from "next/server";
 import { queryRAG, isRAGConfigured } from "@/lib/rag/rag-service";
-import { auth } from "@clerk/nextjs/server";
+import { auth, clerkClient } from "@clerk/nextjs/server";
 
 const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY || "");
 
@@ -12,6 +12,52 @@ export async function POST(req: Request) {
 
         // Obtener info del usuario autenticado
         const { userId } = await auth();
+
+        if (!userId) {
+            return NextResponse.json(
+                { error: "Unauthorized" },
+                { status: 401 }
+            );
+        }
+
+        // --- RATE LIMITING LOGIC ---
+        const client = await clerkClient();
+        const user = await client.users.getUser(userId);
+        const metadata = user.publicMetadata as { plan?: string; daily_queries?: number; last_query_date?: string };
+
+        const today = new Date().toISOString().split('T')[0];
+        const lastDate = metadata.last_query_date || '';
+        let currentCount = metadata.daily_queries || 0;
+
+        // Reset counter if new day
+        if (lastDate !== today) {
+            currentCount = 0;
+        }
+
+        // Check limits (Default to FREE if no plan specified)
+        const isPro = metadata.plan === 'pro';
+        const DAILY_LIMIT = 10;
+
+        if (!isPro && currentCount >= DAILY_LIMIT) {
+            return NextResponse.json(
+                { error: "Daily limit reached. Upgrade to Pro for unlimited queries." },
+                { status: 403 }
+            );
+        }
+
+        // Update usage stats (Increment count)
+        // Note: We don't await this to avoid blocking the response latency, 
+        // but in serverless this might be risky if the function freezes. 
+        // For safety in Vercel, we should await it or use `waitUntil` if available.
+        // We'll await it for now to ensure consistency.
+        await client.users.updateUserMetadata(userId, {
+            publicMetadata: {
+                ...metadata,
+                daily_queries: currentCount + 1,
+                last_query_date: today
+            }
+        });
+        // ---------------------------
 
         // 📝 Log para Vercel Analytics/Logs
         console.log(`💬 Query [${jurisdiction || 'ICAO'}] from user ${userId || 'anonymous'}: "${message}"`);

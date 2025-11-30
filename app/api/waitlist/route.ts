@@ -3,12 +3,30 @@ import { NextRequest, NextResponse } from 'next/server';
 export async function POST(req: NextRequest) {
     try {
         const body = await req.json();
-        const { email, role, document, painPoint } = body;
+        const {
+            email,
+            role,
+            document,
+            painPoint,
+            company,
+            companySize,
+            useCase,
+            customData,
+            formType = 'individual' // Default to individual if not specified
+        } = body;
 
         // Validación básica
         if (!email || !role) {
             return NextResponse.json(
                 { error: 'Email y rol son requeridos' },
+                { status: 400 }
+            );
+        }
+
+        // Validar que empresa sea requerida para formType company
+        if (formType === 'company' && !company) {
+            return NextResponse.json(
+                { error: 'Nombre de empresa es requerido' },
                 { status: 400 }
             );
         }
@@ -22,18 +40,25 @@ export async function POST(req: NextRequest) {
             );
         }
 
-        // Obtener la URL del webhook de Google Sheets desde las variables de entorno
-        const webhookUrl = process.env.GOOGLE_SHEETS_WEBHOOK_URL;
+        // Seleccionar el webhook correcto según el tipo de formulario
+        const webhookUrl = formType === 'company'
+            ? process.env.GOOGLE_SHEETS_COMPANY_WEBHOOK_URL
+            : process.env.GOOGLE_SHEETS_WEBHOOK_URL;
 
         if (!webhookUrl) {
             // Si no hay webhook configurado, solo logueamos los datos
-            console.log('⚠️ GOOGLE_SHEETS_WEBHOOK_URL no configurada. Datos del registro:');
+            console.log(`⚠️ Webhook no configurado para tipo: ${formType}. Datos del registro:`);
             console.log({
                 timestamp: new Date().toISOString(),
+                formType,
                 email,
+                company: company || '',
                 role,
                 document: document || '',
-                painPoint: painPoint || ''
+                painPoint: painPoint || '',
+                companySize: companySize || '',
+                useCase: useCase || '',
+                customData: customData || ''
             });
 
             return NextResponse.json(
@@ -42,6 +67,24 @@ export async function POST(req: NextRequest) {
             );
         }
 
+        // Preparar datos según el tipo de formulario
+        const dataToSend = formType === 'company'
+            ? {
+                email,
+                company,
+                role,
+                companySize: companySize || '',
+                useCase: useCase || '',
+                customData: customData || '',
+                painPoint: painPoint || '',
+            }
+            : {
+                email,
+                role,
+                document: document || '',
+                painPoint: painPoint || '',
+            };
+
         // Enviar datos a Google Sheets
         try {
             const response = await fetch(webhookUrl, {
@@ -49,12 +92,7 @@ export async function POST(req: NextRequest) {
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({
-                    email,
-                    role,
-                    document: document || '',
-                    painPoint: painPoint || '',
-                }),
+                body: JSON.stringify(dataToSend),
             });
 
             if (!response.ok) {
