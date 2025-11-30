@@ -1,10 +1,10 @@
 {
     "HomePage": {
         "title": "OACI.ai",
-        "subtitle": "OACI de bolsillo",
+        "subtitle": "Pocket OACI",
         "beta_badge": "Beta v0.7",
-        "hero_desc": "Conocimiento regulatorio instantáneo, preciso y citado para pilotos, ATCs y profesionales. Deja de buscar, empieza a saber.",
-        "placeholder": "Escribe tu duda (ej. '¿Cuáles son las velocidades de espera?')",
+        "hero_desc": "Conocimiento regulatorio instantáneo, preciso y citado para pilotos, controladores y profesionales de la aviación. Deja de buscar, empieza a saber.",
+        "placeholder": "Haz tu pregunta (ej: '¿Cuáles son las velocidades de espera?')",
         "disclaimer": "No afiliado a la OACI. Solo para referencia.",
         "send": "Enviar",
         "source": "Fuente",
