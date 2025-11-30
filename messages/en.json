@@ -2,7 +2,7 @@
   "HomePage": {
     "title": "OACI.ai",
     "subtitle": "Pocket OACI",
-    "beta_badge": "Beta v0.7",
+    "beta_badge": "Beta v1.0",
     "hero_desc": "Instant, accurate, and cited regulatory knowledge for pilots, ATCs, and aviation professionals. Stop searching, start knowing.",
     "placeholder": "Ask your question (e.g., 'What are the holding speeds?')",
     "disclaimer": "Not affiliated with ICAO. For reference only.",
@@ -49,7 +49,7 @@
         "desc": "Accelerate learning. Find exact references for exams and thesis in seconds."
       },
       "pro": {
-        "title": "Pilots & Crew",
+        "title": "Pilotos & Crew",
         "desc": "Solve operational queries instantly. Verify limitations and procedures without diving into manuals."
       },
       "ops": {
@@ -60,27 +60,25 @@
     "pricing": {
       "title": "Flight Plans",
       "free": {
-        "title": "Pocket OACI",
-        "price": "Free",
+        "title": "Pocket OACI (Free)",
+        "price": "$0",
         "features": [
-          "Access to ICAO Annexes 1-19",
-          "Basic AI Search",
-          "10 Daily Queries",
-          "Web Access",
+          "Access to ICAO Annexes & RAAC",
+          "1 Free Query without Signup",
+          "No Chat History",
+          "Public Documents Only",
           "Bilingual Support"
         ]
       },
       "pro": {
-        "title": "Captain's Deck",
+        "title": "Captain's Deck (Pro)",
         "price": "$9.99/mo",
         "features": [
-          "Chat History",
-          "Question Tracking",
-          "Higher Daily Limits",
-          "Airline SOPs Integration",
-          "Offline Mode (App)",
-          "Complex Scenario Analysis",
-          "Priority Support"
+          "✅ Upload Your Own Manuals (PDF)",
+          "✅ Unlimited Chat History",
+          "✅ Faster & Detailed Responses",
+          "✅ Offline Mode (Coming Soon)",
+          "✅ Priority Support"
         ]
       },
       "enterprise": {
@@ -130,13 +128,13 @@
       "subtitle": "To continue, choose how you want to fly with OACI.ai",
       "free": {
         "button": "Continue with Pocket OACI",
-        "price": "Free (with limits)",
-        "description": "Perfect for occasional queries."
+        "price": "Free",
+        "description": "Basic access to public regulations."
       },
       "pro": {
         "button": "Continue with Captain's Deck",
         "price": "$9.99/mo",
-        "description": "For professionals needing full power."
+        "description": "Upload manuals, save history & more."
       }
     },
     "footer": {

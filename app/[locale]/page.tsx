@@ -61,13 +61,23 @@ export default function HomePage() {
     }
   };
 
+  const [hasUsedFreeQuery, setHasUsedFreeQuery] = useState(false);
+
+  useEffect(() => {
+    const used = localStorage.getItem('oaci_free_query_used');
+    if (used) setHasUsedFreeQuery(true);
+  }, []);
+
   const handleSearch = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!query.trim()) return;
 
     if (!isSignedIn) {
-      openSignIn();
-      return;
+      if (hasUsedFreeQuery) {
+        openSignIn();
+        return;
+      }
+      // Allow one free query
     }
 
     setLoading(true);
@@ -142,6 +152,10 @@ export default function HomePage() {
       });
     } finally {
       setLoading(false);
+      if (!isSignedIn) {
+        setHasUsedFreeQuery(true);
+        localStorage.setItem('oaci_free_query_used', 'true');
+      }
     }
   };
 

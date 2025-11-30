@@ -1,10 +1,10 @@
 {
     "HomePage": {
         "title": "OACI.ai",
-        "subtitle": "Pocket OACI",
-        "beta_badge": "Beta v0.7",
-        "hero_desc": "Conocimiento regulatorio instantáneo, preciso y citado para pilotos, controladores y profesionales de la aviación. Deja de buscar, empieza a saber.",
-        "placeholder": "Haz tu pregunta (ej: '¿Cuáles son las velocidades de espera?')",
+        "subtitle": "OACI de bolsillo",
+        "beta_badge": "Beta v1.0",
+        "hero_desc": "Conocimiento regulatorio instantáneo, preciso y citado para pilotos, ATCs y profesionales. Deja de buscar, empieza a saber.",
+        "placeholder": "Escribe tu duda (ej. '¿Cuáles son las velocidades de espera?')",
         "disclaimer": "No afiliado a la OACI. Solo para referencia.",
         "send": "Enviar",
         "source": "Fuente",
@@ -60,27 +60,25 @@
         "pricing": {
             "title": "Planes de Vuelo",
             "free": {
-                "title": "Pocket OACI",
-                "price": "Gratis",
+                "title": "Pocket OACI (Gratis)",
+                "price": "$0",
                 "features": [
-                    "Acceso a Anexos OACI 1-19",
-                    "Búsqueda IA Básica",
-                    "10 Consultas Diarias",
-                    "Acceso Web",
+                    "Acceso a Anexos OACI y RAAC",
+                    "1 Consulta de prueba sin registro",
+                    "Sin historial de chat",
+                    "Solo documentos públicos",
                     "Soporte Bilingüe"
                 ]
             },
             "pro": {
-                "title": "Captain's Deck",
+                "title": "Captain's Deck (Pro)",
                 "price": "$9.99/mes",
                 "features": [
-                    "Historial de Consultas",
-                    "Seguimiento de Preguntas",
-                    "Mayor Límite de Consultas",
-                    "Integración de SOPs de Aerolínea",
-                    "Modo Offline (App)",
-                    "Análisis de Escenarios Complejos",
-                    "Soporte Prioritario"
+                    "✅ Carga tus propios manuales (PDF)",
+                    "✅ Historial de consultas ilimitado",
+                    "✅ Respuestas más rápidas y detalladas",
+                    "✅ Modo Offline (Próximamente)",
+                    "✅ Soporte Prioritario"
                 ]
             },
             "enterprise": {
@@ -130,13 +128,13 @@
             "subtitle": "Para continuar, elige cómo quieres volar con OACI.ai",
             "free": {
                 "button": "Continuar con Pocket OACI",
-                "price": "Gratis (con limitaciones)",
-                "description": "Perfecto para consultas ocasionales."
+                "price": "Gratis",
+                "description": "Acceso básico a regulaciones públicas."
             },
             "pro": {
                 "button": "Continuar con Captain's Deck",
                 "price": "$9.99/mes",
-                "description": "Para profesionales que necesitan potencia total."
+                "description": "Sube tus manuales, guarda historial y más."
             }
         },
         "footer": {
