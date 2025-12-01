@@ -7,10 +7,16 @@ const intlMiddleware = createMiddleware({
 });
 
 const isApiRoute = createRouteMatcher(['/api(.*)']);
+const isWebhookRoute = createRouteMatcher(['/api/webhooks(.*)']);
 
 export default clerkMiddleware(async (auth, req) => {
     // NOTE: Removed auth.protect() from /api/chat to allow free queries without sign-in
     // Rate limiting and user verification is handled inside the route handler itself
+
+    // Skip ALL middleware for webhook routes (to prevent redirects)
+    if (isWebhookRoute(req)) {
+        return;
+    }
 
     // Skip intl middleware for API routes
     if (isApiRoute(req)) {
