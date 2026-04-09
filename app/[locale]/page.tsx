@@ -262,8 +262,8 @@ export default function HomePage() {
         <header className="w-full p-4 flex justify-between items-center border-b border-zinc-900/50 bg-black/80 backdrop-blur-md z-30 shrink-0">
           <div className="flex items-center gap-3">
             <button
-              onClick={() => setIsSidebarOpen(true)}
-              className="md:hidden p-2 text-zinc-400 hover:text-white"
+              onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+              className="p-2 text-zinc-400 hover:text-white transition-colors"
             >
               <Menu className="w-6 h-6" />
             </button>

@@ -98,7 +98,7 @@ export async function POST(req: Request) {
 
         let streamResult: any;
         let sources: any[] = [];
-        let modelName = "gemini-2.0-flash-exp";
+        let modelName = "gemini-2.5-flash";
         let sourceLabel = "AI Generated";
 
         if (ragConfigured) {
@@ -175,7 +175,7 @@ export async function POST(req: Request) {
 * ALWAYS provide the best technical answer possible.
 * If you have partial information, use it to provide technical guidance.`;
 
-            const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash-exp" });
+            const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
             const chat = model.startChat({
                 history: [
                     { role: "user", parts: [{ text: systemPrompt }] },
@@ -185,11 +185,11 @@ export async function POST(req: Request) {
 
             try {
                 streamResult = await chat.sendMessageStream(message);
-                modelName = "gemini-2.0-flash-exp";
+                modelName = "gemini-2.5-flash";
             } catch (error) {
                 // Fallback to gemini-pro if 2.0 fails
-                console.log("Falling back to gemini-pro...");
-                const fallbackModel = genAI.getGenerativeModel({ model: "gemini-pro" });
+                console.log("Falling back to gemini-2.5-pro...");
+                const fallbackModel = genAI.getGenerativeModel({ model: "gemini-2.5-pro" });
                 const fallbackChat = fallbackModel.startChat({
                     history: [
                         { role: "user", parts: [{ text: systemPrompt }] },
@@ -197,7 +197,7 @@ export async function POST(req: Request) {
                     ],
                 });
                 streamResult = await fallbackChat.sendMessageStream(message);
-                modelName = "gemini-pro";
+                modelName = "gemini-2.5-pro";
             }
             sourceLabel = "AI Generated (Verify with Official Docs)";
         }

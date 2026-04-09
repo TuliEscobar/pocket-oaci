@@ -73,7 +73,9 @@ export default function ChatSidebar({ isOpen, onClose, userId, refreshTrigger = 
 
             {/* Sidebar */}
             <motion.div
-                className={`fixed top-0 left-0 h-full w-72 bg-zinc-950 border-r border-zinc-900 z-50 transform transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 md:static md:h-[calc(100vh-80px)] md:border-r-0`}
+                className={`fixed top-0 left-0 h-full bg-zinc-950 border-r border-zinc-900 z-50 transition-all duration-300 ease-in-out overflow-hidden flex-shrink-0 ${
+                    isOpen ? 'w-72 translate-x-0' : 'w-72 -translate-x-full md:w-0 md:translate-x-0 md:border-none'
+                } md:relative md:h-screen`}
                 initial={false}
             >
                 <div className="p-4 flex flex-col h-full">
