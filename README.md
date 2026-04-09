@@ -172,6 +172,19 @@ npm start
 - ✅ **RAG-Powered**: Answers from 7,709 document chunks
 - ✅ **Performance Logging**: Detailed timing metrics for debugging
 
+### Recent Updates (December 2024)
+
+**New Capabilities:**
+- 🆓 **Free Query System**: Allows unauthenticated users to make one free query per day (tracked via localStorage).
+- 🔐 **Supabase Integration**: Full user synchronization via Clerk Webhooks.
+- 💬 **Direct AI Responses**: Optimized system prompts for concise, no-fluff technical answers.
+- 📂 **File Upload API**: Backend infrastructure ready for Pro users to upload documents.
+- 📜 **Chat History**: Backend ready for saving and retrieving chat history.
+
+**Infrastructure:**
+- 🚀 **Vercel Deployment**: Complete environment configuration and deployment guide.
+- 🛡️ **Webhook Verification**: Secure Clerk webhook handling with Svix.
+
 ### Recent Updates (November 2024)
 
 **New Capabilities:**
@@ -205,10 +218,15 @@ npm start
 ### Coming Soon
 
 - 🔄 Android app on Play Store
-- 🔄 Conversation history
+- 🔄 Conversation history UI (Frontend)
+- 🔄 File Upload UI for Pro Users
 - 🔄 More ICAO Annexes (1, 2, 6, 14)
 - 🔄 Export to PDF
 - 🔄 More jurisdictions (FAA, EASA)
+
+## ✅ TODO
+
+- [ ] **Verify Paid Features**: Check if File Upload UI and Chat History UI are fully functional and integrated with the backend.
 
 ---
 

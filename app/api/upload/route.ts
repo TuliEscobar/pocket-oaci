@@ -1,8 +1,8 @@
-import { NextRequest, NextResponse } from 'next/server';
-import { auth } from '@clerk/nextjs/server';
+import { NextResponse } from 'next/server';
+import { auth, clerkClient } from '@clerk/nextjs/server';
 import { supabaseAdmin } from '@/lib/supabase';
 
-export async function POST(req: NextRequest) {
+export async function POST(req: Request) {
     try {
         const { userId } = await auth();
 
@@ -10,135 +10,73 @@ export async function POST(req: NextRequest) {
             return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
         }
 
-        // Verificar que el usuario tenga plan Pro
-        const { data: user, error: userError } = await supabaseAdmin
-            .from('users')
-            .select('plan')
-            .eq('id', userId)
-            .single();
+        // Check if user is Pro
+        const client = await clerkClient();
+        const user = await client.users.getUser(userId);
+        const metadata = user.publicMetadata as { plan?: string };
 
-        if (userError || !user) {
-            return NextResponse.json({ error: 'User not found' }, { status: 404 });
+        if (metadata.plan !== 'pro') {
+            return NextResponse.json({ error: 'Pro plan required' }, { status: 403 });
         }
 
-        if (user.plan !== 'pro' && user.plan !== 'enterprise') {
-            return NextResponse.json({
-                error: 'Upgrade to Pro to upload custom documents'
-            }, { status: 403 });
-        }
-
-        // Obtener el archivo del FormData
         const formData = await req.formData();
         const file = formData.get('file') as File;
 
         if (!file) {
-            return NextResponse.json({ error: 'No file provided' }, { status: 400 });
+            return NextResponse.json({ error: 'No file uploaded' }, { status: 400 });
         }
 
-        // Validar tipo de archivo
-        if (file.type !== 'application/pdf') {
-            return NextResponse.json({
-                error: 'Only PDF files are allowed'
-            }, { status: 400 });
+        // Convert file to buffer
+        const arrayBuffer = await file.arrayBuffer();
+        const buffer = Buffer.from(arrayBuffer);
+
+        // Upload to Supabase Storage
+        const fileName = `${userId}/${Date.now()}-${file.name}`;
+
+        // Ensure bucket exists (idempotent)
+        // Note: Ideally buckets are created manually or via migration, but this is a fallback
+        const { error: bucketError } = await supabaseAdmin.storage.createBucket('user-documents', {
+            public: false,
+            fileSizeLimit: 10485760, // 10MB
+            allowedMimeTypes: ['application/pdf', 'image/png', 'image/jpeg']
+        });
+
+        if (bucketError && !bucketError.message.includes('already exists')) {
+            console.error('Error creating bucket:', bucketError);
         }
 
-        // Validar tamaño (máximo 10MB)
-        const maxSize = 10 * 1024 * 1024; // 10MB
-        if (file.size > maxSize) {
-            return NextResponse.json({
-                error: 'File too large. Maximum size is 10MB'
-            }, { status: 400 });
-        }
-
-        // Generar nombre único
-        const timestamp = Date.now();
-        const sanitizedName = file.name.replace(/[^a-zA-Z0-9.-]/g, '_');
-        const filePath = `${userId}/${timestamp}_${sanitizedName}`;
-
-        // Subir a Supabase Storage
-        const fileBuffer = await file.arrayBuffer();
-        const { error: uploadError } = await supabaseAdmin.storage
-            .from('user_docs')
-            .upload(filePath, fileBuffer, {
-                contentType: 'application/pdf',
+        const { data: uploadData, error: uploadError } = await supabaseAdmin
+            .storage
+            .from('user-documents')
+            .upload(fileName, buffer, {
+                contentType: file.type,
                 upsert: false
             });
 
         if (uploadError) {
-            console.error('Upload error:', uploadError);
-            return NextResponse.json({
-                error: 'Failed to upload file'
-            }, { status: 500 });
+            console.error('Error uploading file:', uploadError);
+            return NextResponse.json({ error: uploadError.message }, { status: 500 });
         }
 
-        // Registrar en la base de datos
-        const { data: document, error: dbError } = await supabaseAdmin
+        // Save metadata to database
+        const { error: dbError } = await supabaseAdmin
             .from('user_documents')
             .insert({
                 user_id: userId,
                 filename: file.name,
-                file_path: filePath,
-                file_size: file.size,
-                status: 'pending'
-            })
-            .select()
-            .single();
+                file_url: uploadData.path,
+                status: 'pending' // Pending processing
+            });
 
         if (dbError) {
-            console.error('Database error:', dbError);
-            // Intentar eliminar el archivo subido
-            await supabaseAdmin.storage.from('user_docs').remove([filePath]);
-            return NextResponse.json({
-                error: 'Failed to save document record'
-            }, { status: 500 });
+            console.error('Error saving metadata:', dbError);
+            return NextResponse.json({ error: dbError.message }, { status: 500 });
         }
 
-        // TODO: Aquí iría el procesamiento del PDF (extracción, chunking, embeddings)
-        // Por ahora solo lo guardamos
-
-        return NextResponse.json({
-            success: true,
-            document: {
-                id: document.id,
-                filename: document.filename,
-                status: document.status
-            }
-        });
+        return NextResponse.json({ success: true, path: uploadData.path });
 
     } catch (error: any) {
-        console.error('Upload error:', error);
-        return NextResponse.json({
-            error: error.message || 'Internal server error'
-        }, { status: 500 });
-    }
-}
-
-// Obtener documentos del usuario
-export async function GET(req: NextRequest) {
-    try {
-        const { userId } = await auth();
-
-        if (!userId) {
-            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
-        }
-
-        const { data: documents, error } = await supabaseAdmin
-            .from('user_documents')
-            .select('*')
-            .eq('user_id', userId)
-            .order('created_at', { ascending: false });
-
-        if (error) {
-            console.error('Error fetching documents:', error);
-            return NextResponse.json({ error: error.message }, { status: 500 });
-        }
-
-        return NextResponse.json({ documents });
-
-    } catch (error: any) {
-        console.error('Error:', error);
-        return NextResponse.json({
-            error: error.message || 'Internal server error'
-        }, { status: 500 });
+        console.error('Upload API Error:', error);
+        return NextResponse.json({ error: error.message }, { status: 500 });
     }
 }

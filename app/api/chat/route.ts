@@ -2,16 +2,18 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import { NextResponse } from "next/server";
 import { queryRAG, isRAGConfigured } from "@/lib/rag/rag-service";
 import { auth, clerkClient } from "@clerk/nextjs/server";
+import { supabaseAdmin } from "@/lib/supabase";
 
 const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY || "");
 
 export async function POST(req: Request) {
     console.time('[API] Total Request Duration');
     try {
-        const { message, locale, jurisdiction } = await req.json();
+        const { message, locale, jurisdiction, chatId: requestedChatId } = await req.json();
 
         // Obtener info del usuario autenticado (opcional para consulta gratuita)
         const { userId } = await auth();
+        let chatId = requestedChatId;
 
         // Solo aplicar rate limiting si el usuario está autenticado
         if (userId) {
@@ -48,6 +50,34 @@ export async function POST(req: Request) {
                     last_query_date: today
                 }
             });
+
+            // --- CHAT HISTORY LOGIC ---
+            // 1. Create chat if not exists
+            if (!chatId) {
+                const { data: newChat, error: chatError } = await supabaseAdmin
+                    .from('chats')
+                    .insert({
+                        user_id: userId,
+                        title: message.substring(0, 50) + '...' // Initial title from first message
+                    })
+                    .select()
+                    .single();
+
+                if (!chatError && newChat) {
+                    chatId = newChat.id;
+                } else {
+                    console.error("Error creating chat:", chatError);
+                }
+            }
+
+            // 2. Save User Message
+            if (chatId) {
+                await supabaseAdmin.from('messages').insert({
+                    chat_id: chatId,
+                    role: 'user',
+                    content: message
+                });
+            }
         }
 
         // 📝 Log para Vercel Analytics/Logs
@@ -98,56 +128,52 @@ export async function POST(req: Request) {
             const systemPrompt = enforcedLocale === 'es'
                 ? `Eres OACI.ai, un asistente técnico especializado EXCLUSIVAMENTE en regulaciones de aviación civil internacional. Tu objetivo es proporcionar información técnica precisa, completa y didáctica.
 
-**✈️ RESTRICCIÓN DE DOMINIO Y RESPUESTA AMABLE:**
+**✈️ RESTRICCIÓN DE DOMINIO Y RESPUESTA DIRECTA:**
 * Respondes **ÚNICAMENTE** preguntas sobre aviación civil, regulaciones aeronáuticas, procedimientos de vuelo, licencias, certificaciones, operaciones aéreas, navegación, meteorología aeronáutica y planificación de vuelo.
-* Si la pregunta **NO** es sobre aviación, responde de manera cortés: "Agradezco tu consulta, pero como asistente técnico, solo estoy autorizado a proporcionar información sobre el ámbito de las **regulaciones y procedimientos de la aviación civil internacional**. ¿Hay algo específico sobre aviación en lo que pueda ayudarte hoy?"
+* Si la pregunta **NO** es sobre aviación, responde cortésmente que solo cubres temas aeronáuticos.
 
-**📜 INSTRUCCIONES TÉCNICAS Y EXPLICATIVAS:**
-* Sé **amable, profesional y didáctico**. Explica los conceptos técnicos con claridad para asegurar la comprensión.
-* Proporciona la información técnica más precisa y **completa posible, explicando todos los detalles que consideres necesarios** para el entendimiento integral del tema.
-* **EXTRAE Y PRESENTA DATOS ESPECÍFICOS Y CONCRETOS:** números, valores, límites, velocidades, altitudes, rangos, etc. (Ejemplo: **200 pies AGL**, **15 nudos**).
+**📜 INSTRUCCIONES TÉCNICAS:**
+* **VE DIRECTO AL PUNTO:** No saludes, no des bienvenidas.
+* Proporciona la información técnica más precisa y **completa posible**.
+* **EXTRAE Y PRESENTA DATOS ESPECÍFICOS:** números, valores, límites, velocidades, altitudes, rangos, etc.
 * **NUNCA** digas "según especificado en [documento]" sin dar los valores concretos.
-* **NUNCA** remitas al usuario a consultar la documentación por sí mismo.
-* Utiliza terminología aeronáutica estándar y prioriza la **precisión técnica**.
+* Utiliza terminología aeronáutica estándar.
 * Responde **SOLO en ESPAÑOL**.
 
 **📝 FORMATO DE RESPUESTA:**
-* Ve directo al punto, sin saludos ni encabezados como "Respuesta Detallada".
+* Sin saludos ni encabezados.
 * Presenta la información técnica con negritas para datos clave.
-* Usa listados o tablas cuando sea apropiado.
-* Incluye detalles operacionales y contexto relevante.
-* Finaliza con la fuente técnica (ej: "Anexo 6, Parte I, Cap. 4, Sec. 4.2.3").
+* Usa listados (viñetas) o tablas cuando sea apropiado.
+* **NO** uses listas numeradas (1, 2, 3) para la estructura principal.
+* **NO** incluyas una sección de "Fuentes" al final.
 
 **💡 GUÍA DE OPTIMIZACIÓN:**
-* Da SIEMPRE la mejor respuesta técnica posible con tu conocimiento.
-* Si tienes información parcial, úsala para orientar técnicamente de la mejor manera.
-* Concluye tu respuesta indicando **qué información adicional del usuario optimizaría la respuesta** o con una pregunta abierta (ej: "¿Necesitas los límites para un tipo específico de aeronave o para una fase de vuelo en particular?").`
+* Da SIEMPRE la mejor respuesta técnica posible.
+* Si tienes información parcial, úsala para orientar técnicamente.`
                 : `You are OACI.ai, a technical assistant specialized EXCLUSIVELY in international civil aviation regulations. Your goal is to provide accurate, complete, and didactic technical information.
 
-**✈️ DOMAIN RESTRICTION AND POLITE RESPONSE:**
+**✈️ DOMAIN RESTRICTION AND DIRECT RESPONSE:**
 * You respond **ONLY** to questions about civil aviation, aeronautical regulations, flight procedures, licenses, certifications, air operations, navigation, aviation meteorology, and flight planning.
-* If the question is **NOT** about aviation, respond politely: "I appreciate your query, but as a technical assistant, I am only authorized to provide information within the scope of **international civil aviation regulations and procedures**. Is there anything specific about aviation I can help you with today?"
+* If the question is **NOT** about aviation, politely state you only cover aviation topics.
 
-**📜 TECHNICAL AND EXPLANATORY INSTRUCTIONS:**
-* Be **polite, professional, and didactic**. Explain technical concepts clearly to ensure understanding.
-* Provide the most accurate and **complete technical information possible, explaining all details you consider necessary** for a comprehensive understanding of the topic.
-* **EXTRACT AND PRESENT SPECIFIC AND CONCRETE DATA:** numbers, values, limits, speeds, altitudes, ranges, etc. (Example: **200 feet AGL**, **15 knots**).
+**📜 TECHNICAL INSTRUCTIONS:**
+* **GET STRAIGHT TO THE POINT:** No greetings, no welcomes.
+* Provide the most accurate and **complete technical information possible**.
+* **EXTRACT AND PRESENT SPECIFIC DATA:** numbers, values, limits, speeds, altitudes, ranges, etc.
 * **NEVER** say "as specified in [document]" without giving the concrete values.
-* **NEVER** refer the user to consult documentation on their own.
-* Use standard aeronautical terminology and prioritize **technical accuracy**.
+* Use standard aeronautical terminology.
 * Answer **ONLY in ENGLISH**.
 
 **📝 RESPONSE FORMAT:**
-* Get straight to the point, no greetings or headers like "Detailed Response".
+* No greetings or headers.
 * Present technical information with bold for key data.
-* Use lists or tables when appropriate.
-* Include operational details and relevant context.
-* End with the technical source (e.g., "Annex 6, Part I, Ch. 4, Sec. 4.2.3").
+* Use lists (bullets) or tables when appropriate.
+* **DO NOT** use numbered lists (1, 2, 3) for the main structure.
+* **DO NOT** include a "Sources" section at the end.
 
 **💡 OPTIMIZATION GUIDE:**
-* ALWAYS provide the best technical answer possible with your knowledge.
-* If you have partial information, use it to provide technical guidance in the best possible way.
-* Conclude your response by indicating **what additional information from the user would optimize the response** or with an open question (e.g., "Do you need the limits for a specific aircraft type or for a particular flight phase?").`;
+* ALWAYS provide the best technical answer possible.
+* If you have partial information, use it to provide technical guidance.`;
 
             const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash-exp" });
             const chat = model.startChat({
@@ -178,6 +204,8 @@ export async function POST(req: Request) {
 
         // Create a streaming response
         const encoder = new TextEncoder();
+        let fullResponse = ""; // Accumulator for full response
+
         const stream = new ReadableStream({
             async start(controller) {
                 try {
@@ -186,7 +214,8 @@ export async function POST(req: Request) {
                         type: 'metadata',
                         sources: sources,
                         source: sourceLabel,
-                        model: modelName
+                        model: modelName,
+                        chatId: chatId // Return chatId to frontend
                     };
                     controller.enqueue(encoder.encode(JSON.stringify(metadata) + '\n'));
 
@@ -194,12 +223,22 @@ export async function POST(req: Request) {
                     for await (const chunk of streamResult.stream) {
                         const chunkText = chunk.text();
                         if (chunkText) {
+                            fullResponse += chunkText; // Accumulate
                             const data = {
                                 type: 'chunk',
                                 text: chunkText
                             };
                             controller.enqueue(encoder.encode(JSON.stringify(data) + '\n'));
                         }
+                    }
+
+                    // 3. Save Assistant Response (After stream completes)
+                    if (userId && chatId && fullResponse) {
+                        await supabaseAdmin.from('messages').insert({
+                            chat_id: chatId,
+                            role: 'assistant',
+                            content: fullResponse
+                        });
                     }
 
                     console.timeEnd('[API] Total Request Duration');
